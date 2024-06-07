@@ -1,0 +1,22 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "VieRnes de Bioinformatica"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+description = "Pagina web de VieRnes de Bioinformatica"
+dateFormat = "2 January 2006"
+logo = "Conejo.png"
+
+[author]
+name = "Jorge Alfredo Suazo Victoria"
+image = "Conejo.png"
+headline = "Holita"
+bio = "Estudiante de tercer semestre de la licenciatura de Ciencias Genomicas"
+
+links = [
+  { github = "https://github.com/3LCONEJO" }
+]

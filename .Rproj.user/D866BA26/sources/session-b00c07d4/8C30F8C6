@@ -1,0 +1,26 @@
+{
+    "id": "8C30F8C6",
+    "path": "~/VieRnesBioinformatica.github.io/config/_default/languages.en.toml",
+    "project_path": "config/_default/languages.en.toml",
+    "type": "toml",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1717799142753.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "18,0",
+        "scrollLine": "6"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717799208,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717799208851,
+    "read_only": false,
+    "read_only_alternatives": []
+}
