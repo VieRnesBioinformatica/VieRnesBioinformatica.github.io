@@ -1,0 +1,21 @@
+languageCode = "es"
+languageName = "Spanish"
+weight = 1
+title = "VieRnes"
+contentDir = "content/es"
+
+[params]
+displayName = "ES"
+isoCode = "es"
+rtl = false
+description = "Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada."
+dateFormat = "2 January 2006"
+logo = "Rstudio.png"
+secondaryLogo = "Rstudio.png"
+
+[author]
+name = "Jorge Alfredo Suazo Victoria"
+image = "LogoAutor.png"
+headline = "Estudiante de Ciencias Genomicas"
+bio = "Yo hice esta pagina :)"
+links = [ { github = "https://github.com/3LCONEJO" } ]

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Gray Blowfish</title>
+    <title>Authors on FRiday</title>
     <link>//localhost:4321/authors/</link>
-    <description>Recent content in Authors on Gray Blowfish</description>
+    <description>Recent content in Authors on FRiday</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Gray Blowfish</copyright>
+    <copyright>© 2024 Jorge Alfredo Suazo Victoria</copyright>
     <atom:link href="//localhost:4321/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
