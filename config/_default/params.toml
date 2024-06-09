@@ -6,6 +6,7 @@ enableCodeCopy = true
 mainSections = [ "posts" ]
 defaultBackgroundImage = "HCK.gif"
 defaultFeaturedImage = "fitur.png"
+highlightCurrentMenuArea = true
 
 [header]
 layout = "basic"
@@ -71,3 +72,6 @@ showTermCount = true
 [fathomAnalytics]
 
 [verification]
+
+[term]
+groupByYear = ""
