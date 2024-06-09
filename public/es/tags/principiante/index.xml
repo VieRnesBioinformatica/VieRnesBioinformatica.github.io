@@ -15,7 +15,7 @@
       
       <guid>//localhost:4321/es/posts/mecanicas-basicas-de-r/</guid>
       <description>¿Qué es R? # R es un entorno de desarrollo de software libre y lenguaje de programación.
-¿Por qué usar R? # Es ampliamente utilizado para la computación estadistica</description>
+¿Por qué usar R? # Es ampliamente utilizado para la computación estadística, gráfica, y de machine learning.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:4321/es/posts/mecanicas-basicas-de-r/featured.png" />
     </item>
     

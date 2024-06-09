@@ -9,13 +9,24 @@
     <copyright>© 2024 Jorge Alfredo Suazo Victoria</copyright>
     <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:4321/es/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Instalacion de R</title>
+      <link>//localhost:4321/es/posts/instalacion-de-r/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:4321/es/posts/instalacion-de-r/</guid>
+      <description>Lo primero que tenemos que hacer es ir a la pagina de CRAN y seleccionar la descarga dependiendo nuestro sistema operativo.
+Linux (Ubuntu) # Lo primero que vamos a hacer es abrir nuestra terminal Ctrl + Alt + T y vamos a ver el inicio asi:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:4321/es/posts/instalacion-de-r/featured.png" />
+    </item>
+    
+    <item>
       <title>Mecanicas Basicas de R</title>
       <link>//localhost:4321/es/posts/mecanicas-basicas-de-r/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:4321/es/posts/mecanicas-basicas-de-r/</guid>
       <description>¿Qué es R? # R es un entorno de desarrollo de software libre y lenguaje de programación.
-¿Por qué usar R? # Es ampliamente utilizado para la computación estadistica</description>
+¿Por qué usar R? # Es ampliamente utilizado para la computación estadística, gráfica, y de machine learning.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:4321/es/posts/mecanicas-basicas-de-r/featured.png" />
     </item>
     

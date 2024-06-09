@@ -1,8 +1,9 @@
 {
-  "name": "blowfish_template",
+  "name": "VieRnesdeBioinformatica",
   "version": "1.0.0",
-  "description": "Blowfish Template",
+  "description": "Viernes",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "dev": "hugo server --minify -D -E -F"
   },

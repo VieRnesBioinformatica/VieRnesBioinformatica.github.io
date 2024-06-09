@@ -38,25 +38,5 @@
       
     </item>
     
-    <item>
-      <title>Example</title>
-      <link>//localhost:4321/es/tags/example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:4321/es/tags/example/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tag</title>
-      <link>//localhost:4321/es/tags/tag/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:4321/es/tags/tag/</guid>
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>
