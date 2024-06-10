@@ -1,7 +1,7 @@
 languageCode = "es"
 languageName = "Spanish"
 weight = 1
-title = "VieRnes"
+title = "VieRnes de Bioinformatica"
 contentDir = "content/es"
 
 [params]
@@ -10,8 +10,8 @@ isoCode = "es"
 rtl = false
 description = "Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada."
 dateFormat = "2 January 2006"
-logo = "Rstudio.png"
-secondaryLogo = "Rstudio.png"
+logo = "FiveR.png"
+secondaryLogo = "logo.png"
 
 [author]
 name = "Jorge Alfredo Suazo Victoria"

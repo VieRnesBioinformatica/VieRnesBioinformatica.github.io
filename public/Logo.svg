@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="250.47073mm"
+   height="74.514282mm"
+   viewBox="0 0 250.47073 74.514282"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient8">
+      <stop
+         style="stop-color:#ec0606;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+      <stop
+         style="stop-color:#fadb5f;stop-opacity:0.96047729;"
+         offset="1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient8"
+       id="linearGradient16"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1305295,0,0,1.6944527,-89.139333,196.94048)"
+       x1="96.151115"
+       y1="110.09639"
+       x2="95.952774"
+       y2="106.61722" />
+    <linearGradient
+       xlink:href="#linearGradient8"
+       id="linearGradient17"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.7015061,0,0,1.6808271,-154.16769,198.38518)"
+       x1="96.151115"
+       y1="110.09639"
+       x2="95.952774"
+       y2="106.61722" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(30.693715,-322.76684)">
+    <ellipse
+       style="fill:url(#linearGradient16);fill-opacity:1;stroke:#000000;stroke-width:0.3662"
+       id="path2-61-8-67"
+       cx="19.369644"
+       cy="381.3577"
+       rx="2.2192292"
+       ry="5.0517936" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.4;stroke:#000000;stroke-width:2.165;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4-3"
+       width="36.928993"
+       height="26.19174"
+       x="-19.027004"
+       y="370.00687"
+       ry="7.3824439" />
+    <ellipse
+       style="fill:url(#linearGradient17);fill-opacity:1;stroke:#000000;stroke-width:0.447446"
+       id="path2-61-6"
+       cx="9.1440239"
+       cy="381.31943"
+       rx="3.3400562"
+       ry="5.0111704" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.4;stroke:#000000;stroke-width:2.15167;stroke-dasharray:none"
+       d="M -19.254973,376.3478 -19.79753,326.096 c 0,0 -11.026996,15.56605 -9.708303,29.49452 1.318693,13.92843 10.25086,20.75728 10.25086,20.75728 z"
+       id="path3-56" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.4;stroke:#000000;stroke-width:2;stroke-dasharray:none"
+       d="m -14.757664,370.05926 21.7424968,-43.9987 c 0,0 6.5278532,18.30506 -0.8826854,30.01234 -7.4105295,11.70727 -20.8598164,13.98635 -20.8598164,13.98635 z"
+       id="path3-5-3" />
+    <g
+       id="g6-9"
+       transform="translate(-66.067552,227.03142)">
+      <path
+         style="fill:#a2a2a2;fill-opacity:0.411767;stroke:none;stroke-width:2.165;stroke-dasharray:none"
+         d="m 41.690784,125.68841 c 0,0 0.843712,24.78646 32.591803,23.02584 0,0 -30.281585,4.02638 -33.001311,-1.86523 -2.719725,-5.89162 -1.692813,-20.73628 0.409508,-21.16061 z"
+         id="path7-4"
+         transform="translate(7.4083337,19.050006)" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.165;stroke-dasharray:none"
+         id="rect4-9-8"
+         width="36.928993"
+         height="26.19174"
+         x="46.82151"
+         y="142.90691"
+         ry="7.3824439" />
+    </g>
+    <circle
+       id="path6-1"
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:0.264583"
+       cx="-17.29936"
+       cy="371.41107"
+       r="0.1252864" />
+    <g
+       id="g19-5"
+       transform="matrix(0.32606064,0,0,0.250666,32.012723,304.69409)"
+       style="fill:none;fill-opacity:1;stroke:#ec0606;stroke-width:6.14402;stroke-dasharray:none;stroke-opacity:1">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#f43f5e;stroke-width:6.14402;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4-93-6-9"
+         width="36.928993"
+         height="26.19174"
+         x="121.14449"
+         y="-206.52036"
+         ry="7.3824439"
+         transform="matrix(0.99994909,0.01009087,0.01009087,-0.99994909,0,0)" />
+      <circle
+         id="path6-7-8-7"
+         style="fill:none;fill-opacity:1;stroke:#ec0606;stroke-width:6.14402;stroke-dasharray:none;stroke-opacity:1"
+         cx="108.19177"
+         cy="-214.40239"
+         r="0.1252864"
+         transform="matrix(0.99810022,-0.06161122,-0.06161122,-0.99810022,0,0)" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#f43f5e;stroke-width:6.14402;stroke-dasharray:none;stroke-opacity:1"
+         d="m 123.98298,208.04367 24.72526,44.50894"
+         id="path15-5" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#f43f5e;stroke-width:6.14402;stroke-dasharray:none;stroke-opacity:1"
+         d="m 119.40633,202.90492 -0.52842,50.91272"
+         id="path15-2-3" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.4411px;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044;stroke-dasharray:none;stroke-opacity:1"
+       x="83.118256"
+       y="369.8208"
+       id="text17-5"><tspan
+         id="tspan17-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044"
+         x="83.118256"
+         y="369.8208">NES</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044"
+         x="83.118256"
+         y="407.87216"
+         id="tspan18-6" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.4411px;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044;stroke-dasharray:none;stroke-opacity:1"
+       x="22.545639"
+       y="369.83484"
+       id="text17-8"><tspan
+         id="tspan17-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044"
+         x="22.545639"
+         y="369.83484">VIE</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044"
+         x="22.545639"
+         y="407.8862"
+         id="tspan18-7" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.6979px;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:1.97397;stroke-dasharray:none;stroke-opacity:1"
+       x="22.564838"
+       y="391.4487"
+       id="text21"><tspan
+         id="tspan21"
+         style="font-size:28.6979px;fill:#f97316;fill-opacity:1;stroke:none;stroke-width:1.97397;stroke-opacity:1"
+         x="22.564838"
+         y="391.4487">BIOINFORMATICA</tspan></text>
+    <g
+       id="g20-9"
+       transform="translate(101.32091,25.377157)"
+       style="fill:#f97316;fill-opacity:1">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.4411px;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044;stroke-dasharray:none;stroke-opacity:1"
+         x="34.360893"
+         y="344.21027"
+         id="text17-8-4"><tspan
+           id="tspan17-5-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044"
+           x="34.360893"
+           y="344.21027">DE</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'IBM 3270 Semi-Condensed';-inkscape-font-specification:'IBM 3270 Semi-Condensed, ';fill:#f97316;fill-opacity:1;stroke:none;stroke-width:4.67044"
+           x="34.360893"
+           y="382.26163"
+           id="tspan18-7-8" /></text>
+    </g>
+  </g>
+</svg>
