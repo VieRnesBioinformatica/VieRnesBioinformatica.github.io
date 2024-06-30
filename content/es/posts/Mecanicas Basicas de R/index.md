@@ -28,5 +28,5 @@ Además, existen numerosas librerías que nos permiten realizar el análisis y m
 
 Aqui hay una guia para la instalacion de R
 
-{{< article link="/es/posts/instalacion-de-r/" >}}
+{{< article link="/posts/instalacion-de-r/" >}}
 
