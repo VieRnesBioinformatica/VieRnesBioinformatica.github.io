@@ -107,7 +107,7 @@
     "keywords": ["principiante","R"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "126"
+    "wordCount": "643"
   }]
   </script>
 
@@ -136,6 +136,9 @@
 
 
 
+
+
+<script defer src="/lib/typeit/typeit.umd.js" integrity=""></script>
 
 
 
@@ -439,32 +442,10 @@
   
   
   
-
-
-<div class="w-full rounded-md h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/posts/mecanicas-basicas-de-r/featured_huaa9c15f7093f6ba28318bcb5bb9069e5_226605_1200x0_resize_box_3.png);"></div>
-
-
-
-<div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/BG.svg);">
-    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
-    </div>
-    <div
-        class="absolute inset-0 opacity-30 dark:opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral dark:to-neutral-800 mix-blend-normal">
-    </div>
-</div>
-
-<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
-<script>
-    window.addEventListener('scroll', function (e) {
-        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var background_blur = document.getElementById('background-blur');
-        background_blur.style.opacity = (scroll / 300)
-    });
-</script>
-
-
-
+        
+            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/posts/mecanicas-basicas-de-r/featured_huaa9c15f7093f6ba28318bcb5bb9069e5_226605_1200x0_resize_box_3.png);"></div>
+        
+    
   
   
 
@@ -553,7 +534,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 junio 2024</time><span class="px-2 text-primary-500">&middot;</span><span>126 palabras</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 junio 2024</time><span class="px-2 text-primary-500">&middot;</span><span>643 palabras</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -737,6 +718,16 @@
       </ul>
     </li>
     <li><a href="#cómo-instalamos-r">¿Cómo instalamos R?</a></li>
+    <li><a href="#rstudio">Rstudio</a></li>
+    <li><a href="#comandos-basicos">Comandos Basicos</a></li>
+    <li><a href="#variables">Variables</a>
+      <ul>
+        <li><a href="#asignacion-y-uso-de-variables">Asignacion y uso de variables</a></li>
+        <li><a href="#print">print():</a></li>
+        <li><a href="#cat">cat():</a></li>
+      </ul>
+    </li>
+    <li><a href="#vectores-o-listas">Vectores o listas</a></li>
   </ul>
 </nav>
   </div>
@@ -757,6 +748,16 @@
       </ul>
     </li>
     <li><a href="#cómo-instalamos-r">¿Cómo instalamos R?</a></li>
+    <li><a href="#rstudio">Rstudio</a></li>
+    <li><a href="#comandos-basicos">Comandos Basicos</a></li>
+    <li><a href="#variables">Variables</a>
+      <ul>
+        <li><a href="#asignacion-y-uso-de-variables">Asignacion y uso de variables</a></li>
+        <li><a href="#print">print():</a></li>
+        <li><a href="#cat">cat():</a></li>
+      </ul>
+    </li>
+    <li><a href="#vectores-o-listas">Vectores o listas</a></li>
   </ul>
 </nav>
   </div>
@@ -1050,6 +1051,271 @@
     
 </section>
 
+
+<h2 class="relative group">Rstudio 
+    <div id="rstudio" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#rstudio" aria-label="Ancla">#</a>
+    </span>        
+    
+</h2>
+<p>Es recomendable utilizar Rstudio para empezar a programar en R, puedes utilizar la siguiente guia para instalar y empezar un proyecto en Rstudio:</p>
+
+
+<h2 class="relative group">Comandos Basicos 
+    <div id="comandos-basicos" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#comandos-basicos" aria-label="Ancla">#</a>
+    </span>        
+    
+</h2>
+<p>Podemos entender a R como una consola super poderosa, y como cualquier computadora podemos: sumar, restar, dividir y multiplicar.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Sumar</span>
+</span></span><span class="line"><span class="cl"><span class="m">2</span> <span class="o">+</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Restar</span>
+</span></span><span class="line"><span class="cl"><span class="m">2</span> <span class="o">-</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Dividir</span>
+</span></span><span class="line"><span class="cl"><span class="m">2</span> <span class="o">/</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Multiplicar</span>
+</span></span><span class="line"><span class="cl"><span class="m">2</span> <span class="o">*</span> <span class="m">2</span>
+</span></span></code></pre></div><p>Como puedes ver en R, a diferencia de otros lenguajes no es necesario utilizar algún símbolo para indicar el fin de una operación básica. Ademas de esto R puede sacar el <strong>Modulo</strong>, que es el restante de una división.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Modulo</span>
+</span></span><span class="line"><span class="cl"><span class="m">10</span> <span class="o">%%</span> <span class="m">3</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#El resultado deberia de ser 1, el restante de division de 10/3</span>
+</span></span></code></pre></div><p>R también tiene un comando para obtener la parte entera de una división.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Parte entera de una division</span>
+</span></span><span class="line"><span class="cl"><span class="m">10</span> <span class="o">%/%</span> <span class="m">3</span> 
+</span></span><span class="line"><span class="cl"><span class="c1">#El resultado deberia de ser 3</span>
+</span></span></code></pre></div><p>Con esto podemos hacer operaciones basicas de calculadora pero querermos ir más allá.</p>
+
+
+<h2 class="relative group">Variables 
+    <div id="variables" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#variables" aria-label="Ancla">#</a>
+    </span>        
+    
+</h2>
+<p>En R utilizamos <code>&lt;-</code> para asignar un valor de cualquier tipo a una <strong>variable</strong>, una variable en programación en simples palabras es el nombre o identificacion que recibe un valor, estas pueden ser estaticas o pueden cambiar, ser locales o globales, etc.</p>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>¡Advertencia!</strong> Para asignar variables globales se usa <code>&lt;&lt;-</code></span>
+</div>
+
+
+
+<h3 class="relative group">Asignacion y uso de variables 
+    <div id="asignacion-y-uso-de-variables" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#asignacion-y-uso-de-variables" aria-label="Ancla">#</a>
+    </span>        
+    
+</h3>
+<p>Tenemos en una situación donde queremos registrar nuestro nombre, edad y fecha de cumpleaños.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Registraremos nuestro nombre, los nombres son cadenas de caracteres</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#es decir su comportamiento es diferente al de los numeros (Por ahora)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Para escribir una cadena de texto usamos comillas(&#34;&#34;)(&#39;&#39;) </span>
+</span></span><span class="line"><span class="cl"><span class="n">Mi_nombre</span> <span class="o">&lt;-</span> <span class="s">&#34;Jorge Alfredo Suazo Victoria&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Nuestro cumpleaños va a ser registrado en el siguiente orden [Dia] de [Mes]</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#de [año], esto tendra importancia más adelante</span>
+</span></span><span class="line"><span class="cl"><span class="n">Mi_cumpleaños</span> <span class="o">&lt;-</span> <span class="s">&#34;30 de Diciembre de 2005&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#La edad simplemente será un numero</span>
+</span></span><span class="line"><span class="cl"><span class="n">Mi_edad</span> <span class="o">&lt;-</span> <span class="m">18</span>
+</span></span></code></pre></div><p>Si quisieramos imprimir un saludo con estos datos tenemos las siguientes opciones.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Utilizando la funcion cat(), el separador de cada variable es la coma</span>
+</span></span><span class="line"><span class="cl"><span class="nf">cat</span><span class="p">(</span><span class="s">&#34;¡Hola!, mi nombre es&#34;</span><span class="p">,</span> <span class="n">Mi_nombre</span> <span class="p">,</span><span class="s">&#34;tengo&#34;</span> <span class="p">,</span> <span class="n">Mi_edad</span> <span class="p">,</span> <span class="s">&#34;años, y cumplo el&#34;</span> <span class="p">,</span> <span class="n">Mi_cumpleaños</span><span class="p">)</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-3d1224f712ed39cd35c9d736139676ae"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-3d1224f712ed39cd35c9d736139676ae", {
+        strings: ["","¡Hola!, mi nombre es Jorge Alfredo Suazo Victoria tengo 18 años, y cumplo el 30 de Diciembre de 2005",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Utilizando sprintf(), es una forma muy parecida a como hacemos cadenas de</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#texto en lenguajes como C</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="nf">sprintf</span><span class="p">(</span><span class="s">&#34;Hola, mi nombre es %s, tengo %d años, y cumplo el %s.&#34;</span><span class="p">,</span> <span class="n">Mi_nombre</span><span class="p">,</span> <span class="n">Mi_edad</span><span class="p">,</span> <span class="n">Mi_cumpleaños</span><span class="p">))</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-634b84cc0fd5d0aeea4a26f08a88b659"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-634b84cc0fd5d0aeea4a26f08a88b659", {
+        strings: ["","[1] \"Hola, mi nombre es Jorge Alfredo Suazo Victoria, tengo 18 años, y cumplo el 30 de Diciembre de 2005.\"",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>Las diferencias entre ambos son las siguientes:</p>
+
+
+<h3 class="relative group">print(): 
+    <div id="print" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#print" aria-label="Ancla">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>Devuelve el objeto tal cual, incluyendo comillas si es una cadena de caracteres.</li>
+<li>Útil para imprimir variables, mensajes o resultados con fines de depuración.</li>
+<li>Puede personalizarse con argumentos como <strong>digits</strong> para controlar el número de decimales.</li>
+<li>Puede imprimir varios tipos de objetos, como cadenas, variables, tablas, marcos de datos y más.</li>
+</ul>
+
+
+<h3 class="relative group">cat(): 
+    <div id="cat" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#cat" aria-label="Ancla">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>Concatena y muestra objetos sin comillas.</li>
+<li>Permite especificar un separador personalizado con sep.</li>
+<li>Solo admite <strong>vectores atómicos</strong> (conjunto de datos del mismo tipo).</li>
+<li>Puede usarse para escribir valores en un archivo.</li>
+<li>Agrega saltos de línea automáticamente si usas <code>\&quot;\\n\&quot;</code> como separador.</li>
+<li>Elimina información específica del código (por ejemplo, convierte n en una nueva línea).</li>
+</ul>
+
+
+<h2 class="relative group">Vectores o listas 
+    <div id="vectores-o-listas" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#vectores-o-listas" aria-label="Ancla">#</a>
+    </span>        
+    
+</h2>
+<p>El siguiente problema sera descifrar que edad tendremos en una fecha impuesta por el usuario, para esto tenemos que desentrañar mi fecha de cumpleaños.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span></code></pre></div>
         </div>
         
         

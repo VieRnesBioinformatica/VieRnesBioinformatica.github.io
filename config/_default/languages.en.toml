@@ -10,8 +10,7 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 description = "Promote training and growth in bioinformatics through free courses for all interested community."
-logo = "FiveR.png"
-
+logo = "Fiver.png"
 
 [author]
 name = "Jorge Alfredo Suazo Victoria"

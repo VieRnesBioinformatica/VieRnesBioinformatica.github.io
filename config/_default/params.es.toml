@@ -6,7 +6,7 @@ enableCodeCopy = true
 disableImageOptimization = false
 disableTextInHeader = false
 smartTOC = true
-defaultBackgroundImage = "BG.svg"
+defaultBackgroundImage = "Background.svg"
 defaultFeaturedImage = "fitur.svg"
 
 [header]
@@ -38,7 +38,7 @@ showDateOnlyInArticle = true
 showDateUpdated = true
 showAuthor = true
 showHero = true
-heroStyle = "thumbAndBackground"
+heroStyle = "Background"
 layoutBackgroundBlur = true
 showBreadcrumbs = true
 showDraftLabel = true
