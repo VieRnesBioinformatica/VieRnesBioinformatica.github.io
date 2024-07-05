@@ -107,7 +107,7 @@
     "keywords": ["principiante","R"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "643"
+    "wordCount": "2451"
   }]
   </script>
 
@@ -127,6 +127,17 @@
 <script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
 
 
+
+  
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/js/mermaid.bundle.9aab96d44f6ac9568364d8bc6faeb1120a4f4f78a1742ecd23e9401160647174f0551e09453104173597409a0f0c89370fa03e70a58d337298934f9267a77c7c.js"
+    integrity="sha512-mquW1E9qyVaDZNi8b66xEgpPT3ihdC7NI&#43;lAEWBkcXTwVR4JRTEEFzWXQJoPDIk3D6A&#43;cKWNM3KYk0&#43;SZ6d8fA=="
+  ></script>
 
 
 
@@ -534,7 +545,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 junio 2024</time><span class="px-2 text-primary-500">&middot;</span><span>643 palabras</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 junio 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2451 palabras</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -722,12 +733,35 @@
     <li><a href="#comandos-basicos">Comandos Basicos</a></li>
     <li><a href="#variables">Variables</a>
       <ul>
+        <li><a href="#tipos-de-variables">Tipos de Variables</a></li>
         <li><a href="#asignacion-y-uso-de-variables">Asignacion y uso de variables</a></li>
         <li><a href="#print">print():</a></li>
         <li><a href="#cat">cat():</a></li>
       </ul>
     </li>
-    <li><a href="#vectores-o-listas">Vectores o listas</a></li>
+    <li><a href="#vectores-o-listas">Vectores o listas</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#unidimensional-vs-multidimensional">Unidimensional vs. Multidimensional:</a></li>
+            <li><a href="#estructura-y-contenido">Estructura y Contenido:</a></li>
+          </ul>
+        </li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#declaraciones-condicionales">Declaraciones Condicionales</a>
+          <ul>
+            <li><a href="#if-y-else">if y else</a></li>
+            <li><a href="#ifelse">ifelse</a></li>
+            <li><a href="#switch-case">Switch case</a></li>
+          </ul>
+        </li>
+        <li><a href="#vectores">Vectores</a>
+          <ul>
+            <li><a href="#crear-funciones">Crear funciones</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -752,12 +786,35 @@
     <li><a href="#comandos-basicos">Comandos Basicos</a></li>
     <li><a href="#variables">Variables</a>
       <ul>
+        <li><a href="#tipos-de-variables">Tipos de Variables</a></li>
         <li><a href="#asignacion-y-uso-de-variables">Asignacion y uso de variables</a></li>
         <li><a href="#print">print():</a></li>
         <li><a href="#cat">cat():</a></li>
       </ul>
     </li>
-    <li><a href="#vectores-o-listas">Vectores o listas</a></li>
+    <li><a href="#vectores-o-listas">Vectores o listas</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#unidimensional-vs-multidimensional">Unidimensional vs. Multidimensional:</a></li>
+            <li><a href="#estructura-y-contenido">Estructura y Contenido:</a></li>
+          </ul>
+        </li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#declaraciones-condicionales">Declaraciones Condicionales</a>
+          <ul>
+            <li><a href="#if-y-else">if y else</a></li>
+            <li><a href="#ifelse">ifelse</a></li>
+            <li><a href="#switch-case">Switch case</a></li>
+          </ul>
+        </li>
+        <li><a href="#vectores">Vectores</a>
+          <ul>
+            <li><a href="#crear-funciones">Crear funciones</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1139,6 +1196,25 @@
 
 
 
+<h3 class="relative group">Tipos de Variables 
+    <div id="tipos-de-variables" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#tipos-de-variables" aria-label="Ancla">#</a>
+    </span>        
+    
+</h3>
+<p>En R, existen varios tipos de variables que puedes utilizar en tus análisis y programación. Estos están los más comunes:</p>
+<p>-<strong>Numérico (numeric)</strong>: Representa valores decimales, como 4.5. También incluye números enteros (integers).</p>
+<p>-<strong>Carácter (character)</strong>: Se utiliza para almacenar texto o cadenas de caracteres. Por ejemplo, “Hola, mundo”.</p>
+<p>-<strong>Lógico (logical)</strong>: Puede tomar dos valores: TRUE o FALSE. Se utiliza para expresar condiciones o respuestas binarias.</p>
+<p>-<strong>Complejo (complex)</strong>: Representa números complejos, como 3 + 2i.</p>
+<p>-<strong>Crudo (raw)</strong>: Almacena datos en formato binario sin procesar.</p>
+<p>-Además, hay otros tipos más avanzados, como <strong>factores</strong> (que representan categorías).</p>
+
+
 <h3 class="relative group">Asignacion y uso de variables 
     <div id="asignacion-y-uso-de-variables" class="anchor"></div>
     
@@ -1313,9 +1389,1194 @@
     </span>        
     
 </h2>
+<p>En R, las diferencias principales entre un vector y una lista son las siguientes:</p>
+
+
+<h4 class="relative group">Unidimensional vs. Multidimensional: 
+    <div id="unidimensional-vs-multidimensional" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#unidimensional-vs-multidimensional" aria-label="Ancla">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>Un <strong>vector</strong> es un objeto unidimensional. Puede contener elementos del mismo tipo (numéricos, lógicos, caracteres, etc.).</li>
+<li>Una lista, en cambio, es un objeto multidimensional. Puede contener elementos de diferentes tipos.</li>
+</ul>
+
+
+<h4 class="relative group">Estructura y Contenido: 
+    <div id="estructura-y-contenido" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#estructura-y-contenido" aria-label="Ancla">#</a>
+    </span>        
+    
+</h4>
+<ul>
+<li>Los <strong>vectores</strong> contienen elementos homogéneos (del mismo tipo).</li>
+<li>Las <strong>listas</strong> pueden contener elementos heterogéneos (de diferentes tipos), incluso otras listas.</li>
+</ul>
 <p>El siguiente problema sera descifrar que edad tendremos en una fecha impuesta por el usuario, para esto tenemos que desentrañar mi fecha de cumpleaños.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># </span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Utilizaremos el comando strsplit(), este comando separa un string (cadena de</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#texto) usando el separador que establece el usuario, ejemplo: strsplit(Mi_cadena, &#34;separador&#34;)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Mi_cumpleaños_separado</span> <span class="o">&lt;-</span> <span class="nf">strsplit</span><span class="p">(</span><span class="n">Mi_cumpleaños</span><span class="p">,</span> <span class="s">&#34; &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="n">Mi_cumpleaños_separado</span><span class="p">)</span>
 </span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-21ff7b035ecaf2a90a7e48f2b068a652"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-21ff7b035ecaf2a90a7e48f2b068a652", {
+        strings: ["","[[1]]","[1] \"30\"        \"de\"        \"Diciembre\" \"de\"        \"2005\"  ",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Veremos que tipo de objeto es Mi_cumpleaños_separado</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">class</span><span class="p">(</span><span class="n">Mi_cumpleaños_separado</span><span class="p">)</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-12e95b1f0e155db56689952c33af6f00"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-12e95b1f0e155db56689952c33af6f00", {
+        strings: ["","[1] \"list\"",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+
+
+<h3 class="relative group">Listas 
+    <div id="listas" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#listas" aria-label="Ancla">#</a>
+    </span>        
+    
+</h3>
+<p>Una <strong>lista en R</strong> es una colección ordenada de cualquier objeto. A diferencia de los vectores y las matrices, donde los elementos deben ser del mismo tipo, en el caso de las listas, los elementos pueden ser de diferentes tipos o almacenar distintas estructuras.</p>
+<p>En una lista, se pueden extraer elementos de la siguiente forma:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#El primer renglon se escribe [[n]] y para la columna es [m]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Dia_de_mi_cumple</span> <span class="o">&lt;-</span> <span class="n">Mi_cumpleaños_separado[[1]][1]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#Si quisieramos agregar otro renglon es de la siguiente manera</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Mi_cumpleaños_separado[[2]]</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">()</span> <span class="c1">#Le decimos que la segunda seccion de </span>
+</span></span><span class="line"><span class="cl">                                      <span class="c1">#la lista tambien es una lista (xd)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Mi_cumpleaños_separado[[2]][1]</span> <span class="o">&lt;-</span> <span class="s">&#34;howdy&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="n">Mi_cumpleaños_separado[[2]][1]</span><span class="p">)</span> <span class="c1">#Comprobacion</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-f481799b177ed010bf69851eb2fee939"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-f481799b177ed010bf69851eb2fee939", {
+        strings: ["","[1] \"howdy\"",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Vamos a guardar el dia, mes y año en diferentes variables</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Dia_cumple</span> <span class="o">&lt;-</span> <span class="n">Mi_cumpleaños_separado[[1]][1]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Mes_cumple</span> <span class="o">&lt;-</span> <span class="n">Mi_cumpleaños_separado[[1]][3]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Año_cumple</span> <span class="o">&lt;-</span> <span class="n">Mi_cumpleaños_separado[[1]][5]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#Listo, ahora revisaremos que tipo de objeto es cada uno</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">cat</span><span class="p">(</span><span class="nf">class</span><span class="p">(</span><span class="n">Dia_cumple</span><span class="p">),</span> <span class="nf">class</span><span class="p">(</span><span class="n">Mes_cumple</span><span class="p">),</span> <span class="nf">class</span><span class="p">(</span><span class="n">Año_cumple</span><span class="p">))</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-9c2e705e506ec77aeadb20fce4955880"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-9c2e705e506ec77aeadb20fce4955880", {
+        strings: ["","character character character",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>El unico que concuerda es el mes, porque el dia y el año son numeros, para cambiar el tipo de variable debemos hacer lo siguiente.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#La función as.numeric() se utiliza para convertir un valor o una cadena de</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#texto en un número decimal (de punto flotante) en R. Cuando aplicas</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#as.numeric() a una cadena de caracteres que representa un número, R intenta</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#interpretarla como un número y devuelve el valor numérico correspondiente.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">as.numeric</span><span class="p">(</span><span class="n">Dia_cumple</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#Comprobamos</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="nf">class</span><span class="p">(</span><span class="n">Dia_cumple</span><span class="p">))</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-5b60c21358030c14698a8309ba4220ae"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-5b60c21358030c14698a8309ba4220ae", {
+        strings: ["","[1] character",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>Al pareceer no se guardo el cambio que realizamos.</p>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md"
+    style="background-color: #FFAA5A"
+  >
+
+  <span
+    
+      class="ltr:pr-3 rtl:pl-3 flex items-center"
+      style="color: #FF785A"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      style="color: #191919"
+    ><strong>¡Advertencia!</strong> Para darle un nuevo valor o clase a una variable hay que sobreescribirla</span>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Sobreescribimos</span>
+</span></span><span class="line"><span class="cl"><span class="n">Dia_cumple</span> <span class="o">&lt;-</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="n">Dia_cumple</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Año_cumple</span> <span class="o">&lt;-</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="n">Año_cumple</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">cat</span><span class="p">(</span><span class="nf">class</span><span class="p">(</span><span class="n">Dia_cumple</span><span class="p">),</span> <span class="nf">class</span><span class="p">(</span><span class="n">Año_cumple</span><span class="p">))</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-9d1a8b2981786e1cbbddffbac3c83836"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-9d1a8b2981786e1cbbddffbac3c83836", {
+        strings: ["","numeric numeric",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>Listo ahora falta cambiar los meses a numeros, pero como son puramente texto tenemos que hacer cambios más radicales.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/mecanicas-basicas-de-r/img/Chascarrillo_digital_hu377dcb341f7b0b659bc7813bf8d7436f_13724_330x0_resize_q75_box.jpeg 330w,
+        /posts/mecanicas-basicas-de-r/img/Chascarrillo_digital_hu377dcb341f7b0b659bc7813bf8d7436f_13724_660x0_resize_q75_box.jpeg 660w,
+        /posts/mecanicas-basicas-de-r/img/Chascarrillo_digital_hu377dcb341f7b0b659bc7813bf8d7436f_13724_1024x0_resize_q75_box.jpeg 1024w,
+        /posts/mecanicas-basicas-de-r/img/Chascarrillo_digital_hu377dcb341f7b0b659bc7813bf8d7436f_13724_1320x0_resize_q75_box.jpeg 2x"
+        src="/posts/mecanicas-basicas-de-r/img/Chascarrillo_digital_hu377dcb341f7b0b659bc7813bf8d7436f_13724_660x0_resize_q75_box.jpeg"
+        alt="Chascarrillo_digital"
+      />
+      
+    </figure>
+</p>
+
+
+<h3 class="relative group">Declaraciones Condicionales 
+    <div id="declaraciones-condicionales" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#declaraciones-condicionales" aria-label="Ancla">#</a>
+    </span>        
+    
+</h3>
+
+
+<h4 class="relative group">if y else 
+    <div id="if-y-else" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#if-y-else" aria-label="Ancla">#</a>
+    </span>        
+    
+</h4>
+<p>Basicamente, if es si pasa algo y else es si no pasa ese algo.</p>
+<p>Ejemplo:
+Si tengo 30 pesos me compro un elote y si no me pongo a llorar.</p>
+
+
+<h5 class="relative group"><strong>Operadores comunes</strong> 
+    <div id="operadores-comunes" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#operadores-comunes" aria-label="Ancla">#</a>
+    </span>        
+    
+</h5>
+<ul>
+<li>
+<p><strong>Igualdad (==):</strong>  El operador <code>==</code> se utiliza para verificar si dos valores son iguales.</p>
+</li>
+<li>
+<p><strong>Desigualdad (!=):</strong>  El operador <code>!=</code> se utiliza para verificar si dos valores <strong>no</strong> son iguales.</p>
+</li>
+<li>
+<p><strong>Mayor (&gt;):</strong>  El operador <code>&gt;</code> verifica si el valor de la izquierda es mayor al valor de la derecha.</p>
+</li>
+<li>
+<p><strong>Mayor o Igual (&gt;=):</strong>  El operador <code>&gt;=</code> verifica si el valor de la izquierda es mayor o igual al valor de la derecha.</p>
+</li>
+<li>
+<p><strong>Menor (&lt;):</strong>  El operador <code>&lt;</code> verifica si el valor de la izquierda es menor al valor de la derecha.</p>
+</li>
+<li>
+<p><strong>Menor o Igual (&lt;=):</strong>  El operador <code>&lt;=</code> verifica si el valor de la izquierda es menor o igual al valor de la derecha.</p>
+</li>
+</ul>
+<div class="mermaid" align="center">
+  
+graph TD;
+Title(Problema del elote)---> A[Dinero]
+A[Dinero]-->B{¿Tienes 30 pesos?};
+B --SI---> Si[Feli]
+B --NO---> No[Tite]
+
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># El dinero es igual a 30</span>
+</span></span><span class="line"><span class="cl"><span class="n">Money</span> <span class="o">&lt;-</span> <span class="m">30</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ¿El dinero es igual a 30?</span>
+</span></span><span class="line"><span class="cl"><span class="kr">if</span><span class="p">(</span><span class="n">Money</span> <span class="o">==</span> <span class="m">30</span><span class="p">){</span> <span class="c1">#Si</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nf">print</span><span class="p">(</span><span class="s">&#34;feli&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span><span class="kr">else</span><span class="p">{</span> <span class="c1">#No</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nf">print</span><span class="p">(</span><span class="s">&#34;tite&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-b27049e76e906043185ef970adcad75d"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-b27049e76e906043185ef970adcad75d", {
+        strings: ["","[1] \"feli\"",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>Pero&hellip; ¿Y si tenemos más de dos opciones?(if(options != 2))</p>
+
+
+<h4 class="relative group">ifelse 
+    <div id="ifelse" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#ifelse" aria-label="Ancla">#</a>
+    </span>        
+    
+</h4>
+<p>Si tengo exactamente 30 pesos, quiero imprimir ‘Justo’. Si tengo más de 30 pesos, quiero imprimir ‘Espero cambio devuelta’. Y si no tengo dinero, quiero imprimir ‘tite’.</p>
+<div class="mermaid" align="center">
+  
+graph TD;
+Title(Problema del elote)---> A[Dinero]
+A[Dinero]-->B{¿Tienes 30 pesos?};
+B --SI---> Si[Feli]
+B --NO---> No{Menos o mas}
+No --"-"---> D[tite]
+No --"+"---> C[Espero Cambio]
+
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># El dinero es igual a 30</span>
+</span></span><span class="line"><span class="cl"><span class="n">dinero</span> <span class="o">&lt;-</span> <span class="m">30</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ¿El dinero es igual a 30?</span>
+</span></span><span class="line"><span class="cl"><span class="nf">ifelse</span><span class="p">(</span><span class="n">dinero</span> <span class="o">==</span> <span class="m">30</span><span class="p">,</span> <span class="s">&#34;Justo&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="nf">ifelse</span><span class="p">(</span><span class="n">dinero</span> <span class="o">&gt;</span> <span class="m">30</span><span class="p">,</span> <span class="s">&#34;Espero cambio devuelta&#34;</span><span class="p">,</span> <span class="s">&#34;tite&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#En R funciona un comando en diferentes lineas hasta que se cierra el parentesis</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-90a8ec53f8150e6aef48dd980d9c5f4f"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-90a8ec53f8150e6aef48dd980d9c5f4f", {
+        strings: ["","[1] \"Justo\"",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>Con esto podemos hacerenos una idea de como hacer que los meses en texto se vuelvan numeros. Lo voy a hacer pero despues veremos una forma más eficiente de hacerlo.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Sobreescribir</span>
+</span></span><span class="line"><span class="cl"><span class="n">Mes_cumple</span> <span class="o">&lt;-</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Diciembre&#34;</span><span class="p">,</span> <span class="m">12</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">               <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Noviembre&#34;</span><span class="p">,</span> <span class="m">11</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Octubre&#34;</span><span class="p">,</span> <span class="m">10</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                 <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Septiembre&#34;</span><span class="p">,</span> <span class="m">9</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                  <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Agosto&#34;</span><span class="p">,</span> <span class="m">8</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                   <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Julio&#34;</span><span class="p">,</span> <span class="m">7</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Junio&#34;</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Mayo&#34;</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                      <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Abril&#34;</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Marzo&#34;</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                        <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Febrero&#34;</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                         <span class="nf">ifelse</span><span class="p">(</span><span class="n">Mes_cumple</span> <span class="o">==</span> <span class="s">&#34;Enero&#34;</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="s">&#34;NA&#34;</span><span class="p">))))))))))))</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Al final se puso &#34;NA&#34;(No aplica) Si no concuerda con ningun mes existente</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="n">Mes_cumple</span><span class="p">)</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-bf45b6f642b29f8ac6a164f54deb9b1b"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-bf45b6f642b29f8ac6a164f54deb9b1b", {
+        strings: ["","[1] 12",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+
+
+<h4 class="relative group">Switch case 
+    <div id="switch-case" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#switch-case" aria-label="Ancla">#</a>
+    </span>        
+    
+</h4>
+<p>El switch es como si verdaderamente estuvieramos añadiendo mas opciones,
+ifelse se parece más a:</p>
+<div class="mermaid" align="center">
+  
+graph TD;
+Title(Ifelse)---> A[variable]
+A --> B{condicion1}
+B --Si---> Af[Fin1]
+B --"No"---> C{Condicion2}
+C --"Si"---> Bf[Fin2]
+C --"No"---> D{Condicion3}
+D --"Si"---> Cf[Fin3]
+D --"No"---> Df[Fin4]
+
+</div>
+
+<p>Y asi, pero switch es como:</p>
+<div class="mermaid" align="center">
+  
+graph TD;
+Title(Switch)---> A[variable]
+A --> B{condicion1}
+B --case1---> Af[Fin1]
+B --case2---> Bf[Fin2]
+B --case3---> Cf[Fin3]
+B --case4---> Df[Fin4]
+
+</div>
+
+<p>Ahora como se veria en codigo</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">Mes_cumple</span> <span class="o">&lt;-</span> <span class="kr">switch</span><span class="p">(</span><span class="n">Mes_cumple</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Diciembre&#34;</span> <span class="o">=</span> <span class="m">12</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Noviembre&#34;</span> <span class="o">=</span> <span class="m">11</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Ocutubre&#34;</span> <span class="o">=</span> <span class="m">10</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Septiembre&#34;</span> <span class="o">=</span> <span class="m">9</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Agosto&#34;</span> <span class="o">=</span> <span class="m">8</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Julio&#34;</span> <span class="o">=</span> <span class="m">7</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Junio&#34;</span> <span class="o">=</span> <span class="m">6</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Mayo&#34;</span> <span class="o">=</span> <span class="m">5</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Abril&#34;</span> <span class="o">=</span> <span class="m">4</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Marzo&#34;</span> <span class="o">=</span> <span class="m">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Febrero&#34;</span> <span class="o">=</span> <span class="m">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Enero&#34;</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;default&#34;</span> <span class="o">=</span> <span class="s">&#34;NA&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="n">Mes_cumple</span><span class="p">)</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-a866d86acc39d0a2bef5c57f6a5a13b3"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-a866d86acc39d0a2bef5c57f6a5a13b3", {
+        strings: ["","[1] 1",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>¡¿Que!? ¿Por que <strong>1</strong>?, Bueno anteriormente hicimos el mismo ejercicio pero con ifelse entonces el valor de Mes_cumple quedo en 12.</p>
+<div class="mermaid" align="center">
+  
+graph LR;
+A[""Diciembre""] --ifelse---> B[12] --switch---> C[1]
+
+</div>
+
+<p>El 1 se debe a que en switch si el input (El valor de entrada) es un numero, lo que va a hacer es buscar la posicion del input, en este caso buscó la posicion numero 12 que corresponde a &ldquo;Enero&rdquo; = 1. Vamos a volver a hacerlo:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">Mes_cumple</span> <span class="o">&lt;-</span> <span class="s">&#34;Diciembre&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Mes_cumple</span> <span class="o">&lt;-</span> <span class="kr">switch</span><span class="p">(</span><span class="n">Mes_cumple</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Diciembre&#34;</span> <span class="o">=</span> <span class="m">12</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Noviembre&#34;</span> <span class="o">=</span> <span class="m">11</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Ocutubre&#34;</span> <span class="o">=</span> <span class="m">10</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Septiembre&#34;</span> <span class="o">=</span> <span class="m">9</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Agosto&#34;</span> <span class="o">=</span> <span class="m">8</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Julio&#34;</span> <span class="o">=</span> <span class="m">7</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Junio&#34;</span> <span class="o">=</span> <span class="m">6</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Mayo&#34;</span> <span class="o">=</span> <span class="m">5</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Abril&#34;</span> <span class="o">=</span> <span class="m">4</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Marzo&#34;</span> <span class="o">=</span> <span class="m">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Febrero&#34;</span> <span class="o">=</span> <span class="m">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;Enero&#34;</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="s">&#34;default&#34;</span> <span class="o">=</span> <span class="s">&#34;NA&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="n">Mes_cumple</span><span class="p">)</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-74b9fc14f04b27401b683975b84e2afa"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-74b9fc14f04b27401b683975b84e2afa", {
+        strings: ["","[1] 12",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<div class="mermaid" align="center">
+  
+graph LR;
+A[""Diciembre""] --switch---> C[12]
+
+</div>
+
+<p>¡Perfecto! Ya tenemos todos las variables en numeros, ahora falta calcular la edad.</p>
+
+
+<h3 class="relative group">Vectores 
+    <div id="vectores" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#vectores" aria-label="Ancla">#</a>
+    </span>        
+    
+</h3>
+
+
+<h4 class="relative group">Crear funciones 
+    <div id="crear-funciones" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#crear-funciones" aria-label="Ancla">#</a>
+    </span>        
+    
+</h4>
+<p>Ahora necesitamos que el usuario nos diga que fecha requiere en el mismo formato de antes, pero ahora no quiero que la fecha este <em>&ldquo;hardcodeada&rdquo;</em> (Que este dentro del script).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Pedirle al usuario que escriba algo es facil, vamos a trabajar con la</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#funcion readline(), el formato seria algo asi readline(prompt = &#34;Texto que muestra al</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#registrar entrada&#34;)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Fecha_Destino</span> <span class="o">&lt;-</span> <span class="nf">readline</span><span class="p">(</span><span class="n">prompt</span> <span class="o">=</span> <span class="s">&#34;Ingresa la fecha destino: &#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>Okey, ya tenemos la fecha, ahora hay que copiar y pegar todo el codigo que hicimos antes&hellip; y remplazar nombres de variables&hellip;</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/mecanicas-basicas-de-r/img/aaa_hu1a3e1c5335607fbf0b15c803603e2e34_1819568_330x0_resize_box_1.gif 330w,
+        /posts/mecanicas-basicas-de-r/img/aaa_hu1a3e1c5335607fbf0b15c803603e2e34_1819568_660x0_resize_box_1.gif 660w,
+        /posts/mecanicas-basicas-de-r/img/aaa_hu1a3e1c5335607fbf0b15c803603e2e34_1819568_1024x0_resize_box_1.gif 1024w,
+        /posts/mecanicas-basicas-de-r/img/aaa_hu1a3e1c5335607fbf0b15c803603e2e34_1819568_1320x0_resize_box_1.gif 2x"
+        src="/posts/mecanicas-basicas-de-r/img/aaa_hu1a3e1c5335607fbf0b15c803603e2e34_1819568_660x0_resize_box_1.gif"
+        alt="aaa"
+      />
+      
+    </figure>
+</p>
+<p>Mejor vamos a hacer una <strong>función</strong> a este punto yo creo que ya intuimos que es una función, su definición en programación es:</p>
+<ul>
+<li>En programación es un bloque de código diseñado para realizar una tarea específica. Puede procesar datos y devolver un resultado. Las funciones nos permiten dividir un programa en partes más pequeñas y manejables, lo que facilita la comprensión, el mantenimiento y la <strong>reutilización del código</strong>.</li>
+</ul>
+<p>Lo que nos interesa es lo que pone en negritas, reutilizar código. Ahora vamos a copiar y pegar nuestro código remplazando variables&hellip; lo se, pero esta va a ser la ultima vez que lo hagamos.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#La funcion para hacer funciones se llama function(), en el parentesis, vamos</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#a poner todas las variables externas a la funcion que se vayan emplear</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#adentro de la funcion</span>
+</span></span><span class="line"><span class="cl"><span class="n">convertir_fecha</span> <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span><span class="n">Fecha</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># Divide la cadena en palabras separadas por espacios</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Fecha_separado</span> <span class="o">&lt;-</span> <span class="nf">strsplit</span><span class="p">(</span><span class="n">Fecha</span><span class="p">,</span> <span class="s">&#34; &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="c1"># Extrae el día, mes y año</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Dia</span> <span class="o">&lt;-</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="n">Fecha_separado[[1]][1]</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Mes</span> <span class="o">&lt;-</span> <span class="n">Fecha_separado[[1]][3]</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Año</span> <span class="o">&lt;-</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="n">Fecha_separado[[1]][5]</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="c1"># Convierte el mes a un valor numérico</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Mes</span> <span class="o">&lt;-</span> <span class="kr">switch</span><span class="p">(</span><span class="n">Mes</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Diciembre&#34;</span> <span class="o">=</span> <span class="m">12</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Noviembre&#34;</span> <span class="o">=</span> <span class="m">11</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Octubre&#34;</span> <span class="o">=</span> <span class="m">10</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Septiembre&#34;</span> <span class="o">=</span> <span class="m">9</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Agosto&#34;</span> <span class="o">=</span> <span class="m">8</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Julio&#34;</span> <span class="o">=</span> <span class="m">7</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Junio&#34;</span> <span class="o">=</span> <span class="m">6</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Mayo&#34;</span> <span class="o">=</span> <span class="m">5</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Abril&#34;</span> <span class="o">=</span> <span class="m">4</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Marzo&#34;</span> <span class="o">=</span> <span class="m">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Febrero&#34;</span> <span class="o">=</span> <span class="m">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;Enero&#34;</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                       <span class="s">&#34;default&#34;</span> <span class="o">=</span> <span class="kc">NA</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                       
+</span></span><span class="line"><span class="cl">  <span class="c1">#Utilizamos c() para crear vectores, en este caso lo vamos a ocupar para</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">#regresar los valores de Dia, Mes y Año en una sola variable (resultados)</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="kr">return</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="n">Dia</span><span class="p">,</span> <span class="n">Mes</span><span class="p">,</span> <span class="n">Año</span><span class="p">))</span> <span class="c1"># La funcion return(), indica que valores nos va</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># a dar la funcion en general, en este caso la funcion &#34;convertir_fecha&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># nos va ad dar Dia, Mes Año en un vector</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Suponiendo que el usuario nos dio la fecha 13 de Noviembre de 2030  </span>
+</span></span><span class="line"><span class="cl"><span class="n">resultados</span> <span class="o">&lt;-</span> <span class="nf">convertir_fecha</span><span class="p">(</span><span class="n">Fecha_Destino</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="n">resultados</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-dc1654c7eb86adaec790684a161ffd6b"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-dc1654c7eb86adaec790684a161ffd6b", {
+        strings: ["","[1]   13   11 2030",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p><em>&ldquo;Resultado&rdquo;</em> es un vector, por lo tanto si quisieramos cambiar de clase a uno de sus elementos todo el vector cambiaria.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Como los vectores son unidimensionales solo hace falta el indice para acceder a un valor</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Resultado[1]</span> <span class="o">&lt;-</span> <span class="nf">as.character</span><span class="p">(</span><span class="n">Resultado[1]</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">print</span><span class="p">(</span><span class="nf">class</span><span class="p">(</span><span class="n">Resultado[2]</span><span class="p">))</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-acbd89b8e4e53cccb4fba2c98d56a753"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-acbd89b8e4e53cccb4fba2c98d56a753", {
+        strings: ["","[1] \"character\"",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>Bueno, sabiendo esto podemos hacer la ultima función, para saber que edad tendré en una fecha establecida.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1">#Vamos a usar una funcion dentro de una funcion, ya lo habiamos hecho antes</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#al poner print(class()) o al poner return(c()) pero ahora se hara más #evidente</span>
+</span></span><span class="line"><span class="cl"><span class="n">Conocer_Edad</span> <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span><span class="n">Mi_cumpleaños</span><span class="p">,</span> <span class="n">Fecha_Destino</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="c1">#Utilizamos la funcion convertir_fecha</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">Resultado_cumple</span> <span class="o">&lt;-</span> <span class="nf">convertir_fecha</span><span class="p">(</span><span class="n">Mi_cumpleaños</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Resultado_Fecha</span> <span class="o">&lt;-</span> <span class="nf">convertir_fecha</span><span class="p">(</span><span class="n">Fecha_Destino</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="c1">#Convertirmos Meses a Dias (Un mes tiene 30.4375 en promedio, esto porque un</span>
+</span></span><span class="line"><span class="cl"> <span class="c1">#año tiene 365.25 dias contando el año bisiesto)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Resultado_cumple[2]</span> <span class="o">&lt;-</span> <span class="n">Resultado_cumple[2]</span> <span class="o">*</span> <span class="m">30.4375</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Resultado_Fecha[2]</span> <span class="o">&lt;-</span> <span class="n">Resultado_Fecha[2]</span> <span class="o">*</span> <span class="m">30.4375</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="c1">#Convertimos Meses a Años</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Resultado_cumple[3]</span> <span class="o">&lt;-</span> <span class="n">Resultado_cumple[3]</span> <span class="o">*</span> <span class="m">365.25</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Resultado_Fecha[3]</span> <span class="o">&lt;-</span> <span class="n">Resultado_Fecha[3]</span> <span class="o">*</span> <span class="m">365.25</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="c1">#Ahora sumamos para ver el total de dias, usando sum(), si a sum() le das un  #vector numerico, automaticamente sumara todos los valores dentro del vector</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Total_Dias_cumple</span> <span class="o">&lt;-</span> <span class="nf">sum</span><span class="p">(</span><span class="n">Resultado_cumple</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Total_Dias_Fecha</span> <span class="o">&lt;-</span> <span class="nf">sum</span><span class="p">(</span><span class="n">Resultado_Fecha</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="c1">#Ahora sacamos la diferencia entre los Dias y lo dividimos entre 365.25 para obtener los años</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Diferencia_Años</span> <span class="o">&lt;-</span> <span class="p">(</span><span class="n">Total_Dias_Fecha</span> <span class="o">-</span> <span class="n">Total_Dias_cumple</span><span class="p">)</span><span class="o">/</span><span class="m">365.25</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="c1">#El resultado probablemente sea un numero decimal con punto flotante, asi que podemos usar floor() para redondear el valor hacia abajo</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="n">Años_Aproximados</span> <span class="o">&lt;-</span> <span class="nf">floor</span><span class="p">(</span><span class="n">Diferencia_Años</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="kr">return</span><span class="p">(</span><span class="n">Años_Aproximados</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Edad_Aproximada</span> <span class="o">&lt;-</span> <span class="nf">Conocer_Edad</span><span class="p">(</span><span class="n">Mi_cumpleaños</span><span class="p">,</span> <span class="n">Fecha_Destino</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">cat</span><span class="p">(</span><span class="s">&#34;Hola mi nombre es&#34;</span><span class="p">,</span> <span class="n">Mi_nombre</span><span class="p">,</span> <span class="s">&#34;tengo&#34;</span><span class="p">,</span> <span class="n">Mi_edad</span><span class="p">,</span> <span class="s">&#34;años, nací el&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Mi_cumpleaños</span><span class="p">,</span><span class="s">&#34;en el&#34;</span><span class="p">,</span> <span class="n">Fecha_Destino</span> <span class="p">,</span> <span class="s">&#34;tendré&#34;</span><span class="p">,</span> <span class="n">Edad_Aproximada</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;años&#34;</span><span class="p">)</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><div id="typeit-beacbb975e1a1a6e8eb9cbffb9a8098a"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-beacbb975e1a1a6e8eb9cbffb9a8098a", {
+        strings: ["","Hola mi nombre es Jorge Alfredo Suazo Victoria tengo 18 años, nací el 30 de Diciembre de 2005 en el 13 de Noviembre de 2030 tendré 24 años",""],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+</span>
+</div>
+
+<p>Listo, ahora ya sabes como calcular una edad aproximada en R, te animo a que trates de modificar el código, intentes añadir nuevas funciones, quizás agregar una función que te diga tu signo zodiacal, lo que se te ocurra, cualquier duda mi correo esta en la parte superior de la pagina en forma de arroba :).</p>
+
         </div>
         
         
