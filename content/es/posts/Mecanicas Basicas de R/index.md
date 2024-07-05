@@ -546,6 +546,7 @@ convertir_fecha <- function(Fecha) {
   return(c(Dia, Mes, Año)) # La funcion return(), indica que valores nos va
   # a dar la funcion en general, en este caso la funcion "convertir_fecha"
   # nos va ad dar Dia, Mes Año en un vector
+}
 #Suponiendo que el usuario nos dio la fecha 13 de Noviembre de 2030  
 resultados <- convertir_fecha(Fecha_Destino)
 print(resultados)
