@@ -10,7 +10,7 @@ isoCode = "es"
 rtl = false
 description = "Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada."
 dateFormat = "2 January 2006"
-logo = "FiveR.png"
+logo = "RV.png"
 
 
 [author]

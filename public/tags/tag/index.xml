@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tag on Bioinformatics FRiday</title>
+    <title>Tag on VieRnes de Bioinformatica</title>
     <link>http://localhost:4321/tags/tag/</link>
-    <description>Recent content in Tag on Bioinformatics FRiday</description>
+    <description>Recent content in Tag on VieRnes de Bioinformatica</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>es</language>
     <copyright>© 2024 Jorge Alfredo Suazo Victoria</copyright>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/tag/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basic R mechanics</title>
-      <link>http://localhost:4321/posts/basic-r-mechanics/</link>
-      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <title>Introduccion a Rstudio</title>
+      <link>http://localhost:4321/posts/1720280189427-introduccion-a-rstudio/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/basic-r-mechanics/</guid>
+      <guid>http://localhost:4321/posts/1720280189427-introduccion-a-rstudio/</guid>
       <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/basic-r-mechanics/featured.png" />
+      
     </item>
     
   </channel>
