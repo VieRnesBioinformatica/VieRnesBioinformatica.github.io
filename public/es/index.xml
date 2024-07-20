@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VieRnes de Bioinformatica</title>
+    <title>Es on </title>
     <link>http://localhost:4321/es/</link>
-    <description>Recent content on VieRnes de Bioinformatica</description>
+    <description>Recent content in Es on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2024 Jorge Alfredo Suazo Victoria</copyright>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/es/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduccion a Rstudio</title>
+      <link>http://localhost:4321/es/posts/1720280189427-introduccion-a-rstudio/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/es/posts/1720280189427-introduccion-a-rstudio/</guid>
+      <description>an example to get you started</description>
+      
+    </item>
+    
     <item>
       <title>Instalacion de R</title>
       <link>http://localhost:4321/es/posts/instalacion-de-r/</link>

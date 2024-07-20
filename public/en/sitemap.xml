@@ -3,14 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:4321/en/posts/basic-r-mechanics/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:4321/en/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -20,13 +14,29 @@
     />
     <xhtml:link
       rel="alternate"
-      hreflang="en"
+      hreflang="es"
       href="http://localhost:4321/en/"
     />
   </url>
   <url>
+    <loc>http://localhost:4321/en/posts/1720280189427-introduccion-a-rstudio/</loc>
+    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/posts/1720280189427-introduccion-a-rstudio/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/en/posts/1720280189427-introduccion-a-rstudio/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:4321/en/posts/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -36,8 +46,40 @@
     />
     <xhtml:link
       rel="alternate"
-      hreflang="en"
+      hreflang="es"
       href="http://localhost:4321/en/posts/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:4321/en/posts/instalacion-de-r/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/posts/instalacion-de-r/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/en/posts/instalacion-de-r/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:4321/en/posts/mecanicas-basicas-de-r/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/posts/mecanicas-basicas-de-r/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:4321/en/posts/mecanicas-basicas-de-r/"
     />
   </url>
 </urlset>
