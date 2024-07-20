@@ -16,6 +16,8 @@ RStudio Desktop es una aplicación que se utiliza ampliamente para desarrollar p
 
 Podemos descargar RStudio desde [esta página](https://posit.co/download/rstudio-desktop/). Ya realizamos el paso 1: Install R.
 
+{{< article link="/posts/instalacion-de-r/" >}}
+
 En el paso 2: Install R studio, nos debería detectar el sistema operativo, descarguemos la versión recomendada en el botón **azul** y sigamos las instrucciones de instalación.
 
 ![Rstudio Homepages](img/rshp.png)
