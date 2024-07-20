@@ -3,7 +3,7 @@ title: "Introduccion a Rstudio"
 date: 2024-07-06
 draft: false
 description: "Introudccion A Rstudio basado completamente en la presentacion de la Dra. Evelia Coss y Sofia Salazar"
-tags: ["example", "tag"]
+tags: ["R", "tutorial", "Rstudio"]
 ---
 
 RStudio es un entorno de desarrollo integrado (IDE) para R. Un IDE es una aplicación que ayuda a los programadores a desarrollar código de una manera eficiente. Nos proporciona una interfaz para poder editar código fuente, herramientas de ambiente, visualización, terminal y consola.
@@ -83,8 +83,6 @@ Podemos ver que tenemos distintas opciones de archivos que podemos crear, en est
 
 ![NiuFail](img/NewFile.png)
 
-[Fuentes (Viernes 1)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#7): 
-{{< github repo="EveliaCoss/ViernesBioinfo2024" >}}
 
 ## Crear Un Script
 
@@ -405,3 +403,6 @@ Con el comando:
 ```R
 save.image(paste0(indir, miAmbiente1.RData))
 ```
+
+[Fuentes (Viernes 1)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#7): 
+{{< github repo="EveliaCoss/ViernesBioinfo2024" >}}
