@@ -35,6 +35,8 @@ Aqui hay una guia para la instalacion de R
 Es recomendable utilizar Rstudio para empezar a programar en R, puedes utilizar la siguiente guia para instalar y empezar un proyecto en Rstudio:
 
 
+{{< article link="/posts/intrors/" >}}
+
 
 ## Comandos Basicos
 

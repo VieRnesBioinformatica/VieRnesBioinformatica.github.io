@@ -5,6 +5,7 @@ draft: false
 description: "Tutorial de Instalacion"
 tags: ["R", "tutorial"]
 ---
+# CRAN.
 
 Lo primero que tenemos que hacer es ir a la pagina de [CRAN](https://cran.r-project.org/) y seleccionar la descarga dependiendo nuestro sistema operativo.
 
