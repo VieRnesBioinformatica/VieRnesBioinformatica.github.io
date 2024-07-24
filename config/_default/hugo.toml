@@ -32,4 +32,4 @@ indices = [ { name = "tags", weight = 100 }, { name = "categories", weight = 100
 
 [services]
   [services.disqus]
-    shortname = 'https://https-viernesbioinformatica-github-io.disqus.com'
+    shortname = 'https-viernesbioinformatica-github-io.disqus.com'
