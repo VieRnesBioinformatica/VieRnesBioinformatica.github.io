@@ -359,7 +359,8 @@ getwd()
 ```
 {{< alert icon = "code" >}}
 {{< typeit >}}
-[1] "C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Posdoc_LIIGH/VieRnesBioinfo/ViernesBioinfo_2024/Presentaciones"
+[1] "C:/Users/ecoss/OneDrive -
+CINVESTAV/Documentos/Posdoc_LIIGH/VieRnesBioinfo/ViernesBioinfo_2024/Presentaciones"
 {{< /alert >}}
 {{< /typeit >}}
 2. Verifica que se encuentren los tres archivos en la carpeta data/.
@@ -409,6 +410,4 @@ save.image(paste0(indir, miAmbiente1.RData))
 
 [Fuentes (Viernes 1)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#7): 
 {{< github repo="EveliaCoss/ViernesBioinfo2024" >}}
-{{ partial "disqus.html" . }}
 
-{{ .Site.Config.Services.Disqus.Shortname }}
