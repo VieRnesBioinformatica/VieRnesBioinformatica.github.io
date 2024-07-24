@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2024 Viernes de Bioinformatica</copyright>
-    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introduccion a Rstudio</title>
-      <link>http://localhost:4321/posts/1720280189427-introduccion-a-rstudio/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <title>Manipulacion</title>
+      <link>http://localhost:4321/1721864362363-manipulacion/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/1720280189427-introduccion-a-rstudio/</guid>
+      <guid>http://localhost:4321/1721864362363-manipulacion/</guid>
       <description>an example to get you started</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/1721864362363-manipulacion/featured.png" />
     </item>
     
   </channel>

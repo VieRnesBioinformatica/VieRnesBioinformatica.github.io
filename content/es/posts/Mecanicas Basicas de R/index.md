@@ -4,6 +4,9 @@ date: 2024-06-08
 draft: false
 description: "Mecanicas R"
 tags: ["principiante", "R"]
+showAuthor: false
+authors:
+ - "jorge"
 ---
 
 ## ¿Qué es R?

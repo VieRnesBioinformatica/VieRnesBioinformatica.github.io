@@ -1,9 +1,13 @@
 ---
 title: "Introduccion a Rstudio"
-date: 2024-07-06
+date: 2024-02-02
 draft: false
 description: "Introudccion A Rstudio basado completamente en la presentacion de la Dra. Evelia Coss y Sofia Salazar"
-tags: ["R", "tutorial", "Rstudio"]
+tags: ["R", "tutorial", "Rstudio", "viernes"]
+showAuthor: false
+authors:
+  - "sofia"
+  - "evelia"
 ---
 
 RStudio es un entorno de desarrollo integrado (IDE) para R. Un IDE es una aplicación que ayuda a los programadores a desarrollar código de una manera eficiente. Nos proporciona una interfaz para poder editar código fuente, herramientas de ambiente, visualización, terminal y consola.

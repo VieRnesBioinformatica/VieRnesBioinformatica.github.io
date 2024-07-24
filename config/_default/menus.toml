@@ -13,5 +13,10 @@ url = "mailto:jasvpj@gmail.com"
 identifier = "o2qDWq7SRB"
 weight = 9999
 
+[[main]]
+name = "Autores"
+url = "/authors"
+weight = 9
+
 [[footer]]
 none = "none"
