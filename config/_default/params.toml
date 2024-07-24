@@ -36,8 +36,8 @@ homepageImage = "g543.png"
 
 [article]
 showDate = true
-showViews = false
-showLikes = false
+showViews = true
+showLikes = true
 showDateOnlyInArticle = true
 showDateUpdated = true
 showAuthor = true
@@ -68,8 +68,8 @@ layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = true
 showSummary = true
-showViews = false
-showLikes = false
+showViews = true
+showLikes = true
 showTableOfContents = false
 showCards = false
 groupByYear = true
@@ -85,8 +85,8 @@ excludedKinds = [ "taxonomy", "term" ]
 showTermCount = true
 showHero = false
 showBreadcrumbs = false
-showViews = false
-showLikes = false
+showViews = true
+showLikes = true
 showTableOfContents = false
 cardView = false
 
@@ -101,6 +101,13 @@ cardView = false
 cardViewScreenWidth = false
 showComments = true
 [firebase]
+apiKey = "AIzaSyCeu_el5C-sSInp4k6fcl0IxiXvrKZaWJo"
+authDomain =  "viebio-f2ddb.firebaseapp.com"
+projectId = "viebio-f2ddb"
+storageBucket = "viebio-f2ddb.appspot.com"
+messagingSenderId = "881687198767"
+appId = "1:881687198767:web:22edcaabce5b4161269ada"
+measurementId = "G-DBWJSWD48Z"
 
 [fathomAnalytics]
 
