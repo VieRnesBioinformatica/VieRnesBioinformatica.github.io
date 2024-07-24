@@ -1,59 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artículo con Comentarios</title>
-    <style>
-        /* Estilos para los comentarios */
-        .comment {
-            margin-bottom: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .comment .meta {
-            font-size: 0.8em;
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-    <article>
-        <h1>Título del Artículo</h1>
-        <p>Contenido del artículo...</p>
-        
-        <!-- Sección de comentarios -->
-        <section id="comments">
-            <h2>Comentarios</h2>
-            
-            <!-- Ejemplo de comentario -->
-            <div class="comment">
-                <p>Este es un comentario de ejemplo.</p>
-                <div class="meta">Por Usuario - 24 de Julio, 2024</div>
-            </div>
-            
-            <!-- Puedes agregar más comentarios aquí -->
-            
-        </section>
-        
-        <!-- Formulario para añadir comentarios (opcional) -->
-        <section id="comment-form">
-            <h2>Añadir Comentario</h2>
-            <form action="procesar_comentario.php" method="post">
-                <p>
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" required>
-                </p>
-                <p>
-                    <label for="comentario">Comentario:</label><br>
-                    <textarea id="comentario" name="comentario" rows="4" required></textarea>
-                </p>
-                <p>
-                    <button type="submit">Enviar Comentario</button>
-                </p>
-            </form>
-        </section>
-    </article>
-</body>
-</html>
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = "{{ .Permalink }}";  // URL canónico de la página
+        this.page.identifier = "{{ .RelPermalink }}";  // Identificador único de la página
+    };
+    (function() {  // NO EDITAR DEBAJO DE ESTA LÍNEA
+        var d = document, s = d.createElement('script');
+        s.src = 'https://https-viernesbioinformatica-github-io.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Por favor, habilita JavaScript para ver los <a href="https://disqus.com/?ref_noscript">comentarios impulsados por Disqus.</a></noscript><div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = "{{ .Permalink }}";  // URL canónico de la página
+        this.page.identifier = "{{ .RelPermalink }}";  // Identificador único de la página
+    };
+    (function() {  // NO EDITAR DEBAJO DE ESTA LÍNEA
+        var d = document, s = d.createElement('script');
+        s.src = 'https://https-viernesbioinformatica-github-io.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Por favor, habilita JavaScript para ver los <a href="https://disqus.com/?ref_noscript">comentarios impulsados por Disqus.</a></noscript>

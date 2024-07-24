@@ -10,6 +10,9 @@ defaultBackgroundImage = "Background.svg"
 defaultFeaturedImage = "fitur.svg"
 showComments = true
 
+[params]
+showComments = true
+
 [header]
 layout = "fixed"
 
