@@ -38,6 +38,7 @@ Al comenzar a trabajar con R y RStudio, ya sea para crear un programa para un pr
 
 Al crear un R project, se creará un folder en donde estarán todos los documentos, fotos, scripts, etc. que usaremos en ese projecto. Es una forma organizada y práctica de trabajar con R.
 
+
 ## ¿Cómo iniciamos un R project?
 
 Vayamos en la parte superior al menú **Archivos** > **Nuevo Proyecto**.
@@ -408,3 +409,6 @@ save.image(paste0(indir, miAmbiente1.RData))
 
 [Fuentes (Viernes 1)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#7): 
 {{< github repo="EveliaCoss/ViernesBioinfo2024" >}}
+{{ partial "disqus.html" . }}
+
+{{ .Site.Config.Services.Disqus.Shortname }}

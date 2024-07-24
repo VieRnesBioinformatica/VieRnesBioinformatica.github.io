@@ -8,6 +8,7 @@ disableTextInHeader = false
 smartTOC = true
 defaultBackgroundImage = "Background.svg"
 defaultFeaturedImage = "fitur.svg"
+showComments = true
 
 [header]
 layout = "fixed"
@@ -95,7 +96,7 @@ showTableOfContents = true
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
-
+showComments = true
 [firebase]
 
 [fathomAnalytics]
