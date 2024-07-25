@@ -20,12 +20,12 @@
     
     <item>
       <title>Introduccion a Rstudio</title>
-      <link>http://localhost:5819/posts/viernes-de-bioinformatica-2024/intrors/</link>
+      <link>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes1/</link>
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5819/posts/viernes-de-bioinformatica-2024/intrors/</guid>
+      <guid>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes1/</guid>
       <description>RStudio es un entorno de desarrollo integrado (IDE) para R.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5819/posts/viernes-de-bioinformatica-2024/intrors/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes1/featured.png" />
     </item>
     
   </channel>

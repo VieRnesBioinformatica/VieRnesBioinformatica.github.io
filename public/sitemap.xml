@@ -39,19 +39,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:5819/posts/viernes-de-bioinformatica-2024/manipulacion2/</loc>
+    <loc>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes3/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:5819/posts/viernes-de-bioinformatica-2024/manipulacion/</loc>
+    <loc>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes2/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:5819/posts/viernes-de-bioinformatica-2024/intrors/</loc>
+    <loc>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes1/</loc>
     <lastmod>2024-02-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sofia Salazar on </title>
-    <link>http://localhost:4321/authors/sofia/</link>
+    <link>http://localhost:5819/authors/sofia/</link>
     <description>Recent content in Sofia Salazar on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2024 Viernes de Bioinformatica</copyright>
-    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/authors/sofia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5819/authors/sofia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manipulación de datos con R base (matrix y lista)</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/manipulacion2/</link>
+      <link>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes3/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/manipulacion2/</guid>
+      <guid>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes3/</guid>
       <description>Matriz (matrix) # # Opcion A x &amp;lt;- matrix(c(1,2,3,4,5,6), nrow = 2, ncol = 3) x # [,1] [,2] [,3] # [1,] 1 3 5 # [2,] 2 4 6 Ahora que ya conocemos las funciones seq() y seq_len() podemos crear la matriz de esta manera:</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/manipulacion2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes3/featured.png" />
     </item>
     
     <item>
       <title> Manipulación de datos con R base (vector y dataframe)</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/manipulacion/</link>
+      <link>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes2/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/manipulacion/</guid>
+      <guid>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes2/</guid>
       <description>Vector y dataframe.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/manipulacion/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes2/featured.png" />
     </item>
     
     <item>
       <title>Introduccion a Rstudio</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/intrors/</link>
+      <link>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes1/</link>
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/intrors/</guid>
+      <guid>http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes1/</guid>
       <description>RStudio es un entorno de desarrollo integrado (IDE) para R.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/intrors/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5819/posts/viernes-de-bioinformatica-2024/viernes1/featured.png" />
     </item>
     
     <item>
       <title>Lista de Reproducción</title>
-      <link>http://localhost:4321/playlist/</link>
+      <link>http://localhost:5819/playlist/</link>
       <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/playlist/</guid>
+      <guid>http://localhost:5819/playlist/</guid>
       <description>Viernes 1.</description>
       
     </item>
