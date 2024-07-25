@@ -12,6 +12,8 @@ series: ["Viernes de Bioinformatica (2024)"]
 series_order: 3
 ---
 
+Matrices chulis (no se que poner xd) .
+
 ## **Matriz (matrix)**
 
 ```         

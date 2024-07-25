@@ -2,38 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on </title>
-    <link>http://localhost:5819/series/</link>
+    <link>http://localhost:4321/series/</link>
     <description>Recent content in Series on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2024 Viernes de Bioinformatica</copyright>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5819/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R</title>
-      <link>http://localhost:5819/series/r/</link>
+      <link>http://localhost:4321/series/r/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5819/series/r/</guid>
+      <guid>http://localhost:4321/series/r/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Viernes De Bioinformatica (2024)</title>
-      <link>http://localhost:5819/series/viernes-de-bioinformatica-2024/</link>
+      <link>http://localhost:4321/series/viernes-de-bioinformatica-2024/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5819/series/viernes-de-bioinformatica-2024/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>VB(2024)</title>
-      <link>http://localhost:5819/series/vb2024/</link>
-      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:5819/series/vb2024/</guid>
+      <guid>http://localhost:4321/series/viernes-de-bioinformatica-2024/</guid>
       <description></description>
       
     </item>
