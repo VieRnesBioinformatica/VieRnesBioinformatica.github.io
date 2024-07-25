@@ -2,7 +2,7 @@
 title: "Lista de Reproducción"
 draft: false
 date: 2010-10-10
-description: "Matriz y lista"
+description: "Lista de reproduccion de Viernes de Bioinformatica 2024"
 tags: ["Videos"]
 showAuthor: false
 showDate: false
