@@ -71,7 +71,9 @@ getwd()
 ```
 {{< alert icon = "code" >}}
 {{< typeit >}}
-[1] "C:/Users/ecoss/OneDrive - CINVESTAV/Documentos/Posdoc_LIIGH/VieRnesBioinfo/ViernesBioinfo_2024/Presentaciones"
+[1] "C:/Users/ecoss/OneDrive -
+CINVESTAV/Documentos/Posdoc_LIIGH/VieRnesBioinfo/ViernesBioinfo_20
+24/Presentaciones"
 {{< /typeit >}}
 {{< /alert >}}
 
