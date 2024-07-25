@@ -58,5 +58,15 @@
       
     </item>
     
+    <item>
+      <title>Videos</title>
+      <link>http://localhost:4321/tags/videos/</link>
+      <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/tags/videos/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

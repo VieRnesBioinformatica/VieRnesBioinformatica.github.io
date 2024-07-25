@@ -18,5 +18,10 @@ name = "Autores"
 url = "/authors"
 weight = 9
 
+[[main]]
+name = "Videos"
+url = "/playlist"
+weight = 8
+
 [[footer]]
 none = "none"

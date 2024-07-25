@@ -75,6 +75,8 @@
     <meta property="article:tag" content="Viernes">
     <meta property="article:tag" content="R">
     <meta property="og:image" content="http://localhost:4321/posts/manipulacion2/featured.png">
+      <meta property="og:see_also" content="http://localhost:4321/posts/manipulacion/">
+      <meta property="og:see_also" content="http://localhost:4321/posts/intrors/">
 
   
   <meta name="twitter:card" content="summary_large_image">
@@ -87,11 +89,11 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Posts",
+    "articleSection": "Publicaciones",
     "name": "Manipulación de datos con R base (matrix y lista)",
     "headline": "Manipulación de datos con R base (matrix y lista)",
     "description": "Matriz y lista",
-    "abstract": "an example to get you started",
+    
     "inLanguage": "es",
     "url" : "http:\/\/localhost:4321\/posts\/manipulacion2\/",
     "author" : {
@@ -107,7 +109,7 @@
     "keywords": ["Rstudio","viernes","R"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "41"
+    "wordCount": "0"
   }]
   </script>
 
@@ -532,7 +534,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/posts/"
-      >Posts</a
+      >Publicaciones</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -574,8 +576,6 @@
 
 
 
-  
-
 
 
 
@@ -601,7 +601,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-02-16 00:00:00 &#43;0000 UTC">16 febrero 2024</time><span class="px-2 text-primary-500">&middot;</span><span>41 palabras</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-02-16 00:00:00 &#43;0000 UTC">16 febrero 2024</time><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -714,12 +714,16 @@
   
   
   
+  
+  
 </div>
 
 
 
 
 <div class="flex flex-row flex-wrap items-center">
+  
+  
   
   
   
@@ -907,163 +911,94 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-     <div
-      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
-      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
-
-         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
-  <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Tabla de contenido
-  </summary>
-  <div
-    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#this-is-a-subheading">This is a subheading</a>
-      <ul>
-        <li><a href="#this-is-a-subsubheading">This is a subsubheading</a>
-          <ul>
-            <li><a href="#this-is-a-subsubsubheading">This is a subsubsubheading</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</details>
-<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
-  <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Tabla de contenido
-  </summary>
-  <div
-    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#this-is-a-subheading">This is a subheading</a>
-      <ul>
-        <li><a href="#this-is-a-subsubheading">This is a subsubheading</a>
-          <ul>
-            <li><a href="#this-is-a-subsubsubheading">This is a subsubsubheading</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</details>
-
- 
-<script>
-  (function () {
-    var $toc = $('#TableOfContents');
-    if ($toc.length > 0) {
-      var $window = $(window);
-
-      function onScroll() {
-        var currentScroll = $window.scrollTop();
-        var h = $('.anchor');
-        var id = "";
-        h.each(function (i, e) {
-          e = $(e);
-          if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = decodeURIComponent(e.attr('id'));
-          }
-        });
-        var active = $toc.find('a.active');      
-        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-        active.each(function (i, e) {
-          
-            $(e).removeClass('active');
-          
-        });
-        $toc.find('a[href="#' + id + '"]').addClass('active')
-        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
-          $(e).children('a').parents('ul').show();          
-        });
-      }
-
-      $window.on('scroll', onScroll);
-      $(document).ready(function () {
-        
-        onScroll();
-      });
-    }
-  })();
-</script>
-
-   </div>
-      </div>
-      
+    
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
         
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5" >
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        Viernes de Bioinformatica 2024 - Este artículo es parte de una serie.
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:4321/posts/intrors/">
+            Parte 1: Introduccion a Rstudio
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:4321/posts/manipulacion/">
+            Parte 2:  Manipulación de datos con R base (vector y dataframe)
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        Parte 3: Este artículo
+    </div>
+    
+    
+
+
+</details>
+
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>an example to get you started</p>
-
-
-<h1 class="relative group">This is a heading 
-    <div id="this-is-a-heading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-heading" aria-label="Ancla">#</a>
-    </span>        
-    
-</h1>
-
-
-<h2 class="relative group">This is a subheading 
-    <div id="this-is-a-subheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subheading" aria-label="Ancla">#</a>
-    </span>        
-    
-</h2>
-
-
-<h3 class="relative group">This is a subsubheading 
-    <div id="this-is-a-subsubheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subsubheading" aria-label="Ancla">#</a>
-    </span>        
-    
-</h3>
-
-
-<h4 class="relative group">This is a subsubsubheading 
-    <div id="this-is-a-subsubsubheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subsubsubheading" aria-label="Ancla">#</a>
-    </span>        
-    
-</h4>
-<p>This is a paragraph with <strong>bold</strong> and <em>italic</em> text.
-Check more at <a href="https://blowfish.page/" target="_blank">Blowfish documentation</a>
-undefined</p>
-
+          
         </div>
         
         
 
         
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        Viernes de Bioinformatica 2024 - Este artículo es parte de una serie.
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:4321/posts/intrors/">
+            Parte 1: Introduccion a Rstudio
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:4321/posts/manipulacion/">
+            Parte 2:  Manipulación de datos con R base (vector y dataframe)
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        Parte 3: Este artículo
+    </div>
+    
+    
+
+
+</details>
+
         
   
   <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
@@ -1357,12 +1292,16 @@ undefined</p>
   
   
   
+  
+  
 </div>
 
 
 
 
 <div class="flex flex-row flex-wrap items-center">
+  
+  
   
   
   
@@ -1548,12 +1487,16 @@ undefined</p>
   
   
   
+  
+  
 </div>
 
 
 
 
 <div class="flex flex-row flex-wrap items-center">
+  
+  
   
   
   
@@ -1744,13 +1687,7 @@ undefined</p>
   </footer>
 </article>
 
-      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
-  <a href="#the-top"
-    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-    aria-label="Ir arriba" title="Ir arriba">
-    &uarr;
-  </a>
-</div>
+      
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

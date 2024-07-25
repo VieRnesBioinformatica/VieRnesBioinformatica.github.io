@@ -2,11 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on </title>
-    <link>http://localhost:7927/series/</link>
+    <link>http://localhost:4321/series/</link>
     <description>Recent content in Series on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2024 Viernes de Bioinformatica</copyright>
-    <atom:link href="http://localhost:7927/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Viernes De Bioinformatica 2024</title>
+      <link>http://localhost:4321/series/viernes-de-bioinformatica-2024/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/series/viernes-de-bioinformatica-2024/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

@@ -38,5 +38,55 @@
       
     </item>
     
+    <item>
+      <title>Alejandra</title>
+      <link>http://localhost:4321/authors/alejandra/</link>
+      <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/authors/alejandra/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Domingo</title>
+      <link>http://localhost:4321/authors/domingo/</link>
+      <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/authors/domingo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Israel</title>
+      <link>http://localhost:4321/authors/israel/</link>
+      <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/authors/israel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Obed</title>
+      <link>http://localhost:4321/authors/obed/</link>
+      <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/authors/obed/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Shaday</title>
+      <link>http://localhost:4321/authors/shaday/</link>
+      <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/authors/shaday/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
