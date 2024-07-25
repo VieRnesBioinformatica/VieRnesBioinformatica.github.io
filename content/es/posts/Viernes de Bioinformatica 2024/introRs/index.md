@@ -8,7 +8,7 @@ showAuthor: false
 authors:
   - "sofia"
   - "evelia"
-series: ["Viernes de Bioinformatica 2024"]
+series: ["Viernes de Bioinformatica (2024)"]
 series_order: 1
 ---
 

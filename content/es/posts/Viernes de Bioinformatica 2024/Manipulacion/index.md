@@ -8,8 +8,8 @@ showAuthor: false
 authors:
  - "evelia"
  - "sofia"
-series: ["Viernes de Bioinformatica 2024"]
-series_order: 2 
+series: ["Viernes de Bioinformatica (2024)"]
+series_order: 2
 ---
 
 Vector y dataframe.
