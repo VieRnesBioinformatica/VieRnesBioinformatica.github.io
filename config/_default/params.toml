@@ -26,11 +26,11 @@ showScrollToTop = true
 [homepage]
 layout = "profile"
 showRecent = true
-showRecentItems = "3"
+showRecentItems = "5"
 showMoreLink = true
 showMoreLinkDest = "posts"
-cardView = true
-cardViewScreenWidth = false
+cardView = false
+cardViewScreenWidth = true
 layoutBackgroundBlur = true
 homepageImage = "g543.png"
 
@@ -62,6 +62,7 @@ showWordCount = true
 sharingLinks = [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email" ]
 showZenMode = true
 showComments = true
+
 [list]
 showHero = false
 layoutBackgroundBlur = true
@@ -100,9 +101,10 @@ groupByYear = false
 cardView = false
 cardViewScreenWidth = false
 showComments = true
+
 [firebase]
 apiKey = "AIzaSyCeu_el5C-sSInp4k6fcl0IxiXvrKZaWJo"
-authDomain =  "viebio-f2ddb.firebaseapp.com"
+authDomain = "viebio-f2ddb.firebaseapp.com"
 projectId = "viebio-f2ddb"
 storageBucket = "viebio-f2ddb.appspot.com"
 messagingSenderId = "881687198767"
