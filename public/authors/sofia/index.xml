@@ -15,7 +15,7 @@
       
       <guid>http://localhost:4321/posts/manipulacion/</guid>
       <description>Vector y dataframe.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/manipulacion/featured.png" />
     </item>
     
     <item>
