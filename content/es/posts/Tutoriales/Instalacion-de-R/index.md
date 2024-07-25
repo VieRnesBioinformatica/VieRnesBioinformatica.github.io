@@ -7,6 +7,8 @@ tags: ["R", "tutorial"]
 showAuthor: false
 authors:
  - "jorge"
+series: ["R"]
+series_order: 1
 ---
 
 # CRAN.
