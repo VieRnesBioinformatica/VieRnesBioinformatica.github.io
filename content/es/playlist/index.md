@@ -22,7 +22,7 @@ authors:
 
 ### Viernes 1. Información general del curso e Introducción a R
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/intrors/" >}}
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes1/" >}}
 
 -   Fecha: Viernes 2 de febrero 2024
 
@@ -42,7 +42,7 @@ authors:
 
 ### Viernes 2. Manipulación de datos con R base (vector y dataframe)
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/manipulacion/" >}}
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes2/" >}}
 
 -   Fecha: Viernes 9 de febrero 2024
 
@@ -64,7 +64,7 @@ authors:
 
 ### Viernes 3. Manipulación de datos con R base (matrix y lista)
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/manipulacion2/" >}}
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes3/" >}}
 
 -   Fecha: Viernes 16 de febrero 2024
 
