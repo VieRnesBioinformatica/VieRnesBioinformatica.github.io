@@ -30,32 +30,32 @@
     
     <item>
       <title>Manipulación de datos con R base (matrix y lista)</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes3/</link>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-3/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes3/</guid>
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-3/</guid>
       <description>Matrices chulis (no se que poner xd) .</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes3/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-3/featured.png" />
     </item>
     
     <item>
       <title> Manipulación de datos con R base (vector y dataframe)</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes2/</link>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-2/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes2/</guid>
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-2/</guid>
       <description>Vector y dataframe.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-2/featured.png" />
     </item>
     
     <item>
       <title>Introduccion a Rstudio</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes1/</link>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-1/</link>
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes1/</guid>
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-1/</guid>
       <description>RStudio es un entorno de desarrollo integrado (IDE) para R.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes1/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-1/featured.png" />
     </item>
     
     <item>

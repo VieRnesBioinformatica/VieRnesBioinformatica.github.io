@@ -31,14 +31,14 @@ Además, existen numerosas librerías que nos permiten realizar el análisis y m
 
 Aqui hay una guia para la instalacion de R
 
-{{< article link="/posts/instalacion-de-r/" >}}
+{{< article link="/posts/tutoriales/instalacion-de-r/" >}}
 
 ## Rstudio
 
 Es recomendable utilizar Rstudio para empezar a programar en R, puedes utilizar la siguiente guia para instalar y empezar un proyecto en Rstudio:
 
 
-{{< article link="/posts/intrors/" >}}
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-1/" >}}
 
 
 ## Comandos Basicos
