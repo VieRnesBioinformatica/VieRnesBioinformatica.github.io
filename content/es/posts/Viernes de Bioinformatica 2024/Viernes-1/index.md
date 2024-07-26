@@ -8,7 +8,7 @@ showAuthor: false
 authors:
   - "sofia"
   - "evelia"
-series: ["R"]
+series: ["Viernes2024"]
 series_order: 2
 seriesOpened: true
 ---
