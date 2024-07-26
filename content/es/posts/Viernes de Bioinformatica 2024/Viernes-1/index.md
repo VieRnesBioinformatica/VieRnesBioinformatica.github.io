@@ -9,7 +9,7 @@ authors:
   - "sofia"
   - "evelia"
 series: ["Viernes2024"]
-series_order: 2
+series_order: 1
 seriesOpened: true
 ---
 
