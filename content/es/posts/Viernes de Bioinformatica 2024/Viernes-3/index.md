@@ -58,8 +58,6 @@ x[,1]
 # [1] 1 2
 ```
 
-## **Extraer elementos de una matriz (matrix)**
-
 A diferencia del error que nos daria si no respetamos el [fila, columna], en las matrices si nos dara una salida:
 
 ```         
@@ -101,8 +99,6 @@ x
 # [2,]    2    4   15
 ```
 
-## **Ejercicios:**
-
 3)  Visualizacion en modo de vector
 
 ```         
@@ -121,34 +117,14 @@ x[, 3, drop = FALSE]
 # [2,]   15
 ```
 
-## **Ejercicios:**
-
-3)  Visualizacion en modo de vector
-
-```         
-x[, 3] 
-# [1] 10 15
-```
-
-4)  Visualizacion en modo de matriz
-
-```         
-x[, 3, drop = FALSE]
-
-#      [,1]
-
-# [1,]   10
-
-# [2,]   15
-```
 
 > NOTA: Por default se encuentra como `drop = TRUE` dentro del codigo interno, si queremos visualizar nuestros datos como una matriz de salida, podriamos cambiarlo a `drop = FALSE`.
 
-## **Ejercicios:**
+
 
 5)  Eliminar la columna 1
 
-```         
+```R         
 x[, -1]
 
 #      [,1] [,2]
@@ -160,7 +136,7 @@ x[, -1]
 
 6)  Eliminar multiples columnas y Visualizacion en modo de matriz
 
-```         
+```R         
 x[, -(1:2), drop = FALSE] # es lo mismo que x[, 3, drop = FALSE]
 
 #      [,1]
@@ -174,7 +150,7 @@ x[, -(1:2), drop = FALSE] # es lo mismo que x[, 3, drop = FALSE]
 
 En la clase anterior visualizamos los cambios que podemos realizarle al siguiente dataframe.
 
-```         
+```R      
 df <- data.frame(genes = paste0("Gen", seq_len(8)), 
 
       expression = c(3.8, 5.5, 6.3, 1.8, 9, rep(3,3)), 
@@ -184,7 +160,7 @@ df <- data.frame(genes = paste0("Gen", seq_len(8)),
 
 Si quiero visualizar los primeros 3 datos de la columna 1 en forma de matriz
 
-```         
+```R         
 head(df[,2, drop = FALSE],3)
 
 #   expression
@@ -200,7 +176,7 @@ head(df[,2, drop = FALSE],3)
 
 Estructura de la matriz:
 
-```         
+```R        
 str(x)
 
 #  num [1:2, 1:3] 1 2 3 4 10 15
@@ -212,7 +188,7 @@ class(x)
 
 Dimensiones:
 
-```         
+```R         
 dim(x)
 
 # [1] 2 3
@@ -220,7 +196,7 @@ dim(x)
 
 A diferencia de una dataframe, en la matriz el nombre de las filas y columnas es un valor `NULL`.
 
-```         
+```R         
 rownames(x) 
 
 # NULL
@@ -234,7 +210,7 @@ colnames(x)
 
 Recuerda que es una matriz de 2 filas con 3 columnas:
 
-```         
+```R         
 # Renombrar filas
 rownames(x) <- c("Gen1", "Gen2")
 
@@ -247,7 +223,7 @@ x
 # Gen2    2    4   15
 ```
 
-```         
+```R         
 # Renombrar columnas
 colnames(x) <- c("Condicion1", "Condicion2", "Condicion3")
 
@@ -264,7 +240,7 @@ x
 
 Dividir toda la matriz entre 2.
 
-```         
+```R         
 x / 2
 
 #      Condicion1 Condicion2 Condicion3
@@ -276,7 +252,7 @@ x / 2
 
 Elevar a la 2:
 
-```         
+```R         
 x ** 3
 
 #      Condicion1 Condicion2 Condicion3
@@ -290,7 +266,7 @@ x ** 3
 
 Usando la funcion `t()`. Se puede emplear en un dataframe tambien.
 
-```         
+```R         
 t(x)
 
 #            Gen1 Gen2
@@ -304,7 +280,7 @@ t(x)
 
 ## **Agregar información en la matriz (por columnas)**
 
-```         
+```R         
 # matriz 1
 
 matriz1 <- matrix(c("apple", "banana", "cherry", "orange","grape", "pineapple", "pear", "melon", "fig"), nrow = 3, ncol = 3)
@@ -332,7 +308,7 @@ newmatrix
 
 ## **Agregar información en la matriz (por filas)**
 
-```         
+```R         
 # Crear una nueva matriz mientras juntamos a la matriz 1
 
 newmatrix <- rbind(matriz1, c("strawberry", "blueberry", "raspberry"))
@@ -356,7 +332,7 @@ newmatrix
 
 Para un solo elemento, visualizacion tipo matriz
 
-```         
+```R         
 # Opcion A
 
 newmatrix == "apple"
@@ -374,7 +350,7 @@ newmatrix == "apple"
 
 Para un solo elemento, visualizacion tipo vector
 
-```         
+```R         
 # Opcion B
 
 newmatrix %in% "apple"
@@ -386,7 +362,7 @@ newmatrix %in% "apple"
 
 Para multiples elementos, visualizacion tipo matriz
 
-```         
+```R         
 # Opcion A
 
 newmatrix == c("apple", "melon")
@@ -404,7 +380,7 @@ newmatrix == c("apple", "melon")
 
 Para multiples elementos, visualizacion tipo vector
 
-```         
+```R         
 # Opcion B
 
 newmatrix %in% c("apple", "melon")
@@ -416,7 +392,7 @@ newmatrix %in% c("apple", "melon")
 
 Primero veamos como se declara una lista y su estructura:
 
-```         
+```R         
 # Declarar una lista, cada elemento esta separado por una coma
 
 mylist <- list("8", c(1,2,3))
@@ -436,7 +412,7 @@ mylist
 
 Estructura de la lista
 
-```         
+```R         
 str(mylist)
 
 # List of 2
@@ -448,7 +424,7 @@ str(mylist)
 
 Una lista puede contener vectores y matrices dentro:
 
-```         
+```R         
 myvector <- 1:10
 
 mymatrix <- matrix(1:4, nrow = 2)
@@ -459,7 +435,7 @@ mydf     <- data.frame("num" = 1:3, "let" = c("a", "b", "c"))
 
 Guardamos todo en la lista:
 
-```         
+```R         
 mylist <- list( 
 
   "vector" = myvector,
@@ -489,7 +465,7 @@ str(mylist)
 
 El largo de una lista es igual al número de elementos que contiene, sin importar de qué tipo o clase sean.
 
-```         
+```R         
 length(mylist)
 
 # [1] 3
@@ -497,7 +473,7 @@ length(mylist)
 
 Dado que una lista siempre tiene una sola dimensión, la función dim() nos devuelve `NULL`.
 
-```         
+```R         
 dim(mylist)
 
 # NULL
@@ -505,7 +481,7 @@ dim(mylist)
 
 Las listas tienen clase list, sin importar qué elementos contienen.
 
-```         
+```R         
 class(mylist)
 
 # [1] "list"
@@ -515,7 +491,7 @@ class(mylist)
 
 Para una lista, puede utilizar corchetes simples [ ] o corchetes dobles [[ ]], dependiendo de lo que desee extraer.
 
-```         
+```R         
 mylist <- list(myvector, mymatrix, mydf)
 
 mylist
@@ -557,7 +533,7 @@ Elementos en esta lista, las sublistas:
 
 Podemos utilizar [ ] para extraer una sublista que sólo contenga, por ejemplo, el primer elemento, que es el vector
 
-```         
+```R         
 mylist[1]
 
 # [[1]]
@@ -567,7 +543,7 @@ mylist[1]
 
 Tambien podemos utilizar [[ ]] para extraer un único elemento, que tendrá la clase de ese elemento.
 
-```         
+```R         
 mylist[[1]]
 
 #  [1]  1  2  3  4  5  6  7  8  9 10
@@ -575,7 +551,7 @@ mylist[[1]]
 
 En este caso para obtener el primer elemento de esta sublista, emplearemos lo visto en la clase anterior sobre dataframe.
 
-```         
+```R         
 mylist[[1]][1]
 
 # [1] 1
@@ -583,13 +559,13 @@ mylist[[1]][1]
 
 Asignar nombres a cada sublista
 
-```         
+```R         
 names(mylist) = c("vector", "matriz", "dataframe")
 ```
 
 Para obtener una sublista, podemos emplear lo visto para dataframe, empleando el nombre de la sublista.
 
-```         
+```R         
 mylist$vector
 
 #  [1]  1  2  3  4  5  6  7  8  9 10
@@ -597,7 +573,7 @@ mylist$vector
 
 O puedes usar:
 
-```         
+```R         
 mylist[["vector"]]
 
 #  [1]  1  2  3  4  5  6  7  8  9 10
@@ -605,7 +581,7 @@ mylist[["vector"]]
 
 Entonces para obtener el primer elemento de la sublista vector puedo hacerlo de la siguiente manera:
 
-```         
+```R         
 # Opcion A
 
 mylist[[1]][1]
@@ -629,7 +605,7 @@ mylist[["vector"]][1]
 
 Extraer el 3er elemento de la primera sublista.
 
-```         
+```R         
 # Opcion A
 
 mylist[[1]][3]
@@ -649,7 +625,7 @@ mylist[[c(1, 3)]]
 
 Si queremos las dos primeras sublistas, usaremos [] para seleccionarlas
 
-```         
+```R         
 # Opcion A
 
 mylist[c(1, 2)]
@@ -693,7 +669,7 @@ mylist[c("vector", "matriz")]
 
 Podemos realizar operaciones si especificamos a que elemento de la lista queremos ejecutarle alguna operacion.
 
-```         
+```R        
 mylist[[1]] * 2
 
 #  [1]  2  4  6  8 10 12 14 16 18 20
@@ -705,7 +681,7 @@ mylist[[1]] * 2
 
 Podemos emplear nuestros conocimientos previos para buscar elementos en una sublista:
 
-```         
+```R         
 # Ejemplo 1
 
 mylist$matriz[mylist$matriz == 2]
@@ -721,7 +697,7 @@ mylist$dataframe[mylist$dataframe == "a"]
 
 ## **Sustituir un elemento**
 
-```         
+```R         
 mylist$matriz[1] <- 5
 
 mylist$matriz
@@ -737,7 +713,7 @@ mylist$matriz
 
 Para eliminar una sublista debemos darle el valor de `NULL`. En este caso eliminaremos el primera sublista (elemento) que es el vector.
 
-```         
+```R         
 mylist[[1]] = NULL
 
 mylist
@@ -767,7 +743,7 @@ mylist
 
 Para agregar una sublista usaremos `$`.
 
-```         
+```R         
 mylist$occupation <- "Analista de datos"
 
 mylist
@@ -801,7 +777,7 @@ mylist
 
 ## **Agregar una lista existente**
 
-```         
+```R         
 frutas <- list( c("manzana", "pera", "uva")) 
 
 mylist <- c(mylist, "frutas" = frutas)  
@@ -845,7 +821,7 @@ mylist
 
 Sirve para agregar elementos a una lista. Toma tres argumentos: la lista original, los elementos a añadir y la posición en la vamos a añadirlos.
 
-```         
+```R         
 append(mylist, #lista original
 list(c("azul", "rojo", "verde", "negro")), #elementos por agregar en formato de lista
 

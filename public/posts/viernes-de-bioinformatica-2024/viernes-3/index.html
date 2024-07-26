@@ -109,7 +109,7 @@
     "keywords": ["Rstudio","viernes","R"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2072"
+    "wordCount": "2030"
   }]
   </script>
 
@@ -640,7 +640,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-02-16 00:00:00 &#43;0000 UTC">16 febrero 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2072 palabras</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-02-16 00:00:00 &#43;0000 UTC">16 febrero 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2030 palabras</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -919,11 +919,7 @@
   <ul>
     <li><a href="#matriz-matrix"><strong>Matriz (matrix)</strong></a></li>
     <li><a href="#extraer-elementos-de-una-matriz-matrix"><strong>Extraer elementos de una matriz (matrix)</strong></a></li>
-    <li><a href="#extraer-elementos-de-una-matriz-matrix-1"><strong>Extraer elementos de una matriz (matrix)</strong></a></li>
     <li><a href="#ejercicios"><strong>Ejercicios:</strong></a></li>
-    <li><a href="#ejercicios-1"><strong>Ejercicios:</strong></a></li>
-    <li><a href="#ejercicios-2"><strong>Ejercicios:</strong></a></li>
-    <li><a href="#ejercicios-3"><strong>Ejercicios:</strong></a></li>
     <li><a href="#tambien-podemos-usar-drop--false-en-los-dataframes"><strong>Tambien podemos usar <code>drop = FALSE</code> en los dataframes</strong></a></li>
     <li><a href="#propiedades-de-las-matrices"><strong>Propiedades de las matrices</strong></a></li>
     <li><a href="#renombrar-filas-y-columnas-en-la-matriz"><strong>Renombrar filas y columnas en la matriz</strong></a></li>
@@ -944,7 +940,7 @@
     <li><a href="#agregar-una-nueva-sublista"><strong>Agregar una nueva sublista</strong></a></li>
     <li><a href="#agregar-una-lista-existente"><strong>Agregar una lista existente</strong></a></li>
     <li><a href="#usar-append"><strong>Usar <code>append()</code></strong></a></li>
-    <li><a href="#ejercicios-4"><strong>Ejercicios</strong></a></li>
+    <li><a href="#ejercicios-1"><strong>Ejercicios</strong></a></li>
   </ul>
 </nav>
   </div>
@@ -960,11 +956,7 @@
   <ul>
     <li><a href="#matriz-matrix"><strong>Matriz (matrix)</strong></a></li>
     <li><a href="#extraer-elementos-de-una-matriz-matrix"><strong>Extraer elementos de una matriz (matrix)</strong></a></li>
-    <li><a href="#extraer-elementos-de-una-matriz-matrix-1"><strong>Extraer elementos de una matriz (matrix)</strong></a></li>
     <li><a href="#ejercicios"><strong>Ejercicios:</strong></a></li>
-    <li><a href="#ejercicios-1"><strong>Ejercicios:</strong></a></li>
-    <li><a href="#ejercicios-2"><strong>Ejercicios:</strong></a></li>
-    <li><a href="#ejercicios-3"><strong>Ejercicios:</strong></a></li>
     <li><a href="#tambien-podemos-usar-drop--false-en-los-dataframes"><strong>Tambien podemos usar <code>drop = FALSE</code> en los dataframes</strong></a></li>
     <li><a href="#propiedades-de-las-matrices"><strong>Propiedades de las matrices</strong></a></li>
     <li><a href="#renombrar-filas-y-columnas-en-la-matriz"><strong>Renombrar filas y columnas en la matriz</strong></a></li>
@@ -985,7 +977,7 @@
     <li><a href="#agregar-una-nueva-sublista"><strong>Agregar una nueva sublista</strong></a></li>
     <li><a href="#agregar-una-lista-existente"><strong>Agregar una lista existente</strong></a></li>
     <li><a href="#usar-append"><strong>Usar <code>append()</code></strong></a></li>
-    <li><a href="#ejercicios-4"><strong>Ejercicios</strong></a></li>
+    <li><a href="#ejercicios-1"><strong>Ejercicios</strong></a></li>
   </ul>
 </nav>
   </div>
@@ -1128,19 +1120,7 @@ x &lt;- matrix(seq(1,6), nrow = 2, ncol = 3)
 </code></pre><p>Obtener la información de la columna 1.</p>
 <pre tabindex="0"><code>x[,1]
 # [1] 1 2
-</code></pre>
-
-<h2 class="relative group"><strong>Extraer elementos de una matriz (matrix)</strong> 
-    <div id="extraer-elementos-de-una-matriz-matrix-1" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#extraer-elementos-de-una-matriz-matrix-1" aria-label="Ancla">#</a>
-    </span>        
-    
-</h2>
-<p>A diferencia del error que nos daria si no respetamos el [fila, columna], en las matrices si nos dara una salida:</p>
+</code></pre><p>A diferencia del error que nos daria si no respetamos el [fila, columna], en las matrices si nos dara una salida:</p>
 <pre tabindex="0"><code>x[2]
 # [1] 2
 </code></pre><p>Nos da el 2nd elemento contenido en la matriz, recuerdas que los elementos de la matriz al declararla eran c(1,2,3,4,5,6).</p>
@@ -1183,19 +1163,7 @@ x
 # [1,]    1    3   10
 
 # [2,]    2    4   15
-</code></pre>
-
-<h2 class="relative group"><strong>Ejercicios:</strong> 
-    <div id="ejercicios-1" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#ejercicios-1" aria-label="Ancla">#</a>
-    </span>        
-    
-</h2>
-<ol start="3">
+</code></pre><ol start="3">
 <li>Visualizacion en modo de vector</li>
 </ol>
 <pre tabindex="0"><code>x[, 3] 
@@ -1204,33 +1172,6 @@ x
 <li>Visualizacion en modo de matriz</li>
 </ol>
 <pre tabindex="0"><code>x[, 3, drop = FALSE]
-#      [,1]
-
-# [1,]   10
-
-# [2,]   15
-</code></pre>
-
-<h2 class="relative group"><strong>Ejercicios:</strong> 
-    <div id="ejercicios-2" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#ejercicios-2" aria-label="Ancla">#</a>
-    </span>        
-    
-</h2>
-<ol start="3">
-<li>Visualizacion en modo de vector</li>
-</ol>
-<pre tabindex="0"><code>x[, 3] 
-# [1] 10 15
-</code></pre><ol start="4">
-<li>Visualizacion en modo de matriz</li>
-</ol>
-<pre tabindex="0"><code>x[, 3, drop = FALSE]
-
 #      [,1]
 
 # [1,]   10
@@ -1239,39 +1180,27 @@ x
 </code></pre><blockquote>
 <p>NOTA: Por default se encuentra como <code>drop = TRUE</code> dentro del codigo interno, si queremos visualizar nuestros datos como una matriz de salida, podriamos cambiarlo a <code>drop = FALSE</code>.</p>
 </blockquote>
-
-
-<h2 class="relative group"><strong>Ejercicios:</strong> 
-    <div id="ejercicios-3" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#ejercicios-3" aria-label="Ancla">#</a>
-    </span>        
-    
-</h2>
 <ol start="5">
 <li>Eliminar la columna 1</li>
 </ol>
-<pre tabindex="0"><code>x[, -1]
-
-#      [,1] [,2]
-
-# [1,]    3   10
-
-# [2,]    4   15
-</code></pre><ol start="6">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">x[</span><span class="p">,</span> <span class="m">-1</span><span class="n">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    3   10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    4   15</span>
+</span></span></code></pre></div><ol start="6">
 <li>Eliminar multiples columnas y Visualizacion en modo de matriz</li>
 </ol>
-<pre tabindex="0"><code>x[, -(1:2), drop = FALSE] # es lo mismo que x[, 3, drop = FALSE]
-
-#      [,1]
-
-# [1,]   10
-
-# [2,]   15
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">x[</span><span class="p">,</span> <span class="o">-</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">2</span><span class="p">),</span> <span class="n">drop</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="n">]</span> <span class="c1"># es lo mismo que x[, 3, drop = FALSE]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]   10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]   15</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Tambien podemos usar <code>drop = FALSE</code> en los dataframes</strong> 
     <div id="tambien-podemos-usar-drop--false-en-los-dataframes" class="anchor"></div>
@@ -1284,22 +1213,22 @@ x
     
 </h2>
 <p>En la clase anterior visualizamos los cambios que podemos realizarle al siguiente dataframe.</p>
-<pre tabindex="0"><code>df &lt;- data.frame(genes = paste0(&#34;Gen&#34;, seq_len(8)), 
-
-      expression = c(3.8, 5.5, 6.3, 1.8, 9, rep(3,3)), 
-
-      treatment =c(rep(&#34;Control&#34;, 4), rep(&#34;Condicion1&#34;,4)))
-</code></pre><p>Si quiero visualizar los primeros 3 datos de la columna 1 en forma de matriz</p>
-<pre tabindex="0"><code>head(df[,2, drop = FALSE],3)
-
-#   expression
-
-# 1        3.8
-
-# 2        5.5
-
-# 3        6.3
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">df</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">genes</span> <span class="o">=</span> <span class="nf">paste0</span><span class="p">(</span><span class="s">&#34;Gen&#34;</span><span class="p">,</span> <span class="nf">seq_len</span><span class="p">(</span><span class="m">8</span><span class="p">)),</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="n">expression</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">3.8</span><span class="p">,</span> <span class="m">5.5</span><span class="p">,</span> <span class="m">6.3</span><span class="p">,</span> <span class="m">1.8</span><span class="p">,</span> <span class="m">9</span><span class="p">,</span> <span class="nf">rep</span><span class="p">(</span><span class="m">3</span><span class="p">,</span><span class="m">3</span><span class="p">)),</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="n">treatment</span> <span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="s">&#34;Control&#34;</span><span class="p">,</span> <span class="m">4</span><span class="p">),</span> <span class="nf">rep</span><span class="p">(</span><span class="s">&#34;Condicion1&#34;</span><span class="p">,</span><span class="m">4</span><span class="p">)))</span>
+</span></span></code></pre></div><p>Si quiero visualizar los primeros 3 datos de la columna 1 en forma de matriz</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">head</span><span class="p">(</span><span class="n">df[</span><span class="p">,</span><span class="m">2</span><span class="p">,</span> <span class="n">drop</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="n">]</span><span class="p">,</span><span class="m">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   expression</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1        3.8</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2        5.5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3        6.3</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Propiedades de las matrices</strong> 
     <div id="propiedades-de-las-matrices" class="anchor"></div>
@@ -1312,26 +1241,26 @@ x
     
 </h2>
 <p>Estructura de la matriz:</p>
-<pre tabindex="0"><code>str(x)
-
-#  num [1:2, 1:3] 1 2 3 4 10 15
-
-class(x)
-
-# [1] &#34;matrix&#34; &#34;array&#34;
-</code></pre><p>Dimensiones:</p>
-<pre tabindex="0"><code>dim(x)
-
-# [1] 2 3
-</code></pre><p>A diferencia de una dataframe, en la matriz el nombre de las filas y columnas es un valor <code>NULL</code>.</p>
-<pre tabindex="0"><code>rownames(x) 
-
-# NULL
-
-colnames(x)
-
-# NULL
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  num [1:2, 1:3] 1 2 3 4 10 15</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">class</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;matrix&#34; &#34;array&#34;</span>
+</span></span></code></pre></div><p>Dimensiones:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">dim</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 2 3</span>
+</span></span></code></pre></div><p>A diferencia de una dataframe, en la matriz el nombre de las filas y columnas es un valor <code>NULL</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">rownames</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># NULL</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">colnames</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># NULL</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Renombrar filas y columnas en la matriz</strong> 
     <div id="renombrar-filas-y-columnas-en-la-matriz" class="anchor"></div>
@@ -1344,27 +1273,27 @@ colnames(x)
     
 </h2>
 <p>Recuerda que es una matriz de 2 filas con 3 columnas:</p>
-<pre tabindex="0"><code># Renombrar filas
-rownames(x) &lt;- c(&#34;Gen1&#34;, &#34;Gen2&#34;)
-
-x
-
-#      [,1] [,2] [,3]
-
-# Gen1    1    3   10
-
-# Gen2    2    4   15
-</code></pre><pre tabindex="0"><code># Renombrar columnas
-colnames(x) &lt;- c(&#34;Condicion1&#34;, &#34;Condicion2&#34;, &#34;Condicion3&#34;)
-
-x
-
-#      Condicion1 Condicion2 Condicion3
-
-# Gen1          1          3         10
-
-# Gen2          2          4         15
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Renombrar filas</span>
+</span></span><span class="line"><span class="cl"><span class="nf">rownames</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;Gen1&#34;</span><span class="p">,</span> <span class="s">&#34;Gen2&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2] [,3]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Gen1    1    3   10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Gen2    2    4   15</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Renombrar columnas</span>
+</span></span><span class="line"><span class="cl"><span class="nf">colnames</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;Condicion1&#34;</span><span class="p">,</span> <span class="s">&#34;Condicion2&#34;</span><span class="p">,</span> <span class="s">&#34;Condicion3&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      Condicion1 Condicion2 Condicion3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Gen1          1          3         10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Gen2          2          4         15</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Operaciones en una matriz</strong> 
     <div id="operaciones-en-una-matriz" class="anchor"></div>
@@ -1377,22 +1306,22 @@ x
     
 </h2>
 <p>Dividir toda la matriz entre 2.</p>
-<pre tabindex="0"><code>x / 2
-
-#      Condicion1 Condicion2 Condicion3
-
-# Gen1        0.5        1.5        5.0
-
-# Gen2        1.0        2.0        7.5
-</code></pre><p>Elevar a la 2:</p>
-<pre tabindex="0"><code>x ** 3
-
-#      Condicion1 Condicion2 Condicion3
-
-# Gen1          1         27       1000
-
-# Gen2          8         64       3375
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">/</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      Condicion1 Condicion2 Condicion3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Gen1        0.5        1.5        5.0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Gen2        1.0        2.0        7.5</span>
+</span></span></code></pre></div><p>Elevar a la 2:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">**</span> <span class="m">3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      Condicion1 Condicion2 Condicion3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Gen1          1         27       1000</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Gen2          8         64       3375</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Transponer o invertir la matriz</strong> 
     <div id="transponer-o-invertir-la-matriz" class="anchor"></div>
@@ -1405,16 +1334,16 @@ x
     
 </h2>
 <p>Usando la funcion <code>t()</code>. Se puede emplear en un dataframe tambien.</p>
-<pre tabindex="0"><code>t(x)
-
-#            Gen1 Gen2
-
-# Condicion1    1    2
-
-# Condicion2    3    4
-
-# Condicion3   10   15
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">t</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#            Gen1 Gen2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Condicion1    1    2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Condicion2    3    4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Condicion3   10   15</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Agregar información en la matriz (por columnas)</strong> 
     <div id="agregar-informaci%C3%B3n-en-la-matriz-por-columnas" class="anchor"></div>
@@ -1426,28 +1355,28 @@ x
     </span>        
     
 </h2>
-<pre tabindex="0"><code># matriz 1
-
-matriz1 &lt;- matrix(c(&#34;apple&#34;, &#34;banana&#34;, &#34;cherry&#34;, &#34;orange&#34;,&#34;grape&#34;, &#34;pineapple&#34;, &#34;pear&#34;, &#34;melon&#34;, &#34;fig&#34;), nrow = 3, ncol = 3)
-
-# matriz 2
-
-matriz2 &lt;-  matrix(c(&#34;strawberry&#34;, &#34;blueberry&#34;, &#34;raspberry&#34;), nrow = 3, ncol = 1)
-
-# Juntar matrices
-
-newmatrix &lt;-  cbind(matriz1, matriz2)
-
-newmatrix
-
-#      [,1]     [,2]        [,3]    [,4]        
-
-# [1,] &#34;apple&#34;  &#34;orange&#34;    &#34;pear&#34;  &#34;strawberry&#34;
-
-# [2,] &#34;banana&#34; &#34;grape&#34;     &#34;melon&#34; &#34;blueberry&#34; 
-
-# [3,] &#34;cherry&#34; &#34;pineapple&#34; &#34;fig&#34;   &#34;raspberry&#34;
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># matriz 1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">matriz1</span> <span class="o">&lt;-</span> <span class="nf">matrix</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s">&#34;apple&#34;</span><span class="p">,</span> <span class="s">&#34;banana&#34;</span><span class="p">,</span> <span class="s">&#34;cherry&#34;</span><span class="p">,</span> <span class="s">&#34;orange&#34;</span><span class="p">,</span><span class="s">&#34;grape&#34;</span><span class="p">,</span> <span class="s">&#34;pineapple&#34;</span><span class="p">,</span> <span class="s">&#34;pear&#34;</span><span class="p">,</span> <span class="s">&#34;melon&#34;</span><span class="p">,</span> <span class="s">&#34;fig&#34;</span><span class="p">),</span> <span class="n">nrow</span> <span class="o">=</span> <span class="m">3</span><span class="p">,</span> <span class="n">ncol</span> <span class="o">=</span> <span class="m">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># matriz 2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">matriz2</span> <span class="o">&lt;-</span>  <span class="nf">matrix</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s">&#34;strawberry&#34;</span><span class="p">,</span> <span class="s">&#34;blueberry&#34;</span><span class="p">,</span> <span class="s">&#34;raspberry&#34;</span><span class="p">),</span> <span class="n">nrow</span> <span class="o">=</span> <span class="m">3</span><span class="p">,</span> <span class="n">ncol</span> <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Juntar matrices</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">newmatrix</span> <span class="o">&lt;-</span>  <span class="nf">cbind</span><span class="p">(</span><span class="n">matriz1</span><span class="p">,</span> <span class="n">matriz2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">newmatrix</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1]     [,2]        [,3]    [,4]        </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,] &#34;apple&#34;  &#34;orange&#34;    &#34;pear&#34;  &#34;strawberry&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,] &#34;banana&#34; &#34;grape&#34;     &#34;melon&#34; &#34;blueberry&#34; </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [3,] &#34;cherry&#34; &#34;pineapple&#34; &#34;fig&#34;   &#34;raspberry&#34;</span>
+</span></span></code></pre></div><blockquote>
 <p>NOTA: <code>cbind()</code> nos permite unir por columnas las dos matrices, respetando que ambas tienen 3 filas.</p>
 </blockquote>
 
@@ -1462,22 +1391,22 @@ newmatrix
     </span>        
     
 </h2>
-<pre tabindex="0"><code># Crear una nueva matriz mientras juntamos a la matriz 1
-
-newmatrix &lt;- rbind(matriz1, c(&#34;strawberry&#34;, &#34;blueberry&#34;, &#34;raspberry&#34;))
-
-newmatrix
-
-#      [,1]         [,2]        [,3]       
-
-# [1,] &#34;apple&#34;      &#34;orange&#34;    &#34;pear&#34;     
-
-# [2,] &#34;banana&#34;     &#34;grape&#34;     &#34;melon&#34;    
-
-# [3,] &#34;cherry&#34;     &#34;pineapple&#34; &#34;fig&#34;      
-
-# [4,] &#34;strawberry&#34; &#34;blueberry&#34; &#34;raspberry&#34;
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Crear una nueva matriz mientras juntamos a la matriz 1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">newmatrix</span> <span class="o">&lt;-</span> <span class="nf">rbind</span><span class="p">(</span><span class="n">matriz1</span><span class="p">,</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;strawberry&#34;</span><span class="p">,</span> <span class="s">&#34;blueberry&#34;</span><span class="p">,</span> <span class="s">&#34;raspberry&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">newmatrix</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1]         [,2]        [,3]       </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,] &#34;apple&#34;      &#34;orange&#34;    &#34;pear&#34;     </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,] &#34;banana&#34;     &#34;grape&#34;     &#34;melon&#34;    </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [3,] &#34;cherry&#34;     &#34;pineapple&#34; &#34;fig&#34;      </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [4,] &#34;strawberry&#34; &#34;blueberry&#34; &#34;raspberry&#34;</span>
+</span></span></code></pre></div><blockquote>
 <p>NOTA: <code>rbind()</code> nos permite unir por filas respetando que tenemos 3 elementos por fila.</p>
 </blockquote>
 
@@ -1493,26 +1422,26 @@ newmatrix
     
 </h2>
 <p>Para un solo elemento, visualizacion tipo matriz</p>
-<pre tabindex="0"><code># Opcion A
-
-newmatrix == &#34;apple&#34;
-
-#       [,1]  [,2]  [,3]
-
-# [1,]  TRUE FALSE FALSE
-
-# [2,] FALSE FALSE FALSE
-
-# [3,] FALSE FALSE FALSE
-
-# [4,] FALSE FALSE FALSE
-</code></pre><p>Para un solo elemento, visualizacion tipo vector</p>
-<pre tabindex="0"><code># Opcion B
-
-newmatrix %in% &#34;apple&#34;
-
-#  [1]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Opcion A</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">newmatrix</span> <span class="o">==</span> <span class="s">&#34;apple&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#       [,1]  [,2]  [,3]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]  TRUE FALSE FALSE</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,] FALSE FALSE FALSE</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [3,] FALSE FALSE FALSE</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [4,] FALSE FALSE FALSE</span>
+</span></span></code></pre></div><p>Para un solo elemento, visualizacion tipo vector</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Opcion B</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">newmatrix</span> <span class="o">%in%</span> <span class="s">&#34;apple&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Extraer datos en una matriz</strong> 
     <div id="extraer-datos-en-una-matriz-1" class="anchor"></div>
@@ -1525,26 +1454,26 @@ newmatrix %in% &#34;apple&#34;
     
 </h2>
 <p>Para multiples elementos, visualizacion tipo matriz</p>
-<pre tabindex="0"><code># Opcion A
-
-newmatrix == c(&#34;apple&#34;, &#34;melon&#34;)
-
-#       [,1]  [,2]  [,3]
-
-# [1,]  TRUE FALSE FALSE
-
-# [2,] FALSE FALSE  TRUE
-
-# [3,] FALSE FALSE FALSE
-
-# [4,] FALSE FALSE FALSE
-</code></pre><p>Para multiples elementos, visualizacion tipo vector</p>
-<pre tabindex="0"><code># Opcion B
-
-newmatrix %in% c(&#34;apple&#34;, &#34;melon&#34;)
-
-#  [1]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Opcion A</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">newmatrix</span> <span class="o">==</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;apple&#34;</span><span class="p">,</span> <span class="s">&#34;melon&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#       [,1]  [,2]  [,3]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]  TRUE FALSE FALSE</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,] FALSE FALSE  TRUE</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [3,] FALSE FALSE FALSE</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [4,] FALSE FALSE FALSE</span>
+</span></span></code></pre></div><p>Para multiples elementos, visualizacion tipo vector</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Opcion B</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">newmatrix</span> <span class="o">%in%</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;apple&#34;</span><span class="p">,</span> <span class="s">&#34;melon&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Crear una lista (list)</strong> 
     <div id="crear-una-lista-list" class="anchor"></div>
@@ -1557,73 +1486,73 @@ newmatrix %in% c(&#34;apple&#34;, &#34;melon&#34;)
     
 </h2>
 <p>Primero veamos como se declara una lista y su estructura:</p>
-<pre tabindex="0"><code># Declarar una lista, cada elemento esta separado por una coma
-
-mylist &lt;- list(&#34;8&#34;, c(1,2,3))
-
-mylist
-
-# [[1]]
-
-# [1] &#34;8&#34;
-
-# 
-
-# [[2]]
-
-# [1] 1 2 3
-</code></pre><p>Estructura de la lista</p>
-<pre tabindex="0"><code>str(mylist)
-
-# List of 2
-
-#  $ : chr &#34;8&#34;
-
-#  $ : num [1:3] 1 2 3
-</code></pre><p>Una lista puede contener vectores y matrices dentro:</p>
-<pre tabindex="0"><code>myvector &lt;- 1:10
-
-mymatrix &lt;- matrix(1:4, nrow = 2)
-
-mydf     &lt;- data.frame(&#34;num&#34; = 1:3, &#34;let&#34; = c(&#34;a&#34;, &#34;b&#34;, &#34;c&#34;))
-</code></pre><p>Guardamos todo en la lista:</p>
-<pre tabindex="0"><code>mylist &lt;- list( 
-
-  &#34;vector&#34; = myvector,
-
-  &#34;matriz&#34; = mymatrix,
-
-  &#34;dataframe&#34; = mydf
-
-)
-
-str(mylist)
-
-# List of 3
-
-#  $ vector   : int [1:10] 1 2 3 4 5 6 7 8 9 10
-
-#  $ matriz   : int [1:2, 1:2] 1 2 3 4
-
-#  $ dataframe:&#39;data.frame&#39;:    3 obs. of  2 variables:
-
-#   ..$ num: int [1:3] 1 2 3
-
-#   ..$ let: chr [1:3] &#34;a&#34; &#34;b&#34; &#34;c&#34;
-</code></pre><p><strong>Propiedades de una lista</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Declarar una lista, cada elemento esta separado por una coma</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span><span class="s">&#34;8&#34;</span><span class="p">,</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">3</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;8&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[2]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 1 2 3</span>
+</span></span></code></pre></div><p>Estructura de la lista</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">str</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># List of 2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  $ : chr &#34;8&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  $ : num [1:3] 1 2 3</span>
+</span></span></code></pre></div><p>Una lista puede contener vectores y matrices dentro:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">myvector</span> <span class="o">&lt;-</span> <span class="m">1</span><span class="o">:</span><span class="m">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mymatrix</span> <span class="o">&lt;-</span> <span class="nf">matrix</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">4</span><span class="p">,</span> <span class="n">nrow</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mydf</span>     <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span><span class="s">&#34;num&#34;</span> <span class="o">=</span> <span class="m">1</span><span class="o">:</span><span class="m">3</span><span class="p">,</span> <span class="s">&#34;let&#34;</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;a&#34;</span><span class="p">,</span> <span class="s">&#34;b&#34;</span><span class="p">,</span> <span class="s">&#34;c&#34;</span><span class="p">))</span>
+</span></span></code></pre></div><p>Guardamos todo en la lista:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;vector&#34;</span> <span class="o">=</span> <span class="n">myvector</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;matriz&#34;</span> <span class="o">=</span> <span class="n">mymatrix</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;dataframe&#34;</span> <span class="o">=</span> <span class="n">mydf</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">str</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># List of 3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  $ vector   : int [1:10] 1 2 3 4 5 6 7 8 9 10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  $ matriz   : int [1:2, 1:2] 1 2 3 4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  $ dataframe:&#39;data.frame&#39;:    3 obs. of  2 variables:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   ..$ num: int [1:3] 1 2 3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   ..$ let: chr [1:3] &#34;a&#34; &#34;b&#34; &#34;c&#34;</span>
+</span></span></code></pre></div><p><strong>Propiedades de una lista</strong></p>
 <p>El largo de una lista es igual al número de elementos que contiene, sin importar de qué tipo o clase sean.</p>
-<pre tabindex="0"><code>length(mylist)
-
-# [1] 3
-</code></pre><p>Dado que una lista siempre tiene una sola dimensión, la función dim() nos devuelve <code>NULL</code>.</p>
-<pre tabindex="0"><code>dim(mylist)
-
-# NULL
-</code></pre><p>Las listas tienen clase list, sin importar qué elementos contienen.</p>
-<pre tabindex="0"><code>class(mylist)
-
-# [1] &#34;list&#34;
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">length</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 3</span>
+</span></span></code></pre></div><p>Dado que una lista siempre tiene una sola dimensión, la función dim() nos devuelve <code>NULL</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">dim</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># NULL</span>
+</span></span></code></pre></div><p>Las listas tienen clase list, sin importar qué elementos contienen.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">class</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;list&#34;</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Extraer elementos de una lista</strong> 
     <div id="extraer-elementos-de-una-lista" class="anchor"></div>
@@ -1636,36 +1565,36 @@ str(mylist)
     
 </h2>
 <p>Para una lista, puede utilizar corchetes simples [ ] o corchetes dobles [[ ]], dependiendo de lo que desee extraer.</p>
-<pre tabindex="0"><code>mylist &lt;- list(myvector, mymatrix, mydf)
-
-mylist
-
-# [[1]]
-
-#  [1]  1  2  3  4  5  6  7  8  9 10
-
-# 
-
-# [[2]]
-
-#      [,1] [,2]
-
-# [1,]    1    3
-
-# [2,]    2    4
-
-# 
-
-# [[3]]
-
-#   num let
-
-# 1   1   a
-
-# 2   2   b
-
-# 3   3   c
-</code></pre><p>Elementos en esta lista, las sublistas:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span><span class="n">myvector</span><span class="p">,</span> <span class="n">mymatrix</span><span class="p">,</span> <span class="n">mydf</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  1  2  3  4  5  6  7  8  9 10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[2]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    1    3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    2    4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[3]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   num let</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1   1   a</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2   2   b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3   3   c</span>
+</span></span></code></pre></div><p>Elementos en esta lista, las sublistas:</p>
 <ul>
 <li>
 <p>[[1]] - Vector (myvector)</p>
@@ -1678,48 +1607,48 @@ mylist
 </li>
 </ul>
 <p>Podemos utilizar [ ] para extraer una sublista que sólo contenga, por ejemplo, el primer elemento, que es el vector</p>
-<pre tabindex="0"><code>mylist[1]
-
-# [[1]]
-
-#  [1]  1  2  3  4  5  6  7  8  9 10
-</code></pre><p>Tambien podemos utilizar [[ ]] para extraer un único elemento, que tendrá la clase de ese elemento.</p>
-<pre tabindex="0"><code>mylist[[1]]
-
-#  [1]  1  2  3  4  5  6  7  8  9 10
-</code></pre><p>En este caso para obtener el primer elemento de esta sublista, emplearemos lo visto en la clase anterior sobre dataframe.</p>
-<pre tabindex="0"><code>mylist[[1]][1]
-
-# [1] 1
-</code></pre><p>Asignar nombres a cada sublista</p>
-<pre tabindex="0"><code>names(mylist) = c(&#34;vector&#34;, &#34;matriz&#34;, &#34;dataframe&#34;)
-</code></pre><p>Para obtener una sublista, podemos emplear lo visto para dataframe, empleando el nombre de la sublista.</p>
-<pre tabindex="0"><code>mylist$vector
-
-#  [1]  1  2  3  4  5  6  7  8  9 10
-</code></pre><p>O puedes usar:</p>
-<pre tabindex="0"><code>mylist[[&#34;vector&#34;]]
-
-#  [1]  1  2  3  4  5  6  7  8  9 10
-</code></pre><p>Entonces para obtener el primer elemento de la sublista vector puedo hacerlo de la siguiente manera:</p>
-<pre tabindex="0"><code># Opcion A
-
-mylist[[1]][1]
-
-# [1] 1
-
-# Opcion B
-
-mylist$vector[1]
-
-# [1] 1
-
-# Opcion C
-
-mylist[[&#34;vector&#34;]][1]
-
-# [1] 1
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist[1]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  1  2  3  4  5  6  7  8  9 10</span>
+</span></span></code></pre></div><p>Tambien podemos utilizar [[ ]] para extraer un único elemento, que tendrá la clase de ese elemento.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist[[1]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  1  2  3  4  5  6  7  8  9 10</span>
+</span></span></code></pre></div><p>En este caso para obtener el primer elemento de esta sublista, emplearemos lo visto en la clase anterior sobre dataframe.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist[[1]][1]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 1</span>
+</span></span></code></pre></div><p>Asignar nombres a cada sublista</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">names</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;vector&#34;</span><span class="p">,</span> <span class="s">&#34;matriz&#34;</span><span class="p">,</span> <span class="s">&#34;dataframe&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>Para obtener una sublista, podemos emplear lo visto para dataframe, empleando el nombre de la sublista.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist</span><span class="o">$</span><span class="n">vector</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  1  2  3  4  5  6  7  8  9 10</span>
+</span></span></code></pre></div><p>O puedes usar:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist[[</span><span class="s">&#34;vector&#34;</span><span class="n">]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  1  2  3  4  5  6  7  8  9 10</span>
+</span></span></code></pre></div><p>Entonces para obtener el primer elemento de la sublista vector puedo hacerlo de la siguiente manera:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Opcion A</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist[[1]][1]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Opcion B</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span><span class="o">$</span><span class="n">vector[1]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Opcion C</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist[[</span><span class="s">&#34;vector&#34;</span><span class="n">]][1]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 1</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Otra forma de extraer elementos de una lista</strong> 
     <div id="otra-forma-de-extraer-elementos-de-una-lista" class="anchor"></div>
@@ -1732,18 +1661,18 @@ mylist[[&#34;vector&#34;]][1]
     
 </h2>
 <p>Extraer el 3er elemento de la primera sublista.</p>
-<pre tabindex="0"><code># Opcion A
-
-mylist[[1]][3]
-
-# [1] 3
-
-# Opcion B
-
-mylist[[c(1, 3)]]
-
-# [1] 3
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Opcion A</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist[[1]][3]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Opcion B</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist[</span><span class="nf">[c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">3</span><span class="p">)</span><span class="n">]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 3</span>
+</span></span></code></pre></div><blockquote>
 <p>NOTA: Dentro del c(), primero colocamos la sublista y luego el elemento. c(sublista, elemento).</p>
 </blockquote>
 
@@ -1759,42 +1688,42 @@ mylist[[c(1, 3)]]
     
 </h2>
 <p>Si queremos las dos primeras sublistas, usaremos [] para seleccionarlas</p>
-<pre tabindex="0"><code># Opcion A
-
-mylist[c(1, 2)]
-
-# $vector
-
-#  [1]  1  2  3  4  5  6  7  8  9 10
-
-# 
-
-# $matriz
-
-#      [,1] [,2]
-
-# [1,]    1    3
-
-# [2,]    2    4
-
-# Opcion B
-
-mylist[c(&#34;vector&#34;, &#34;matriz&#34;)]
-
-# $vector
-
-#  [1]  1  2  3  4  5  6  7  8  9 10
-
-# 
-
-# $matriz
-
-#      [,1] [,2]
-
-# [1,]    1    3
-
-# [2,]    2    4
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Opcion A</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span><span class="nf">[c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">)</span><span class="n">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $vector</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  1  2  3  4  5  6  7  8  9 10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $matriz</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    1    3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    2    4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Opcion B</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span><span class="nf">[c</span><span class="p">(</span><span class="s">&#34;vector&#34;</span><span class="p">,</span> <span class="s">&#34;matriz&#34;</span><span class="p">)</span><span class="n">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $vector</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  1  2  3  4  5  6  7  8  9 10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $matriz</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    1    3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    2    4</span>
+</span></span></code></pre></div><blockquote>
 <p>NOTA: Son [] simples para llamar sublistas y [[]] para nombrar a los elementos de las sublistas.</p>
 </blockquote>
 
@@ -1810,10 +1739,10 @@ mylist[c(&#34;vector&#34;, &#34;matriz&#34;)]
     
 </h2>
 <p>Podemos realizar operaciones si especificamos a que elemento de la lista queremos ejecutarle alguna operacion.</p>
-<pre tabindex="0"><code>mylist[[1]] * 2
-
-#  [1]  2  4  6  8 10 12 14 16 18 20
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist[[1]]</span> <span class="o">*</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#  [1]  2  4  6  8 10 12 14 16 18 20</span>
+</span></span></code></pre></div><blockquote>
 <p>NOTA: No olvides los [[]] para indicar los elementos contenidos en la lista.</p>
 </blockquote>
 
@@ -1829,18 +1758,18 @@ mylist[c(&#34;vector&#34;, &#34;matriz&#34;)]
     
 </h2>
 <p>Podemos emplear nuestros conocimientos previos para buscar elementos en una sublista:</p>
-<pre tabindex="0"><code># Ejemplo 1
-
-mylist$matriz[mylist$matriz == 2]
-
-# [1] 2
-
-# Ejemplo 2
-
-mylist$dataframe[mylist$dataframe == &#34;a&#34;]
-
-# [1] &#34;a&#34;
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Ejemplo 1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span><span class="o">$</span><span class="n">matriz[mylist</span><span class="o">$</span><span class="n">matriz</span> <span class="o">==</span> <span class="m">2</span><span class="n">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] 2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Ejemplo 2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span><span class="o">$</span><span class="n">dataframe[mylist</span><span class="o">$</span><span class="n">dataframe</span> <span class="o">==</span> <span class="s">&#34;a&#34;</span><span class="n">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;a&#34;</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Sustituir un elemento</strong> 
     <div id="sustituir-un-elemento" class="anchor"></div>
@@ -1852,16 +1781,16 @@ mylist$dataframe[mylist$dataframe == &#34;a&#34;]
     </span>        
     
 </h2>
-<pre tabindex="0"><code>mylist$matriz[1] &lt;- 5
-
-mylist$matriz
-
-#      [,1] [,2]
-
-# [1,]    5    3
-
-# [2,]    2    4
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist</span><span class="o">$</span><span class="n">matriz[1]</span> <span class="o">&lt;-</span> <span class="m">5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span><span class="o">$</span><span class="n">matriz</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    5    3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    2    4</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Eliminar una sublista</strong> 
     <div id="eliminar-una-sublista" class="anchor"></div>
@@ -1874,30 +1803,30 @@ mylist$matriz
     
 </h2>
 <p>Para eliminar una sublista debemos darle el valor de <code>NULL</code>. En este caso eliminaremos el primera sublista (elemento) que es el vector.</p>
-<pre tabindex="0"><code>mylist[[1]] = NULL
-
-mylist
-
-# $matriz
-
-#      [,1] [,2]
-
-# [1,]    5    3
-
-# [2,]    2    4
-
-# 
-
-# $dataframe
-
-#   num let
-
-# 1   1   a
-
-# 2   2   b
-
-# 3   3   c
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist[[1]]</span> <span class="o">=</span> <span class="kc">NULL</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $matriz</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    5    3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    2    4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $dataframe</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   num let</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1   1   a</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2   2   b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3   3   c</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Agregar una nueva sublista</strong> 
     <div id="agregar-una-nueva-sublista" class="anchor"></div>
@@ -1910,36 +1839,36 @@ mylist
     
 </h2>
 <p>Para agregar una sublista usaremos <code>$</code>.</p>
-<pre tabindex="0"><code>mylist$occupation &lt;- &#34;Analista de datos&#34;
-
-mylist
-
-# $matriz
-
-#      [,1] [,2]
-
-# [1,]    5    3
-
-# [2,]    2    4
-
-# 
-
-# $dataframe
-
-#   num let
-
-# 1   1   a
-
-# 2   2   b
-
-# 3   3   c
-
-# 
-
-# $occupation
-
-# [1] &#34;Analista de datos&#34;
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">mylist</span><span class="o">$</span><span class="n">occupation</span> <span class="o">&lt;-</span> <span class="s">&#34;Analista de datos&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $matriz</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    5    3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    2    4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $dataframe</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   num let</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1   1   a</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2   2   b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3   3   c</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $occupation</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;Analista de datos&#34;</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Agregar una lista existente</strong> 
     <div id="agregar-una-lista-existente" class="anchor"></div>
@@ -1951,44 +1880,44 @@ mylist
     </span>        
     
 </h2>
-<pre tabindex="0"><code>frutas &lt;- list( c(&#34;manzana&#34;, &#34;pera&#34;, &#34;uva&#34;)) 
-
-mylist &lt;- c(mylist, &#34;frutas&#34; = frutas)  
-
-mylist  
-
-# $matriz
-
-#      [,1] [,2]
-
-# [1,]    5    3
-
-# [2,]    2    4
-
-# 
-
-# $dataframe
-
-#   num let
-
-# 1   1   a
-
-# 2   2   b
-
-# 3   3   c
-
-# 
-
-# $occupation
-
-# [1] &#34;Analista de datos&#34;
-
-# 
-
-# $frutas
-
-# [1] &#34;manzana&#34; &#34;pera&#34;    &#34;uva&#34;
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="n">frutas</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;manzana&#34;</span><span class="p">,</span> <span class="s">&#34;pera&#34;</span><span class="p">,</span> <span class="s">&#34;uva&#34;</span><span class="p">))</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="n">mylist</span><span class="p">,</span> <span class="s">&#34;frutas&#34;</span> <span class="o">=</span> <span class="n">frutas</span><span class="p">)</span>  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">mylist</span>  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $matriz</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    5    3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    2    4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $dataframe</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   num let</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1   1   a</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2   2   b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3   3   c</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $occupation</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;Analista de datos&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $frutas</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;manzana&#34; &#34;pera&#34;    &#34;uva&#34;</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Usar <code>append()</code></strong> 
     <div id="usar-append" class="anchor"></div>
@@ -2001,59 +1930,59 @@ mylist
     
 </h2>
 <p>Sirve para agregar elementos a una lista. Toma tres argumentos: la lista original, los elementos a añadir y la posición en la vamos a añadirlos.</p>
-<pre tabindex="0"><code>append(mylist, #lista original
-list(c(&#34;azul&#34;, &#34;rojo&#34;, &#34;verde&#34;, &#34;negro&#34;)), #elementos por agregar en formato de lista
-
-       after = 2 # Posicion
-
-       )
-
-# $matriz
-
-#      [,1] [,2]
-
-# [1,]    5    3
-
-# [2,]    2    4
-
-# 
-
-# $dataframe
-
-#   num let
-
-# 1   1   a
-
-# 2   2   b
-
-# 3   3   c
-
-# 
-
-# [[3]]
-
-# [1] &#34;azul&#34;  &#34;rojo&#34;  &#34;verde&#34; &#34;negro&#34;
-
-# 
-
-# $occupation
-
-# [1] &#34;Analista de datos&#34;
-
-# 
-
-# $frutas
-
-# [1] &#34;manzana&#34; &#34;pera&#34;    &#34;uva&#34;
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">append</span><span class="p">(</span><span class="n">mylist</span><span class="p">,</span> <span class="c1">#lista original</span>
+</span></span><span class="line"><span class="cl"><span class="nf">list</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s">&#34;azul&#34;</span><span class="p">,</span> <span class="s">&#34;rojo&#34;</span><span class="p">,</span> <span class="s">&#34;verde&#34;</span><span class="p">,</span> <span class="s">&#34;negro&#34;</span><span class="p">)),</span> <span class="c1">#elementos por agregar en formato de lista</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="n">after</span> <span class="o">=</span> <span class="m">2</span> <span class="c1"># Posicion</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $matriz</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#      [,1] [,2]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1,]    5    3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [2,]    2    4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $dataframe</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#   num let</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1   1   a</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2   2   b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3   3   c</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[3]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;azul&#34;  &#34;rojo&#34;  &#34;verde&#34; &#34;negro&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $occupation</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;Analista de datos&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># $frutas</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;manzana&#34; &#34;pera&#34;    &#34;uva&#34;</span>
+</span></span></code></pre></div>
 
 <h2 class="relative group"><strong>Ejercicios</strong> 
-    <div id="ejercicios-4" class="anchor"></div>
+    <div id="ejercicios-1" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#ejercicios-4" aria-label="Ancla">#</a>
+            style="text-decoration-line: none !important;" href="#ejercicios-1" aria-label="Ancla">#</a>
     </span>        
     
 </h2>
