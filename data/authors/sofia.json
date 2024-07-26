@@ -1,9 +1,10 @@
 {
-    "name": "Sofia Salazar",
+    "name": "Sofia Guadalupe Salazar Magaña",
     "image" : "Autores/SofiaSalazar.jpeg",
-    "bio": "Estudiante de Licenciatura en Ciencias Genomicas, ENES Juriquilla - UNAM",
+    "bio": "Lic. Ciencias Genómicas",
     "social": [
-        {"github": "https://github.com/SophSM"}
+        {"github": "https://github.com/SophSM",
+         "x-twitter": "https://www.x.com/ssalazar_02"}
     ]
 }
  

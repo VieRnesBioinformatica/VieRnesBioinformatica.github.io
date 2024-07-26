@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sofia Salazar on </title>
+    <title>Sofia Guadalupe Salazar Magaña on </title>
     <link>http://localhost:4321/authors/sofia/</link>
-    <description>Recent content in Sofia Salazar on </description>
+    <description>Recent content in Sofia Guadalupe Salazar Magaña on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2024 Viernes de Bioinformatica</copyright>
@@ -14,7 +14,7 @@
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-3/</guid>
-      <description>Matrices chulis (no se que poner xd) .</description>
+      <description>Matrices y Listas.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-3/featured.png" />
     </item>
     

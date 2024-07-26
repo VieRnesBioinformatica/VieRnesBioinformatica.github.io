@@ -38,7 +38,9 @@ authors:
 
     -   [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
-<iframe src="https://drive.google.com/file/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+</iframe>
 
 ### Viernes 2. Manipulación de datos con R base (vector y dataframe)
 
@@ -58,9 +60,7 @@ authors:
 
     -   [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
--   Grabación: 
-<iframe src="https://drive.google.com/file/d/16vskGRS0QAS7f3acI886BVWgLI7j3dkf/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
-
+-   Grabación: <iframe src="https://drive.google.com/file/d/16vskGRS0QAS7f3acI886BVWgLI7j3dkf/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 3. Manipulación de datos con R base (matrix y lista)
 
@@ -72,11 +72,11 @@ authors:
 
 -   Presentación: [Manipulación de datos con R base (matrix y lista)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D3_ManipulacionDatos_P2.html#1)
 
--   Grabación: 
+-   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1btEicNMEOYE9b-8xmACiR4qKc9YOgIEy/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1btEicNMEOYE9b-8xmACiR4qKc9YOgIEy/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-
+</iframe>
 
 ### Viernes 4. Introducción a Rmarkdown
 
@@ -88,9 +88,9 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1Efrm9AtSV4S8frzkKT_-a-AMAa-m1DXx/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1Efrm9AtSV4S8frzkKT_-a-AMAa-m1DXx/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-
+</iframe>
 
 ### Viernes 5. Terapia de Bioinfo grupal (opcional)
 
@@ -100,8 +100,7 @@ authors:
 
 -   Presentación: [Resolucion de problemas](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase5_%20Viernes%20de%20Bioinfo.pdf)
 
--   Grabación:
-<iframe src="https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+-   Grabación: <iframe src="https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 6. Manipulación de datos con funciones de R base
 
@@ -115,12 +114,11 @@ authors:
 
 -   Output: Variables [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
 
+-   Grabación:
 
--   Grabación: 
+<iframe src="https://drive.google.com/file/d/1QlYPZu25JUC-yY8EhGoVV4HnvjtBdCX1/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-<iframe src="https://drive.google.com/file/d/1QlYPZu25JUC-yY8EhGoVV4HnvjtBdCX1/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
-
-
+</iframe>
 
 ### Viernes 7. Manipulación de datos usando dplyr
 
@@ -130,15 +128,15 @@ authors:
 
 -   Presentación: [Manipulación de datos usando dplyr](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D7_Manipulacion_dplyr.html#1)
 
-
 -   Script: [MarvelvsDCComics_Join_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_Join_script.R)
 
 -   Input: Vamos a emplear el Output de la clase 6 [Info_data.RData](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/Info_data.RData)
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1eL6Kpr--F8Bak--ahKhX7_W0T4Q6TP7Y/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1eL6Kpr--F8Bak--ahKhX7_W0T4Q6TP7Y/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
+</iframe>
 
 ### Viernes 8. Generación de diversos gráficos usando ggplot2
 
@@ -152,9 +150,9 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-
+</iframe>
 
 ### Viernes 9. Terapia de Bioinfo grupal (opcional)
 
@@ -166,9 +164,9 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-
+</iframe>
 
 ### Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap)
 
@@ -176,21 +174,17 @@ authors:
 
 -   Instructora: Sofia Salazar
 
-
-
 -   Script: \* [get_data.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/get_data.R) \* [heatmap_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_Heatmaps/heatmap_clase.R)
 
--   Data: 
- [*Clase_Heatmaps/data](https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data)
-
+-   Data: [\*Clase_Heatmaps/data](https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase_Heatmaps/data)
 
 -   Manual de [Complexheatmap](https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html)
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1zqvo38VxFaxdfYdxqfESv4C0PwN8X_Pd/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1zqvo38VxFaxdfYdxqfESv4C0PwN8X_Pd/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-
+</iframe>
 
 ### Viernes 11 y 12. Bioestadistica parte 1
 
@@ -200,13 +194,9 @@ authors:
 
 -   Grabación:
 
-    -   Parte 1. 
-    <iframe src="https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
-    
+    -   Parte 1. <iframe src="https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
-    -   Parte 2. 
-    <iframe src="https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
-    
+    -   Parte 2. <iframe src="https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 13. Terapia de Bioinfo grupal (opcional)
 
@@ -218,9 +208,9 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-
+</iframe>
 
 ### Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
 
@@ -238,26 +228,23 @@ authors:
 
 -   Grabación:
 
-    - Clase 14
-    
-    <iframe src="https://drive.google.com/file/d/1FoCG0hKrTzpUCJBquRRnfm1USTDBFF2S/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
-    
+    -   Clase 14
 
-    - Clase 15
-    
-    <iframe src="https://drive.google.com/file/d/12uApQHD_simPRd_zno2hWFVcsM5shEVE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1FoCG0hKrTzpUCJBquRRnfm1USTDBFF2S/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-    
+    </iframe>
 
+    -   Clase 15
+
+    <iframe src="https://drive.google.com/file/d/12uApQHD_simPRd_zno2hWFVcsM5shEVE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+    </iframe>
 
 ### Viernes 16, 17, 18 y 19. Introducción a Python
 
 -   Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
 
 -   Instructor: Dr. Shaday Guerrero
-
-
-    
 
 -   Material:
 
@@ -269,29 +256,31 @@ authors:
 
     -   Clase 19- [for loops](https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html)
 
-
 -   Grabación:
 
-    - Clase 16   
-            
-    <iframe src="https://drive.google.com/file/d/1miKsbRlqhIA4bdNanVVwl863uoILZZyM/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    -   Clase 16
 
+    <iframe src="https://drive.google.com/file/d/1miKsbRlqhIA4bdNanVVwl863uoILZZyM/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-    - Clase 17
-    
-    <iframe src="https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    </iframe>
 
+    -   Clase 17
 
-    - Clase 18
-                    
-    <iframe src="https://drive.google.com/file/d/15km9mnTTS7bpSb59h1ryYFG4PIi0i8oc/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
-    
-    
+    </iframe>
 
-    - Clase 19
-    
-    <iframe src="https://drive.google.com/file/d/16DcB6ZYbs3fs8X5k6j89cUuW-gRfJviR/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    -   Clase 18
+
+    <iframe src="https://drive.google.com/file/d/15km9mnTTS7bpSb59h1ryYFG4PIi0i8oc/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+    </iframe>
+
+    -   Clase 19
+
+    <iframe src="https://drive.google.com/file/d/16DcB6ZYbs3fs8X5k6j89cUuW-gRfJviR/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+    </iframe>
 
 ### Viernes 20 y 21. Introducción a Bash (28 de junio y 5 de julio)
 
@@ -304,7 +293,6 @@ authors:
     -   Instalación de una terminal de BASH (PREVIO A LA CLASE)
 
         -   Opción A: Instalar una Máquina virtual (VM) en sus computadoras
-
 
             -   Videos explicativos: <https://youtu.be/Rt0agy32pFo> , <https://youtu.be/cInUitD6Wws>
 
@@ -324,10 +312,40 @@ authors:
 
 -   Grabación:
 
-    - Clase 20   
-    
-    <iframe src="https://drive.google.com/file/d/13-Z14k6i8ZNCKnpoZNee8s_t17TECGOE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    -   Clase 20
 
-    
+    <iframe src="https://drive.google.com/file/d/13-Z14k6i8ZNCKnpoZNee8s_t17TECGOE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+    </iframe>
 
     -   Clase21
+
+    <iframe src="https://drive.google.com/file/d/1HMI3h6KhRGExcpCABl3IQbYn5bCdn6tE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+    </iframe>
+
+### Viernes 22, 23 y 24. Nextflow
+
+-   Fecha: Viernes 19 y 26 de julio, viernes 2 de agosto 2024
+
+-   Instructor: Dr. Israel Aguilar
+
+-   Grabación:
+
+    -   Clase22
+    
+    <iframe src="https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+    -   Clase23
+
+    -   Clase24
+
+## Licencia y términos de uso
+
+El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la Licencia No Comercial Creative Commons 4.0
+
+Creative Commons Licence This work is licensed under a Creative Commons Attribution-NonCommercial 4.0
+
+## Agradecimientos
+
+Queremos agradecer al LIIGH - UNAM por el apoyo y facilidades prestadas para poder impartir estos cursos. Queremos explícitamente agradecer, de manera muy especial, a la Dra. Maria Avila, la Dra, Alejandra Medina-Rivera, Licenciada Eglee Lomelin, Jair Santiago y Luis Aguilar por su extraordinaria labor y por impulsar estos cursos para el crecimiento de todos.
