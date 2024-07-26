@@ -10,6 +10,7 @@ authors:
  - "sofia"
 series: ["(2024)VieRnes de Bioinformatica"]
 series_order: 2
+seriesOpened: true
 ---
 Vector y dataframe.
 

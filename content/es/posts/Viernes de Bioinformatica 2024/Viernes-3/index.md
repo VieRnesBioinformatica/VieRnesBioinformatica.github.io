@@ -10,6 +10,7 @@ authors:
  - "sofia"
 series: ["(2024)VieRnes de Bioinformatica"]
 series_order: 3
+seriesOpened: true
 ---
 
 Matrices chulis (no se que poner xd) .

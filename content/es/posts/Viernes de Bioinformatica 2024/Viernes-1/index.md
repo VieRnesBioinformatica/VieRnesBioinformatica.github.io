@@ -10,6 +10,7 @@ authors:
   - "evelia"
 series: ["(2024)VieRnes de Bioinformatica"]
 series_order: 1
+seriesOpened: true
 ---
 
 RStudio es un entorno de desarrollo integrado (IDE) para R. Un IDE es una aplicación que ayuda a los programadores a desarrollar código de una manera eficiente. Nos proporciona una interfaz para poder editar código fuente, herramientas de ambiente, visualización, terminal y consola.
