@@ -8,8 +8,8 @@ showAuthor: false
 authors:
   - "sofia"
   - "evelia"
-series: ["(2024)VieRnes de Bioinformatica"]
-series_order: 1
+series: ["R"]
+series_order: 2
 seriesOpened: true
 ---
 
