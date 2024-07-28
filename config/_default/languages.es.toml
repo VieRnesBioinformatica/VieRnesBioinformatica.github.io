@@ -18,7 +18,7 @@ name = "Viernes de Bioinformatica"
 image = "VRNDBIC.png"
 headline = "En el LIIGH :)"
 bio = "Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada."
-links = [ { github = "https://github.com/3LCONEJO" } ]
+links = [ { github = "https://github.com/EveliaCoss/ViernesBioinfo2024" } ]
 [taxonomies]
   tag = "tags"
   category = "categories"
