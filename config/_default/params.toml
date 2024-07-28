@@ -32,7 +32,7 @@ showMoreLinkDest = "posts"
 cardView = false
 cardViewScreenWidth = true
 layoutBackgroundBlur = true
-homepageImage = "g543.png"
+homepageImage = "g5543.png"
 
 [article]
 showDate = true
