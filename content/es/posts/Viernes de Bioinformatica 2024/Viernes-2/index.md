@@ -16,7 +16,7 @@ Vector y dataframe.
 
 ## Paquetes Necesarios
 
-``` r
+```R
 install.packages("rmarkdown")
 install.packages("dplyr")
 install.packages("reshape2")
