@@ -80,6 +80,8 @@ authors:
 
 ### Viernes 4. Introducción a Rmarkdown
 
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-4/" >}}
+
 -   Fecha: Viernes 23 de febrero 2024
 
 -   Instructora: LCG Alejandra Schafer
