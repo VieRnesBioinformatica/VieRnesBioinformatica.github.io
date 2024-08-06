@@ -1,6 +1,6 @@
 ---
 title: "Introducción a Rmarkdown"
-date: 2024-07-29
+date: 2024-02-23
 draft: false
 tags: ["Rstudio", "viernes","R"]
 showAuthor: false
