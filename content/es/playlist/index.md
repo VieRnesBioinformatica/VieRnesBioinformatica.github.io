@@ -188,6 +188,8 @@ authors:
 
 </iframe>
 
+
+
 ### Viernes 11 y 12. Bioestadistica parte 1
 
 -   Fecha: Viernes 19 de abril 2024
@@ -325,7 +327,8 @@ authors:
     <iframe src="https://drive.google.com/file/d/1HMI3h6KhRGExcpCABl3IQbYn5bCdn6tE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
 
     </iframe>
-
+    
+    
 ### Viernes 22, 23 y 24. Nextflow
 
 -   Fecha: Viernes 19 y 26 de julio, viernes 2 de agosto 2024
@@ -336,18 +339,15 @@ authors:
 
     -   Clase22
     
-    <iframe src="https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
     -   Clase23
+    
+    <iframe src="https://drive.google.com/file/d/1h3W_iygPAaqNUqPTbYObhBZsLr0cCuLA/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
     -   Clase24
+    
+    <iframe src="https://drive.google.com/file/d/1iEktZg5WXtSOA5wfEOsMjXHO7_UNIxyX/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
-## Licencia y términos de uso
 
-El material de los VieRnes de Bioinformatica se distribuye públicamente a través de este repositorio GitHub bajo la Licencia No Comercial Creative Commons 4.0
-
-Creative Commons Licence This work is licensed under a Creative Commons Attribution-NonCommercial 4.0
-
-## Agradecimientos
-
-Queremos agradecer al LIIGH - UNAM por el apoyo y facilidades prestadas para poder impartir estos cursos. Queremos explícitamente agradecer, de manera muy especial, a la Dra. Maria Avila, la Dra, Alejandra Medina-Rivera, Licenciada Eglee Lomelin, Jair Santiago y Luis Aguilar por su extraordinaria labor y por impulsar estos cursos para el crecimiento de todos.
+    
