@@ -1,9 +1,10 @@
 {
-    "name": "Israel Aguilar",
+    "name": "Israel Aguilar Ordoñez",
     "image" : "Autores/Aguilar.jpeg",
-    "bio": " Jefe de Bioinformática, INMEGEN",
+    "bio": "Dr. Israel Aguilar, Posdoc, Tecnológico de Monterrey",
     "social": [
-        {"github": "https://github.com/Iaguilaror"}
+        {"github": "https://github.com/Iaguilaror",
+         "facebook": "https://www.facebook.com/profile.php?id=100083796342385"}
     ]
 }
  

@@ -29,6 +29,16 @@
     </item>
     
     <item>
+      <title>Terapia de Bioinfo grupal (opcional)</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/</guid>
+      <description>an example to get you started</description>
+      
+    </item>
+    
+    <item>
       <title>Introducción a Rmarkdown</title>
       <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-4/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>

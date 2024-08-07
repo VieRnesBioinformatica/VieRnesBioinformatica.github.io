@@ -96,6 +96,8 @@ authors:
 
 ### Viernes 5. Terapia de Bioinfo grupal (opcional)
 
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-5/" >}}
+
 -   Fecha: Viernes 1 de marzo 2024
 
 -   Instructora: Dr. Israel Aguilar
