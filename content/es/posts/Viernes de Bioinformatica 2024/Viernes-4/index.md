@@ -489,3 +489,11 @@ En los chunks algunas cosas que se pueden especificar son: {r setup1, include = 
 -   **fig.cap** = "message": para colocar un caption a los plots.
 
 Pueden encontrar mas opciones para los chunks en el siguiente link: <https://yihui.org/knitr/options/#chunk-options>
+
+# Ejercicio
+
+1.  Agrega una imagen de internet en el archivo de Rmarkdown que creaste previamente.
+
+2.  Suma la columna de "height" de la tabla de tabla que generaste.
+
+3.  Agrega un indice en el documento.
