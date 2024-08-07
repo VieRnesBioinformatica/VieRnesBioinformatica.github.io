@@ -326,7 +326,8 @@ head(datos[,1:5])
 ```
 
 ## Respuesta del ejericicio
-```r
+
+``` r
 X | name | height | mass | hair_color
 -- | -- | -- | -- | -- 
 1    | Luke Skywalker | 172 | 77 | blond
@@ -345,3 +346,146 @@ X | name | height | mass | hair_color
 | 4   | Darth Vader    | 202    | 136  | none        |
 | 5   | Leia Organa    | 150    | 49   | brown       |
 | 6   | Owen Lars      | 178    | 120  | brown, grey |
+
+## Agregar imagenes en un reporte
+
+### Desde internet
+
+``` markdown
+![Example](https://i.imgur.com/kDAxKFz.png)
+```
+
+![](images/clipboard-3884486900.png)
+
+# Agregar imagenes en un reporte
+
+### Desde un archivo de nuestra computadora
+
+```         
+<img src = "photo6.png", height = "350">
+```
+
+![](images/clipboard-2379684118.png)
+
+# Realizar calculos en un texto
+
+Podemos realizar calculos matematicos en el texto usando comillas invertidas () en ambos extremos.
+
+``` markdown
+La suma de 4 mas 5 es 'r 4+5'
+
+La division de 4 entre 5 es 'r 4/5'
+
+La multiplicacion de 4 por 5 es 'r 4*5'
+
+Si 4^5 cuanto es? 'r 4^5'
+
+Redondear valores, 9.44 se redondea a 'r round(9.44,1)'
+```
+
+La suma de 4 mas 5 es 9.
+
+La division de 4 entre 5 es 0.8.
+
+La multiplicacion de 4 por 5 es 20.
+
+Si 4\^5 cuanto es? 1024.
+
+Redondear valores, 9.44 se redondea a 9.4.
+
+## Agregar una ecuacion matematica
+
+```         
+En la misma linea: $A = \pi*r^{2}$ 
+
+Aparte: 
+
+$$y = \mu + \sum_{i=1}^p \beta_i x_i + \epsilon$$
+
+Agregar subindices para formulas CO~2~, alternativamente con `html` CO<sub>2</sub>
+
+Agregar super indice E=MC^2^ o $E=MC^2$, alternativamente con `html` E=MC<sup>2</sup>
+```
+
+-   En la misma linea: A=π∗r2
+
+-   Aparte:
+
+    $$
+    y = \mu + \sum_{i=1}^p {B_i x_i + \epsilon}
+    $$
+
+-   Agregar subindices para formulas CO\~2\~, alternativamente con `html` CO~2~
+
+-   Agregar super indice E=MC\^2\^ o E=MC2, alternativamente con `html` E=MC^2^
+
+## Agregar un indice en el reporte
+
+-   Informacion incial
+
+``` markdown
+title: "Introduccion a Rmarkdown"
+author: "Alejandra Schafer"
+date: "2024-02-23"
+output: html_document
+```
+
+-   Informacion modificada para agregar el indice.
+
+``` markdown
+title: "Introduccion a Rmarkdown"
+author: "Alejandra Schafer"
+date: "2024-02-23"
+output: 
+  - html_document:
+  - toc: yes
+  - toc_float: yes
+  - toc_depth: 6
+  - theme: cerulean
+```
+
+``` markdown
+title: "Introduccion a Rmarkdown"
+author: "Alejandra Schafer"
+date: "2024-02-23"
+output: 
+  - html_document:
+  - toc: yes
+  - toc_float: yes
+  - toc_depth: 6
+  - theme: cerulean
+```
+
+-   **toc** es para indicar que vas a agregar un indice en el reporte.
+
+-   **toc_float** es para indicar si el indice va a ser flotante o no, si indicas `yes` el indice se localizara a la izquiera de la pantalla y la informacion se desplegara cuando se coloques sobre ella.
+
+-   **toc_depth** es para indicar el numero de subtitulos que puedes tener en el archivo.
+
+-   **theme** es la decoracion del archivo.
+
+Para mas temas puedes entrar al siguiente link: <https://www.datadreaming.org/post/r-markdown-theme-gallery/>
+
+## Configuracion de los chunks
+
+En los chunks algunas cosas que se pueden especificar son: {r setup1, include = FALSE, echo= FALSE, eval=FALSE}:
+
+-   **include** = FALSE: no muestra el código.
+
+-   **echo** = FALSE: no muestra el resultado en el documento final.
+
+-   **warning** = FALSE: no muestra los warnings.
+
+-   **error** = FALSE: no muestra los mensajes de error.
+
+-   **message** = FALSE: no muestra los mensajes.
+
+-   **collapse** = TRUE: de ser posible colapsa la fuente y outputs de los bloques de código.
+
+-   **eval** = FALSE: no evalúa los códigos, sirve para mostrar bloques de código sin que emita resultados.
+
+-   **fig.dim** = c(n,m): vector numérico para el tamaño de los plots.
+
+-   **fig.cap** = "message": para colocar un caption a los plots.
+
+Pueden encontrar mas opciones para los chunks en el siguiente link: <https://yihui.org/knitr/options/#chunk-options>
