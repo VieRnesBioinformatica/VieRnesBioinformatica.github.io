@@ -11,11 +11,25 @@ series: ["Viernes2024"]
 series_order: 5
 seriesOpened: true
 ---
- an example to get you started
-# This is a heading
-## This is a subheading
-### This is a subsubheading
-#### This is a subsubsubheading
-This is a paragraph with **bold** and *italic* text.
-Check more at [Blowfish documentation](https://blowfish.page/)
-undefined
+
+<iframe src="https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+</iframe>
+
+![imagen](img/1.jpg)
+
+![imagen](img/2.jpg)
+
+![imagen](img/3.jpg)
+
+![imagen](img/4.jpg)
+
+![imagen](img/5.jpg)
+
+![imagen](img/6.jpg)
+
+![imagen](img/7.jpg)
+
+![imagen](img/8.jpg)
+
+![imagen](img/9.jpg)
