@@ -1,7 +1,7 @@
 ---
 title: "Terapia de Bioinfo grupal (opcional)"
 date: 2024-03-01
-draft: true
+draft: false
 description: "Resolucion de Problemas"
 tags: ["viernes", "opcional"]
 showAuthor: false
