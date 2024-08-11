@@ -18,36 +18,36 @@ seriesOpened: true
 
 ## 1
 
-![imagen](img/1.jpg)
+![](img/1.jpg)
 
 ## 2
 
-![imagen](img/2.jpg)
+![](img/2.jpg)
 
 ## 3
 
-![imagen](img/3.jpg)
+![](img/3.jpg)
 
 ## 4
 
-![imagen](img/4.jpg)
+![](img/4.jpg)
 
 ## 5
 
-![imagen](img/5.jpg)
+![](img/5.jpg)
 
 ## 6
 
-![imagen](img/6.jpg)
+![](img/6.jpg)
 
 ## 7
 
-![imagen](img/7.jpg)
+![](img/7.jpg)
 
 ## 8
 
-![imagen](img/8.jpg)
+![](img/8.jpg)
 
 ## 9
 
-![imagen](img/9.jpg)
+![](img/9.jpg)
