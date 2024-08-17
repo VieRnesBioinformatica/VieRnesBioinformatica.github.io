@@ -48,6 +48,7 @@ showBreadcrumbs = true
 showDraftLabel = true
 showEdit = true
 editAppendPath = true
+editURL = "https://github.com/VieRnesBioinformatica/VieRnesBioinformatica.github.io/tree/main/content/es/"
 seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
