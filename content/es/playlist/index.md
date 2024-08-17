@@ -107,6 +107,8 @@ authors:
 
 ### Viernes 6. Manipulación de datos con funciones de R base
 
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-6/" >}}
+
 -   Fecha: Viernes 8 de marzo 2024
 
 -   Instructora: Dr. Evelia Coss
