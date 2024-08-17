@@ -39,11 +39,11 @@
     </item>
     
     <item>
-      <title>Opcional</title>
-      <link>http://localhost:4321/tags/opcional/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <title>Db</title>
+      <link>http://localhost:4321/tags/db/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/opcional/</guid>
+      <guid>http://localhost:4321/tags/db/</guid>
       <description></description>
       
     </item>
@@ -51,9 +51,19 @@
     <item>
       <title>Viernes</title>
       <link>http://localhost:4321/tags/viernes/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/tags/viernes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Opcional</title>
+      <link>http://localhost:4321/tags/opcional/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/tags/opcional/</guid>
       <description></description>
       
     </item>

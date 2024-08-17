@@ -3,7 +3,7 @@ title: "Manipulación de datos con funciones de R base"
 date: 2024-03-08
 draft: false
 description: "La manipulación de datos con funciones de R base es un tema esencial en análisis de datos."
-tags: ["viernes", "opcional"]
+tags: ["viernes", "db"]
 showAuthor: false
 authors:
  - "evelia"

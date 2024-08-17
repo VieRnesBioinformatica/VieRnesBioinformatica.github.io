@@ -29,13 +29,23 @@
     </item>
     
     <item>
+      <title>Manipulación de datos con funciones de R base</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-6/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-6/</guid>
+      <description>La manipulación de datos con funciones de R base es un tema esencial en análisis de datos.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-6/featured.png" />
+    </item>
+    
+    <item>
       <title>Terapia de Bioinfo grupal (opcional)</title>
       <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/</guid>
       <description> </description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/featured.jpg" />
     </item>
     
     <item>
