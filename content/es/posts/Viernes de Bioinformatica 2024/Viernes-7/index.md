@@ -1,7 +1,7 @@
 ---
 title: "Manipulación de datos usando dplyr"
 date: 2024-03-15
-draft: false
+draft: true
 description: "dplyr es una poderosa librería de R que facilita la manipulación de datos. "
 tags: ["viernes", "db"]
 showAuthor: false
@@ -83,3 +83,5 @@ Cuando trabajamos con los paquetes provenientes de `Tidyverse` los archivos de s
 Por lo que regularmente convertimos esta salida a dataframe usando `as.data.frame()`
 
 Para más información revisa el paquete [tibble](https://tibble.tidyverse.org/).
+
+
