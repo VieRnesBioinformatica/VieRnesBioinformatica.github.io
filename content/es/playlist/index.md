@@ -127,6 +127,8 @@ authors:
 
 ### Viernes 7. Manipulación de datos usando dplyr
 
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-7/" >}}
+
 -   Fecha: Viernes 15 de marzo 2024
 
 -   Instructora: Dr. Evelia Coss
@@ -144,6 +146,8 @@ authors:
 </iframe>
 
 ### Viernes 8. Generación de diversos gráficos usando ggplot2
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-8/" >}}
 
 -   Fecha: Viernes 22 de marzo 2024
 
