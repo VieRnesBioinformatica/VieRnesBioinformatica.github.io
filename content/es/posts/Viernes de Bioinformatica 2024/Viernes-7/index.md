@@ -933,8 +933,5 @@ Respuesta
 
 {{< button href="https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D7_Manipulacion_dplyr.html#48" target="_self" >}}
 Respuesta
-<<<<<<< HEAD
 {{< /button >}}
-=======
-{{< /button >}}
->>>>>>> 4cbd469762a550250a7fec66e00bd805c8b023d1
+
