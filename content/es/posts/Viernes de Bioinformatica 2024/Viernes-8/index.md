@@ -28,9 +28,7 @@ seriesOpened: true
 
 -   **Geoms (Objetos Geométricos)**: Representan tipos de gráficos como puntos, líneas, barras, etc. Permiten construir una amplia gama de visualizaciones.
 
--   **Facets**: permiten generar gráficos para múltiples
-    subconjuntos de un conjunto de datos utilizando la misma escala y ejes,
-    todo en una sola imagen
+-   **Facets**: permiten generar gráficos para múltiples subconjuntos de un conjunto de datos utilizando la misma escala y ejes, todo en una sola imagen
 
 -   **Stats**: son funciones que resumen o transforman los datos de formas que facilitan su visualización
 
@@ -38,14 +36,20 @@ seriesOpened: true
 
 ![Source: R for ecology](https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/imagenes/ggplot2_simplified.png)
 
-La imagen simplifica muy bien lo que es ggplot y ```la accion de transormar nuestros datos a una grafica```.
+La imagen simplifica muy bien lo que es ggplot y `la accion de transormar nuestros datos a una grafica`.
 
-La tabla es el argumento principal cuando vamos a hacer una grafica de ```ggplot``` y con los esteticos vamos a mapear cada una de las variables
-a las ```propiedades visuales``` de nuestra grafica y despues se agrega la geometria que en este caso fue asignarle un color a la variable dieta.
+La tabla es el argumento principal cuando vamos a hacer una grafica de `ggplot` y con los esteticos vamos a mapear cada una de las variables a las `propiedades visuales` de nuestra grafica y despues se agrega la geometria que en este caso fue asignarle un color a la variable dieta.
 
 ## Ideas de visualizaciones
 
-- [The data visualization](https://datavizcatalogue.com/#google_vignette)
+Quizas tengas un conjunto de datos que no sepas representar visualmente, estas dos herramientas son muy utiles para inspirarse y tener una idea de como representar tus datos.
 
-- [The R graph gallery](https://r-graph-gallery.com/)
+Esta en general es para hacer analisis de datos, etc. : - [The data visualization](https://datavizcatalogue.com/#google_vignette)
 
+Esta es especificamente enfocada en hacer la manipulacion de los datos con `tidyverse` y las graficas con `ggplot`. - [The R graph gallery](https://r-graph-gallery.com/)
+
+## Script de la clase de hoy
+
+{{< button href="RMDWN/script.html" target="_self" >}}
+Script
+{{< /button >}}
