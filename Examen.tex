@@ -1,0 +1,505 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Examen},
+  pdfauthor={Jorge Alfredo Suazo Victoria},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Examen}
+\author{Jorge Alfredo Suazo Victoria}
+\date{2024-09-05}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Si dos portadores del gen del albinismo se casan, existe una
+  probabilidad de 0.1 de que los hijos hereden el. Si la pareja tiene 3
+  hijos, calcular:
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  La probabilidad de que al menos uno tenga el gen;
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{p }\OtherTok{=}\NormalTok{ .}\DecValTok{1}
+\NormalTok{hijos }\OtherTok{=} \DecValTok{3}
+
+\NormalTok{(}\AttributeTok{atl1 =} \DecValTok{1} \SpecialCharTok{{-}} \FunctionTok{dbinom}\NormalTok{(}\DecValTok{0}\NormalTok{,hijos,p))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.271
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  La probabilidad de que exactamente dos tengan el gen;
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(}\AttributeTok{ex2 =} \FunctionTok{dbinom}\NormalTok{(}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{,p))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.027
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Numero esperado de hijos con el gen del albinismo
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(}\AttributeTok{E =}\NormalTok{ p }\SpecialCharTok{*}\NormalTok{ hijos)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.3
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  En un cierto colegio, con una poblacion de 640 estudiantes, el 55\%
+  está formado por mujeres, suponga que se toma una muestra de dos
+  estudiantes.
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  ¿Cual es la probabilidad de que se elijan dos mujeres?
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{total }\OtherTok{=} \DecValTok{640}
+\NormalTok{mujeres }\OtherTok{=}\NormalTok{ total }\SpecialCharTok{*}\NormalTok{ .}\DecValTok{55}
+\NormalTok{PW }\OtherTok{=}\NormalTok{ .}\DecValTok{55}
+\NormalTok{SWdPW }\OtherTok{=}\NormalTok{ (mujeres}\DecValTok{{-}1}\NormalTok{)}\SpecialCharTok{/}\NormalTok{(total}\DecValTok{{-}1}\NormalTok{) }\CommentTok{\# Probabilidad de Que la Segunda sea mujer dado que la primera fue mujer}
+\NormalTok{SWdPH }\OtherTok{=}\NormalTok{ (mujeres)}\SpecialCharTok{/}\NormalTok{(total}\DecValTok{{-}1}\NormalTok{) }\CommentTok{\# Probabilidad de que la segunda sea mujer dado que el primero fue hombre}
+
+\NormalTok{(}\AttributeTok{TW =}\NormalTok{ PW }\SpecialCharTok{*}\NormalTok{ SWdPW)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.3021127
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  ¿Cual es la probabilidad de que, al menos una sea mujer?
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PH }\OtherTok{\textless{}{-}} \DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ PW  }
+\NormalTok{SHdPH }\OtherTok{\textless{}{-}}\NormalTok{ ((total }\SpecialCharTok{*}\NormalTok{ PH) }\SpecialCharTok{{-}} \DecValTok{1}\NormalTok{) }\SpecialCharTok{/}\NormalTok{ (total }\SpecialCharTok{{-}} \DecValTok{1}\NormalTok{)}
+\NormalTok{TH }\OtherTok{\textless{}{-}}\NormalTok{ PH }\SpecialCharTok{*}\NormalTok{ SHdPH}
+\NormalTok{(Patl1W }\OtherTok{\textless{}{-}} \DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ TH)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.7978873
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  ¿Cual es la probabilidad la primera persona elegida haya sido mujer.
+  dado que la segunda fue mujer?
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{SM }\OtherTok{=}\NormalTok{ SWdPW }\SpecialCharTok{*}\NormalTok{ SWdPH }
+\NormalTok{(}\AttributeTok{PWdSW =}\NormalTok{ SWdPW }\SpecialCharTok{*}\NormalTok{ PW }\SpecialCharTok{/}\NormalTok{ SM)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.9984375
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Suponga que una enfermedad se hereda mediante un mecanismo ligado al
+  sexo de la persona, de forma que, si la descendencia es masculina,
+  entonces la posibilidad de que herede la enfermedad es 50\%, mientras
+  que, si la desccendencia es femenina entonces no es posible que se
+  herede la enfermedad. Si en esta poblacion el 51,3\% de los
+  nacimientos son masculinos, ¿Cual es la probabilidad de que un
+  individuo seleccionado al azar sea afectado por la enfermedad?
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(}\AttributeTok{p =}\NormalTok{ .}\DecValTok{5} \SpecialCharTok{*}\NormalTok{ .}\DecValTok{513}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.2565
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Considere un juego en el que se obtienen ganancias de acuerdo con el
+  numero de aguilas que aparecen al lanzar una moneda 3 veces. Sea X la
+  variable aleatoria que indica el numero de aguilas en tres
+  lanzamientos y sea Y la variable que indica la ganancia del juego en
+  pesos, la cual depende del lanzamiento que ocurre en la primera
+  aguila. La siguiente tabla muestra la funcion de probabilidad conjunta
+  de X y Y.
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{table }\OtherTok{\textless{}{-}} \FunctionTok{matrix}\NormalTok{(}\FunctionTok{c}\NormalTok{(}\DecValTok{1}\SpecialCharTok{/}\DecValTok{8}\NormalTok{, }\DecValTok{0}\NormalTok{ , }\DecValTok{0}\NormalTok{ ,}\DecValTok{0}\NormalTok{, }\DecValTok{0}\NormalTok{, }\DecValTok{1}\SpecialCharTok{/}\DecValTok{8}\NormalTok{, }\DecValTok{2}\SpecialCharTok{/}\DecValTok{8}\NormalTok{, }\DecValTok{1}\SpecialCharTok{/}\DecValTok{8}\NormalTok{, }\DecValTok{0}\NormalTok{, }\DecValTok{1}\SpecialCharTok{/}\DecValTok{8}\NormalTok{, }\DecValTok{1}\SpecialCharTok{/}\DecValTok{8}\NormalTok{, }\DecValTok{0}\NormalTok{, }\DecValTok{0}\NormalTok{, }\DecValTok{1}\SpecialCharTok{/}\DecValTok{8}\NormalTok{, }\DecValTok{0}\NormalTok{, }\DecValTok{0}\NormalTok{), }\AttributeTok{byrow =}\NormalTok{ T, }\AttributeTok{nrow =} \DecValTok{4}\NormalTok{)}
+\FunctionTok{print}\NormalTok{(table)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##       [,1]  [,2]  [,3]  [,4]
+## [1,] 0.125 0.000 0.000 0.000
+## [2,] 0.000 0.125 0.250 0.125
+## [3,] 0.000 0.125 0.125 0.000
+## [4,] 0.000 0.125 0.000 0.000
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  Encuentre la probabilidad de que el numero de aguilas sea igual a 2
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(}\FunctionTok{sum}\NormalTok{(table[,}\DecValTok{3}\NormalTok{]))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.375
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Encuentre la probabilidad de que la ganancia sea positiva.
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(}\FunctionTok{sum}\NormalTok{(table[}\FunctionTok{c}\NormalTok{(}\DecValTok{2}\SpecialCharTok{:}\DecValTok{4}\NormalTok{),]))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.875
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Encuentre la probabilidad de ganar dos pesos dado que se obtuvieron
+  dos aguilas
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{table[}\DecValTok{3}\NormalTok{,}\DecValTok{3}\NormalTok{] }\SpecialCharTok{/} \FunctionTok{sum}\NormalTok{(table[,}\DecValTok{3}\NormalTok{])}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.3333333
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Encuentre la probabilidad de que se hayan obtenido dos aguilas dado
+  que la ganancia fue de 1 peso
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{table[}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{]}\SpecialCharTok{/}\FunctionTok{sum}\NormalTok{(table[}\DecValTok{2}\NormalTok{,])}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.5
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Sea X la variable aleatoria que indica el nivel de glucosa (mg/dl) en
+  personas sanas. Suponga que X \textasciitilde{}
+  \(Gamma(\alpha = 90, ~\beta = 85)\) donde \(\alpha\) es el parametro
+  de forma y \(\beta\) es el parametro de escala
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  ¿Qué tan probable es que una persona sana tenga un nivel de glucosa
+  por arriba de 100mg/dl?
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{alpha }\OtherTok{\textless{}{-}} \DecValTok{90}
+\NormalTok{beta }\OtherTok{\textless{}{-}}\NormalTok{ .}\DecValTok{85}
+\NormalTok{(more }\OtherTok{\textless{}{-}}\NormalTok{ (}\DecValTok{1} \SpecialCharTok{{-}} \FunctionTok{pgamma}\NormalTok{(}\DecValTok{100}\NormalTok{, }\AttributeTok{shape =}\NormalTok{ alpha, }\AttributeTok{scale =}\NormalTok{ beta)))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.003526158
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  ¿Que tan probable es que el nivel se encuentre por debajo de 70?
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(less70 }\OtherTok{\textless{}{-}} \FunctionTok{pgamma}\NormalTok{(}\DecValTok{70}\NormalTok{,}\AttributeTok{shape=}\NormalTok{alpha,}\AttributeTok{scale=}\NormalTok{beta))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.2133933
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  ¿Cual es el nivel de glucosa esperado de acuerdo cone sta
+  distribucion?
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(E }\OtherTok{\textless{}{-}}\NormalTok{  alpha }\SpecialCharTok{*}\NormalTok{ beta)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 76.5
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Sea \((X, Y)\) un vector aleatorio continuo con funcion de densidad
+  conjunta \[
+  $f(x,y) = \begin{cases}
+       cx^2y^3, & 0 < x < 1,0 < y <1,\\
+       0, &  \text{otro caso.}
+       \end{cases}$
+  \]
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{f\_X\_a }\OtherTok{\textless{}{-}} \ControlFlowTok{function}\NormalTok{(x) \{}
+  \ControlFlowTok{if}\NormalTok{ (}\DecValTok{0} \SpecialCharTok{\textless{}}\NormalTok{ x }\SpecialCharTok{\&\&}\NormalTok{ x }\SpecialCharTok{\textless{}} \DecValTok{1}\NormalTok{) \{}
+    \FunctionTok{return}\NormalTok{((}\DecValTok{1}\SpecialCharTok{*}\NormalTok{x}\SpecialCharTok{**}\DecValTok{2}\NormalTok{)}\SpecialCharTok{/}\DecValTok{4}\NormalTok{)}
+\NormalTok{  \} }\ControlFlowTok{else}\NormalTok{ \{}
+    \FunctionTok{return}\NormalTok{(}\DecValTok{0}\NormalTok{)}
+\NormalTok{  \}}
+\NormalTok{\}}
+
+\NormalTok{f\_Y\_a }\OtherTok{\textless{}{-}} \ControlFlowTok{function}\NormalTok{(y) \{}
+  \ControlFlowTok{if}\NormalTok{ (}\DecValTok{0} \SpecialCharTok{\textless{}}\NormalTok{ y }\SpecialCharTok{\&\&}\NormalTok{ y }\SpecialCharTok{\textless{}} \DecValTok{1}\NormalTok{) \{}
+    \FunctionTok{return}\NormalTok{((}\DecValTok{1}\SpecialCharTok{*}\NormalTok{y}\SpecialCharTok{**}\DecValTok{3}\NormalTok{)}\SpecialCharTok{/}\DecValTok{3}\NormalTok{)}
+\NormalTok{  \} }\ControlFlowTok{else}\NormalTok{ \{}
+    \FunctionTok{return}\NormalTok{(}\DecValTok{0}\NormalTok{)}
+\NormalTok{  \}}
+\NormalTok{\}}
+
+\NormalTok{f\_xy\_a }\OtherTok{\textless{}{-}} \ControlFlowTok{function}\NormalTok{(x, y) \{}
+  \ControlFlowTok{if}\NormalTok{ (}\DecValTok{0} \SpecialCharTok{\textless{}}\NormalTok{ x }\SpecialCharTok{\&\&}\NormalTok{ x }\SpecialCharTok{\textless{}} \DecValTok{1} \SpecialCharTok{\&\&} \DecValTok{0} \SpecialCharTok{\textless{}}\NormalTok{ y }\SpecialCharTok{\&\&}\NormalTok{ y }\SpecialCharTok{\textless{}} \DecValTok{1}\NormalTok{) \{}
+    \FunctionTok{return}\NormalTok{(}\DecValTok{1} \SpecialCharTok{*}\NormalTok{ y}\SpecialCharTok{**}\DecValTok{2} \SpecialCharTok{*}\NormalTok{ y}\SpecialCharTok{**}\DecValTok{3}\NormalTok{)}
+\NormalTok{  \} }\ControlFlowTok{else}\NormalTok{ \{}
+    \FunctionTok{return}\NormalTok{(}\DecValTok{0}\NormalTok{)}
+\NormalTok{  \}}
+\NormalTok{\}}
+\NormalTok{x }\OtherTok{=}\NormalTok{ .}\DecValTok{2}
+\NormalTok{y }\OtherTok{=}\NormalTok{ .}\DecValTok{4}
+
+
+
+\ControlFlowTok{if}\NormalTok{(}\FunctionTok{f\_xy\_a}\NormalTok{(x,y)}\SpecialCharTok{==}\FunctionTok{f\_Y\_a}\NormalTok{(y) }\SpecialCharTok{*} \FunctionTok{f\_X\_a}\NormalTok{(x))\{}
+  \FunctionTok{cat}\NormalTok{(}\StringTok{"Son independientes"}\NormalTok{)}
+\NormalTok{\}}\ControlFlowTok{else}\NormalTok{\{}
+  \FunctionTok{cat}\NormalTok{(}\StringTok{"Son dependientes"}\NormalTok{)}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Son dependientes
+\end{verbatim}
+
+\end{document}

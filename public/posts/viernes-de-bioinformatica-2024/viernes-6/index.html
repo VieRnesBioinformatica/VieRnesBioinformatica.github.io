@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+<html lang="es" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
@@ -74,11 +74,12 @@
     <meta property="article:tag" content="Viernes">
     <meta property="article:tag" content="Db">
     <meta property="og:image" content="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-6/featured.png">
+      <meta property="og:see_also" content="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-8/">
+      <meta property="og:see_also" content="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-7/">
       <meta property="og:see_also" content="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/">
       <meta property="og:see_also" content="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-4/">
       <meta property="og:see_also" content="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-3/">
       <meta property="og:see_also" content="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-2/">
-      <meta property="og:see_also" content="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-1/">
 
   
   <meta name="twitter:card" content="summary_large_image">
@@ -520,6 +521,16 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
 
   </div>
 </div>
@@ -538,6 +549,41 @@
 
 
 <article>
+  
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-6/featured_hu3078591031450979350.png);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
   
 
   <header id="single_header" class="mt-5 max-w-prose">
@@ -1184,6 +1230,24 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         Parte 6: Este artículo
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-7/">
+            Parte 7: Manipulación de datos usando dplyr
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-8/">
+            Parte 8: Generación de diversos gráficos usando ggplot2
+        </a>
     </div>
     
     
@@ -2174,6 +2238,24 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         Parte 6: Este artículo
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-7/">
+            Parte 7: Manipulación de datos usando dplyr
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-8/">
+            Parte 8: Generación de diversos gráficos usando ggplot2
+        </a>
     </div>
     
     
@@ -3318,7 +3400,7 @@
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/fitur.svg);"></div>
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/playlist/featured_hu12046957306758032632.png);"></div>
         
       
 
@@ -3365,7 +3447,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>719 palabras</span>
+  <span>836 palabras</span>
   
 
   
@@ -3388,7 +3470,7 @@
   
      ,&nbsp;  <div style="cursor: pointer;" onclick="window.open(&#34;/authors/obed/&#34;,'_self')">Obed Ramírez Sánchez</div>
   
-     ,&nbsp;  <div style="cursor: pointer;" onclick="window.open(&#34;/authors/shaday/&#34;,'_self')">Shaday</div>
+     ,&nbsp;  <div style="cursor: pointer;" onclick="window.open(&#34;/authors/shaday/&#34;,'_self')">Dr. Shaday Guerrero Flores</div>
   
      ,&nbsp;  <div style="cursor: pointer;" onclick="window.open(&#34;/authors/alejandra/&#34;,'_self')">Alejandra Schafer</div>
   
@@ -3508,6 +3590,28 @@
         </span>
         <span>
           
+            <a class="flex text-right group ml-3" href="/posts/viernes-de-bioinformatica-2024/viernes-7/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Manipulación de datos usando dplyr</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-03-15 00:00:00 &#43;0000 UTC">15 marzo 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
         </span>
       </div>
     </div>
@@ -3583,22 +3687,8 @@
 
     
     
-    <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      &copy;
-      2024
-      Viernes de Bioinformatica
-    </p>
-    
 
     
-    
-    <p class="text-xs text-neutral-500 dark:text-neutral-400">
-      
-      
-      Desarrollada con <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
-    </p>
     
 
   </div>

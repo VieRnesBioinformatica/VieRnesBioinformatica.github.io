@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+<html lang="es" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
@@ -520,6 +520,16 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
 
   </div>
 </div>
@@ -538,6 +548,41 @@
 
 
 <article>
+  
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/posts/tutoriales/instalacion-de-r/featured_hu522020380398805143.png);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
   
 
   <header id="single_header" class="mt-5 max-w-prose">
@@ -2324,11 +2369,11 @@
   
   
 
-  <a href="/posts/viernes-de-bioinformatica-2024/viernes-6/" class="min-w-full">
+  <a href="/posts/viernes-de-bioinformatica-2024/viernes-8/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-6/featured_hu1533752363067698637.png);"></div>
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-8/featured_hu7124582932690776010.png);"></div>
         
       
 
@@ -2336,7 +2381,7 @@
 
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/viernes-de-bioinformatica-2024/viernes-6/">Manipulación de datos con funciones de R base</div>
+          href="/posts/viernes-de-bioinformatica-2024/viernes-8/">Generación de diversos gráficos usando ggplot2</div>
         
 
         <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -2381,7 +2426,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-03-08 00:00:00 &#43;0000 UTC">8 marzo 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2199 palabras</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-03-22 00:00:00 &#43;0000 UTC">22 marzo 2024</time><span class="px-2 text-primary-500">&middot;</span><span>300 palabras</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -2394,7 +2439,7 @@
       
     
   
-  <span id="views_posts/Viernes de Bioinformatica 2024/Viernes-6/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span id="views_posts/Viernes de Bioinformatica 2024/Viernes-8/index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
   <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -2416,7 +2461,7 @@
       
     
   
-  <span id="likes_posts/Viernes de Bioinformatica 2024/Viernes-6/index.md"
+  <span id="likes_posts/Viernes de Bioinformatica 2024/Viernes-8/index.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes">loading</span>
   <span class="inline-block align-text-bottom">
@@ -2440,7 +2485,7 @@
   
   
   
-     <div style="cursor: pointer;" onclick="window.open(&#34;/authors/evelia/&#34;,'_self')">Evelia Lorena Coss-Navarrete</div>
+     <div style="cursor: pointer;" onclick="window.open(&#34;/authors/sofia/&#34;,'_self')">Sofia Guadalupe Salazar Magaña</div>
   
   
   
@@ -2477,10 +2522,10 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/db/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/plots/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Db
+    Plots
   </span>
 </span>
   </span>
@@ -2496,7 +2541,7 @@
 
         
         <div class="py-1 prose dark:prose-invert">
-          La manipulación de datos con funciones de R base es un tema esencial en análisis de datos.
+          ¿Qué es ggplot?
         </div>
         
       </div>
@@ -2641,22 +2686,8 @@
 
     
     
-    <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      &copy;
-      2024
-      Viernes de Bioinformatica
-    </p>
-    
 
     
-    
-    <p class="text-xs text-neutral-500 dark:text-neutral-400">
-      
-      
-      Desarrollada con <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
-    </p>
     
 
   </div>

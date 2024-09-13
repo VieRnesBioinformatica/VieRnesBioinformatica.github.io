@@ -17,7 +17,10 @@ authors:
  - "obed"
  - "shaday"
  - "alejandra"
+ - "joselyn"
 ---
+
+## PARTE 1
 
 ### Viernes 1. Información general del curso e Introducción a R
 
@@ -356,5 +359,17 @@ authors:
     
     <iframe src="https://drive.google.com/file/d/1iEktZg5WXtSOA5wfEOsMjXHO7_UNIxyX/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
+## PARTE 2
+
+### Viernes 1. Creación de paquetes en R
+- Fecha: Viernes 6 de septiembre 2024
+
+- Instructora: Dra. Joselyn Chávez
+
+- Presentación: Introducción a R
+
+-   Grabación:
+
+    <iframe src="https://drive.google.com/file/d/1HtuubU3XlypKqdaM4vYaeB3koB61MQ7R/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
     

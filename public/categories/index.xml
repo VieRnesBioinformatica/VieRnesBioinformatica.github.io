@@ -6,7 +6,7 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>© 2024 Viernes de Bioinformatica</copyright>
+    
     <atom:link href="http://localhost:4321/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
