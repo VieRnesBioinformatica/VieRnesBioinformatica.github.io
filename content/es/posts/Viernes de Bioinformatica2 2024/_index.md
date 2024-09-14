@@ -11,4 +11,4 @@ Basados en el curso de github:
 {{< /typeit >}}
 
 
-{{< github repo="EveliaCoss/ViernesBioinfo2024" >}}
+{{< github repo="EveliaCoss/ViernesBioinfo2024_parte2" >}}
