@@ -1,5 +1,5 @@
 ---
-title: Viernes de Bioinformatica 2024
+title: Viernes de Bioinformatica 2024 parte 2
 date: 2024-07-25
 ---
 
