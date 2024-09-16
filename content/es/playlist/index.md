@@ -372,4 +372,17 @@ authors:
 
     <iframe src="https://drive.google.com/file/d/1HtuubU3XlypKqdaM4vYaeB3koB61MQ7R/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
+### Viernes 2 y 3. Introducción al paquete data.table en R
+
+-   Fecha: Viernes 13 y 20 de septiembre 2024
+
+-   Instructora: Sofia Zorrilla
+
+-   [Página del tutorial](https://sofiazorrilla.github.io/data.table_long/)
+
+-   Repositorio Github: [data.table_long](https://github.com/sofiazorrilla/data.table_long)
+
+-   Grabación:
+
+    <iframe src="https://drive.google.com/file/d/18AjTP08J9RwpdGlxnYlKu-m92oWArCUn/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
     
