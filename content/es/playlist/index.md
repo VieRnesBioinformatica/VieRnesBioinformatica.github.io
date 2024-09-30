@@ -383,6 +383,29 @@ authors:
 -   Repositorio Github: [data.table_long](https://github.com/sofiazorrilla/data.table_long)
 
 -   Grabación:
-
+- 2
     <iframe src="https://drive.google.com/file/d/18AjTP08J9RwpdGlxnYlKu-m92oWArCUn/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
-    
+- 3 
+    <iframe src="https://drive.google.com/file/d/10EeeTUGIVwHXj1x8GffFKjmI4UXr0H-V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
+### Viernes 4 y 5. Analisis de variantes genetica con data.table en R
+
+- Fechas: Viernes 27 de septiembre Y 4 de octubre 2024
+
+- Instructora: Maria Jose Palma Martinez
+
+- Horario: 9 a 11 am
+
+- Descargar el siguiente archivo previo a la clase. Da click [aqui](https://drive.google.com/file/d/16za7dS3DcMR_VKFJdszLU2kJUS9bB7Dr/view?usp=share_link)
+
+- Material: [Libro en Quarto - GWAS]
+
+- Github: {{< github repo="mariajpalma/Genetic_variants_datatable" >}}
+
+- Reproduccion de la Figura 4 de [Mexican Biobank advances population and medical genomics of diverse ancestries]("https://www.nature.com/articles/s41586-023-06560-0#Sec8")
+
+- Grabación:
+
+- 4
+    <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+
