@@ -384,9 +384,9 @@ authors:
 
 -   Grabación:
 - 2
-    <iframe src="https://drive.google.com/file/d/18AjTP08J9RwpdGlxnYlKu-m92oWArCUn/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/18AjTP08J9RwpdGlxnYlKu-m92oWArCUn/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 - 3 
-    <iframe src="https://drive.google.com/file/d/10EeeTUGIVwHXj1x8GffFKjmI4UXr0H-V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/10EeeTUGIVwHXj1x8GffFKjmI4UXr0H-V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 4 y 5. Analisis de variantes genetica con data.table en R
 
@@ -407,5 +407,5 @@ authors:
 - Grabación:
 
 - 4
-    <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
