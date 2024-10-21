@@ -408,4 +408,40 @@ authors:
 
 - 4
     <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+- 5
+    <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview](https://drive.google.com/file/d/18rAxlTRVo7LBKzL-VwpxikfyvAPrVbUb/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+Material extra:
+[Visualizacion de variantes geneticas en mapa mundial](https://popgen.uchicago.edu/ggv/?data=%221000genomes%22&chr=7&pos=5460748)
+[1000genomes](https://popgen.uchicago.edu/ggv/?data=%221000genomes%22&chr=7&pos=5460748)
+
+         
+
+### Viernes 6 y 7. Git + Github
+
+- Fechas: Viernes 11 y 18 de octubre 2024
+
+- Instructor: Dr. Israel Aguilar
+    
+- Horario: 11:30-13:30 pm
+
+- Manual: [Mini guia uso de Git y Github](https://drive.google.com/file/d/1PyjbZ30Z3FCgZsDV-3jEyySS2tpCFD9G/view?usp=sharing)
+
+- Grabación:
+ - 6
+      <iframe src="https://drive.google.com/file/d/1GSFtbEQ5r6IT63vk1hEVFCGuh7jvyaZx/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+ - 7
+    <iframe src="https://drive.google.com/file/d/1JrN2EbJH8OlQncdEMpKkjOdIXP_-HNW4/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+
+### Viernes 8. Circus plot en R
+
+- Fechas: Viernes 25 octubre 2024
+
+- Instructor: Dr. Israel Aguilar
+
+- Horario: 11:30-13:30 pm
+  
+- Manual: [Circular Visualization in R](https://jokergoo.github.io/circlize_book/book/)
+
+
+
 
