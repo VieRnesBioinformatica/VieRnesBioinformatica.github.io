@@ -442,6 +442,64 @@ Material extra:
   
 - Manual: [Circular Visualization in R](https://jokergoo.github.io/circlize_book/book/)
 
+- Grabacion
 
+<iframe src="https://drive.google.com/file/d/1hm_KRnKanoKXrKAJZ0H8qx2p-TVK9OT6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+
+
+### Viernes 9. Programacion defensiva con ggplot2
+
+- Fechas: Viernes 1 noviembre 2024
+
+- Instructora: Dr. Evelia Coss
+
+- Horario: 11:30-13:30 pm
+
+- Manual: [Defensiva_ggplot2024](https://eveliacoss.github.io/Defensiva_ggplot2024/)
+
+- Grabación: Clase9
+<iframe src="https://drive.google.com/file/d/1LyO96Wv5eUBC-NMXUVGQ9y2DiXXN_SuT/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    
+- Proyecto final: [Instrucciones](https://eveliacoss.github.io/Defensiva_ggplot2024/Parte5.html), Entrega de reporte 5 de diciembre y presentacion de 15 min por equipo el 6 de diciembre.
+
+Viernes 10. Programar en R con chatGPT
+
+- Fechas: Viernes 15 noviembre 2024
+    
+- Instructor: Dr. Israel Aguilar
+
+- Horario: 11:30-13:30 pm
+
+### Viernes 11 y 12. Creación de paginas web en R, parte 1
+
+- Fechas: Viernes 22 y 29 noviembre 2024
+    
+- Instructora: Dra. Haydeé Peruyero
+
+- Horario: 11:30-13:30 pm (22 noviembre 2024) y 10:30 a 12:30 (29 noviembre 2024)
+
+- Manual: [Creacion pagina web](https://r-ladies-morelia.github.io/learn/webpage/)
+
+- Grabación: Clase11
+  
+<iframe src="https://drive.google.com/file/d/13UIIC7bTHDT64oO9EEurmJy22UFbUr1P/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+
+- Material: [Pagina1](https://haydeeperuyero.github.io/others/webpage/) y [Pagina2](https://haydeeperuyero.github.io/others/viernesbio/)
+
+- Grabación: Clase 12
+
+<iframe src="https://drive.google.com/file/d/1KS3b1eK1SgeoC44hmq5O05QdPPY5hjVY/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+
+
+### Viernes 13. Programacion defensiva con ggplot2, parte 2
+
+- Fechas: Viernes 6 diciembre 2024 (final)
+- Instructora: Dra. Evelia Coss
+- Presentacion de exposiciones de proyectos: [Instrucciones](https://eveliacoss.github.io/Defensiva_ggplot2024/Parte5.html)
+    Proyectos finales:
+  
+  - Julieth Lopez - [Proyecto en Quarto](https://juliethlopez.github.io/Proyecto_ViernesBioinformatica_2024/), datos Grandes ligas de Beisbol.
+  - Erick Arroyo y Adriana Chacon - [Proyecto](https://github.com/Capnemo1/ProyectoVDB), datos de starwars
+  - Erika Cruz y Amairani Cancino - [Proyecto](https://github.com/ErikaCruzB/UrbanSquirrels), datos de ardillas
 
 
