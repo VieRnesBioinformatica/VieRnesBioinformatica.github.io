@@ -462,7 +462,7 @@ Material extra:
     
 - Proyecto final: [Instrucciones](https://eveliacoss.github.io/Defensiva_ggplot2024/Parte5.html), Entrega de reporte 5 de diciembre y presentacion de 15 min por equipo el 6 de diciembre.
 
-Viernes 10. Programar en R con chatGPT
+### Viernes 10. Programar en R con chatGPT
 
 - Fechas: Viernes 15 noviembre 2024
     
