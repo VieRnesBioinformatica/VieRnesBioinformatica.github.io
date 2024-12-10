@@ -490,6 +490,18 @@ Material extra:
 
 <iframe src="https://drive.google.com/file/d/1KS3b1eK1SgeoC44hmq5O05QdPPY5hjVY/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
+Clase extra. Crea tu CV en R
+
+- Fecha: Jueves 5 diciembre (11:30-1:30)
+
+- Instructora: Aline Pingarroni
+
+-  Material: [Github](https://github.com/AlinePingarroni/Tu_CV_en_R)
+
+- Grabación: Crea tu CV
+
+<iframe src="https://drive.google.com/file/d/1luF35CoKTyvpJyxAlebA8QW7tvGqHmvR/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+
 
 ### Viernes 13. Programacion defensiva con ggplot2, parte 2
 
