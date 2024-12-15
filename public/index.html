@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head>
-	<meta name="generator" content="Hugo 0.131.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.126.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="es" />
@@ -126,6 +126,9 @@
 
 
 
+
+
+<script defer src="/lib/tw-elements/index.min.js" integrity=""></script>
 
 
 
@@ -528,6 +531,320 @@
   
   
     
+
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap">
+<div style="flex: 1; text-align: center;">
+<section>
+  <!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calendario de Curso de Bioinformática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .wrapper{
+        width: 450px;
+        backdrop-filter: blur(2px);
+        border-radius: 10px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+      }
+
+      .wrapper header{
+        display: flex;
+        align-items: center;
+        padding: 25px 30px 10px;
+        justify-content: space-between;
+      }
+
+      header .icons{
+        display: flex;
+      }
+
+      header .icons span{
+        height: 38px;
+        width: 38px;
+        margin: 0 1px;
+        cursor: pointer;
+        color: red;
+        text-align: center;
+        line-height: 38px;
+        font-size: 1.9rem;
+        user-select: none;
+        border-radius: 50%;
+      }
+
+      header .icons span:hover{
+        background: rgba(30,0,30);
+        opacity: 0.8;
+      }
+
+      header .current-date{
+        font-size: 1.45rem;
+        font-weight: 500;
+      }
+
+      .calendar{
+        padding: 20px;
+      }
+
+      .calendar ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        text-align: center;
+      }
+
+      .calendar .days{
+        margin-bottom: 20px;
+      }
+
+      .calendar li{
+        color: rgba(160,90,150);
+        width: calc(100% / 7);
+        font-size: 1.07rem;
+      }
+
+      .calendar .weeks li{
+        font-weight: 500;
+        cursor: default;
+      }
+
+      .calendar .days li{
+        z-index: 1;
+        cursor: pointer;
+        position: relative;
+        margin-top: 30px;
+      }
+
+      .days li.inactive{
+        color: #aaa;
+      }
+
+      .days li.active{
+        color: #fff;
+      }
+
+      .days li.special-date{
+        color: #fff;
+      }
+
+      .days li::before{
+        position: absolute;
+        content: "";
+        left: 50%;
+        top: 50%;
+        height: 40px;
+        width: 40px;
+        z-index: -1;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .days li.active::before{
+        background: #F04583;
+      }
+
+      .days li.special-date::before{
+        background: rgba(40,30,150);
+      }
+
+      .days li:not(.active):not(.special-date):hover::before{
+        background: rgba(0,0,0,.2);
+      }
+
+      #event-description {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: rgba(10,0,50,.1);
+        border-radius: 5px;
+        text-align: left;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <p class="current-date"></p>
+        <div class="icons">
+          <span id="prev" class="material-symbols-rounded">chevron_left</span>
+          <span id="next" class="material-symbols-rounded">chevron_right</span>
+        </div>
+      </header>
+      <div class="calendar">
+        <ul class="weeks">
+          <li>Dom</li>
+          <li>Lun</li>
+          <li>Mar</li>
+          <li>Mie</li>
+          <li>Jue</li>
+          <li>Vie</li>
+          <li>Sab</li>
+        </ul>
+        <ul class="days"></ul>
+      </div>
+      <div id="event-description"></div>
+    </div>
+
+    <script>
+      const daysTag = document.querySelector(".days"),
+            currentDate = document.querySelector(".current-date"),
+            prevNextIcon = document.querySelectorAll(".icons span"),
+            eventDescriptionTag = document.querySelector("#event-description");
+
+      let date = new Date(),
+          currYear = date.getFullYear(),
+          currMonth = date.getMonth();
+
+      const specialDates = [
+        { 
+          year: 2025, 
+          month: 1,  
+          day: 7, 
+          description: "Viernes 1. Información general del curso\nPor: Evelia Coss e Israel Aguilar\n\nFormulario:\n- Llenar del 7 al 14 feb\n- Revisión del 14 al 21 feb" 
+        },
+        { 
+          year: 2025, 
+          month: 1,  
+          day: 14, 
+          description: "Viernes 2. Introducción a R" 
+        },
+        { 
+          year: 2025, 
+          month: 1,  
+          day: 21, 
+          description: "Viernes 3. Manipulación de datos usando R\n\nNotificación de propuestas aceptadas" 
+        },
+        { 
+          year: 2025, 
+          month: 1,  
+          day: 28, 
+          description: "Viernes 4. Presentación de propuestas aceptadas\n- 5 min por Presentación\n- Segundo formulario (3 opciones para formar grupos)\n- Aviso de grupos el 1 de marzo por correo" 
+        },
+        { 
+          year: 2025, 
+          month: 2,  
+          day: 7, 
+          description: "Viernes 5. Buenas prácticas en bioinformática\nPor: Evelia Coss" 
+        },
+        { 
+          year: 2025, 
+          month: 2,  
+          day: 14, 
+          description: "Viernes 6. Mini curso de Alphafold2\nPor: Quetzally Medina" 
+        },
+        { 
+          year: 2025, 
+          month: 2,  
+          day: 21, 
+          description: "Viernes 7. Programación defensiva con ggplot2\nPor: Evelia Coss" 
+        },
+        { 
+          year: 2025, 
+          month: 2,  
+          day: 28, 
+          description: "Viernes 8. Introducción a Quarto" 
+        },
+        { 
+          year: 2025, 
+          month: 3,  
+          day: 4, 
+          description: "Viernes 9. Git + Github\nPor: Evelia Coss" 
+        },
+        { 
+          year: 2025, 
+          month: 3,  
+          day: 11, 
+          description: "Viernes 10. Git + Github\nPor: Evelia Coss" 
+        },
+        { 
+          year: 2025, 
+          month: 3,  
+          day: 25, 
+          description: "Viernes 11. Análisis de datos de RNA-seq\nPor: Invitado de Israel" 
+        }
+      ];
+
+      const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+                      "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+      const renderCalendar = () => {
+        let firstDayofMonth = new Date(currYear, currMonth, 1).getDay(),
+            lastDateofMonth = new Date(currYear, currMonth + 1, 0).getDate(),
+            lastDayofMonth = new Date(currYear, currMonth, lastDateofMonth).getDay(),
+            lastDateofLastMonth = new Date(currYear, currMonth, 0).getDate();
+        let liTag = "";
+
+        for (let i = firstDayofMonth; i > 0; i--) {
+          liTag += `<li class="inactive">${lastDateofLastMonth - i + 1}</li>`;
+        }
+
+        for (let i = 1; i <= lastDateofMonth; i++) {
+          let isToday = i === date.getDate() && currMonth === new Date().getMonth() 
+                        && currYear === new Date().getFullYear() ? "active" : "";
+          
+          let specialDate = specialDates.find(
+            specialDate => specialDate.year === currYear && 
+                           specialDate.month === currMonth && 
+                           specialDate.day === i
+          );
+          
+          let specialClass = specialDate ? "special-date" : "";
+          let dataAttribute = specialDate ? `data-description="${specialDate.description}"` : "";
+          
+          liTag += `<li class="${isToday} ${specialClass}" ${dataAttribute}>${i}</li>`;
+        }
+
+        for (let i = lastDayofMonth; i < 6; i++) {
+          liTag += `<li class="inactive">${i - lastDayofMonth + 1}</li>`;
+        }
+
+        currentDate.innerText = `${months[currMonth]} ${currYear}`;
+        daysTag.innerHTML = liTag;
+
+        
+        eventDescriptionTag.textContent = "";
+
+        
+        document.querySelectorAll('.special-date').forEach(day => {
+          day.addEventListener('click', function() {
+            const description = this.getAttribute('data-description');
+            eventDescriptionTag.textContent = description;
+          });
+        });
+      }
+
+      renderCalendar();
+
+      prevNextIcon.forEach(icon => {
+        icon.addEventListener("click", () => {
+          currMonth = icon.id === "prev" ? currMonth - 1 : currMonth + 1;
+
+          if(currMonth < 0 || currMonth > 11) {
+            date = new Date(currYear, currMonth, new Date().getDate());
+            currYear = date.getFullYear();
+            currMonth = date.getMonth();
+          } else {
+            date = new Date();
+          }
+          renderCalendar();
+        });
+      });
+    </script>
+  </body>
+</html>
+</section>
+</div>
+  <div style="flex: 1; text-align: center;">
 <article class=" flex flex-col items-center justify-center text-center">
   <header class="relative px-1 py-1 flex flex-col items-center mb-3">
     
@@ -540,7 +857,7 @@
           
         
         <img class="mb-2 rounded-full h-36 w-36" width="144" height="144" alt="Viernes de Bioinformatica"
-          src="/VRNDBIC_hu3581840033768003581.png" />
+          src="/VRNDBIC_hua41fd2815f9c44f29363f649ea3fba39_102422_288x288_fill_box_center_3.png" />
       
     
     <h1 class="text-4xl font-extrabold">
@@ -580,16 +897,44 @@
   </header>
   <section class="prose dark:prose-invert"></section>
 </article>
-<section>
+</div>
+</div>
+<div style=" align-items: center; margin: 50px;" >
+  <h1 style="font-size: 40px; text-align: center; line-height:1;"><b>Unete a Discord</b></h1>
+  <p style="text-align: center;">Proximamente</p>
+</div>
+
+  <h1 style="font-size: 40px; text-align: center;"><b>Organizadores</b></h1>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;margin-top: 10px;margin-bottom: 10px;">
   
+  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #3C54B7; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
+    <img src="Autores/EveliaCoss_huc49a9227590d6239d5d30a96103e9a01_32554_192x192_fill_q75_box_center.jpeg" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
+    <p style="text-align: center; margin: 10px 0;">Dra. Evelia Coss</p>
+    <a href="authors/evelia/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #3C54B7; text-decoration: none;" onmouseover="this.style.backgroundColor='#3C54B7'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+  </div>
+  
+  
+  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #3C54B7; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
+    <img src="Autores/Aguilar_hu17679249435953805356.jpeg" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
+    <p style="text-align: center; margin: 10px 0;">Dr. Israel Aguilar Ordoñez</p>
+    <a href="authors/israel/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #3C54B7; text-decoration: none;" onmouseover="this.style.backgroundColor='#3C54B7'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+  </div>
+  
+  
+  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #3C54B7; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
+    <img src="Autores/JS_hu3525955919524382940.png" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
+    <p style="text-align: center; margin: 10px 0;">Jorge A. Suazo Victoria </p> <a href="authors/jorge/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #3C54B7; text-decoration: none;" onmouseover="this.style.backgroundColor='#3C54B7'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+  </div>
+</div>
 
 
+  
+  </div>
+</div>
 
-
-
-<h2 class="mt-8 text-2xl font-extrabold mb-10">Reciente</h2>
-
-
+  <h1 style="font-size: 40px; text-align: center; line-height: 1"><b>Entradas Recientes</b></h1>
+<div style = "margin-top: 20px">
+<section>
   
 
 
@@ -621,7 +966,7 @@
   <a class="flex flex-wrap article " href="/posts/tutoriales/instalacion-de-r/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/tutoriales/instalacion-de-r/featured_hu2419046159611786197.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/tutoriales/instalacion-de-r/featured_hue4b2af5c1eca1a2a701a44165129fe00_261430_600x0_resize_box_3.png);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
@@ -821,7 +1166,7 @@
   <a class="flex flex-wrap article " href="/posts/tutoriales/mecanicas-basicas-de-r/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/tutoriales/mecanicas-basicas-de-r/featured_hu7843977061428536977.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/tutoriales/mecanicas-basicas-de-r/featured_hu7144ac0d2e3365dcb2125a780bc5e594_288097_600x0_resize_box_3.png);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
@@ -1021,7 +1366,7 @@
   <a class="flex flex-wrap article " href="/posts/viernes-de-bioinformatica-2024/viernes-8/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-8/featured_hu7124582932690776010.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-8/featured_hu971a5ab394379c77861dfc28e073ad17_165095_600x0_resize_box_3.png);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
@@ -1221,7 +1566,7 @@
   <a class="flex flex-wrap article " href="/posts/viernes-de-bioinformatica-2024/viernes-7/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-7/featured_hu4870729815732154984.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-7/featured_hu4d5d4bd1d458ddfd1a333ccec3013002_209874_600x0_resize_box_3.png);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
@@ -1421,7 +1766,7 @@
   <a class="flex flex-wrap article " href="/posts/viernes-de-bioinformatica-2024/viernes-6/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-6/featured_hu1533752363067698637.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-6/featured_hu64249fee630d55f3117a2985711a9639_775816_600x0_resize_box_3.png);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
@@ -1596,25 +1941,8 @@
 
   
 </section>
-
-
-
-
-
-
-<div class="mt-10 flex justify-center">
-  <a href="posts">
-    <button
-      class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
-      Mostrar más
-    </button>
-  </a>
-</div>
-
-
-
 </section>
-
+</div>
   
 
       

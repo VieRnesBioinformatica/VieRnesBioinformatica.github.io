@@ -1,0 +1,83 @@
+
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap">
+<div style="flex: 1; text-align: center;">
+<section>
+  {{ partial "calendar.html" . }}
+</section>
+</div>
+  <div style="flex: 1; text-align: center;">
+<article class="{{ if not .Site.Params.homepage.showRecent }}
+    h-full
+  {{ end }} flex flex-col items-center justify-center text-center">
+  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
+    {{ with .Site.Author.image }}
+      {{ $authorImage := "" }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $authorImage = resources.GetRemote . }}
+      {{ else }}
+        {{ $authorImage = resources.Get . }}
+      {{ end }}
+      {{ if $authorImage }}
+        {{ if not $disableImageOptimization }}
+          {{ $authorImage = $authorImage.Fill "288x288" }}
+        {{ end }}
+        <img class="mb-2 rounded-full h-36 w-36" width="144" height="144" alt="{{ $.Site.Author.name | default " Author" }}"
+          src="{{ $authorImage.RelPermalink }}" />
+      {{ end }}
+    {{ end }}
+    <h1 class="text-4xl font-extrabold">
+      {{ .Site.Author.name | default .Site.Title }}
+    </h1>
+    {{ with .Site.Author.headline }}
+    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+      {{ . | markdownify }}
+    </h2>
+    {{ end }}
+    <div class="mt-1 text-2xl">
+      {{ partialCached "author-links.html" . }}
+    </div>
+  </header>
+  <section class="prose dark:prose-invert">{{ .Content }}</section>
+</article>
+</div>
+</div>
+<div style=" align-items: center; margin: 50px;" >
+  <h1 style="font-size: 40px; text-align: center; line-height:1;"><b>Unete a Discord</b></h1>
+  <p style="text-align: center;">Proximamente</p>
+</div>
+
+  <h1 style="font-size: 40px; text-align: center;"><b>Organizadores</b></h1>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;margin-top: 10px;margin-bottom: 10px;">
+  <!-- Primer autor -->
+  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #3C54B7; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
+    <img src="Autores/EveliaCoss_huc49a9227590d6239d5d30a96103e9a01_32554_192x192_fill_q75_box_center.jpeg" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
+    <p style="text-align: center; margin: 10px 0;">Dra. Evelia Coss</p>
+    <a href="authors/evelia/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #3C54B7; text-decoration: none;" onmouseover="this.style.backgroundColor='#3C54B7'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+  </div>
+  
+  <!-- Segundo autor -->
+  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #3C54B7; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
+    <img src="Autores/Aguilar_hu17679249435953805356.jpeg" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
+    <p style="text-align: center; margin: 10px 0;">Dr. Israel Aguilar Ordoñez</p>
+    <a href="authors/israel/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #3C54B7; text-decoration: none;" onmouseover="this.style.backgroundColor='#3C54B7'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+  </div>
+  
+  <!-- Tercer autor -->
+  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #3C54B7; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
+    <img src="Autores/JS_hu3525955919524382940.png" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
+    <p style="text-align: center; margin: 10px 0;">Jorge A. Suazo Victoria </p> <a href="authors/jorge/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #3C54B7; text-decoration: none;" onmouseover="this.style.backgroundColor='#3C54B7'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+  </div>
+</div>
+
+
+  
+  </div>
+</div>
+
+  <h1 style="font-size: 40px; text-align: center; line-height: 1"><b>Entradas Recientes</b></h1>
+<div style = "margin-top: 20px">
+<section>
+  {{ partial "recent-articles/list.html" . }}
+</section>
+</div>
