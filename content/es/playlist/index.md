@@ -23,6 +23,7 @@ authors:
  - "mjose"
  - "maria"
  - "adriana"
+ - "szorrilla"
 ---
 
 ## PARTE 1
