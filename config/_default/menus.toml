@@ -6,29 +6,6 @@ none = "none"
   pageRef = "posts"
   weight = 10
 
-
-[[main]]
-pre = "email"
-url = "mailto:jasvpj@gmail.com"
-identifier = "o2qDWq7SRB"
-weight = 9999
-
-[[main]]
-name = "Autores"
-url = "/authors"
-weight = 9
-
-
-[[footer]]
-none = "none"
-[[main]]
-none = "none"
-
-[[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 10
-
 [[main]]
  name = "Viernes de Bioinformática 2024 - Parte 1"
  pageRef = "Viernes de Bioinformatica 2024"
@@ -41,6 +18,12 @@ none = "none"
  parent = "Blog"
  weight = 5
 
+[[main]]
+ name = "Tutoriales :)"
+ pageRef = "Tutoriales"
+ parent = "Blog"
+ weight = 5
+ 
 [[main]]
 pre = "email"
 url = "mailto:jasvpj@gmail.com"
