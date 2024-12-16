@@ -6,6 +6,11 @@ none = "none"
   pageRef = "posts"
   weight = 10
 
+[[main]]
+ name = "Viernes de bioinformática 2024 - Parte 1"
+ pageRef = "Viernes de Bioinformatica 2024"
+ parent = "Blog"
+ weight = 5
 
 [[main]]
 pre = "email"
