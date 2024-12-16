@@ -10,6 +10,7 @@ showViews: false
 showPagination: false
 showComments: false
 authors:
+ - "joselyn"
  - "evelia"
  - "sofia"
  - "domingo"
@@ -17,7 +18,11 @@ authors:
  - "obed"
  - "shaday"
  - "alejandra"
- - "joselyn"
+ - "mguadalupe"
+ - "jazmin"
+ - "mjose"
+ - "maria"
+ - "adriana"
 ---
 
 ## PARTE 1

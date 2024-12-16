@@ -6,9 +6,10 @@
         {"graduation-cap": "https://scholar.google.com/citations?user=Pi9v98gAAAAJ"}
     ],
     "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ]
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"}
+      ], 
+      
+    "vermas": "/authors/shaday/" 
 }
  
 

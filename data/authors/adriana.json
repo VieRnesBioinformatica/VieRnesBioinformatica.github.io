@@ -6,11 +6,12 @@
         {"github": "https://github.com/HaydeePeruyero"},
         {"linkedin":"https://www.linkedin.com/in/haydeeperuyero/"},
         {"link":"https://haydeeperuyero.github.io/"}
+        
     ],
     "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
       {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ]
+      ],
+    "vermas": "/authors/adriana/" 
 }
  
 

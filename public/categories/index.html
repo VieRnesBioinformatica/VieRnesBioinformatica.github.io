@@ -1,291 +1,1245 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="es" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Categories &middot; </title>
+  <meta name="title" content="Categories &middot; " />
+  
+  <meta name="description" content="Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada." />
+  
+  
+  
+  <link rel="canonical" href="http://localhost:4321/categories/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.0b989e6926f0acc14a5fa4a72440bfa596abebb2628b7d20d0a22bd4a43c1d3c527a7dcc27aa6f6593411a81a64439c0c19b06736bcca2b23493f9ed9de1a7d2.css"
+    integrity="sha512-C5ieaSbwrMFKX6SnJEC/pZar67Jii30g0KIr1KQ8HTxSen3MJ6pvZZNBGoGmRDnAwZsGc2vMorI0k/ntneGn0g==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.d6c35110b5d7df8014403fbb81cd21a9d89daf9eb586c936e585e9d04adc204dce554aa737f81e8c902b9dea9e67bd63a977b77dedefb8a39430581ebc519207.js"
+    integrity="sha512-1sNRELXX34AUQD&#43;7gc0hqdidr561hsk25YXp0ErcIE3OVUqnN/gejJArneqeZ71jqXe3fe3vuKOUMFgevFGSBw==" data-copy="" data-copied=""></script>
+  
+  
+  <script src="/js/zoom.min.js"></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:4321/categories/">
+  <meta property="og:title" content="Categories">
+  <meta property="og:description" content="Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="website">
 
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script><section class="authors-grid">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Categories">
+  <meta name="twitter:description" content="Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada.">
+
   
   
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/adriana.jpg" 
-          alt="Adriana Haydeé Contreras Peruyero" 
-          class="author-image">
-      
-      <h3 class="author-name">Adriana Haydeé Contreras Peruyero</h3>
-      <p class="author-bio">Haydeé Peruyero, Posdoc, CCM - UNAM Morelia</p>
-      
-        <div class="author-social">
-          
-            
-          
-            
-              <a href="https://www.linkedin.com/in/haydeeperuyero/" class="social-link">LinkedIn</a>
-            
-          
-            
-          
-        </div>
-      
+
+  
+  
+  <meta name="author" content="Viernes de Bioinformatica" />
+  
+  
+  
+  <link href="https://github.com/EveliaCoss/ViernesBioinfo2024" rel="me" />
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCeu_el5C-sSInp4k6fcl0IxiXvrKZaWJo",
+      authDomain: "AIzaSyCeu_el5C-sSInp4k6fcl0IxiXvrKZaWJo",
+      projectId: "viebio-f2ddb",
+      storageBucket: "viebio-f2ddb.appspot.com",
+      messagingSenderId: "881687198767",
+      appId: "1:881687198767:web:22edcaabce5b4161269ada",
+      measurementId: "G-DBWJSWD48Z"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Ir al contenido</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only"></span>
+
+            <img src="/g543.png" width="1330" height="511"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="" />
+
+        </a>
     </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/ale.jpeg" 
-          alt="LCG. Alejandra Schafer" 
-          class="author-image">
-      
-      <h3 class="author-name">LCG. Alejandra Schafer</h3>
-      <p class="author-bio">estudiante de doctorado, LIIGH - UNAM</p>
-      
-        <div class="author-social">
-          
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
             
-          
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"></a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/playlist"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Videos
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/authors"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Autores
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Blog
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="mailto:jasvpj@gmail.com"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
         </div>
-      
     </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/DM.png" 
-          alt="Dr. Domingo Martinez" 
-          class="author-image">
-      
-      <h3 class="author-name">Dr. Domingo Martinez</h3>
-      <p class="author-bio">Posdoc CONAHCYT en LIIGH-UNAM</p>
-      
-        <div class="author-social">
-          
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" for="menu-controller" class="block">
+            <input type="checkbox" id="menu-controller" class="hidden" />
             
-          
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/playlist"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Videos
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/authors"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Autores
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Blog
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="mailto:jasvpj@gmail.com"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+
         </div>
-      
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
     </div>
+</div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
   
-    <div class="author-card">
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
       
-        <img 
-          src="/Autores/EveliaCoss.jpeg" 
-          alt="Dra. Evelia Coss" 
-          class="author-image">
-      
-      <h3 class="author-name">Dra. Evelia Coss</h3>
-      <p class="author-bio">Posdoc, LIIGH - UNAM</p>
-      
-        <div class="author-social">
-          
-            
-          
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/Aguilar.jpeg" 
-          alt="Dr. Israel Aguilar Ordoñez" 
-          class="author-image">
-      
-      <h3 class="author-name">Dr. Israel Aguilar Ordoñez</h3>
-      <p class="author-bio">Dr. Israel Aguilar, Posdoc, Tecnológico de Monterrey</p>
-      
-        <div class="author-social">
-          
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/jaz.jpg" 
-          alt="Jazmín López Chacón" 
-          class="author-image">
-      
-      <h3 class="author-name">Jazmín López Chacón</h3>
-      <p class="author-bio">Especialista de Datos Jr, GF Banorte</p>
-      
-        <div class="author-social">
-          
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/JS.png" 
-          alt="Jorge Suazo" 
-          class="author-image">
-      
-      <h3 class="author-name">Jorge Suazo</h3>
-      <p class="author-bio">Estudiante de Ciencias Genomicas - Creador de la pagina</p>
-      
-        <div class="author-social">
-          
-            
-          
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/joselyn.png" 
-          alt="Dra. Joselyn Chávez" 
-          class="author-image">
-      
-      <h3 class="author-name">Dra. Joselyn Chávez</h3>
-      <p class="author-bio">Doctora en Ciencias Bioquímicas</p>
-      
-        <div class="author-social">
-          
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/maria.jpg" 
-          alt="MSc. Maria Fernanda Miron Toruno" 
-          class="author-image">
-      
-      <h3 class="author-name">MSc. Maria Fernanda Miron Toruno</h3>
-      <p class="author-bio">Lic. Ciencias Genómicas</p>
-      
-        <div class="author-social">
-          
-            
-              <a href="https://www.linkedin.com/in/maria-fernanda-miron-toruno-710357300/" class="social-link">LinkedIn</a>
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/mguadalupe.jpg" 
-          alt="María Guadalupe Segovia Ramírez, PhD" 
-          class="author-image">
-      
-      <h3 class="author-name">María Guadalupe Segovia Ramírez, PhD</h3>
-      <p class="author-bio">Dra. María Guadalupe Segovia Ramírez, SCT- Soil Functional Genomics and Evolution at Data Science dpt., Solena</p>
-      
-        <div class="author-social">
-          
-            
-              <a href="https://www.linkedin.com/in/mar%25C3%25ADa-segovia-34816464" class="social-link">LinkedIn</a>
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/mjose.jpeg" 
-          alt="María José Palma Martínez (Maestría)" 
-          class="author-image">
-      
-      <h3 class="author-name">María José Palma Martínez (Maestría)</h3>
-      <p class="author-bio">Estudiante de Doctorado, CCG - UNAM.</p>
-      
-        <div class="author-social">
-          
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/Obed.jpeg" 
-          alt="Obed Ramirez Sanchez" 
-          class="author-image">
-      
-      <h3 class="author-name">Obed Ramirez Sanchez</h3>
-      <p class="author-bio">Chief Data Scientist (CDS) &amp; Principal Investigator (PI), Solena Ag.</p>
-      
-        <div class="author-social">
-          
-            
-              <a href="https://www.linkedin.com/in/obed-ram%C3%ADrez-s%C3%A1nchez-370565131/" class="social-link">LinkedIn</a>
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/SG.jpeg" 
-          alt="Dr. Shaday Guerrero" 
-          class="author-image">
-      
-      <h3 class="author-name">Dr. Shaday Guerrero</h3>
-      <p class="author-bio">Posdoc, Centro de Ciencias Matemáticas - UNAM</p>
-      
-        <div class="author-social">
-          
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/SofiaSalazar.jpeg" 
-          alt="LCG. Sofia Guadalupe Salazar Magaña" 
-          class="author-image">
-      
-      <h3 class="author-name">LCG. Sofia Guadalupe Salazar Magaña</h3>
-      <p class="author-bio">Lic. Ciencias Genómicas</p>
-      
-        <div class="author-social">
-          
-            
-          
-        </div>
-      
-    </div>
-  
-    <div class="author-card">
-      
-        <img 
-          src="/Autores/szorrilla.jpg" 
-          alt="Sofía Zorrilla Azcué" 
-          class="author-image">
-      
-      <h3 class="author-name">Sofía Zorrilla Azcué</h3>
-      <p class="author-bio">Estudiante de maestría y asistente de investigación</p>
-      
-        <div class="author-social">
-          
-            
-          
-        </div>
-      
-    </div>
+
+<h1 style="font-size: 50px; margin-bottom: 30px;"><b>Autores por Taxonomia:</b></h1>
+
+<style type="text/css" media="all">
+a:hover { color: #E0417E; }
+.author-course {
+   
+}
+.authors-grid {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.author-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 20px;
+  margin: 20px;
+  border: 2px solid #3C54B7;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75);
+  width: 250px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.author-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.author-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #3C54B7;
+}
+.author-bio {
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+.social-link {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #3C54B7;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #3C54B7;
+  transition: all 0.3s ease;
+}
+.social-link:hover {
+  background-color: #3C54B7;
+  color: white;
+}
+.view-more {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3C54B7;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.view-more:hover {
+  background-color: #E0417E;
+  color: white;
+}
+</style>
+
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
   
 </section>
+
+<h1 style="font-size: 50px; margin-bottom: 30px; margin-top: 50px;"><b>Autores por Tarjeta:</b></h1>
+
+<h2 style="font-size: 30px; margin-bottom: 30px;text-align: center;margin-top: 50px;">
+  <a href="https://viernesbioinformatica.github.io/playlist/" style = "text-decoration: underline">Parte 1</a>
+</h2>
+
+<section class="authors-grid">
+  
+  
+    
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/ale.jpeg" alt="LCG. Alejandra Schafer" class="author-image">
+          
+          <h3 class="author-name">LCG. Alejandra Schafer</h3>
+          <p class="author-bio">estudiante de doctorado, LIIGH - UNAM</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://github.com/aschafer99" target="_blank" class="social-link">github</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/alejandra/" class="view-more">Más información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/DM.png" alt="Dr. Domingo Martinez" class="author-image">
+          
+          <h3 class="author-name">Dr. Domingo Martinez</h3>
+          <p class="author-bio">Posdoc CONAHCYT en LIIGH-UNAM</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://www.researchgate.net/profile/Domingo-Martinez-5" target="_blank" class="social-link">researchgate</a>
+                
+                  <a href="https://www.x.com/D_o_m_i_n_g_o" target="_blank" class="social-link">x-twitter</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/domingo/" class="view-more">Más información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/EveliaCoss.jpeg" alt="Dra. Evelia Coss" class="author-image">
+          
+          <h3 class="author-name">Dra. Evelia Coss</h3>
+          <p class="author-bio">Posdoc, LIIGH - UNAM</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="mailto:ecoss@liigh.unam.mx" target="_blank" class="social-link">email</a>
+                
+              
+                
+                  <a href="https://github.com/EveliaCoss" target="_blank" class="social-link">github</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/evelia/" class="view-more">Más información</a>
+          
+        </div>
+      
+    
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/Aguilar.jpeg" alt="Dr. Israel Aguilar Ordoñez" class="author-image">
+          
+          <h3 class="author-name">Dr. Israel Aguilar Ordoñez</h3>
+          <p class="author-bio">Dr. Israel Aguilar, Posdoc, Tecnológico de Monterrey</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://www.facebook.com/profile.php?id=100083796342385" target="_blank" class="social-link">facebook</a>
+                
+                  <a href="https://github.com/Iaguilaror" target="_blank" class="social-link">github</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/israel/" class="view-more">Más información</a>
+          
+        </div>
+      
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/JS.png" alt="Jorge Suazo" class="author-image">
+          
+          <h3 class="author-name">Jorge Suazo</h3>
+          <p class="author-bio">Estudiante de Ciencias Genomicas - Creador de la pagina</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://github.com/3LCONEJO" target="_blank" class="social-link">github</a>
+                
+              
+                
+                  <a href="mailto:jasvpj@gmail.com" target="_blank" class="social-link">email</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/jorge/" class="view-more">Más información</a>
+          
+        </div>
+      
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/Obed.jpeg" alt="Obed Ramirez Sanchez" class="author-image">
+          
+          <h3 class="author-name">Obed Ramirez Sanchez</h3>
+          <p class="author-bio">Chief Data Scientist (CDS) &amp; Principal Investigator (PI), Solena Ag.</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://www.linkedin.com/in/obed-ram%C3%ADrez-s%C3%A1nchez-370565131/" target="_blank" class="social-link">linkedin</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/obed/" class="view-more">Más información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/SG.jpeg" alt="Dr. Shaday Guerrero" class="author-image">
+          
+          <h3 class="author-name">Dr. Shaday Guerrero</h3>
+          <p class="author-bio">Posdoc, Centro de Ciencias Matemáticas - UNAM</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://scholar.google.com/citations?user=Pi9v98gAAAAJ" target="_blank" class="social-link">graduation-cap</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/shaday/" class="view-more">Más información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/SofiaSalazar.jpeg" alt="LCG. Sofia Guadalupe Salazar Magaña" class="author-image">
+          
+          <h3 class="author-name">LCG. Sofia Guadalupe Salazar Magaña</h3>
+          <p class="author-bio">Lic. Ciencias Genómicas</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://github.com/SophSM" target="_blank" class="social-link">github</a>
+                
+                  <a href="https://www.x.com/ssalazar_02" target="_blank" class="social-link">x-twitter</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/sofia/" class="view-more">Más información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+    
+  
+</section>
+
+<h2 style="font-size: 30px; margin-bottom: 30px;text-align: center; margin-top: 30px;">
+  <a href="https://viernesbioinformatica.github.io/playlist/" style = "text-decoration: underline">Parte 2</a>
+</h2>
+
+<section class="authors-grid">
+  
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/adriana.jpg" alt="Adriana Haydeé Contreras Peruyero" class="author-image">
+          
+          <h3 class="author-name">Adriana Haydeé Contreras Peruyero</h3>
+          <p class="author-bio">Haydeé Peruyero, Posdoc, CCM - UNAM Morelia</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://github.com/HaydeePeruyero" target="_blank" class="social-link">github</a>
+                
+              
+                
+                  <a href="https://www.linkedin.com/in/haydeeperuyero/" target="_blank" class="social-link">linkedin</a>
+                
+              
+                
+                  <a href="https://haydeeperuyero.github.io/" target="_blank" class="social-link">link</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/adriana/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/EveliaCoss.jpeg" alt="Dra. Evelia Coss" class="author-image">
+          
+          <h3 class="author-name">Dra. Evelia Coss</h3>
+          <p class="author-bio">Posdoc, LIIGH - UNAM</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="mailto:ecoss@liigh.unam.mx" target="_blank" class="social-link">email</a>
+                
+              
+                
+                  <a href="https://github.com/EveliaCoss" target="_blank" class="social-link">github</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/evelia/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/Aguilar.jpeg" alt="Dr. Israel Aguilar Ordoñez" class="author-image">
+          
+          <h3 class="author-name">Dr. Israel Aguilar Ordoñez</h3>
+          <p class="author-bio">Dr. Israel Aguilar, Posdoc, Tecnológico de Monterrey</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://www.facebook.com/profile.php?id=100083796342385" target="_blank" class="social-link">facebook</a>
+                
+                  <a href="https://github.com/Iaguilaror" target="_blank" class="social-link">github</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/israel/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/jaz.jpg" alt="Jazmín López Chacón" class="author-image">
+          
+          <h3 class="author-name">Jazmín López Chacón</h3>
+          <p class="author-bio">Especialista de Datos Jr, GF Banorte</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://www.x.com/tipica_nerd" target="_blank" class="social-link">x-twitter</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/jazmin/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/JS.png" alt="Jorge Suazo" class="author-image">
+          
+          <h3 class="author-name">Jorge Suazo</h3>
+          <p class="author-bio">Estudiante de Ciencias Genomicas - Creador de la pagina</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://github.com/3LCONEJO" target="_blank" class="social-link">github</a>
+                
+              
+                
+                  <a href="mailto:jasvpj@gmail.com" target="_blank" class="social-link">email</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/jorge/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/joselyn.png" alt="Joselyn Cristina Chávez Fuentes" class="author-image">
+          
+          <h3 class="author-name">Joselyn Cristina Chávez Fuentes</h3>
+          <p class="author-bio">Postdoctoral fellow, Icahn School of Medicine at Mount Sinai</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://rladiesmx.netlify.app/author/joselyn-chavez/" target="_blank" class="social-link">link</a>
+                
+              
+                
+                  <a href="https://x.com/josschavezf1" target="_blank" class="social-link">x-twitter</a>
+                
+              
+                
+                  <a href="https://bsky.app/profile/josschavezf.bsky.social" target="_blank" class="social-link">bluesky</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/joselyn/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/maria.jpg" alt="MSc. Maria Fernanda Miron Toruno" class="author-image">
+          
+          <h3 class="author-name">MSc. Maria Fernanda Miron Toruno</h3>
+          <p class="author-bio">Lic. Ciencias Genómicas</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://www.facebook.com/fernanda.miron.1?mibextid=ZbWKwL" target="_blank" class="social-link">facebook</a>
+                
+                  <a href="https://www.linkedin.com/in/maria-fernanda-miron-toruno-710357300/" target="_blank" class="social-link">linkedin</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/maria/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/mguadalupe.jpg" alt="María Guadalupe Segovia Ramírez, PhD" class="author-image">
+          
+          <h3 class="author-name">María Guadalupe Segovia Ramírez, PhD</h3>
+          <p class="author-bio">Dra. María Guadalupe Segovia Ramírez, SCT- Soil Functional Genomics and Evolution at Data Science dpt., Solena</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://www.linkedin.com/in/mar%25C3%25ADa-segovia-34816464" target="_blank" class="social-link">linkedin</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/mguadalupe/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/mjose.jpeg" alt="María José Palma Martínez (Maestría)" class="author-image">
+          
+          <h3 class="author-name">María José Palma Martínez (Maestría)</h3>
+          <p class="author-bio">Estudiante de Doctorado, CCG - UNAM.</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://x.com/maxolotlmad" target="_blank" class="social-link">x-twitter</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/mjose/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <div class="author-card">
+          
+            <img src="/Autores/szorrilla.jpg" alt="Sofía Zorrilla Azcué" class="author-image">
+          
+          <h3 class="author-name">Sofía Zorrilla Azcué</h3>
+          <p class="author-bio">Estudiante de maestría y asistente de investigación</p>
+          
+            <div class="author-social">
+              
+                
+                  <a href="https://github.com/sofiazorrilla" target="_blank" class="social-link">github</a>
+                
+              
+            </div>
+          
+          
+            <a href="/authors/szorrilla/" class="view-more">Más Información</a>
+          
+        </div>
+      
+    
+  
+</section>
+
+
+      
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href=""
+            title="">
+            
+            
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+
+    
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:4321/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Buscar"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Cerrar (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
