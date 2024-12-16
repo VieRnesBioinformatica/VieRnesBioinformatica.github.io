@@ -174,6 +174,9 @@ authors:
 
 ### Viernes 9. Terapia de Bioinfo grupal (opcional)
 
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-9/" >}}
+
 -   Fecha: Viernes 5 de abril 2024
 
 -   Instructores: LBt Josué Guzmán Linares, Dr. Israel Aguilar
@@ -187,6 +190,9 @@ authors:
 </iframe>
 
 ### Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap)
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-10/" >}}
 
 -   Fecha: Viernes 12 de abril 2024
 
@@ -208,6 +214,12 @@ authors:
 
 ### Viernes 11 y 12. Bioestadistica parte 1
 
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-11/" >}}
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-12/" >}}
+
 -   Fecha: Viernes 19 de abril 2024
 
 -   Instructor: Dr. Obed Ramirez
@@ -219,6 +231,9 @@ authors:
     -   Parte 2. <iframe src="https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 13. Terapia de Bioinfo grupal (opcional)
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-13/" >}}
 
 -   Fecha: Viernes 3 de mayo 2024
 
@@ -233,6 +248,12 @@ authors:
 </iframe>
 
 ### Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-14/" >}}
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-15/" >}}
 
 -   Fecha: Viernes 17 de mayo y 24 de mayo 2024
 
@@ -261,6 +282,18 @@ authors:
     </iframe>
 
 ### Viernes 16, 17, 18 y 19. Introducción a Python
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-16/" >}}
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-17/" >}}
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-18/" >}}
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-19/" >}}
 
 -   Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
 
@@ -304,6 +337,12 @@ authors:
 
 ### Viernes 20 y 21. Introducción a Bash (28 de junio y 5 de julio)
 
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-20/" >}}
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-21/" >}}
+
 -   Fecha: Viernes 28 de junio y 5 de julio 2024
 
 -   Instructor: Dr. Israel Aguilar
@@ -346,6 +385,13 @@ authors:
     
     
 ### Viernes 22, 23 y 24. Nextflow
+
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-22/" >}}
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-23/" >}}
+
+{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-24/" >}}
 
 -   Fecha: Viernes 19 y 26 de julio, viernes 2 de agosto 2024
 

@@ -61,7 +61,7 @@
     <item>
       <title>Bioestadistica</title>
       <link>http://localhost:4321/tags/bioestadistica/</link>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/tags/bioestadistica/</guid>
       <description></description>
@@ -71,9 +71,19 @@
     <item>
       <title>Datos</title>
       <link>http://localhost:4321/tags/datos/</link>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/tags/datos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Viernes</title>
+      <link>http://localhost:4321/tags/viernes/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/tags/viernes/</guid>
       <description></description>
       
     </item>
@@ -94,16 +104,6 @@
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/tags/plots/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Viernes</title>
-      <link>http://localhost:4321/tags/viernes/</link>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:4321/tags/viernes/</guid>
       <description></description>
       
     </item>

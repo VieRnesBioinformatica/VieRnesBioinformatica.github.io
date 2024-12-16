@@ -7,14 +7,54 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/bioestadistica/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/bioestadistica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploración de datos y elección de pruebas o modelos Parte 1</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-15/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-15/</guid>
+      <description> </description>
+      
+    </item>
+    
+    <item>
+      <title>Exploración de datos y elección de pruebas o modelos Parte 1</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-14/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-14/</guid>
+      <description> </description>
+      
+    </item>
+    
+    <item>
+      <title>Terapia de Bioinfo grupal (opcional)</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-13/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-13/</guid>
+      <description>Script: Material</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-13/featured.png" />
+    </item>
+    
+    <item>
+      <title>Bioestadistica parte 2</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-12/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-12/</guid>
+      <description> </description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-12/featured.png" />
+    </item>
+    
     <item>
       <title>Bioestadistica parte 1</title>
       <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-11/</link>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-11/</guid>
-      <description> Parte 1 # Parte 2 # </description>
+      <description> </description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-11/featured.png" />
     </item>
     
