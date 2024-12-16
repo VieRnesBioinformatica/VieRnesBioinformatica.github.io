@@ -4,7 +4,11 @@
     "bio": "Doctora en Ciencias Bioquímicas",
     "social": [
         {"link": "https://rladiesmx.netlify.app/author/joselyn-chavez/"}
-    ]
+    ],
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 

@@ -1,0 +1,12 @@
+{
+    "name": "Dra. Evelia Coss",
+    "image" : "Autores/EveliaCoss.jpeg",
+    "bio": "Posdoc, LIIGH - UNAM",
+    "social": [
+        {"email" : "mailto:ecoss@liigh.unam.mx" },
+        {"github": "https://github.com/EveliaCoss"}
+    ],
+    
+    "curso": ["Parte 1", "Parte 2"]
+}
+ 

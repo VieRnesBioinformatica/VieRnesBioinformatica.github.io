@@ -5,7 +5,11 @@
     "social": [
         {"github": "https://github.com/3LCONEJO"},
         {"email": "mailto:jasvpj@gmail.com"}
-    ]
+    ],
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 

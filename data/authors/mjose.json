@@ -4,7 +4,11 @@
     "bio": "Estudiante de Doctorado, CCG - UNAM.",
     "social": [
         {"x-twitter": "https://x.com/maxolotlmad"}
-    ]
+    ],
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 

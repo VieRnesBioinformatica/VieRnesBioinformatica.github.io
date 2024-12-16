@@ -4,7 +4,11 @@
     "bio": "Chief Data Scientist (CDS) & Principal Investigator (PI), Solena Ag.",
     "social": [
         {"linkedin": "https://www.linkedin.com/in/obed-ram%C3%ADrez-s%C3%A1nchez-370565131/"}
-    ]
+    ],
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 

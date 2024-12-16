@@ -5,7 +5,11 @@
     "social": [
         {"github": "https://github.com/Iaguilaror",
          "facebook": "https://www.facebook.com/profile.php?id=100083796342385"}
-    ]
+    ],
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 

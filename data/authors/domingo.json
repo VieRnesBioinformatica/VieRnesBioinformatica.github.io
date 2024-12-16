@@ -5,7 +5,11 @@
     "social": [
         {"researchgate": "https://www.researchgate.net/profile/Domingo-Martinez-5",
          "x-twitter": "https://www.x.com/D_o_m_i_n_g_o" }
-    ]
+    ],
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 

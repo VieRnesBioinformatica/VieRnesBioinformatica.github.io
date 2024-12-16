@@ -1,0 +1,13 @@
+{
+    "name": "Dr. Israel Aguilar Ordoñez",
+    "image" : "Autores/Aguilar.jpeg",
+    "bio": "Dr. Israel Aguilar, Posdoc, Tecnológico de Monterrey",
+    "social": [
+        {"github": "https://github.com/Iaguilaror",
+         "facebook": "https://www.facebook.com/profile.php?id=100083796342385"}
+    ],
+    
+    "curso": ["Parte 1", "Parte 2"]
+}
+ 
+

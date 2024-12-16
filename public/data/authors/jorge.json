@@ -1,0 +1,13 @@
+{
+    "name": "Jorge Suazo",
+    "image" : "Autores/JS.png",
+    "bio": "Estudiante de Ciencias Genomicas - Creador de la pagina",
+    "social": [
+        {"github": "https://github.com/3LCONEJO"},
+        {"email": "mailto:jasvpj@gmail.com"}
+    ],
+    
+    "curso": ["Parte 1", "Parte 2"]
+}
+ 
+

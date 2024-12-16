@@ -4,7 +4,11 @@
     "bio": "Posdoc, Centro de Ciencias Matemáticas - UNAM",
     "social": [
         {"graduation-cap": "https://scholar.google.com/citations?user=Pi9v98gAAAAJ"}
-    ]
+    ],
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 

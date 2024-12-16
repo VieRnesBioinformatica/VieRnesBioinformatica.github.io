@@ -1,0 +1,12 @@
+{
+    "name": "María José Palma Martínez (Maestría)",
+    "image" : "Autores/mjose.jpeg",
+    "bio": "Estudiante de Doctorado, CCG - UNAM.",
+    "social": [
+        {"x-twitter": "https://x.com/maxolotlmad"}
+    ],
+    
+    "curso": ["Parte 1", "Parte 2"]
+}
+ 
+

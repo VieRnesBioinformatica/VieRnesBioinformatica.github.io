@@ -4,7 +4,12 @@
     "bio": "Especialista de Datos Jr, GF Banorte",
     "social": [
         {"x-twitter": "https://www.x.com/tipica_nerd"}
-    ]
+    ],
+
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 

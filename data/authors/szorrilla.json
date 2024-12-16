@@ -4,7 +4,11 @@
     "bio": "Estudiante de maestría y asistente de investigación",
     "social": [
         {"github": "https://github.com/sofiazorrilla"}
-    ]
+    ],
+    "curso": [
+      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ]
 }
  
 
