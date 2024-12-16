@@ -52,5 +52,10 @@ parent = "Videos"
 weight = 10
 url = "/playlist/2"
 
+[[main]]
+name = "Codigo de Conducta"
+weight = 9998
+url = "/codigo/"
+
 [[footer]]
 none = "none"

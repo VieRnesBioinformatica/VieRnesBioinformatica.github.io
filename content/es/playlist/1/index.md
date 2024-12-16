@@ -3,12 +3,13 @@ title: "Lista de Reproducción Parte 1"
 draft: false
 description: "Lista de reproduccion de Viernes de Bioinformatica 2024"
 tags: ["Videos"]
-showAuthor: false
+showAuthorBottom: true
 showDate: false
 showLikes: false
 showViews: false
 showPagination: false
 showComments: false
+headless: true
 authors:
  - "evelia"
  - "sofia"
@@ -62,6 +63,7 @@ authors:
     -   [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
 -   Grabación: <iframe src="https://drive.google.com/file/d/16vskGRS0QAS7f3acI886BVWgLI7j3dkf/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+
 
 ### Viernes 3. Manipulación de datos con R base (matrix y lista)
 

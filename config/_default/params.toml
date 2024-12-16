@@ -40,7 +40,7 @@ showViews = true
 showLikes = true
 showDateOnlyInArticle = false
 showDateUpdated = false
-showAuthor = true
+showAuthor = false
 showHero = true
 heroStyle = "background"
 layoutBackgroundBlur = true
@@ -63,6 +63,7 @@ showWordCount = true
 sharingLinks = [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email" ]
 showZenMode = true
 showComments = true
+showAuthorBottom = true
 
 [list]
 showHero = true
