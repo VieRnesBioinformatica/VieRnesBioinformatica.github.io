@@ -625,9 +625,11 @@
         color: #aaa;
       }
 
-      .days li.active{
-        color: #fff;
-      }
+      
+.days li.active {
+  color: #fff;
+  background-color: inherit;  
+}
 
       .days li.special-date{
         color: #fff;
@@ -666,7 +668,27 @@
         text-align: left;
         white-space: pre-wrap;
       }
-    </style>
+      .fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+  }
+.fade-in.show {
+  opacity: 0;
+}
+
+.days li {
+  opacity: .2;
+  animation: fadeIn 0.5s forwards;
+}
+
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+ .days li.special-date.active { animation: highlight 1s forwards; color: white; } @keyframes highlight { 0% { background-color: rgba(40,30,150, 0.2); } } }    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -811,13 +833,20 @@
         
         eventDescriptionTag.textContent = "";
 
-        
-        document.querySelectorAll('.special-date').forEach(day => {
-          day.addEventListener('click', function() {
-            const description = this.getAttribute('data-description');
-            eventDescriptionTag.textContent = description;
-          });
-        });
+       document.querySelectorAll('.special-date').forEach(day => {
+  day.addEventListener('click', function() {
+    const description = this.getAttribute('data-description');
+    eventDescriptionTag.textContent = description;
+    
+    document.querySelectorAll('.special-date.active').forEach(activeDay => {
+      activeDay.classList.remove('active');
+    });
+    this.classList.add('active');
+  });
+});
+
+
+
       }
 
       renderCalendar();
