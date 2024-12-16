@@ -748,7 +748,6 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Calendario de Curso de Bioinformática</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <style>
@@ -837,11 +836,10 @@
         color: #aaa;
       }
 
-      
-.days li.active {
-  color: #fff;
-  background-color: inherit;  
-}
+      .days li.active {
+        color: #fff;
+        background-color: inherit;
+      }
 
       .days li.special-date{
         color: #fff;
@@ -872,35 +870,48 @@
       }
 
       #event-description {
-        transition: all 0.3s;
-        margin-top: 20px;
-        padding: 10px;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out, opacity 0.5s ease-out, background-color 0.5s ease-in-out;
         background-color: rgba(10,0,50,.1);
         border-radius: 5px;
         text-align: left;
         white-space: pre-wrap;
+        padding: 0 10px;
       }
-      .fade-in {
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
-  }
-.fade-in.show {
-  opacity: 0;
-}
 
-.days li {
-  opacity: .2;
-  animation: fadeIn 0.5s forwards;
-}
+      #event-description.show {
+        max-height: 500px;
+        opacity: 1;
+        padding: 10px;
+      }
 
+      .days li {
+        opacity: .2;
+        animation: fadeIn 0.5s forwards;
+      }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
 
- .days li.special-date.active { animation: highlight 1s forwards; color: white; } @keyframes highlight { 0% { background-color: rgba(40,30,150, 0.2); } } }    </style>
+      .days li.special-date.active {
+        animation: highlight 1s forwards; 
+        color: white; 
+      }
+
+      @keyframes highlight {
+        0% { 
+          background-color: rgba(40,30,150, 0.2); 
+        } 
+        100% { 
+          background-color: rgba(40,30,150, 1);
+        }  
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -927,154 +938,194 @@
     </div>
 
     <script>
-      const daysTag = document.querySelector(".days"),
-            currentDate = document.querySelector(".current-date"),
-            prevNextIcon = document.querySelectorAll(".icons span"),
-            eventDescriptionTag = document.querySelector("#event-description");
+      document.addEventListener('DOMContentLoaded', function() {
+        const daysTag = document.querySelector(".days"),
+              currentDate = document.querySelector(".current-date"),
+              prevNextIcon = document.querySelectorAll(".icons span"),
+              eventDescriptionTag = document.querySelector("#event-description");
 
-      let date = new Date(),
-          currYear = date.getFullYear(),
-          currMonth = date.getMonth();
-
-      const specialDates = [
-        { 
-          year: 2025, 
-          month: 1,  
-          day: 7, 
-          description: "Viernes 1. Información general del curso\nPor: Evelia Coss e Israel Aguilar\n\nFormulario:\n- Llenar del 7 al 14 feb\n- Revisión del 14 al 21 feb" 
-        },
-        { 
-          year: 2025, 
-          month: 1,  
-          day: 14, 
-          description: "Viernes 2. Introducción a R" 
-        },
-        { 
-          year: 2025, 
-          month: 1,  
-          day: 21, 
-          description: "Viernes 3. Manipulación de datos usando R\n\nNotificación de propuestas aceptadas" 
-        },
-        { 
-          year: 2025, 
-          month: 1,  
-          day: 28, 
-          description: "Viernes 4. Presentación de propuestas aceptadas\n- 5 min por Presentación\n- Segundo formulario (3 opciones para formar grupos)\n- Aviso de grupos el 1 de marzo por correo" 
-        },
-        { 
-          year: 2025, 
-          month: 2,  
-          day: 7, 
-          description: "Viernes 5. Buenas prácticas en bioinformática\nPor: Evelia Coss" 
-        },
-        { 
-          year: 2025, 
-          month: 2,  
-          day: 14, 
-          description: "Viernes 6. Mini curso de Alphafold2\nPor: Quetzally Medina" 
-        },
-        { 
-          year: 2025, 
-          month: 2,  
-          day: 21, 
-          description: "Viernes 7. Programación defensiva con ggplot2\nPor: Evelia Coss" 
-        },
-        { 
-          year: 2025, 
-          month: 2,  
-          day: 28, 
-          description: "Viernes 8. Introducción a Quarto" 
-        },
-        { 
-          year: 2025, 
-          month: 3,  
-          day: 4, 
-          description: "Viernes 9. Git + Github\nPor: Evelia Coss" 
-        },
-        { 
-          year: 2025, 
-          month: 3,  
-          day: 11, 
-          description: "Viernes 10. Git + Github\nPor: Evelia Coss" 
-        },
-        { 
-          year: 2025, 
-          month: 3,  
-          day: 25, 
-          description: "Viernes 11. Análisis de datos de RNA-seq\nPor: Invitado de Israel" 
-        }
-      ];
-
-      const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
-                      "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-
-      const renderCalendar = () => {
-        let firstDayofMonth = new Date(currYear, currMonth, 1).getDay(),
-            lastDateofMonth = new Date(currYear, currMonth + 1, 0).getDate(),
-            lastDayofMonth = new Date(currYear, currMonth, lastDateofMonth).getDay(),
-            lastDateofLastMonth = new Date(currYear, currMonth, 0).getDate();
-        let liTag = "";
-
-        for (let i = firstDayofMonth; i > 0; i--) {
-          liTag += `<li class="inactive">${lastDateofLastMonth - i + 1}</li>`;
-        }
-
-        for (let i = 1; i <= lastDateofMonth; i++) {
-          let isToday = i === date.getDate() && currMonth === new Date().getMonth() 
-                        && currYear === new Date().getFullYear() ? "active" : "";
-          
-          let specialDate = specialDates.find(
-            specialDate => specialDate.year === currYear && 
-                           specialDate.month === currMonth && 
-                           specialDate.day === i
-          );
-          
-          let specialClass = specialDate ? "special-date" : "";
-          let dataAttribute = specialDate ? `data-description="${specialDate.description}"` : "";
-          
-          liTag += `<li class="${isToday} ${specialClass}" ${dataAttribute}>${i}</li>`;
-        }
-
-        for (let i = lastDayofMonth; i < 6; i++) {
-          liTag += `<li class="inactive">${i - lastDayofMonth + 1}</li>`;
-        }
-
-        currentDate.innerText = `${months[currMonth]} ${currYear}`;
-        daysTag.innerHTML = liTag;
-
-        
-        eventDescriptionTag.textContent = "";
-
-       document.querySelectorAll('.special-date').forEach(day => {
-  day.addEventListener('click', function() {
-    const description = this.getAttribute('data-description');
-    eventDescriptionTag.textContent = description;
-    
-    document.querySelectorAll('.special-date.active').forEach(activeDay => {
-      activeDay.classList.remove('active');
-    });
-    this.classList.add('active');
-  });
-});
-
-
-
-      }
-
-      renderCalendar();
-
-      prevNextIcon.forEach(icon => {
-        icon.addEventListener("click", () => {
-          currMonth = icon.id === "prev" ? currMonth - 1 : currMonth + 1;
-
-          if(currMonth < 0 || currMonth > 11) {
-            date = new Date(currYear, currMonth, new Date().getDate());
-            currYear = date.getFullYear();
+        let date = new Date(),
+            currYear = date.getFullYear(),
             currMonth = date.getMonth();
-          } else {
-            date = new Date();
+
+        const specialDates = [
+          { 
+            year: 2025, 
+            month: 1,  
+            day: 7, 
+            description: "Viernes 1. Información general del curso\nPor: Evelia Coss e Israel Aguilar\n\nFormulario:\n- Llenar del 7 al 14 feb\n- Revisión del 14 al 21 feb",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 1,  
+            day: 14, 
+            description: "Viernes 2. Introducción a R",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 1,  
+            day: 21, 
+            description: "Viernes 3. Manipulación de datos usando R\n\nNotificación de propuestas aceptadas",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 1,  
+            day: 28, 
+            description: "Viernes 4. Presentación de propuestas aceptadas\n- 5 min por Presentación\n- Segundo formulario (3 opciones para formar grupos)\n- Aviso de grupos el 1 de marzo por correo",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 2,  
+            day: 7, 
+            description: "Viernes 5. Buenas prácticas en bioinformática\nPor: Evelia Coss",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 2,  
+            day: 14, 
+            description: "Viernes 6. Mini curso de Alphafold2\nPor: Quetzally Medina",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 2,  
+            day: 21, 
+            description: "Viernes 7. Programación defensiva con ggplot2\nPor: Evelia Coss",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 2,  
+            day: 28, 
+            description: "Viernes 8. Introducción a Quarto",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 3,  
+            day: 4, 
+            description: "Viernes 9. Git + Github\nPor: Evelia Coss",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 3,  
+            day: 11, 
+            description: "Viernes 10. Git + Github\nPor: Evelia Coss",
+            circleColor: "rgba(40,30,150)" 
+          },
+          { 
+            year: 2025, 
+            month: 3,  
+            day: 25, 
+            description: "Viernes 11. Análisis de datos de RNA-seq\nPor: Invitado de Israel",
+            circleColor: "rgba(40,30,150)" 
+          },
+          {
+            year: 2024,
+            month: 11,  
+            day: 25,
+            description: "<b style='color: green; text-align: center;'>¡Feliz Navidad!</b><br><iframe width='560' height='315' src='https://www.youtube.com/embed/1giQVuoTAFM?si=kommXoj1qHE8Fw56&amp;start=14' title='Its timeeee' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+            circleColor: "green" 
           }
-          renderCalendar();
+        ];
+
+        const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+                        "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+        const renderCalendar = () => {
+          let firstDayofMonth = new Date(currYear, currMonth, 1).getDay(),
+              lastDateofMonth = new Date(currYear, currMonth + 1, 0).getDate(),
+              lastDayofMonth = new Date(currYear, currMonth, lastDateofMonth).getDay(),
+              lastDateofLastMonth = new Date(currYear, currMonth, 0).getDate();
+          let liTag = "";
+
+          for (let i = firstDayofMonth; i > 0; i--) {
+            liTag += `<li class="inactive">${lastDateofLastMonth - i + 1}</li>`;
+          }
+
+          for (let i = 1; i <= lastDateofMonth; i++) {
+            let isToday = i === date.getDate() && currMonth === new Date().getMonth() 
+                          && currYear === new Date().getFullYear() ? "active" : "";
+            
+            let specialDate = specialDates.find(
+              specialDate => specialDate.year === currYear && 
+                             specialDate.month === currMonth && 
+                             specialDate.day === i
+            );
+            
+            let specialClass = specialDate ? "special-date" : "";
+            let dataAttributes = specialDate 
+              ? `data-description="${specialDate.description}" data-circle-color="${specialDate.circleColor}"` 
+              : "";
+            
+            liTag += `<li class="${isToday} ${specialClass}" ${dataAttributes}>${i}</li>`;
+          }
+
+          for (let i = lastDayofMonth; i < 6; i++) {
+            liTag += `<li class="inactive">${i - lastDayofMonth + 1}</li>`;
+          }
+
+          currentDate.innerText = `${months[currMonth]} ${currYear}`;
+          daysTag.innerHTML = liTag;
+
+          const specialDatesNodes = document.querySelectorAll(".special-date");
+          specialDatesNodes.forEach((node) => {
+            const circleColor = node.dataset.circleColor;
+            if (circleColor) {
+              node.style.setProperty('--circle-color', circleColor);
+              node.classList.add('custom-circle-color');
+            }
+
+            node.addEventListener("click", () => {
+              const description = node.dataset.description;
+              
+              
+              if (eventDescriptionTag.classList.contains('show')) {
+                eventDescriptionTag.classList.remove('show');
+              } 
+              
+              
+              setTimeout(() => {
+                
+                if (description) {
+                  eventDescriptionTag.innerHTML = description;
+                  eventDescriptionTag.classList.add('show');
+                }
+              }, 500);
+            });
+          });
+        };
+
+        const styleEl = document.createElement('style');
+        styleEl.textContent = `
+          .days li.custom-circle-color::before {
+            background: var(--circle-color) !important;
+          }
+        `;
+        document.head.appendChild(styleEl);
+
+        renderCalendar();
+
+        prevNextIcon.forEach(icon => {
+          icon.addEventListener("click", () => {
+            currMonth = icon.id === "prev" ? currMonth - 1 : currMonth + 1;
+
+            if (currMonth < 0 || currMonth > 11) {
+              date = new Date(currYear, currMonth);
+              currYear = date.getFullYear();
+              currMonth = date.getMonth();
+            } else {
+              date = new Date();
+            }
+            renderCalendar();
+            eventDescriptionTag.classList.remove("show");
+          });
         });
       });
     </script>
