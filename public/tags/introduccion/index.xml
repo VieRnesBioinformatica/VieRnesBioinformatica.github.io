@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/introduccion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nextflow parte 3</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-24/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-24/</guid>
+      <description> </description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-24/featured.png" />
+    </item>
+    
+    <item>
+      <title>Nextflow parte 2</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-23/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-23/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-23/featured.png" />
+    </item>
+    
+    <item>
+      <title>Nextflow parte 1</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-22/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-22/</guid>
+      <description> </description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-22/featured.png" />
+    </item>
+    
+    <item>
+      <title> Introducción a Bash Parte 2</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-21/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-21/</guid>
+      <description> Material: # Presentacion </description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-21/featured.png" />
+    </item>
+    
     <item>
       <title> Introducción a Bash Parte 1</title>
       <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-20/</link>
@@ -15,7 +55,7 @@
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-20/</guid>
       <description>Material:</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-20/featured.png" />
     </item>
     
   </channel>

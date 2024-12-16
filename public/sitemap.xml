@@ -15,8 +15,20 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-24/</loc>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:4321/posts/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-23/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -29,6 +41,36 @@
   <url>
     <loc>http://localhost:4321/posts/viernes-de-bioinformatica2-2024/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-22/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-21/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-20/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-19/</loc>
+    <lastmod>2024-06-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-18/</loc>
+    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -47,6 +89,18 @@
   <url>
     <loc>http://localhost:4321/posts/tutoriales/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-17/</loc>
+    <lastmod>2024-06-07T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-16/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -142,6 +196,16 @@
   </url>
   <url>
     <loc>http://localhost:4321/calendar/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/playlist/1/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/playlist/2/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
