@@ -21,7 +21,10 @@ authors:
  - "szorrilla"
 ---
 
+## PARTE 2
+
 ### Viernes 1. Creación de paquetes en R
+
 - Fecha: Viernes 6 de septiembre 2024
 
 - Instructora: Dra. Joselyn Chávez
@@ -173,5 +176,6 @@ Material extra:
   - Julieth Lopez - [Proyecto en Quarto](https://juliethlopez.github.io/Proyecto_ViernesBioinformatica_2024/), datos Grandes ligas de Beisbol.
   - Erick Arroyo y Adriana Chacon - [Proyecto](https://github.com/Capnemo1/ProyectoVDB), datos de starwars
   - Erika Cruz y Amairani Cancino - [Proyecto](https://github.com/ErikaCruzB/UrbanSquirrels), datos de ardillas
+
 
 
