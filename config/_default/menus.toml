@@ -7,8 +7,14 @@ none = "none"
   weight = 10
 
 [[main]]
- name = "Viernes de bioinformática 2024 - Parte 1"
+ name = "Viernes de Bioinformática 2024 - Parte 1"
  pageRef = "Viernes de Bioinformatica 2024"
+ parent = "Blog"
+ weight = 5
+
+ [[main]]
+ name = "Viernes de Bioinformática 2024 - Parte 2"
+ pageRef = "Viernes de Bioinformatica2 2024"
  parent = "Blog"
  weight = 5
 
