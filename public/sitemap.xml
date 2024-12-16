@@ -51,6 +51,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-11/</loc>
+    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-10/</loc>
+    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-9/</loc>
+    <lastmod>2024-04-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-8/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -95,6 +113,11 @@
   <url>
     <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-1/</loc>
     <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-12/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

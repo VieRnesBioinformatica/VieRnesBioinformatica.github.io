@@ -19,9 +19,29 @@
     </item>
     
     <item>
+      <title>Israel Aguilar Ordoñez</title>
+      <link>http://localhost:4321/authors/israel/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/authors/israel/</guid>
+      <description> </description>
+      
+    </item>
+    
+    <item>
+      <title>Obed Ramírez Sánchez</title>
+      <link>http://localhost:4321/authors/obed/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/authors/obed/</guid>
+      <description> </description>
+      
+    </item>
+    
+    <item>
       <title>Sofia Guadalupe Salazar Magaña</title>
       <link>http://localhost:4321/authors/sofia/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/sofia/</guid>
       <description>Genomic Scientist.</description>
@@ -35,16 +55,6 @@
       
       <guid>http://localhost:4321/authors/evelia/</guid>
       <description>Posdoctoral Research Associate | Bioinformation | lncRNAs | autoimmune diseases | Evolution | gene regulation | Member R-Ladies, LupusRGMX, Project JAGUAR</description>
-      
-    </item>
-    
-    <item>
-      <title>Israel Aguilar Ordoñez</title>
-      <link>http://localhost:4321/authors/israel/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:4321/authors/israel/</guid>
-      <description> </description>
       
     </item>
     
@@ -135,16 +145,6 @@
       
       <guid>http://localhost:4321/authors/maria/</guid>
       <description>PhD Student | Bioinformatics | Population Genomics | Clinical Genomics | Mexican Indigenous Populations</description>
-      
-    </item>
-    
-    <item>
-      <title>Obed Ramírez Sánchez</title>
-      <link>http://localhost:4321/authors/obed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:4321/authors/obed/</guid>
-      <description> </description>
       
     </item>
     
