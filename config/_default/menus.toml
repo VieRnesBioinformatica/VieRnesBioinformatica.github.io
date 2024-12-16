@@ -6,6 +6,29 @@ none = "none"
   pageRef = "posts"
   weight = 10
 
+
+[[main]]
+pre = "email"
+url = "mailto:jasvpj@gmail.com"
+identifier = "o2qDWq7SRB"
+weight = 9999
+
+[[main]]
+name = "Autores"
+url = "/authors"
+weight = 9
+
+
+[[footer]]
+none = "none"
+[[main]]
+none = "none"
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
 [[main]]
  name = "Viernes de Bioinformática 2024 - Parte 1"
  pageRef = "Viernes de Bioinformatica 2024"
@@ -31,8 +54,20 @@ weight = 9
 
 [[main]]
 name = "Videos"
-url = "/playlist"
 weight = 8
+
+[[main]]
+name = "Parte 1"
+parent = "Videos"
+weight = 9
+url = "/playlist/1"
+
+
+[[main]]
+name = "Parte 2"
+parent = "Videos"
+weight = 10
+url = "/playlist/2"
 
 [[footer]]
 none = "none"
