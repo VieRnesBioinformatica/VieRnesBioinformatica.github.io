@@ -25,7 +25,7 @@ none = "none"
  weight = 5
 
  [[main]]
- name = "Cursos 🍎"
+ name = "Cursos"
  pageRef = "Cursos"
  parent = "Blog"
  weight = 5
