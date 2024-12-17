@@ -9,6 +9,8 @@ showLikes: false
 showViews: false
 showPagination: false
 showComments: false
+showRelatedContent: false
+headless: true
 authors:
  - "joselyn"
  - "evelia"
