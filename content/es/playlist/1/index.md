@@ -9,7 +9,6 @@ showLikes: false
 showViews: false
 showPagination: false
 showComments: false
-headless: true
 authors:
  - "evelia"
  - "sofia"
@@ -40,7 +39,7 @@ authors:
 
     -   [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
-<iframe src="https://drive.google.com/file/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1E8HLYIOP-7b_1oX5Xsos-ikVtvyTpgS6/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -62,7 +61,7 @@ authors:
 
     -   [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
--   Grabación: <iframe src="https://drive.google.com/file/d/16vskGRS0QAS7f3acI886BVWgLI7j3dkf/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+-   Grabación: <iframe src="https://drive.google.com/file/d/16vskGRS0QAS7f3acI886BVWgLI7j3dkf/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
 ### Viernes 3. Manipulación de datos con R base (matrix y lista)
@@ -77,7 +76,7 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1btEicNMEOYE9b-8xmACiR4qKc9YOgIEy/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1btEicNMEOYE9b-8xmACiR4qKc9YOgIEy/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -93,7 +92,7 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1Efrm9AtSV4S8frzkKT_-a-AMAa-m1DXx/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1Efrm9AtSV4S8frzkKT_-a-AMAa-m1DXx/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -107,7 +106,7 @@ authors:
 
 -   Presentación: [Resolucion de problemas](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase5_%20Viernes%20de%20Bioinfo.pdf)
 
--   Grabación: <iframe src="https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+-   Grabación: <iframe src="https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 6. Manipulación de datos con funciones de R base
 
@@ -125,7 +124,7 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1QlYPZu25JUC-yY8EhGoVV4HnvjtBdCX1/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1QlYPZu25JUC-yY8EhGoVV4HnvjtBdCX1/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -145,7 +144,7 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1eL6Kpr--F8Bak--ahKhX7_W0T4Q6TP7Y/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1eL6Kpr--F8Bak--ahKhX7_W0T4Q6TP7Y/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -163,7 +162,7 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1IOnuBGetqmuSo73346sgWb5g4o16Uj6j/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -180,7 +179,7 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -201,7 +200,7 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1zqvo38VxFaxdfYdxqfESv4C0PwN8X_Pd/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1zqvo38VxFaxdfYdxqfESv4C0PwN8X_Pd/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -221,9 +220,9 @@ authors:
 
 -   Grabación:
 
-    -   Parte 1. <iframe src="https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    -   Parte 1. <iframe src="https://drive.google.com/file/d/1aQXJnMdF89uyC8wUIxqHKCSVRu0vuc4w/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-    -   Parte 2. <iframe src="https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    -   Parte 2. <iframe src="https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 13. Terapia de Bioinfo grupal (opcional)
 
@@ -238,7 +237,7 @@ authors:
 
 -   Grabación:
 
-<iframe src="https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+<iframe src="https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
 </iframe>
 
@@ -266,13 +265,13 @@ authors:
 
     -   Clase 14
 
-    <iframe src="https://drive.google.com/file/d/1FoCG0hKrTzpUCJBquRRnfm1USTDBFF2S/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/1FoCG0hKrTzpUCJBquRRnfm1USTDBFF2S/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
     </iframe>
 
     -   Clase 15
 
-    <iframe src="https://drive.google.com/file/d/12uApQHD_simPRd_zno2hWFVcsM5shEVE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/12uApQHD_simPRd_zno2hWFVcsM5shEVE/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
     </iframe>
 
@@ -308,25 +307,25 @@ authors:
 
     -   Clase 16
 
-    <iframe src="https://drive.google.com/file/d/1miKsbRlqhIA4bdNanVVwl863uoILZZyM/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/1miKsbRlqhIA4bdNanVVwl863uoILZZyM/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
     </iframe>
 
     -   Clase 17
 
-    <iframe src="https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/1qlutWIUZIXhnlTCH5jpMJRSM7gOTsopO/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
     </iframe>
 
     -   Clase 18
 
-    <iframe src="https://drive.google.com/file/d/15km9mnTTS7bpSb59h1ryYFG4PIi0i8oc/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/15km9mnTTS7bpSb59h1ryYFG4PIi0i8oc/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
     </iframe>
 
     -   Clase 19
 
-    <iframe src="https://drive.google.com/file/d/16DcB6ZYbs3fs8X5k6j89cUuW-gRfJviR/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/16DcB6ZYbs3fs8X5k6j89cUuW-gRfJviR/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
     </iframe>
 
@@ -368,13 +367,13 @@ authors:
 
     -   Clase 20
 
-    <iframe src="https://drive.google.com/file/d/13-Z14k6i8ZNCKnpoZNee8s_t17TECGOE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/13-Z14k6i8ZNCKnpoZNee8s_t17TECGOE/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
     </iframe>
 
     -   Clase21
 
-    <iframe src="https://drive.google.com/file/d/1HMI3h6KhRGExcpCABl3IQbYn5bCdn6tE/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true">
+    <iframe src="https://drive.google.com/file/d/1HMI3h6KhRGExcpCABl3IQbYn5bCdn6tE/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
 
     </iframe>
     
@@ -396,12 +395,12 @@ authors:
 
     -   Clase22
     
-    <iframe src="https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1-9RxTrnfDrXjnczSri6q7LjympEIZY7R/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
     -   Clase23
     
-    <iframe src="https://drive.google.com/file/d/1h3W_iygPAaqNUqPTbYObhBZsLr0cCuLA/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1h3W_iygPAaqNUqPTbYObhBZsLr0cCuLA/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
     -   Clase24
     
-    <iframe src="https://drive.google.com/file/d/1iEktZg5WXtSOA5wfEOsMjXHO7_UNIxyX/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1iEktZg5WXtSOA5wfEOsMjXHO7_UNIxyX/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>

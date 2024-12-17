@@ -33,7 +33,7 @@ authors:
 
 -   Grabación:
 
-    <iframe src="https://drive.google.com/file/d/1HtuubU3XlypKqdaM4vYaeB3koB61MQ7R/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1HtuubU3XlypKqdaM4vYaeB3koB61MQ7R/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 2 y 3. Introducción al paquete data.table en R
 
@@ -47,9 +47,9 @@ authors:
 
 -   Grabación:
 - 2
-    <iframe src="https://drive.google.com/file/d/18AjTP08J9RwpdGlxnYlKu-m92oWArCUn/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/18AjTP08J9RwpdGlxnYlKu-m92oWArCUn/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 - 3 
-    <iframe src="https://drive.google.com/file/d/10EeeTUGIVwHXj1x8GffFKjmI4UXr0H-V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/10EeeTUGIVwHXj1x8GffFKjmI4UXr0H-V/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 4 y 5. Analisis de variantes genetica con data.table en R
 
@@ -70,9 +70,9 @@ authors:
 - Grabación:
 
 - 4
-    <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 - 5
-    <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1VLFbp0ebaV3dwgKUatdek6vQuM0mXg5V/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 Material extra:
 [Visualizacion de variantes geneticas en mapa mundial](https://popgen.uchicago.edu/ggv/?data=%221000genomes%22&chr=7&pos=5460748)
 [1000genomes](https://popgen.uchicago.edu/ggv/?data=%221000genomes%22&chr=7&pos=5460748)
@@ -91,9 +91,9 @@ Material extra:
 
 - Grabación:
  - 6
-      <iframe src="https://drive.google.com/file/d/1GSFtbEQ5r6IT63vk1hEVFCGuh7jvyaZx/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+      <iframe src="https://drive.google.com/file/d/1GSFtbEQ5r6IT63vk1hEVFCGuh7jvyaZx/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
  - 7
-    <iframe src="https://drive.google.com/file/d/1JrN2EbJH8OlQncdEMpKkjOdIXP_-HNW4/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+    <iframe src="https://drive.google.com/file/d/1JrN2EbJH8OlQncdEMpKkjOdIXP_-HNW4/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Viernes 8. Circus plot en R
 
@@ -107,7 +107,7 @@ Material extra:
 
 - Grabacion
 
-<iframe src="https://drive.google.com/file/d/1hm_KRnKanoKXrKAJZ0H8qx2p-TVK9OT6/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1hm_KRnKanoKXrKAJZ0H8qx2p-TVK9OT6/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
 ### Viernes 9. Programacion defensiva con ggplot2
@@ -121,7 +121,7 @@ Material extra:
 - Manual: [Defensiva_ggplot2024](https://eveliacoss.github.io/Defensiva_ggplot2024/)
 
 - Grabación: Clase9
-<iframe src="https://drive.google.com/file/d/1LyO96Wv5eUBC-NMXUVGQ9y2DiXXN_SuT/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1LyO96Wv5eUBC-NMXUVGQ9y2DiXXN_SuT/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
     
 - Proyecto final: [Instrucciones](https://eveliacoss.github.io/Defensiva_ggplot2024/Parte5.html), Entrega de reporte 5 de diciembre y presentacion de 15 min por equipo el 6 de diciembre.
 
@@ -145,13 +145,13 @@ Material extra:
 
 - Grabación: Clase11
   
-<iframe src="https://drive.google.com/file/d/13UIIC7bTHDT64oO9EEurmJy22UFbUr1P/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/13UIIC7bTHDT64oO9EEurmJy22UFbUr1P/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 - Material: [Pagina1](https://haydeeperuyero.github.io/others/webpage/) y [Pagina2](https://haydeeperuyero.github.io/others/viernesbio/)
 
 - Grabación: Clase 12
 
-<iframe src="https://drive.google.com/file/d/1KS3b1eK1SgeoC44hmq5O05QdPPY5hjVY/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1KS3b1eK1SgeoC44hmq5O05QdPPY5hjVY/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 ### Clase extra. Crea tu CV en R
 
@@ -163,7 +163,7 @@ Material extra:
 
 - Grabación: Crea tu CV
 
-<iframe src="https://drive.google.com/file/d/1luF35CoKTyvpJyxAlebA8QW7tvGqHmvR/preview" width="100%" height="400" allow="autoplay" allowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1luF35CoKTyvpJyxAlebA8QW7tvGqHmvR/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
 ### Viernes 13. Programacion defensiva con ggplot2, parte 2
