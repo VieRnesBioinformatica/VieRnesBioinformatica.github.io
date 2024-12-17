@@ -23,6 +23,12 @@ none = "none"
  pageRef = "Tutoriales"
  parent = "Blog"
  weight = 5
+
+ [[main]]
+ name = "Cursos 🍎"
+ pageRef = "Cursos"
+ parent = "Blog"
+ weight = 5
  
 [[main]]
 pre = "email"
