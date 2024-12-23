@@ -15,7 +15,7 @@
       
       <guid>http://localhost:4321/posts/cursos/filogenetica/bloque1/</guid>
       <description>Objetivo: Que quienes lo cursen adquieran la capcidad de comprender, interpretar construir hipotesis filogeneticas (arboles filogeneticos) con marcadores moleculares.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/cursos/filogenetica/bloque1/featured.png" />
     </item>
     
   </channel>
