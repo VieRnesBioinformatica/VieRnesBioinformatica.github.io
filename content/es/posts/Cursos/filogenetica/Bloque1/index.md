@@ -1,7 +1,7 @@
 ---
 title: "Bases para la inferencia filogenética, construcción, lectura e interpretación de árboles filogenéticos"
 date: 2024-08-03
-draft: true
+draft: false
 description: "Que quienes lo cursen adquieran la capcidad de comprender, interpretar construir hipotesis filogeneticas (arboles filogeneticos) con marcadores moleculares."
 tags: ["filogenetica", "bloque"]
 showAuthor: false
@@ -13,8 +13,12 @@ seriesOpened: true
 ---
 
 Objetivo: Que quienes lo cursen adquieran la capcidad de comprender, interpretar construir hipotesis filogeneticas (arboles filogeneticos) con marcadores moleculares.
-
-<iframe src="https://drive.google.com/file/d/1PuvXqUOP87qkW0ipJQfS-5exUYbxVURq/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe 
+    src="https://drive.google.com/file/d/1PuvXqUOP87qkW0ipJQfS-5exUYbxVURq/preview" 
+    width="100%" 
+    height="500" 
+    allow="autoplay; fullscreen">
+</iframe>
 
 Cuando observamos un árbol filogenético, parece sencillo: ramas que se conectan, hojas que representan linajes, bifurcaciones que sugieren parentesco. Pero cuando me detengo a pensarlo, me pregunto... ¿qué más está ahí, más allá de lo que vemos?
 
@@ -48,3 +52,7 @@ several extinct forms"
 La imagen representa un hito en la historia de la biología, siendo el primer bosquejo de un árbol filogenético realizado por Charles Darwin en 1837. Este simple dibujo refleja una idea revolucionaria: que todas las especies están relacionadas y comparten un ancestro común. La clave de su propuesta radicó en nuestra capacidad para reconocer patrones en la naturaleza, algo esencial en la construcción de hipótesis evolutivas.
 
 En el árbol de Darwin, las líneas divergen desde un punto común, simbolizando cómo las especies se originan a través de la evolución y cómo las más cercanas comparten un ancestro común reciente. Este esquema fue el inicio conceptual de cómo hoy entendemos y construimos filogenias utilizando herramientas modernas y marcadores moleculares. A pesar de la sencillez del dibujo, la profundidad de su mensaje transformó nuestra forma de entender la biodiversidad y las conexiones entre los seres vivos.
+
+Claro en este momento no teniamos conocimiento del mundo invicible, genes, cromosomas, proteinas, etc. Pero la idea de que las especies estan relacionadas y comparten un ancestro común, es la base de la filogenetica.
+
+
