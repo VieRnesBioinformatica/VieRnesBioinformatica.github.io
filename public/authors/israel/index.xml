@@ -2,90 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Israel Aguilar Ordoñez on </title>
-    <link>http://localhost:4321/authors/israel/</link>
+    <link>http://localhost:5286/authors/israel/</link>
     <description>Recent content in Israel Aguilar Ordoñez on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/authors/israel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5286/authors/israel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nextflow parte 3</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-24/</link>
+      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-24/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-24/</guid>
+      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-24/</guid>
       <description> </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-24/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-24/featured.png" />
     </item>
     
     <item>
       <title>Nextflow parte 2</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-23/</link>
+      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-23/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-23/</guid>
+      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-23/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-23/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-23/featured.png" />
     </item>
     
     <item>
       <title>Nextflow parte 1</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-22/</link>
+      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-22/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-22/</guid>
+      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-22/</guid>
       <description> </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-22/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-22/featured.png" />
     </item>
     
     <item>
       <title> Introducción a Bash Parte 2</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-21/</link>
+      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-21/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-21/</guid>
+      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-21/</guid>
       <description> Material: # Presentacion </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-21/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-21/featured.png" />
     </item>
     
     <item>
       <title> Introducción a Bash Parte 1</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-20/</link>
+      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-20/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-20/</guid>
+      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-20/</guid>
       <description>Material:</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-20/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-20/featured.png" />
     </item>
     
     <item>
       <title>Terapia de Bioinfo grupal (opcional)</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-13/</link>
+      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-13/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-13/</guid>
+      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-13/</guid>
       <description>Script: Material</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-13/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-13/featured.png" />
     </item>
     
     <item>
       <title>Terapia de Bioinfo grupal (opcional)</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-9/</link>
+      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-9/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-9/</guid>
+      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-9/</guid>
       <description> </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-9/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-9/featured.png" />
     </item>
     
     <item>
       <title>Terapia de Bioinfo grupal (opcional)</title>
-      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/</link>
+      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-5/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/</guid>
+      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-5/</guid>
       <description> </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-5/featured.jpg" />
     </item>
     
   </channel>

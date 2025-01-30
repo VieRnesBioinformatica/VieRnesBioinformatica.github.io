@@ -2,178 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>http://localhost:4321/tags/</link>
+    <link>http://localhost:5286/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5286/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R</title>
-      <link>http://localhost:4321/tags/r/</link>
+      <link>http://localhost:5286/tags/r/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/r/</guid>
+      <guid>http://localhost:5286/tags/r/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rstudio</title>
-      <link>http://localhost:4321/tags/rstudio/</link>
+      <link>http://localhost:5286/tags/rstudio/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/rstudio/</guid>
+      <guid>http://localhost:5286/tags/rstudio/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:4321/tags/tutorial/</link>
+      <link>http://localhost:5286/tags/tutorial/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/tutorial/</guid>
+      <guid>http://localhost:5286/tags/tutorial/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Viernes</title>
-      <link>http://localhost:4321/tags/viernes/</link>
+      <link>http://localhost:5286/tags/viernes/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/viernes/</guid>
+      <guid>http://localhost:5286/tags/viernes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bloque</title>
-      <link>http://localhost:4321/tags/bloque/</link>
+      <link>http://localhost:5286/tags/bloque/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/bloque/</guid>
+      <guid>http://localhost:5286/tags/bloque/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Filogenetica</title>
-      <link>http://localhost:4321/tags/filogenetica/</link>
+      <link>http://localhost:5286/tags/filogenetica/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/filogenetica/</guid>
+      <guid>http://localhost:5286/tags/filogenetica/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Introduccion</title>
-      <link>http://localhost:4321/tags/introduccion/</link>
+      <link>http://localhost:5286/tags/introduccion/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/introduccion/</guid>
+      <guid>http://localhost:5286/tags/introduccion/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nextflow</title>
-      <link>http://localhost:4321/tags/nextflow/</link>
+      <link>http://localhost:5286/tags/nextflow/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/nextflow/</guid>
+      <guid>http://localhost:5286/tags/nextflow/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bash</title>
-      <link>http://localhost:4321/tags/bash/</link>
+      <link>http://localhost:5286/tags/bash/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/bash/</guid>
+      <guid>http://localhost:5286/tags/bash/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Datos</title>
-      <link>http://localhost:4321/tags/datos/</link>
+      <link>http://localhost:5286/tags/datos/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/datos/</guid>
+      <guid>http://localhost:5286/tags/datos/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://localhost:4321/tags/python/</link>
+      <link>http://localhost:5286/tags/python/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/python/</guid>
+      <guid>http://localhost:5286/tags/python/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Principiante</title>
-      <link>http://localhost:4321/tags/principiante/</link>
+      <link>http://localhost:5286/tags/principiante/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/principiante/</guid>
+      <guid>http://localhost:5286/tags/principiante/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bioestadistica</title>
-      <link>http://localhost:4321/tags/bioestadistica/</link>
+      <link>http://localhost:5286/tags/bioestadistica/</link>
       <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/bioestadistica/</guid>
+      <guid>http://localhost:5286/tags/bioestadistica/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Heatmap</title>
-      <link>http://localhost:4321/tags/heatmap/</link>
+      <link>http://localhost:5286/tags/heatmap/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/heatmap/</guid>
+      <guid>http://localhost:5286/tags/heatmap/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Plots</title>
-      <link>http://localhost:4321/tags/plots/</link>
+      <link>http://localhost:5286/tags/plots/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/plots/</guid>
+      <guid>http://localhost:5286/tags/plots/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Opcional</title>
-      <link>http://localhost:4321/tags/opcional/</link>
+      <link>http://localhost:5286/tags/opcional/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/opcional/</guid>
+      <guid>http://localhost:5286/tags/opcional/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Db</title>
-      <link>http://localhost:4321/tags/db/</link>
+      <link>http://localhost:5286/tags/db/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/tags/db/</guid>
+      <guid>http://localhost:5286/tags/db/</guid>
       <description></description>
       
     </item>
