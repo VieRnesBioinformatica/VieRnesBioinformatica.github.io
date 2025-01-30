@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sofía Zorrilla Azcué on </title>
-    <link>http://localhost:5286/authors/szorrilla/</link>
+    <link>http://localhost:3525/authors/szorrilla/</link>
     <description>Recent content in Sofía Zorrilla Azcué on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <atom:link href="http://localhost:5286/authors/szorrilla/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:3525/authors/szorrilla/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

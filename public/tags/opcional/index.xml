@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opcional on </title>
-    <link>http://localhost:5286/tags/opcional/</link>
+    <link>http://localhost:3525/tags/opcional/</link>
     <description>Recent content in Opcional on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5286/tags/opcional/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:3525/tags/opcional/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terapia de Bioinfo grupal (opcional)</title>
-      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-9/</link>
+      <link>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-9/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-9/</guid>
+      <guid>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-9/</guid>
       <description> </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-9/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-9/featured.png" />
     </item>
     
     <item>
       <title>Terapia de Bioinfo grupal (opcional)</title>
-      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-5/</link>
+      <link>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-5/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-5/</guid>
+      <guid>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-5/</guid>
       <description> </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-5/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-5/featured.jpg" />
     </item>
     
   </channel>

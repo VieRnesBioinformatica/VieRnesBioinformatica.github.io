@@ -2,158 +2,158 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on </title>
-    <link>http://localhost:5286/authors/</link>
+    <link>http://localhost:3525/authors/</link>
     <description>Recent content in Authors on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5286/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:3525/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Joselyn Cristina Chávez Fuentes</title>
-      <link>http://localhost:5286/authors/joselyn/</link>
+      <link>http://localhost:3525/authors/joselyn/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/joselyn/</guid>
+      <guid>http://localhost:3525/authors/joselyn/</guid>
       <description>Postdoctoral fellow, Bioinformatics, R programming, Spatial transcriptomics.</description>
       
     </item>
     
     <item>
       <title>María Guadalupe Segovia Ramírez, PhD</title>
-      <link>http://localhost:5286/authors/mguadalupe/</link>
+      <link>http://localhost:3525/authors/mguadalupe/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/mguadalupe/</guid>
+      <guid>http://localhost:3525/authors/mguadalupe/</guid>
       <description>Maria G.</description>
       
     </item>
     
     <item>
       <title>Israel Aguilar Ordoñez</title>
-      <link>http://localhost:5286/authors/israel/</link>
+      <link>http://localhost:3525/authors/israel/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/israel/</guid>
+      <guid>http://localhost:3525/authors/israel/</guid>
       <description> </description>
       
     </item>
     
     <item>
       <title>Dr. Shaday Guerrero Flores</title>
-      <link>http://localhost:5286/authors/shaday/</link>
+      <link>http://localhost:3525/authors/shaday/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/shaday/</guid>
+      <guid>http://localhost:3525/authors/shaday/</guid>
       <description>Postdoctoral Research Associate, Mathematician, Bioinformatician, Mathematical Modeling, Metagenomes, Genome Mining</description>
       
     </item>
     
     <item>
       <title>Jorge Alfredo Suazo Victoria</title>
-      <link>http://localhost:5286/authors/jorge/</link>
+      <link>http://localhost:3525/authors/jorge/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/jorge/</guid>
+      <guid>http://localhost:3525/authors/jorge/</guid>
       <description> </description>
       
     </item>
     
     <item>
       <title>Luis Domingo Martínez Vázquez</title>
-      <link>http://localhost:5286/authors/domingo/</link>
+      <link>http://localhost:3525/authors/domingo/</link>
       <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/domingo/</guid>
+      <guid>http://localhost:3525/authors/domingo/</guid>
       <description> </description>
       
     </item>
     
     <item>
       <title>Obed Ramírez Sánchez</title>
-      <link>http://localhost:5286/authors/obed/</link>
+      <link>http://localhost:3525/authors/obed/</link>
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/obed/</guid>
+      <guid>http://localhost:3525/authors/obed/</guid>
       <description> </description>
       
     </item>
     
     <item>
       <title>Sofia Guadalupe Salazar Magaña</title>
-      <link>http://localhost:5286/authors/sofia/</link>
+      <link>http://localhost:3525/authors/sofia/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/sofia/</guid>
+      <guid>http://localhost:3525/authors/sofia/</guid>
       <description>Genomic Scientist.</description>
       
     </item>
     
     <item>
       <title>Evelia Lorena Coss-Navarrete</title>
-      <link>http://localhost:5286/authors/evelia/</link>
+      <link>http://localhost:3525/authors/evelia/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/evelia/</guid>
+      <guid>http://localhost:3525/authors/evelia/</guid>
       <description>Posdoctoral Research Associate | Bioinformation | lncRNAs | autoimmune diseases | Evolution | gene regulation | Member R-Ladies, LupusRGMX, Project JAGUAR</description>
       
     </item>
     
     <item>
       <title>Alejandra Schafer</title>
-      <link>http://localhost:5286/authors/alejandra/</link>
+      <link>http://localhost:3525/authors/alejandra/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/alejandra/</guid>
+      <guid>http://localhost:3525/authors/alejandra/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Adriana Haydeé Contreras Peruyero</title>
-      <link>http://localhost:5286/authors/adriana/</link>
+      <link>http://localhost:3525/authors/adriana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/adriana/</guid>
+      <guid>http://localhost:3525/authors/adriana/</guid>
       <description>Postdoctoral Research at Center of Sciences Mathematics - UNAM | Topological and Geometric Data Analysis | Bioinformatics | Geometric Group Theory | Global Riemannian Geometry | Quantum Geometry and Topology | Member of R-Ladies</description>
       
     </item>
     
     <item>
       <title>Jazmín López Chacón</title>
-      <link>http://localhost:5286/authors/jazmin/</link>
+      <link>http://localhost:3525/authors/jazmin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/jazmin/</guid>
+      <guid>http://localhost:3525/authors/jazmin/</guid>
       <description>Especialista de Datos Jr, GF Banorte | Tesista en la UNAM | Feminista Datera |</description>
       
     </item>
     
     <item>
       <title>María José Palma Martínez (Maestría)</title>
-      <link>http://localhost:5286/authors/mjose/</link>
+      <link>http://localhost:3525/authors/mjose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/mjose/</guid>
+      <guid>http://localhost:3525/authors/mjose/</guid>
       <description>PhD student | Human genetics | Member R-ladies</description>
       
     </item>
     
     <item>
       <title>MSc. Maria Fernanda Miron Toruno</title>
-      <link>http://localhost:5286/authors/maria/</link>
+      <link>http://localhost:3525/authors/maria/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/maria/</guid>
+      <guid>http://localhost:3525/authors/maria/</guid>
       <description>PhD Student | Bioinformatics | Population Genomics | Clinical Genomics | Mexican Indigenous Populations</description>
       
     </item>
     
     <item>
       <title>Sofía Zorrilla Azcué</title>
-      <link>http://localhost:5286/authors/szorrilla/</link>
+      <link>http://localhost:3525/authors/szorrilla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/authors/szorrilla/</guid>
+      <guid>http://localhost:3525/authors/szorrilla/</guid>
       <description>Estudiante de Maestría | Asistente de investigación | Genómica de poblaciones | Filogeografía | Evolución | Ecología | R-ladies |</description>
       
     </item>

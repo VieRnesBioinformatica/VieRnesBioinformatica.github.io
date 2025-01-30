@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Evelia Lorena Coss-Navarrete on </title>
-    <link>http://localhost:5286/authors/evelia/</link>
+    <link>http://localhost:3525/authors/evelia/</link>
     <description>Recent content in Evelia Lorena Coss-Navarrete on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5286/authors/evelia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:3525/authors/evelia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manipulación de datos usando dplyr</title>
-      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-7/</link>
+      <link>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-7/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-7/</guid>
+      <guid>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-7/</guid>
       <description>Con dplyr, puedes filtrar filas, seleccionar columnas, ordenar datos y agrupar datos de forma eficiente.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-7/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-7/featured.png" />
     </item>
     
     <item>
       <title>Manipulación de datos con funciones de R base</title>
-      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-6/</link>
+      <link>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-6/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-6/</guid>
+      <guid>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-6/</guid>
       <description>La manipulación de datos con funciones de R base es un tema esencial en análisis de datos.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-6/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-6/featured.png" />
     </item>
     
     <item>
       <title>Manipulación de datos con R base (matrix y lista)</title>
-      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-3/</link>
+      <link>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-3/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-3/</guid>
+      <guid>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-3/</guid>
       <description>Matrices y Listas.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-3/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-3/featured.png" />
     </item>
     
     <item>
       <title> Manipulación de datos con R base (vector y dataframe)</title>
-      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-2/</link>
+      <link>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-2/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-2/</guid>
+      <guid>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-2/</guid>
       <description>Vector y dataframe.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-2/featured.png" />
     </item>
     
     <item>
       <title>Introduccion a Rstudio</title>
-      <link>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-1/</link>
+      <link>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-1/</link>
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-1/</guid>
+      <guid>http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-1/</guid>
       <description>RStudio es un entorno de desarrollo integrado (IDE) para R.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5286/posts/viernes-de-bioinformatica-2024/viernes-1/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:3525/posts/viernes-de-bioinformatica-2024/viernes-1/featured.png" />
     </item>
     
   </channel>
