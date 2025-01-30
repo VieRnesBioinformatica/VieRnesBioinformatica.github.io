@@ -1,25 +1,28 @@
 {{ define "main" }}
 
-<h1 style="font-size: 50px; margin-bottom: 30px; line-height: 1;"><b>Autores por Taxonomía:</b></h1>
+<h1 style="font-size: 50px; margin-bottom: 30px; line-height: 1;"><b>Autores por Taxonomia:</b></h1>
 
 <style type="text/css" media="all">
 a:hover { color: #E0417E; }
-.author-course {}
+.author-course {
+  /* Your CSS aquí */
+}
 .authors-grid {
+  align-content: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
 }
 .author-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 10px 10px 20px;
+  margin: 20px;
   border: 2px solid #3C54B7;
   border-radius: 15px;
   box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75);
   width: 250px;
+  box-sizing: border-box;
   text-align: center;
 }
 .author-image {
@@ -32,10 +35,12 @@ a:hover { color: #E0417E; }
 .author-name {
   font-size: 1.2em;
   font-weight: bold;
+  margin: 10px 0;
   color: #3C54B7;
 }
 .author-bio {
   font-size: 0.9em;
+  margin: 10px 0;
 }
 .social-link {
   display: inline-block;
@@ -59,62 +64,131 @@ a:hover { color: #E0417E; }
   background-color: #3C54B7;
   color: white;
   text-decoration: none;
+  font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 .view-more:hover {
   background-color: #E0417E;
+  color: white;
 }
 </style>
 
-<section class="authors-grid">
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
   {{ range .Data.Terms.Alphabetical }}
-    <a href="{{ .Page.RelPermalink }}" class="author-card">
-      <div>
-        <h3 class="author-name">{{ .Page.Title | emojify }}</h3>
-        {{ if site.Params.taxonomy.showTermCount | default true }}
-          <span class="rounded-md border px-2 py-1 text-xl font-normal">{{ .Count }}</span>
+    <a href="{{ .Page.RelPermalink }}" class="min-w-full">
+      <div class="border border-neutral-200 dark:border-neutral-700 rounded overflow-hidden shadow-2xl relative">
+        {{ with .Page.Params.authors }}
+          {{ range . }}
+            {{ $authorFile := printf "data/authors/%s.json" . }}
+            {{ $authorData := index (getJSON $authorFile) "data" }}
+            {{ $authorImage := "images/default.jpg" }} <!-- Imagen por defecto -->
+            {{ with $authorData.image }}
+              {{ $authorImage = printf "images/%s" . }} <!-- Cambiar ruta aquí -->
+            {{ end }}
+            <div class="author-card">
+              <div class="w-full h-48 bg-cover bg-center" 
+                   style="background-image: url('{{ absURL $authorImage }}')"></div>
+              <h3 class="author-name">{{ $authorData.name }}</h3>
+              <p class="author-bio">{{ $authorData.bio }}</p>
+              {{ with $authorData.social }}
+                <div class="author-social">
+                  {{ range . }}
+                    {{ range $key, $value := . }}
+                      <a href="{{ $value }}" target="_blank" class="social-link">{{ $key }}</a>
+                    {{ end }}
+                  {{ end }}
+                </div>
+              {{ end }}
+              {{ with $authorData.vermas }}
+                <a href="{{ . }}" class="view-more">Ver más</a>
+              {{ end }}
+            </div>
+          {{ end }}
         {{ end }}
+        {{ if site.Params.taxonomy.showTermCount | default true }}
+          <span class="absolute bottom-0 right-0 m-2">
+            <span class="rounded-md border px-1 py-[1px] text-xl font-normal">{{ .Count }}</span>
+          </span>
+        {{ end }}
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl text-neutral-800 dark:text-neutral">{{ .Page.Title | emojify }}</div>
+        </div>
       </div>
     </a>
   {{ end }}
 </section>
 
-<h1 style="font-size: 50px; margin-top: 50px;"><b>Autores por Tarjeta:</b></h1>
+<h1 style="font-size: 50px; margin-bottom: 30px; margin-top: 50px;line-height: 1;"><b>Autores por Tarjeta:</b></h1>
 
-{{ range (slice "parte1" "parte2") }}
-  <h2 style="font-size: 30px; text-align: center; margin-top: 50px;">
-    <a href="https://viernesbioinformatica.github.io/playlist/" style="text-decoration: underline">{{ . | title }}</a>
-  </h2>
-  <section class="authors-grid">
-    {{ range $key, $author := .Site.Data.authors }}
-      {{ range $author.curso }}
-        {{ if index . $. }}
-          <div class="author-card">
-            {{ with $author.image }}
-              <img src="{{ . | relURL }}" alt="{{ $author.name }}" class="author-image">
-            {{ else }}
-              <div class="author-placeholder bg-gray-300 w-32 h-32 flex items-center justify-center">No Image</div>
-            {{ end }}
-            <h3 class="author-name">{{ $author.name }}</h3>
-            <p class="author-bio">{{ $author.bio }}</p>
-            {{ with $author.social }}
-              <div class="author-social">
-                {{ range . }}
-                  {{ range $key, $value := . }}
-                    <a href="{{ $value }}" target="_blank" class="social-link">{{ $key }}</a>
-                  {{ end }}
+<h2 style="font-size: 30px; margin-bottom: 30px;text-align: center;margin-top: 50px;">
+  <a href="https://viernesbioinformatica.github.io/playlist/" style = "text-decoration: underline">Parte 1</a>
+</h2>
+
+<section class="authors-grid">
+  {{ $authors := .Site.Data.authors }}
+  {{ range $key, $author := $authors }}
+    {{ range $author.curso }}
+      {{ if .parte1 }}
+        <div class="author-card">
+          {{ if $author.image }}
+            <img src="{{ $author.image | relURL }}" alt="{{ $author.name }}" class="author-image">
+          {{ else }}
+            <div class="author-placeholder bg-gray-300 w-32 h-32 flex items-center justify-center">No Image</div>
+          {{ end }}
+          <h3 class="author-name">{{ $author.name }}</h3>
+          <p class="author-bio">{{ $author.bio }}</p>
+          {{ with $author.social }}
+            <div class="author-social">
+              {{ range . }}
+                {{ range $key, $value := . }}
+                  <a href="{{ $value }}" target="_blank" class="social-link">{{ $key }}</a>
                 {{ end }}
-              </div>
-            {{ end }}
-            {{ with $author.vermas }}
-              <a href="{{ . }}" class="view-more">Más Información</a>
-            {{ end }}
-          </div>
-        {{ end }}
+              {{ end }}
+            </div>
+          {{ end }}
+          {{ with $author.vermas }}
+            <a href="{{ . }}" class="view-more">Más información</a>
+          {{ end }}
+        </div>
       {{ end }}
     {{ end }}
-  </section>
-{{ end }}
+  {{ end }}
+</section>
 
-{{ end }}
+<h2 style="font-size: 30px; margin-bottom: 30px;text-align: center; margin-top: 30px;">
+  <a href="https://viernesbioinformatica.github.io/playlist/" style = "text-decoration: underline">Parte 2</a>
+</h2>
+
+<section class="authors-grid">
+  {{ $authors := .Site.Data.authors }}
+  {{ range $key, $author := $authors }}
+    {{ range $author.curso }}
+      {{ if .parte2 }}
+        <div class="author-card">
+          {{ if $author.image }}
+            <img src="{{ $author.image | relURL }}" alt="{{ $author.name }}" class="author-image">
+          {{ else }}
+            <div class="author-placeholder bg-gray-300 w-32 h-32 flex items-center justify-center">No Image</div>
+          {{ end }}
+          <h3 class="author-name">{{ $author.name }}</h3>
+          <p class="author-bio">{{ $author.bio }}</p>
+          {{ with $author.social }}
+            <div class="author-social">
+              {{ range . }}
+                {{ range $key, $value := . }}
+                  <a href="{{ $value }}" target="_blank" class="social-link">{{ $key }}</a>
+                {{ end }}
+              {{ end }}
+            </div>
+          {{ end }}
+          {{ with $author.vermas }}
+            <a href="{{ . }}" class="view-more">Más Información</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</section>
+
+{{ end }} 
