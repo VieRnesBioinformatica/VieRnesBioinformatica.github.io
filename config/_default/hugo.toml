@@ -7,7 +7,7 @@ buildFuture = false
 enableEmoji = true
 
 [Params]
-  author = "Tu Nombre"
+  author = "authors"
 
 [pagination]
   pagerSize = 10
