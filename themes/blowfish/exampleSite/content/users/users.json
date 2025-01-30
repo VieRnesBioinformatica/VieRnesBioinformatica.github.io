@@ -41,14 +41,6 @@
     ]
   },
   {
-    "title": "cuttontail.blog",
-    "url": "https://cuttontail.blog",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "pmnxis.github.io",
     "url": "https://pmnxis.github.io",
     "source": "n/a",
@@ -73,14 +65,6 @@
     ]
   },
   {
-    "title": "albertolvera.com",
-    "url": "https://albertolvera.com",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "fahru.my.id",
     "url": "https://www.fahru.my.id",
     "source": "n/a",
@@ -91,14 +75,6 @@
   {
     "title": "loisvelasco.is-a.dev",
     "url": "https://loisvelasco.is-a.dev",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
-    "title": "omarohn.de",
-    "url": "https://omarohn.de",
     "source": "n/a",
     "tags": [
       "Personal site"
@@ -209,14 +185,6 @@
     ]
   },
   {
-    "title": "muhalvin.github.io",
-    "url": "https://muhalvin.github.io/",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "mariuskimmina.com",
     "url": "https://mariuskimmina.com/",
     "source": "n/a",
@@ -305,14 +273,6 @@
     ]
   },
   {
-    "title": "blog.enmanuelmoreira.com",
-    "url": "https://blog.enmanuelmoreira.com",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "halcyonstraits.com",
     "url": "https://www.halcyonstraits.com/",
     "source": "n/a",
@@ -347,14 +307,6 @@
   {
     "title": "pacochan.net",
     "url": "https://pacochan.net",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
-    "title": "jundimubarok.com",
-    "url": "https://jundimubarok.com/",
     "source": "n/a",
     "tags": [
       "Personal site"
@@ -449,14 +401,6 @@
     ]
   },
   {
-    "title": "kylemalloy.com",
-    "url": "https://kylemalloy.com",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "joush007.github.io",
     "url": "https://joush007.github.io",
     "source": "n/a",
@@ -467,14 +411,6 @@
   {
     "title": "rejowski.xyz",
     "url": "https://rejowski.xyz/",
-    "source": "n/a",
-    "tags": [
-      "Personal Site"
-    ]
-  },
-  {
-    "title": "v-y-s.com",
-    "url": "https://v-y-s.com/",
     "source": "n/a",
     "tags": [
       "Personal Site"
@@ -525,15 +461,6 @@
   {
     "title": "the-maze.net",
     "url": "https://www.the-maze.net/",
-    "source": "n/a",
-    "tags": [
-      "Personal site",
-      "Blog"
-    ]
-  },
-  {
-    "title": "datatodroids.tech",
-    "url": "https://datatodroids.tech/",
     "source": "n/a",
     "tags": [
       "Personal site",
@@ -601,15 +528,6 @@
     ]
   },
   {
-    "title": "Mare_Infinitus",
-    "url": "https://lab.imgb.space",
-    "source": "n/a",
-    "tags": [
-      "Personal Site",
-      "Blog"
-    ]
-  },
-  {
     "title": "karlukle.site",
     "url": "https://karlukle.site",
     "source": "n/a",
@@ -663,6 +581,264 @@
       "Portfolio Site",
       "Software Developer",
       "Videogame Developer"
+    ]
+  },
+  {
+    "title": "MEM v ENNBEE",
+    "url": "https://memv.ennbee.uk/",
+    "source": "https://github.com/ennnbeee/ennnbeee.github.io",
+    "tags": [
+      "Technology Blog",
+      "Personal site"
+    ]
+  },
+  {
+    "title": "Joshua Blais",
+    "url": "https://joshblais.com/",
+    "source": "n/a",
+    "tags": [
+      "Personal Site",
+      "Author",
+      "Digital Garden"
+    ]
+  },
+  {
+    "title": "Beauty Formulation",
+    "url": "https://www.beautyformulation.com/",
+    "source": "n/a",
+    "tags": [
+      "Company site"
+    ]
+  },
+  {
+    "title": "Middle of Nowhere",
+    "url": "https://blog.wtcx.dev/",
+    "source": "n/a",
+    "tags": [
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "UmmIt - Blog",
+    "url": "https://blog.ummit.dev/",
+    "source": "n/a",
+    "tags": [
+      "Personal Site",
+      "Blog",
+      "Technology Blog"
+    ]
+  },
+  {
+    "title": "江ノ島エスカー",
+    "url": "https://zen96k.github.io/enoshima-escar",
+    "source": "https://github.com/zen96k/enoshima-escar",
+    "tags": [
+      "Portfolio Site",
+      "Software Developer"
+    ]
+  },
+  {
+    "title": "nveshaan",
+    "url": "https://nveshaan.github.io/",
+    "source": "n/a",
+    "tags": [
+      "Personal Site"
+    ]
+  },
+  {
+    "title": "micheledinelli.github.io",
+    "url": "https://micheledinelli.github.io",
+    "source": "n/a",
+    "tags": [
+      "Personal Site",
+      "Portfolio Site",
+      "Academia"
+    ]
+  },
+  {
+    "title": "kumacat.pages.dev",
+    "url": "https://kumacat.pages.dev",
+    "source": "https://github.com/LesserCat/LesserCat.github.io",
+    "tags": [
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "andrealucchini.com",
+    "url": "https://andrealucchini.com",
+    "source": "https://github.com/CommanderKen/commanderken.github.io",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "glomyer.dev",
+    "url": "https://luizglomyer.github.io/",
+    "source": "https://github.com/LuizGlomyer/luizglomyer.github.io",
+    "tags": [
+      "Personal site"
+    ]
+  },
+  {
+    "title": "utrodus.com",
+    "url": "https://utrodus.com",
+    "source": "https://github.com/utrodus/utrodus.com",
+    "tags": [
+      "Portfolio Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "hetong-re4per.com",
+    "url": "https://hetong-re4per.com",
+    "source": "https://github.com/HeTongRe4per/HeTongRe4per.github.io",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Xeonzilla’s Note",
+    "url": "https://xeonzilla.github.io",
+    "source": "https://github.com/Xeonzilla/Xeonzilla.github.io",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "lazarusoverlook.com",
+    "url": "https://lazarusoverlook.com",
+    "source": "https://github.com/RolandMarchand/lazarus-manor",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "p3rception.github.io",
+    "url": "https://p3rception.github.io/",
+    "source": "https://github.com/p3rception/p3rception.github.io",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Handbook on Teaching Empirical Software Engineering: Online Materials",
+    "url": "https://www.emse.education",
+    "source": "https://github.com/mendezfe/temse",
+    "tags": [
+      "Book",
+      "Academia"
+    ]
+  },
+  {
+    "title": "blog.lofibean.cc",
+    "url": "https://blog.lofibean.cc",
+    "source": "https://github.com/bemnlam/bemnlam.github.io",
+    "tags": [
+      "Personal site",
+      "Software Developer",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Everybody Wants Some",
+    "url": "https://ews.ink/",
+    "source": "https://github.com/unacro/blog",
+    "tags": [
+      "Blog",
+      "Technology",
+      "Game Development"
+    ]
+  },
+  {
+    "title": "merox.dev",
+    "url": "https://merox.dev",
+    "source": "https://github.com/mer0x/merox.dev",
+    "tags": [
+      "Personal site",
+      "Blog",
+      "Documentation",
+      "CV"
+    ]
+  },
+  {
+    "title": "Academy Customize",
+    "url": "https://acamize.com/",
+    "source": "n/a",
+    "tags": [
+      "Business site"
+    ]
+  },
+  {
+    "title": "さばっこ",
+    "url": "https://sabac.co",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "mrtruongvu.com",
+    "url": "https://mrtruongvu.com",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "StepaniaH",
+    "url": "https://stepaniah.me",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Laterre Dev",
+    "url": "https://laterre.dev/",
+    "source": "https://github.com/laterre39/laterre-dev-blog",
+    "tags": [
+      "Personal site",
+      "Technology Blog",
+      "Software Developer",
+      "Portfolio Site"
+    ]
+  },
+  {
+    "title": "WillHack - service for reality hackers",
+    "url": "https://willhack.top/",
+    "source": "https://github.com/willhack-g/hugo.git",
+    "tags": [
+      "Technology Blog",
+      "News that matters Blog",
+      "AI"
+    ]
+  },
+  {
+    "title": "Lazy Product Reviews",
+    "url": "https://lazyproductreviews.com/",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "zzzhome",
+    "url": "https://zzzhome.cc/",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog"
     ]
   }
 ]
