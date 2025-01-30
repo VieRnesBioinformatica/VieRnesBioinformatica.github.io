@@ -42,7 +42,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify -d ./public --baseURL https://viernesbioinformatica.github.io/
+          hugo --minify -d ./public --baseURL https://viernesbioinformatica.github.io
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3  # Actualizado de v1 a v3
         with:
@@ -50,7 +50,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://viernesbioinformatica.github.io/
+      url: https://viernesbioinformatica.github.io
     runs-on: ubuntu-latest
     needs: build
     steps:
