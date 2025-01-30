@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>María Guadalupe Segovia Ramírez, PhD on </title>
-    <link>http://localhost:3525/authors/mguadalupe/</link>
+    <link>http://localhost:4321/authors/mguadalupe/</link>
     <description>Recent content in María Guadalupe Segovia Ramírez, PhD on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:3525/authors/mguadalupe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/authors/mguadalupe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bases para la inferencia filogenética, construcción, lectura e interpretación de árboles filogenéticos</title>
-      <link>http://localhost:3525/posts/cursos/filogenetica/bloque1/</link>
+      <link>http://localhost:4321/posts/cursos/filogenetica/bloque1/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:3525/posts/cursos/filogenetica/bloque1/</guid>
+      <guid>http://localhost:4321/posts/cursos/filogenetica/bloque1/</guid>
       <description>Objetivo: Que quienes lo cursen adquieran la capcidad de comprender, interpretar construir hipotesis filogeneticas (arboles filogeneticos) con marcadores moleculares.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:3525/posts/cursos/filogenetica/bloque1/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/cursos/filogenetica/bloque1/featured.png" />
     </item>
     
   </channel>
