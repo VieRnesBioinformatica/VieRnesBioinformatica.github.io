@@ -19,6 +19,7 @@ anchor = "Center"
 tag = "tags"
 category = "categories"
 series = "series"
+author = "authors"
 
 [sitemap]
 changefreq = "daily"
