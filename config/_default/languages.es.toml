@@ -4,6 +4,15 @@ weight = 1
 title = ""
 contentDir = "content/es"
 
+[params.author]
+name = "My name"
+image = "img/author.jpg"
+headline = "A generally awesome human"
+bio = "A little bit about me"
+links = [
+  { twitter = "https://twitter.com/username" }
+]
+
 [params]
 displayName = "ES"
 isoCode = "es"
@@ -12,12 +21,6 @@ description = "Fomentar la formación y crecimiento en bioinformática a través
 dateFormat = "2 January 2006"
 logo = "g543.png"
 
-[params.author]
-name = "Viernes de Bioinformatics"
-image = "VRNDBIC.png"
-headline = "En el LIIGH :)"
-bio = "Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada."
-links = [{ github = "https://github.com/EveliaCoss/ViernesBioinfo2024" }]
 
 [taxonomies]
   tag = "tags"
