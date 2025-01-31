@@ -13,7 +13,7 @@ dateFormat = "2 January 2006"
 logo = "g543.png"
 
 [params.author]
-name = "Viernes de Bioinformatica"
+name = "Viernes de Bioinformatics"
 image = "VRNDBIC.png"
 headline = "En el LIIGH :)"
 bio = "Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada."
