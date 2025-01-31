@@ -6,10 +6,7 @@
         {"email" : "mailto:ecoss@liigh.unam.mx" },
         {"github": "https://github.com/EveliaCoss"}
     ],
-    "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-    "vermas": "/authors/evelia/" 
+    
+    "curso": ["Parte 1", "Parte 2"]
 }
  

@@ -5,10 +5,8 @@
     "social": [
         {"linkedin": "https://www.linkedin.com/in/obed-ram%C3%ADrez-s%C3%A1nchez-370565131/"}
     ],
-    "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-    "vermas": "/authors/obed/" 
+    
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

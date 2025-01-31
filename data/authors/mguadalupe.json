@@ -5,12 +5,8 @@
     "social": [
         {"linkedin": "https://www.linkedin.com/in/mar%25C3%25ADa-segovia-34816464"}
     ],
-    "curso": [
-      
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-      
-    "vermas": "/authors/mguadalupe/" 
+    
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

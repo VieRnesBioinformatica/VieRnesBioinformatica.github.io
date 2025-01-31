@@ -5,11 +5,8 @@
     "social": [
         {"x-twitter": "https://x.com/maxolotlmad"}
     ],
-    "curso": [
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-      
-    "vermas": "/authors/mjose/" 
+    
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

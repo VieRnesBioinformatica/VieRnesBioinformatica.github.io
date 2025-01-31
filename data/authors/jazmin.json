@@ -6,10 +6,7 @@
         {"x-twitter": "https://www.x.com/tipica_nerd"}
     ],
 
-    "curso": [
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ], 
-    "vermas": "/authors/jazmin/" 
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

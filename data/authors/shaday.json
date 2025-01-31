@@ -5,11 +5,8 @@
     "social": [
         {"graduation-cap": "https://scholar.google.com/citations?user=Pi9v98gAAAAJ"}
     ],
-    "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"}
-      ], 
-      
-    "vermas": "/authors/shaday/" 
+    
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

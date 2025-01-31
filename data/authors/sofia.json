@@ -6,11 +6,8 @@
         {"github": "https://github.com/SophSM",
          "x-twitter": "https://www.x.com/ssalazar_02"}
     ],
-    "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-      
-    "vermas": "/authors/sofia/" 
+    
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

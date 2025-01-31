@@ -1,16 +1,11 @@
 {
-    "name": "Joselyn Cristina Chávez Fuentes",
+    "name": "Dra. Joselyn Chávez",
     "image" : "Autores/joselyn.png",
-    "bio": "Postdoctoral fellow, Icahn School of Medicine at Mount Sinai",
+    "bio": "Doctora en Ciencias Bioquímicas",
     "social": [
-        {"link": "https://rladiesmx.netlify.app/author/joselyn-chavez/"},
-        {"x-twitter": "https://x.com/josschavezf1"},
-        {"bluesky": "https://bsky.app/profile/josschavezf.bsky.social"}
+        {"link": "https://rladiesmx.netlify.app/author/joselyn-chavez/"}
     ],
-    "curso": [
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-    "vermas": "/authors/joselyn/" 
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

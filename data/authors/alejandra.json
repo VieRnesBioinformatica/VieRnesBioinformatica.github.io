@@ -5,10 +5,7 @@
     "social": [
         {"github": "https://github.com/aschafer99"}
     ],
-    "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-    "vermas": "/authors/alejandra/" 
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

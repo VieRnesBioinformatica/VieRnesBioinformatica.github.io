@@ -6,11 +6,8 @@
         {"facebook": "https://www.facebook.com/fernanda.miron.1?mibextid=ZbWKwL",
          "linkedin": "https://www.linkedin.com/in/maria-fernanda-miron-toruno-710357300/" }
     ],
-    "curso": [
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-      
-    "vermas": "/authors/maria/" 
+    
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 

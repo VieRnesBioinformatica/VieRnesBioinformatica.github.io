@@ -5,11 +5,8 @@
     "social": [
         {"github": "https://github.com/sofiazorrilla"}
     ],
-    "curso": [
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-      
-    "vermas": "/authors/szorrilla/" 
+    
+    "curso": ["Parte 1", "Parte 2"]
 }
  
 
