@@ -8,13 +8,14 @@
     <language>es</language>
     
     <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/authors/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Joselyn Cristina Chávez Fuentes</title>
       <link>http://localhost:4321/authors/joselyn/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/joselyn/</guid>
-      <description>Postdoctoral fellow, Bioinformatics, R programming, Spatial transcriptomics.</description>
+      <description></description>
       
     </item>
     
@@ -24,7 +25,7 @@
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/mguadalupe/</guid>
-      <description>Maria G.</description>
+      <description></description>
       
     </item>
     
@@ -34,7 +35,7 @@
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/israel/</guid>
-      <description> </description>
+      <description></description>
       
     </item>
     
@@ -44,7 +45,7 @@
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/shaday/</guid>
-      <description>Postdoctoral Research Associate, Mathematician, Bioinformatician, Mathematical Modeling, Metagenomes, Genome Mining</description>
+      <description></description>
       
     </item>
     
@@ -54,7 +55,7 @@
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/jorge/</guid>
-      <description> </description>
+      <description></description>
       
     </item>
     
@@ -64,7 +65,7 @@
       <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/domingo/</guid>
-      <description> </description>
+      <description></description>
       
     </item>
     
@@ -74,7 +75,7 @@
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/obed/</guid>
-      <description> </description>
+      <description></description>
       
     </item>
     
@@ -84,7 +85,7 @@
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/sofia/</guid>
-      <description>Genomic Scientist.</description>
+      <description></description>
       
     </item>
     
@@ -94,7 +95,7 @@
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/evelia/</guid>
-      <description>Posdoctoral Research Associate | Bioinformation | lncRNAs | autoimmune diseases | Evolution | gene regulation | Member R-Ladies, LupusRGMX, Project JAGUAR</description>
+      <description></description>
       
     </item>
     
@@ -114,7 +115,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/adriana/</guid>
-      <description>Postdoctoral Research at Center of Sciences Mathematics - UNAM | Topological and Geometric Data Analysis | Bioinformatics | Geometric Group Theory | Global Riemannian Geometry | Quantum Geometry and Topology | Member of R-Ladies</description>
+      <description></description>
       
     </item>
     
@@ -124,7 +125,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/jazmin/</guid>
-      <description>Especialista de Datos Jr, GF Banorte | Tesista en la UNAM | Feminista Datera |</description>
+      <description></description>
       
     </item>
     
@@ -134,7 +135,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/mjose/</guid>
-      <description>PhD student | Human genetics | Member R-ladies</description>
+      <description></description>
       
     </item>
     
@@ -144,7 +145,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/maria/</guid>
-      <description>PhD Student | Bioinformatics | Population Genomics | Clinical Genomics | Mexican Indigenous Populations</description>
+      <description></description>
       
     </item>
     
@@ -154,7 +155,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/authors/szorrilla/</guid>
-      <description>Estudiante de Maestría | Asistente de investigación | Genómica de poblaciones | Filogeografía | Evolución | Ecología | R-ladies |</description>
+      <description></description>
       
     </item>
     

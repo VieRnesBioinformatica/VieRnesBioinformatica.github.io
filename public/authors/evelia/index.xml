@@ -8,13 +8,14 @@
     <language>es</language>
     
     <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/authors/evelia/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Manipulación de datos usando dplyr</title>
       <link>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-7/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-7/</guid>
-      <description>Con dplyr, puedes filtrar filas, seleccionar columnas, ordenar datos y agrupar datos de forma eficiente.</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-7/featured.png" />
     </item>
     
@@ -24,7 +25,7 @@
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-6/</guid>
-      <description>La manipulación de datos con funciones de R base es un tema esencial en análisis de datos.</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-6/featured.png" />
     </item>
     
@@ -34,7 +35,7 @@
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-3/</guid>
-      <description>Matrices y Listas.</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-3/featured.png" />
     </item>
     
@@ -44,7 +45,7 @@
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-2/</guid>
-      <description>Vector y dataframe.</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-2/featured.png" />
     </item>
     
@@ -54,7 +55,7 @@
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-1/</guid>
-      <description>RStudio es un entorno de desarrollo integrado (IDE) para R.</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-1/featured.png" />
     </item>
     
