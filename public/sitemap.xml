@@ -4,19 +4,13 @@
 
   <url>
     <loc>http://localhost:4321/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-30T19:04:10-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:4321/posts/</loc>
-    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4321/posts/viernes-de-bioinformatica-2025/</loc>
-    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-30T19:04:10-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
