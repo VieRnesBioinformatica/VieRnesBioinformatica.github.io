@@ -27,10 +27,12 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./public
+       - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.email "jasvpj@gmail.com"
+          git config --global user.name "3lconejo"
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+          git push origin gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
