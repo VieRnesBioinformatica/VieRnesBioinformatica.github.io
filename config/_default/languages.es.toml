@@ -5,13 +5,12 @@ title = ""
 contentDir = "content/es"
 
 [params.author]
-name = "My name"
-image = "img/author.jpg"
-headline = "A generally awesome human"
-bio = "A little bit about me"
-links = [
-  { twitter = "https://twitter.com/username" }
-]
+name = "Viernes de Bioinformatica"
+image = "VRNDBIC.png"
+headline = "En el LIIGH :)"
+bio = "Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada."
+links = [ { github = "https://github.com/EveliaCoss/ViernesBioinfo2024" } ]
+
 
 [params]
 displayName = "ES"
