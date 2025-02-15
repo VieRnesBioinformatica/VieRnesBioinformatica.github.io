@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/authors/israel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:4321/authors/israel/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introducción a R, parte 1</title>
+      <link>http://localhost:4321/posts/viernes-de-bioinformatica-2025/viernes-2/</link>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2025/viernes-2/</guid>
+      <description>Introduccion a R</description>
+      
+    </item>
     
     <item>
       <title>Nextflow parte 3</title>
@@ -87,6 +97,16 @@
       <guid>http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-5/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 3</title>
+      <link>http://localhost:4321/playlist/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/playlist/3/</guid>
+      <description></description>
+      
     </item>
     
   </channel>

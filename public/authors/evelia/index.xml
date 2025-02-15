@@ -59,5 +59,15 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4321/posts/viernes-de-bioinformatica-2024/viernes-1/featured.png" />
     </item>
     
+    <item>
+      <title>Lista de Reproducción Parte 3</title>
+      <link>http://localhost:4321/playlist/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/playlist/3/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
