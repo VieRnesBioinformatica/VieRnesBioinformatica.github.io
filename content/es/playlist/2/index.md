@@ -7,10 +7,10 @@ showAuthor: false
 showDate: false
 showLikes: false
 showViews: false
-showPagination: false
+showPagination: true
 showComments: false
 showRelatedContent: false
-headless: true
+headless: false
 authors:
  - "joselyn"
  - "evelia"

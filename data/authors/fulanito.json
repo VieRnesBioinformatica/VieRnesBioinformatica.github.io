@@ -1,0 +1,15 @@
+{
+    "name": "Fulanito",
+    "image" : "Autores/fulanito.jpeg",
+    "bio": "Autor de ejemplo",
+    "social": [
+        {"link": "https://liigh.unam.mx/"}
+        
+    ],
+    "curso": [
+      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
+      ],
+    "vermas": "/authors/adriana/" 
+}
+ 
+
