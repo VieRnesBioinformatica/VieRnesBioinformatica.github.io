@@ -31,3 +31,6 @@ authors:
 -   Presentacion: [Clase1](https://drive.google.com/file/d/1kGUXotmME5_jCd7QzlUAzLsP3RHmvwpS/view?usp=sharing)
 
 {{< article link="/posts/viernes-de-bioinformatica-2025/viernes-2/" >}}
+
+### Viernes 3. Introducción a R, parte 2
+
