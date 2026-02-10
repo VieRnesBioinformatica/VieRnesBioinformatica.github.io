@@ -186,7 +186,7 @@ onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d'
 * Last updated Nov 9th, 05' by DD. This notice must stay intact for use
 ******************************************/
   function openwindow(){
-window.open("autumn_effect.htm","","width=350,height=500")
+window.open("autumn_effect.htm","","width=7,height=10")
 }
 
   //Configure below to change URL path to the snow image
@@ -194,9 +194,9 @@ window.open("autumn_effect.htm","","width=350,height=500")
   // Configure below to change number of snow to render
   var no = 10;
   // Configure whether snow should disappear after x seconds (0=never):
-  var hidesnowtime = 0;
+  var hidesnowtime = 1;
   // Configure how much snow should drop down before fading ("windowheight" or "pageheight")
-  var snowdistance = "pageheight";
+  var snowdistance = "windowheight";
 
 ///////////Stop Config//////////////////////////////////
 
@@ -266,10 +266,32 @@ window.open("autumn_effect.htm","","width=350,height=500")
     snowtimer=setTimeout("snowIE_NS6()", 10);
   }
 
-  function hidesnow(){
-    if (window.snowtimer) clearTimeout(snowtimer)
-    for (i=0; i<no; i++) document.getElementById("dot"+i).style.visibility="hidden"
-  }
+function hidesnow(){
+  if (window.snowtimer) clearTimeout(snowtimer);
+
+  var shrinkInterval = setInterval(function(){
+    var stillVisible = false;
+
+    for (i=0; i<no; i++){
+      var dot = document.getElementById("dot"+i);
+      var currentScale = dot.dataset.scale || 1;
+
+      currentScale -= 0.01;   // velocidad de encogimiento
+
+      if (currentScale > 0){
+        dot.style.transform = "scale(" + currentScale + ")";
+        dot.dataset.scale = currentScale;
+        stillVisible = true;
+      } else {
+        dot.style.visibility = "hidden";
+      }
+    }
+
+    if (!stillVisible) clearInterval(shrinkInterval);
+
+  }, 30); // cada 30 ms se hacen más chiquitos
+}
+
     
 
 if (ie4up||ns6up){
