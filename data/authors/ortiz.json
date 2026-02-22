@@ -1,7 +1,7 @@
 {
-  "name": "ortiz",
+  "name": "Emilio Ortiz Avila",
   "image": "Autores/ortiz.jpeg",
-  "bio": "",
+  "bio": "Microbiólogo, INB - UNAM",
   "curso": [
     {
       "parte1": ""
@@ -19,9 +19,6 @@
   "social": [
     {
       "email": "mailto:aeortiz06@gmail.com"
-    },
-    {
-      "revision": "Microbiólogo, INB - UNAM"
     }
   ],
   "vermas": "/authors/ortiz/"

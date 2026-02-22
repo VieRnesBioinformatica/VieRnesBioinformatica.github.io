@@ -13,9 +13,9 @@ showRelatedContent: false
 authors:
  - "israel"
  - "evelia"
- - "jorge" 
- - "adriana"
- - "szorrilla"
+ - "domingo"
+ - "guadalupe"
+ - "lopez"
 ---
 
 ## Parte 0

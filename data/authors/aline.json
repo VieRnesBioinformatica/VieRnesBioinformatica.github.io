@@ -1,5 +1,5 @@
 {
-  "name": "aline",
+  "name": "Dra. Aline Pingarroni",
   "image": "Autores/aline.jpeg",
   "bio": "Profesora-Investigadora FES-Iztacala UNAM",
   "curso": [
@@ -21,7 +21,7 @@
       "email": "mailto:a_pingarroni@cieco.unam.mx"
     },
     {
-      "revision": "https://github.com/AlinePingarroni "
+      "github": "https://github.com/AlinePingarroni "
     }
   ],
   "vermas": "/authors/aline/"

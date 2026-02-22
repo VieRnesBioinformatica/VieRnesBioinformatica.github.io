@@ -1,5 +1,5 @@
 {
-  "name": "aguilar",
+  "name": "Israel Aguilar Ordonez",
   "image": "Autores/aguilar.jpeg",
   "bio": "Dr. Israel Aguilar, Posdoc, Tecnológico de Monterrey",
   "curso": [
@@ -21,7 +21,7 @@
       "email": "mailto:iaguilaror@gmail.com"
     },
     {
-      "revision": "https://www.facebook.com/profile.php?id=100083796342385"
+      "facebook": "https://www.facebook.com/profile.php?id=100083796342385"
     }
   ],
   "vermas": "/authors/aguilar/"

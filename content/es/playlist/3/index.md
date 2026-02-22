@@ -14,8 +14,12 @@ authors:
  - "israel"
  - "evelia"
  - "jorge" 
- - "adriana"
- - "szorrilla"
+ - "quetzally"
+ - "aline"
+ - "zorrilla"
+ - "itzel"
+ - "valle"
+ - "maria"
 ---
 
 ## **Viernes 2 y 3. Introducción a R**

@@ -1,5 +1,5 @@
 {
-  "name": "edgar",
+  "name": "M.C. Edgar Pavel Salazar Fernandez",
   "image": "Autores/edgar.jpeg",
   "bio": "PhD Student | LIIGH - UNAM",
   "curso": [
@@ -19,9 +19,10 @@
   "social": [
     {
       "email": "mailto:epsalazarf@gmail.com"
-    },
-    {
-      "revision": "LinkedIn: https://www.linkedin.com/in/epsalazarf/; GitHub: https://github.com/epsalazarf"
+    },{
+      "linkedin": "https://www.linkedin.com/in/epsalazarf/"
+    },{
+      "github": "https://github.com/epsalazarf"
     }
   ],
   "vermas": "/authors/edgar/"

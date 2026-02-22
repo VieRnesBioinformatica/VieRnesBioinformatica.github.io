@@ -1,5 +1,5 @@
 {
-  "name": "cristina",
+  "name": "Joselyn Cristina Chavez Fuentes",
   "image": "Autores/cristina.jpeg",
   "bio": "Postdoctoral fellow, Icahn School of Medicine at Mount Sinai",
   "curso": [
@@ -21,7 +21,9 @@
       "email": "mailto:joselynchavezf@gmail.com"
     },
     {
-      "revision": "X: @josschavezf1 Bluesky: @josschavezf"
+      "x": "https://x.com/josschavezf1?lang=es"
+    },{
+      "bluesky": "https://bsky.app/profile/josschavezf.bsky.social"
     }
   ],
   "vermas": "/authors/cristina/"

@@ -1,5 +1,5 @@
 {
-  "name": "ramirez",
+  "name": "Obed Ramirez Sanchez",
   "image": "Autores/ramirez.jpeg",
   "bio": "Dr. Obed Ramírez. Senior Data Scientist, Solena Ag.",
   "curso": [
@@ -21,7 +21,7 @@
       "email": "mailto:obed_eo@hotmail.com"
     },
     {
-      "revision": "https://www.linkedin.com/in/obed-ram%C3%ADrez-s%C3%A1nchez-370565131/"
+      "linkedin": "https://www.linkedin.com/in/obed-ram%C3%ADrez-s%C3%A1nchez-370565131/"
     }
   ],
   "vermas": "/authors/ramirez/"

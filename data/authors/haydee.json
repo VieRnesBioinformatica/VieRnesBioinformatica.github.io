@@ -1,5 +1,5 @@
 {
-  "name": "haydee",
+  "name": "Adriana Haydee Contreras Peruyero",
   "image": "Autores/haydee.jpeg",
   "bio": "Haydeé Peruyero, Posdoc, CCM - UNAM Morelia",
   "curso": [
@@ -21,7 +21,11 @@
       "email": "mailto:haydeeperuyero@matmor.unam.mx"
     },
     {
-      "revision": "Github: HaydeePeruyero, Linkedin: https://www.linkedin.com/in/haydeeperuyero/, Página web: https://haydeeperuyero.github.io/"
+      "github": "https://github.com/HaydeePeruyero"
+    },{
+      "linkedin": "https://www.linkedin.com/in/haydeeperuyero/"
+    },{
+      "link": "https://haydeeperuyero.github.io/"
     }
   ],
   "vermas": "/authors/haydee/"

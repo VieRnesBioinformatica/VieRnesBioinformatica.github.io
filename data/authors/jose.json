@@ -1,5 +1,5 @@
 {
-  "name": "jose",
+  "name": "Maria Jose Palma Martinez (Maestria)",
   "image": "Autores/jose.jpeg",
   "bio": "Estudiante de Doctorado, CCG - UNAM.",
   "curso": [
@@ -21,7 +21,7 @@
       "email": "mailto:mariajose.palma97@gmail.com"
     },
     {
-      "revision": "@MaxolotlMad"
+      "x": "https://x.com/MaxolotlMad"
     }
   ],
   "vermas": "/authors/jose/"

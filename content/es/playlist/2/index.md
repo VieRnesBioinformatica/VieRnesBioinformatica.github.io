@@ -15,12 +15,11 @@ authors:
  - "joselyn"
  - "evelia"
  - "israel"
- - "mguadalupe"
+ - "haydee"
  - "jazmin"
- - "mjose"
- - "maria"
- - "adriana"
- - "szorrilla"
+ - "jose"
+ - "cristina"
+ - "zorrilla"
 ---
 
 ## PARTE 2

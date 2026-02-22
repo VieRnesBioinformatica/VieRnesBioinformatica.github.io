@@ -1,5 +1,5 @@
 {
-  "name": "maria",
+  "name": "MSc. Maria Fernanda Miron Toruno",
   "image": "Autores/maria.jpeg",
   "bio": "MSc. Maria Fernanda Miron Toruno\nDoctorado, Baylor University",
   "curso": [
@@ -21,7 +21,7 @@
       "email": "mailto:fernanda_miron1@baylor.edu"
     },
     {
-      "revision": "Linkedin: https://www.linkedin.com/in/maria-fernanda-miron-toruno-710357300/ \nFB: Fernanda Miron Toruno"
+      "linkedin": "https://www.linkedin.com/in/maria-fernanda-miron-toruno-710357300/" 
     }
   ],
   "vermas": "/authors/maria/"

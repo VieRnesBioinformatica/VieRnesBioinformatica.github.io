@@ -15,9 +15,9 @@ authors:
  - "sofia"
  - "domingo"
  - "israel"
- - "obed"
+ - "ramirez"
  - "shaday"
- - "alejandra"
+ - "schafer"
 ---
 
 ## PARTE 1

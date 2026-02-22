@@ -1,5 +1,5 @@
 {
-  "name": "quetzally",
+  "name": "L. Quetzally Medina Velazquez",
   "image": "Autores/quetzally.jpeg",
   "bio": "Profesora de Asignatura, UACM",
   "curso": [
@@ -21,7 +21,7 @@
       "email": "mailto:quetzally.medina.velazquez@gmail.com"
     },
     {
-      "revision": "https://github.com/ZELTZ1N"
+      "githib": "https://github.com/ZELTZ1N"
     }
   ],
   "vermas": "/authors/quetzally/"

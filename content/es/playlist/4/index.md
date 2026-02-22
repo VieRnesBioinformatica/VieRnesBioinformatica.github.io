@@ -13,9 +13,8 @@ showRelatedContent: false
 authors:
  - "israel"
  - "evelia"
- - "jorge" 
- - "adriana"
- - "szorrilla"
+ - "mariasegovia"
+ - "maria"
 ---
 
 # PARTE 4

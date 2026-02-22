@@ -1,5 +1,5 @@
 {
-  "name": "valle",
+  "name": "David Valle Garcia",
   "image": "Autores/valle.jpeg",
   "bio": "Investigador, Centro de Investigación del Envejecimiento, Cinvestav",
   "curso": [
@@ -21,7 +21,11 @@
       "email": "mailto:david.valle.edu@gmail.com"
     },
     {
-      "revision": "https://orcid.org/0000-0002-3397-3103, https://github.com/david-valle, https://www.linkedin.com/in/davidvalleg/"
+      "orcid": "https://orcid.org/0000-0002-3397-3103"
+    },{
+      "github": "https://github.com/david-valle"
+    },{
+      "linkedin": "https://www.linkedin.com/in/davidvalleg/"
     }
   ],
   "vermas": "/authors/valle/"

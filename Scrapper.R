@@ -39,7 +39,7 @@ for (i in 1:nrow(data)) {
   item_social <- list(revision = author_social) 
   social_anidado <- list(item_email, item_social)
   
-  author_list = list(name = author_id,
+  author_list = list(name = author_name,
                      image = author_picture,
                      bio = author_description,
                      curso = lista_cursos,

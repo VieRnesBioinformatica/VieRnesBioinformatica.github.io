@@ -1,5 +1,5 @@
 {
-  "name": "zorrilla",
+  "name": "Sofia Zorrilla Azcue",
   "image": "Autores/zorrilla.jpeg",
   "bio": "Estudiante de maestría y asistente de investigación",
   "curso": [
@@ -21,7 +21,7 @@
       "email": "mailto:sofia.zorrilla95@gmail.com"
     },
     {
-      "revision": "https://github.com/sofiazorrilla"
+      "github": "https://github.com/sofiazorrilla"
     }
   ],
   "vermas": "/authors/zorrilla/"
