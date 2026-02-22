@@ -1,0 +1,28 @@
+{
+  "name": "jose",
+  "image": "Autores/jose.jpeg",
+  "bio": "Estudiante de Doctorado, CCG - UNAM.",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:mariajose.palma97@gmail.com"
+    },
+    {
+      "revision": "@MaxolotlMad"
+    }
+  ],
+  "vermas": "/authors/jose/"
+}

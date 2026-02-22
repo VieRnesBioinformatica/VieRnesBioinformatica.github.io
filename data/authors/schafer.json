@@ -1,0 +1,28 @@
+{
+  "name": "schafer",
+  "image": "Autores/schafer.jpeg",
+  "bio": "",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:aschaferjb@gmail.com"
+    },
+    {
+      "revision": ""
+    }
+  ],
+  "vermas": "/authors/schafer/"
+}

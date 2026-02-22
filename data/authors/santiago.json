@@ -1,0 +1,28 @@
+{
+  "name": "santiago",
+  "image": "Autores/santiago.jpeg",
+  "bio": "Dr. Santiago Rosas Posdoc, LIIGH - UNAM",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:santiagorosasplaza@gmail.com"
+    },
+    {
+      "revision": ""
+    }
+  ],
+  "vermas": "/authors/santiago/"
+}

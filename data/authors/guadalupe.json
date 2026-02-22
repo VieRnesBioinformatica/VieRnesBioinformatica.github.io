@@ -1,0 +1,28 @@
+{
+  "name": "guadalupe",
+  "image": "Autores/guadalupe.jpeg",
+  "bio": "Lic. Ciencias Genómicas",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:sogusama02@gmail.com"
+    },
+    {
+      "revision": "X: @ssalazar_02"
+    }
+  ],
+  "vermas": "/authors/guadalupe/"
+}

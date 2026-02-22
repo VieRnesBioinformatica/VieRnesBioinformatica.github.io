@@ -1,0 +1,28 @@
+{
+  "name": "valle",
+  "image": "Autores/valle.jpeg",
+  "bio": "Investigador, Centro de Investigación del Envejecimiento, Cinvestav",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:david.valle.edu@gmail.com"
+    },
+    {
+      "revision": "https://orcid.org/0000-0002-3397-3103, https://github.com/david-valle, https://www.linkedin.com/in/davidvalleg/"
+    }
+  ],
+  "vermas": "/authors/valle/"
+}

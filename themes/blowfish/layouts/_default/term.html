@@ -20,7 +20,24 @@
     {{ partial "article-meta/term.html" (dict "context" . "scope" "single") }}
   </div>
   </header>
-
+  {{ if eq .Data.Plural "authors" }}
+   <div class="flex justify-center mb-8">
+     {{ $authorImage := .Resources.GetMatch "avatar*" }}
+     {{ if $authorImage }}
+       {{ $authorImage := $authorImage.Fill "250x250" }}
+        <img class="rounded-full h-32 w-32 object-cover" src="{{ $authorImage.RelPermalink }}" alt="{{ .Title }}">
+      {{ else }}
+        {{ $authorData := index .Site.Data.authors .Data.Term }}
+        {{ with $authorData.image }}
+          {{ $jsonImage := resources.Get . }}
+          {{ $jsonImage := $jsonImage.Fill "250x250" }}
+          {{ if $jsonImage }}
+           <img class="rounded-full h-32 w-32 object-cover" src="{{ $jsonImage.RelPermalink }}" alt="">
+          {{ end }}
+        {{ end }}
+     {{ end }}
+    </div>
+  {{ end }}
   <section class="flex flex-col max-w-full mt-0 mb-5 prose dark:prose-invert lg:flex-row">
     {{ if .Content }}
     <div class="min-w-0 min-h-0 max-w-prose">

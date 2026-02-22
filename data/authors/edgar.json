@@ -1,0 +1,28 @@
+{
+  "name": "edgar",
+  "image": "Autores/edgar.jpeg",
+  "bio": "PhD Student | LIIGH - UNAM",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:epsalazarf@gmail.com"
+    },
+    {
+      "revision": "LinkedIn: https://www.linkedin.com/in/epsalazarf/; GitHub: https://github.com/epsalazarf"
+    }
+  ],
+  "vermas": "/authors/edgar/"
+}

@@ -1,16 +1,28 @@
 {
-    "name": "MSc. Maria Fernanda Miron Toruno",
-    "image" : "Autores/maria.jpg",
-    "bio": "Lic. Ciencias Genómicas",
-    "social": [
-        {"facebook": "https://www.facebook.com/fernanda.miron.1?mibextid=ZbWKwL",
-         "linkedin": "https://www.linkedin.com/in/maria-fernanda-miron-toruno-710357300/" }
-    ],
-    "curso": [
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-      
-    "vermas": "/authors/maria/" 
+  "name": "maria",
+  "image": "Autores/maria.jpeg",
+  "bio": "MSc. Maria Fernanda Miron Toruno\nDoctorado, Baylor University",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:fernanda_miron1@baylor.edu"
+    },
+    {
+      "revision": "Linkedin: https://www.linkedin.com/in/maria-fernanda-miron-toruno-710357300/ \nFB: Fernanda Miron Toruno"
+    }
+  ],
+  "vermas": "/authors/maria/"
 }
- 
-

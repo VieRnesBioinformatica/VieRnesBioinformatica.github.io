@@ -230,12 +230,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://example.org/playlist/0/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.org/playlist/1/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://example.org/playlist/2/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://example.org/playlist/3/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.org/playlist/4/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

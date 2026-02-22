@@ -1,0 +1,28 @@
+{
+  "name": "haydeé",
+  "image": "Autores/haydeé.jpeg",
+  "bio": "Haydeé Peruyero, Posdoc, CCM - UNAM Morelia",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:haydeeperuyero@matmor.unam.mx"
+    },
+    {
+      "revision": "Github: HaydeePeruyero, Linkedin: https://www.linkedin.com/in/haydeeperuyero/, Página web: https://haydeeperuyero.github.io/"
+    }
+  ],
+  "vermas": "/authors/haydeé/"
+}

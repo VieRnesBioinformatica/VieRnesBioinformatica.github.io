@@ -1,0 +1,28 @@
+{
+  "name": "itzel",
+  "image": "Autores/itzel.jpeg",
+  "bio": "Undergraduate Genomics Science, intern at LIIGH-UNAM and University of Oxford ",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:johanacbta371g@gmail.com"
+    },
+    {
+      "revision": "@itzel_galguera"
+    }
+  ],
+  "vermas": "/authors/itzel/"
+}

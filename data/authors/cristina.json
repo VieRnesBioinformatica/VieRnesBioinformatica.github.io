@@ -1,0 +1,28 @@
+{
+  "name": "cristina",
+  "image": "Autores/cristina.jpeg",
+  "bio": "Postdoctoral fellow, Icahn School of Medicine at Mount Sinai",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:joselynchavezf@gmail.com"
+    },
+    {
+      "revision": "X: @josschavezf1 Bluesky: @josschavezf"
+    }
+  ],
+  "vermas": "/authors/cristina/"
+}

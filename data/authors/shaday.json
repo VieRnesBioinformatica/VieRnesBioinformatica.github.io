@@ -1,15 +1,28 @@
 {
-    "name": "Dr. Shaday Guerrero",
-    "image" : "Autores/SG.jpeg",
-    "bio": "Posdoc, Centro de Ciencias Matemáticas - UNAM",
-    "social": [
-        {"graduation-cap": "https://scholar.google.com/citations?user=Pi9v98gAAAAJ"}
-    ],
-    "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"}
-      ], 
-      
-    "vermas": "/authors/shaday/" 
+  "name": "shaday",
+  "image": "Autores/shaday.jpeg",
+  "bio": "Dr Shaday Guerrero Flores Posdoc, CCM-UNAM",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:shadayguerrero@gmail.com"
+    },
+    {
+      "revision": "shaday.guerrero"
+    }
+  ],
+  "vermas": "/authors/shaday/"
 }
- 
-

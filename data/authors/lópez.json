@@ -1,0 +1,28 @@
+{
+  "name": "lópez",
+  "image": "Autores/lópez.jpeg",
+  "bio": "Especialista de Datos Jr, GF Banorte",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:jlc1839@gmail.com"
+    },
+    {
+      "revision": "@tipica_nerd"
+    }
+  ],
+  "vermas": "/authors/lópez/"
+}

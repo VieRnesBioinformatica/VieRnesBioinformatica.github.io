@@ -25,7 +25,7 @@
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/tutoriales/instalacion-de-r/</guid>
-      <description></description>
+      <description>CRAN.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/tutoriales/instalacion-de-r/featured.png" />
     </item>
     
@@ -35,8 +35,18 @@
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/tutoriales/mecanicas-basicas-de-r/</guid>
-      <description></description>
+      <description>¿Qué es R?</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/tutoriales/mecanicas-basicas-de-r/featured.png" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 0</title>
+      <link>http://example.org/playlist/0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/playlist/0/</guid>
+      <description>Parte 0 # Viernes 1: Conceptos básicos de bioinformática y pseudocódigo # Fecha: Viernes 22 de Septiembre 2023</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/0/featured.png" />
     </item>
     
     <item>
@@ -45,8 +55,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/playlist/3/</guid>
-      <description></description>
+      <description>Viernes 2 y 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/3/featured.png" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 4</title>
+      <link>http://example.org/playlist/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
+      <guid>http://example.org/playlist/4/</guid>
+      <description>PARTE 4 # Playlist de Youtube # Viernes 1.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/4/featured.png" />
     </item>
     
   </channel>

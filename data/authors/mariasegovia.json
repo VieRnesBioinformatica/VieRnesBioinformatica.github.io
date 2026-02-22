@@ -1,0 +1,28 @@
+{
+  "name": "mariasegovia",
+  "image": "Autores/mariasegovia.jpeg",
+  "bio": "Dra. María Guadalupe Segovia Ramírez, SCT- Soil Functional Genomics and Evolution at Data Science dpt., Solena",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:mariag.sera13@gmail.com"
+    },
+    {
+      "revision": "https://www.linkedin.com/in/mar%25C3%25ADa-segovia-34816464"
+    }
+  ],
+  "vermas": "/authors/mariasegovia/"
+}

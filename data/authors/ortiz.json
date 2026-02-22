@@ -1,0 +1,28 @@
+{
+  "name": "ortiz",
+  "image": "Autores/ortiz.jpeg",
+  "bio": "",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:aeortiz06@gmail.com"
+    },
+    {
+      "revision": "Microbiólogo, INB - UNAM"
+    }
+  ],
+  "vermas": "/authors/ortiz/"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ramírez",
+  "image": "Autores/ramírez.jpeg",
+  "bio": "Dr. Obed Ramírez. Senior Data Scientist, Solena Ag.",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:obed_eo@hotmail.com"
+    },
+    {
+      "revision": "https://www.linkedin.com/in/obed-ram%C3%ADrez-s%C3%A1nchez-370565131/"
+    }
+  ],
+  "vermas": "/authors/ramírez/"
+}

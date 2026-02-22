@@ -1,0 +1,28 @@
+{
+  "name": "zorrilla",
+  "image": "Autores/zorrilla.jpeg",
+  "bio": "Estudiante de maestría y asistente de investigación",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:sofia.zorrilla95@gmail.com"
+    },
+    {
+      "revision": "https://github.com/sofiazorrilla"
+    }
+  ],
+  "vermas": "/authors/zorrilla/"
+}

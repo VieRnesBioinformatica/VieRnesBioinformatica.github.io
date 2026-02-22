@@ -15,8 +15,18 @@
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-4/</guid>
-      <description></description>
+      <description>¿Que es y para que sirve Rmarkdown?</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-4/featured.png" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 1</title>
+      <link>http://example.org/playlist/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/playlist/1/</guid>
+      <description>PARTE 1 # Viernes 1.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/1/featured.png" />
     </item>
     
   </channel>

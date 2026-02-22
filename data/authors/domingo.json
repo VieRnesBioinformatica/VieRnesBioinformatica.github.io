@@ -1,15 +1,28 @@
 {
-    "name": "Dr. Domingo Martinez",
-    "image" : "Autores/DM.png",
-    "bio": "Posdoc CONAHCYT en LIIGH-UNAM",
-    "social": [
-        {"researchgate": "https://www.researchgate.net/profile/Domingo-Martinez-5",
-         "x-twitter": "https://www.x.com/D_o_m_i_n_g_o" }
-    ],
-    "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-    "vermas": "/authors/domingo/" 
+  "name": "domingo",
+  "image": "Autores/domingo.jpeg",
+  "bio": "Posdoc CONAHCYT en LIIGH-UNAM",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:Ldmv82@gmail.com"
+    },
+    {
+      "revision": "@D_o_m_i_n_g_o, https://www.researchgate.net/profile/Domingo-Martinez-5"
+    }
+  ],
+  "vermas": "/authors/domingo/"
 }
- 
-

@@ -15,7 +15,7 @@
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica2-2024/viernes_1/</guid>
-      <description></description>
+      <description>Primeros pasos: Creación del paquete # 1.</description>
       
     </item>
     
@@ -25,7 +25,7 @@
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-4/</guid>
-      <description></description>
+      <description>¿Que es y para que sirve Rmarkdown?</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-4/featured.png" />
     </item>
     
@@ -35,7 +35,7 @@
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-3/</guid>
-      <description></description>
+      <description>Matrices y Listas.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-3/featured.png" />
     </item>
     
@@ -45,7 +45,7 @@
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-2/</guid>
-      <description></description>
+      <description>Vector y dataframe.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-2/featured.png" />
     </item>
     
@@ -55,7 +55,7 @@
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-1/</guid>
-      <description></description>
+      <description>RStudio es un entorno de desarrollo integrado (IDE) para R.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-1/featured.png" />
     </item>
     

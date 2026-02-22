@@ -15,7 +15,7 @@
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-7/</guid>
-      <description></description>
+      <description>Con dplyr, puedes filtrar filas, seleccionar columnas, ordenar datos y agrupar datos de forma eficiente.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-7/featured.png" />
     </item>
     
@@ -25,7 +25,7 @@
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-6/</guid>
-      <description></description>
+      <description>La manipulación de datos con funciones de R base es un tema esencial en análisis de datos.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-6/featured.png" />
     </item>
     
@@ -35,7 +35,7 @@
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-3/</guid>
-      <description></description>
+      <description>Matrices y Listas.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-3/featured.png" />
     </item>
     
@@ -45,7 +45,7 @@
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-2/</guid>
-      <description></description>
+      <description>Vector y dataframe.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-2/featured.png" />
     </item>
     
@@ -55,8 +55,28 @@
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-1/</guid>
-      <description></description>
+      <description>RStudio es un entorno de desarrollo integrado (IDE) para R.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-1/featured.png" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 0</title>
+      <link>http://example.org/playlist/0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/playlist/0/</guid>
+      <description>Parte 0 # Viernes 1: Conceptos básicos de bioinformática y pseudocódigo # Fecha: Viernes 22 de Septiembre 2023</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/0/featured.png" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 1</title>
+      <link>http://example.org/playlist/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/playlist/1/</guid>
+      <description>PARTE 1 # Viernes 1.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/1/featured.png" />
     </item>
     
     <item>
@@ -65,7 +85,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/playlist/2/</guid>
-      <description></description>
+      <description>PARTE 2 # Viernes 1.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/2/featured.png" />
     </item>
     
@@ -75,8 +95,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/playlist/3/</guid>
-      <description></description>
+      <description>Viernes 2 y 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/3/featured.png" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 4</title>
+      <link>http://example.org/playlist/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
+      <guid>http://example.org/playlist/4/</guid>
+      <description>PARTE 4 # Playlist de Youtube # Viernes 1.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/4/featured.png" />
     </item>
     
   </channel>
