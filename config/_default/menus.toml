@@ -46,6 +46,12 @@ name = "Videos"
 weight = 8
 
 [[main]]
+name = "Parte 0"
+parent = "Videos"
+weight = 8
+url = "/playlist/0"
+
+[[main]]
 name = "Parte 1"
 parent = "Videos"
 weight = 9
@@ -63,6 +69,12 @@ name = "Parte 3"
 parent = "Videos"
 weight = 10
 url = "/playlist/3"
+
+[[main]]
+name = "Parte 4"
+parent = "Videos"
+weight = 10
+url = "/playlist/4"
 
 [[main]]
 name = "Codigo de Conducta"

@@ -10,7 +10,6 @@ showViews: false
 showPagination: false
 showComments: false
 showRelatedContent: false
-headless: true
 authors:
  - "evelia"
  - "sofia"
