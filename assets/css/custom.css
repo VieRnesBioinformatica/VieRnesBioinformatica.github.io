@@ -1,0 +1,601 @@
+/* Colores en formato RGB para compatibilidad con Tailwind CSS 3.0 */
+
+:root {
+  /* Colores neutrales (grises/fondos) */
+  --color-neutral-50: 248, 247, 251;    /* #f8f7fb - muy claro */
+  --color-neutral-100: 237, 232, 255;   /* #ede8ff */
+  --color-neutral-200: 219, 210, 238;   /* #dbd2ee */
+  --color-neutral-300: 194, 184, 224;   /* #c2b8e0 */
+  --color-neutral-400: 106, 95, 138;    /* #6a5f8a - muted */
+  --color-neutral-500: 58, 52, 80;      /* #3a3450 - dim */
+  --color-neutral-600: 14, 14, 22;      /* #0e0e16 - panel */
+  --color-neutral-700: 11, 11, 22;      /* #0b0b16 - bg2 */
+  --color-neutral-800: 8, 8, 16;        /* #080810 - bg */
+  --color-neutral-900: 5, 5, 10;        /* #050505 - muy oscuro */
+
+  /* Color primario: CIAN/AZUL (Phase 1 del pipeline) */
+  --color-primary-50: 230, 249, 255;    /* #e6f9ff */
+  --color-primary-100: 207, 242, 255;   /* #cff2ff */
+  --color-primary-200: 126, 232, 255;   /* #7ee8ff - cyan bright */
+  --color-primary-300: 0, 191, 255;     /* #00bfff - blue bright */
+  --color-primary-400: 0, 170, 230;     /* #00aae6 */
+  --color-primary-500: 0, 150, 200;     /* #0096c8 */
+  --color-primary-600: 0, 120, 160;     /* #0078a0 */
+  --color-primary-700: 0, 90, 120;      /* #005a78 */
+  --color-primary-800: 0, 60, 80;       /* #003c50 */
+  --color-primary-900: 0, 30, 40;       /* #001e28 */
+
+  /* Color secundario: FUCSIA/MAGENTA (accent del pipeline) */
+  --color-secondary-50: 255, 230, 245;  /* #ffe6f5 */
+  --color-secondary-100: 255, 205, 232; /* #ffcde8 */
+  --color-secondary-200: 255, 155, 198; /* #ff9bc6 */
+  --color-secondary-300: 255, 77, 141;  /* #ff4d8d - accent bright */
+  --color-secondary-400: 232, 63, 122;  /* #e83f7a - accent2 */
+  --color-secondary-500: 200, 40, 100;  /* #c82864 */
+  --color-secondary-600: 160, 32, 80;   /* #a02050 */
+  --color-secondary-700: 120, 24, 60;   /* #78183c */
+  --color-secondary-800: 80, 16, 40;    /* #501028 */
+  --color-secondary-900: 40, 8, 20;     /* #280814 */
+
+  /* Colores de énfasis adicionales (para compatibilidad) */
+  --color-accent: 255, 77, 141;         /* #ff4d8d */
+  --color-accent2: 232, 63, 122;        /* #e83f7a */
+  --color-green: 57, 255, 114;          /* #39ff72 - para estado success */
+  --color-amber: 255, 209, 102;         /* #ffd166 - para warnings */
+  --color-red: 255, 77, 109;            /* #ff4d6d - para errors */
+}
+
+/* ─── ESTILOS GLOBALES OSCUROS ─── */
+
+body {
+  background-color: #080810;
+  background-image:
+    repeating-linear-gradient(
+      0deg, transparent, transparent 2px,
+      rgba(0, 0, 0, 0.07) 2px, rgba(0, 0, 0, 0.07) 4px
+    ),
+    radial-gradient(ellipse at 20% 0%, rgba(168, 85, 247, 0.07) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(0, 191, 255, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(57, 255, 114, 0.02) 0%, transparent 60%);
+  color: #c4b8e0;
+}
+
+body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url("/img/fondo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    ba
+
+/* Asegurar que los elementos secundarios del tema se vean correctamente */
+.prose {
+  --prose-body: #c4b8e0;
+  --prose-headings: #ede8ff;
+  --prose-links: #7ee8ff;
+  --prose-bold: #ede8ff;
+  --prose-code: #ffd166;
+}
+
+/* ─── ACENTOS DE COLORES ─── */
+
+a {
+  color: #7ee8ff;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ff4d8d;
+}
+
+/* Botones y controles */
+button, .btn {
+  background-color: rgba(0, 150, 200, 0.15);
+  border-color: #0096c8;
+  color: #7ee8ff;
+}
+
+button:hover, .btn:hover {
+  background-color: rgba(0, 150, 200, 0.25);
+  color: #00bfff;
+}
+
+/* ─── VARIANTES DE ÉNFASIS ─── */
+
+.text-accent {
+  color: #ff4d8d !important;
+}
+
+.text-primary {
+  color: #00bfff !important;
+}
+
+.text-secondary {
+  color: #7ee8ff !important;
+}
+
+.bg-accent-subtle {
+  background-color: rgba(255, 77, 141, 0.08);
+}
+
+.bg-primary-subtle {
+  background-color: rgba(0, 191, 255, 0.08);
+}
+
+.border-accent {
+  border-color: #ff4d8d;
+}
+
+.border-primary {
+  border-color: #00bfff;
+}
+
+/* ─── EFECTOS VISUALES DEL PIPELINE ─── */
+
+/* Glow effects */
+.glow-accent {
+  box-shadow: 0 0 12px rgba(255, 77, 141, 0.3),
+              0 0 24px rgba(255, 77, 141, 0.15);
+}
+
+.glow-primary {
+  box-shadow: 0 0 12px rgba(0, 191, 255, 0.3),
+              0 0 24px rgba(0, 191, 255, 0.15);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 12px rgba(126, 232, 255, 0.4),
+              0 0 30px rgba(126, 232, 255, 0.2);
+}
+
+/* Efectos de escaneo (scanlines) */
+.scanline-effect {
+  background-image: repeating-linear-gradient(
+    0deg, transparent, transparent 2px,
+    rgba(0, 0, 0, 0.07) 2px, rgba(0, 0, 0, 0.07) 4px
+  );
+}
+
+/* ─── ANIMACIONES DEL PIPELINE ─── */
+
+@keyframes glow-pulse {
+  0%, 100% {
+    text-shadow: 0 0 6px #ff4d8d;
+  }
+  50% {
+    text-shadow: 0 0 20px #ff4d8d, 0 0 40px rgba(168, 85, 247, 0.5);
+  }
+}
+
+@keyframes data-stream {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+@keyframes orbPing {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.animate-glow {
+  animation: glow-pulse 3.5s ease-in-out infinite;
+}
+
+.animate-pulse-data {
+  animation: data-stream 2s ease-in-out infinite;
+}
+
+/* ─── SECCIONES Y CONTENEDORES ─── */
+
+.card, .box {
+  background-color: #0e0e1a;
+  border: 1px solid #1e1a30;
+  color: #c4b8e0;
+}
+
+.card:hover, .box:hover {
+  border-color: #a855f7;
+  box-shadow: 0 0 0 1px rgba(168, 85, 247, 0.25),
+              inset 0 0 20px rgba(168, 85, 247, 0.05);
+}
+
+/* ─── CÓDIGO Y MONOESPACIOS ─── */
+
+code, pre, .code {
+  background-color: #090913;
+  color: #7ee8ff;
+  border: 1px solid #1e1a30;
+}
+
+.code-accent {
+  color: #ff4d8d;
+}
+
+.code-success {
+  color: #39ff72;
+}
+
+.code-warning {
+  color: #ffd166;
+}
+
+/* ─── MARCAS DE ESTADO (BADGES) ─── */
+
+.badge {
+  background-color: rgba(0, 150, 200, 0.2);
+  color: #7ee8ff;
+  border: 1px solid rgba(0, 191, 255, 0.3);
+}
+
+.badge.success {
+  background-color: rgba(57, 255, 114, 0.15);
+  color: #39ff72;
+  border-color: rgba(57, 255, 114, 0.3);
+}
+
+.badge.warning {
+  background-color: rgba(255, 209, 102, 0.15);
+  color: #ffd166;
+  border-color: rgba(255, 209, 102, 0.3);
+}
+
+.badge.danger {
+  background-color: rgba(255, 77, 141, 0.15);
+  color: #ff4d8d;
+  border-color: rgba(255, 77, 141, 0.3);
+}
+
+/* ─── ENCABEZADOS Y TIPOGRAFÍA ─── */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ede8ff;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  color: #ff4d8d;
+  font-size: clamp(1.8rem, 4vw, 3.4rem);
+  animation: glow-pulse 3.5s ease-in-out infinite;
+}
+
+h2 {
+  color: #00bfff;
+  border-bottom: 2px solid rgba(0, 191, 255, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+/* ─── TABLAS ─── */
+
+table {
+  border-collapse: collapse;
+  color: #c4b8e0;
+}
+
+table th {
+  background-color: #1e1a30;
+  color: #ede8ff;
+  border: 1px solid #2a2448;
+}
+
+table td {
+  border: 1px solid #1e1a30;
+  padding: 0.75rem;
+}
+
+table tr:hover {
+  background-color: rgba(0, 191, 255, 0.05);
+}
+
+/* ─── FORMULARIOS ─── */
+
+input, textarea, select {
+  background-color: #090913;
+  border: 1px solid #1e1a30;
+  color: #c4b8e0;
+  padding: 0.5rem 0.75rem;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #00bfff;
+  box-shadow: 0 0 0 2px rgba(0, 191, 255, 0.15);
+  background-color: rgba(0, 191, 255, 0.03);
+}
+
+::placeholder {
+  color: #6a5f8a;
+}
+
+/* ─── SCROLLBAR ─── */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0b16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e1a30;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00bfff;
+}
+
+.term-hero {
+  max-width: 1100px;
+  margin: 40px auto 30px;
+  padding: 32px;
+  border: 1px solid var(--border2);
+  border-left: 4px solid var(--magenta);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(0,191,255,.05), rgba(255,77,141,.03));
+  box-shadow: 0 0 20px rgba(0,191,255,.08), inset 0 0 30px rgba(126,232,255,.02);
+}
+
+.term-title {
+  font-family: var(--mono);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--bright);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin-bottom: 12px;
+}
+
+.term-meta,
+.term-description {
+  color: var(--text);
+  max-width: 75ch;
+}
+
+.term-year {
+  margin: 28px 0 14px;
+  font-family: var(--mono);
+  font-size: 1.4rem;
+  color: var(--cyan);
+}
+
+.term-cards {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.term-card {
+  border: 1px solid var(--border2);
+  border-left: 3px solid var(--cyan);
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(0,191,255,.04), rgba(255,77,141,.02));
+  box-shadow: 0 0 16px rgba(0,191,255,.06);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  overflow: hidden;
+}
+
+.term-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--magenta);
+  box-shadow: 0 8px 28px rgba(255,77,141,.14);
+}
+
+.term-carousel {
+  max-width: 1100px;
+  margin: 2rem auto 0;
+}
+
+.term-carousel-track {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 75vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  padding-right: 0.5rem;
+}
+
+.term-slide {
+  scroll-snap-align: start;
+}
+
+.term-carousel-track::-webkit-scrollbar {
+  width: 10px;
+}
+
+.term-carousel-track::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+}
+
+.taxonomy-carousel {
+    height: 100vh;
+    overflow-y: auto;
+
+    scroll-snap-type: y mandatory;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    padding: 10vh 0;
+}
+
+.taxonomy-slide {
+    scroll-snap-align: center;
+
+    width: min(900px, 90%);
+    margin: 0 auto;
+
+    padding: 2rem;
+
+    border-left: 4px solid var(--cyan);
+
+    background: rgba(255,255,255,.03);
+
+    backdrop-filter: blur(10px);
+
+    transition: .3s;
+}
+
+.taxonomy-slide:hover {
+    transform: translateX(10px);
+}
+
+.taxonomy-slide h2 {
+    margin-bottom: 1rem;
+}
+
+.taxonomy-slide a {
+    text-decoration: none;
+}
+
+.taxonomy-slide p {
+    opacity: .8;
+}
+
+.taxonomy-meta {
+    margin-top: 1rem;
+    opacity: .5;
+    font-size: .9rem;
+}
+
+/* ========= AUTHOR ========= */
+
+.author-avatar {
+    width: 140px;
+    height: 140px;
+
+    border-radius: 999px;
+    object-fit: cover;
+
+    border: 4px solid #ff4d8d;
+
+    box-shadow:
+      0 0 12px rgba(255,77,141,.35),
+      0 0 30px rgba(255,77,141,.15);
+
+    transition: all .3s ease;
+}
+
+.author-avatar:hover {
+    transform: scale(1.04);
+
+    box-shadow:
+      0 0 18px rgba(255,77,141,.55),
+      0 0 45px rgba(255,77,141,.25);
+}
+
+/* ========= ARTICLE GRID ========= */
+
+.taxonomy-grid {
+    display: grid;
+    gap: 1.25rem;
+
+    grid-template-columns:
+      repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/* ========= CARD HOVER ========= */
+
+.taxonomy-card {
+    transition:
+      transform .25s ease,
+      filter .25s ease;
+}
+
+.taxonomy-card:hover {
+    transform:
+      translateY(-8px)
+      scale(1.015);
+}
+
+/* glow sobre la card interna de Blowfish */
+
+.taxonomy-card:hover article,
+.taxonomy-card:hover .card,
+.taxonomy-card:hover > * {
+
+    box-shadow:
+      0 8px 25px rgba(0,0,0,.25),
+      0 0 18px rgba(255,77,141,.18);
+
+    border-color: rgba(255,77,141,.45);
+}
+
+/* transición suave */
+
+.taxonomy-card article,
+.taxonomy-card .card,
+.taxonomy-card > * {
+    transition:
+      all .25s ease;
+}
+
+.timeline {
+    position: relative;
+
+    max-width: 900px;
+
+    margin: 4rem auto;
+}
+
+.timeline::before {
+    content: "";
+
+    position: absolute;
+
+    left: 20px;
+    top: 0;
+    bottom: 0;
+
+    width: 4px;
+
+    background: #ec4899;
+}
+
+.timeline-item {
+    position: relative;
+
+    padding-left: 70px;
+
+    margin-bottom: 4rem;
+}
+
+.timeline-dot {
+    position: absolute;
+
+    left: 10px;
+    top: 8px;
+
+    width: 24px;
+    height: 24px;
+
+    border-radius: 50%;
+
+    background: #ec4899;
+
+    border: 4px solid white;
+}
+
+.timeline-content {
+    background: rgba(255,255,255,.04);
+
+    border: 1px solid rgba(236,72,153,.25);
+
+    border-radius: 16px;
+
+    padding: 1.5rem;
+}
+

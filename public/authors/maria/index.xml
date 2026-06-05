@@ -10,13 +10,23 @@
     <atom:link href="http://example.org/authors/maria/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Lista de Reproducción Parte 2</title>
-      <link>http://example.org/playlist/2/</link>
+      <title>Lista de Reproducción Parte 3</title>
+      <link>http://example.org/playlist/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/playlist/2/</guid>
-      <description>PARTE 2 # Viernes 1.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/2/featured.png" />
+      <guid>http://example.org/playlist/3/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/3/featured.png" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 4</title>
+      <link>http://example.org/playlist/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/playlist/4/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/4/featured.png" />
     </item>
     
   </channel>

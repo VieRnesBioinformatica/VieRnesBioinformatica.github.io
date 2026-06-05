@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head>
-	<meta name="generator" content="Hugo 0.130.0">
+	<meta name="generator" content="Hugo 0.139.0">
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="es" />
@@ -31,8 +31,12 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.5127f815da010aa15cf8a7858b5e35437313dcd0805c4ee9dafe89b01708dad59a095b1bcbc698027d89a4086c354675d45a6f25400bc7712fc453f9b5415d01.css"
-    integrity="sha512-USf4FdoBCqFc&#43;KeFi141Q3MT3NCAXE7p2v6JsBcI2tWaCVsby8aYAn2JpAhsNUZ11FpvJUALx3EvxFP5tUFdAQ==" />
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.b9c91958027eb40bec08da461a710ba9f0580a415a18445cca19ef55e9b50f8c420da1fd4ed2508b1d3f370ba72daf69920522f6a0a89f1932cf5629150a8673.css"
+    integrity="sha512-uckZWAJ&#43;tAvsCNpGGnELqfBYCkFaGERcyhnvVem1D4xCDaH9TtJQix0/NwunLa9pkgUi9qConxkyz1YpFQqGcw==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -107,6 +111,9 @@
   
   
   <link href="https://github.com/EveliaCoss/ViernesBioinfo2024" rel="me" />
+  
+  
+  <link href="mailto:viernesbioinfo@gmail.com" rel="me" />
   
   
   
@@ -192,7 +199,7 @@
             <span class="sr-only"></span>
 
             
-            <img src="/g543.png" width="1330" height="511"
+            <img src="/g543.png" width="1445" height="637"
                 class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="" />
             
 
@@ -812,78 +819,555 @@
   
     
 
+<style>
+   
+  :root {
+    --bg: #080810;
+    --bg2: #0b0b16;
+    --panel: #0e0e1a;
+    --panel2: #090913;
+    --border: #1e1a30;
+    --border2: #2a2448;
+    --cyan: #00bfff;
+    --cyan-bright: #7ee8ff;
+    --magenta: #ff4d8d;
+    --magenta2: #e83f7a;
+    --green: #39ff72;
+    --amber: #ffd166;
+    --text: #c4b8e0;
+    --bright: #ede8ff;
+    --muted: #6a5f8a;
+    --mono: 'JetBrains Mono', 'Share Tech Mono', monospace;
+  }
 
-<div style="
-margin: 30px auto;
-padding: 20px;
-max-width: 900px;
-border: 2px solid #f26a8d;
-border-radius: 15px;
-text-align: center;
-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75);
-">
+   
+  @keyframes glow-pulse {
+    0%, 100% {
+      text-shadow: 0 0 6px var(--magenta);
+    }
+    50% {
+      text-shadow: 0 0 20px var(--magenta), 0 0 40px rgba(168, 85, 247, 0.5);
+    }
+  }
 
-<h2 style="color:#f26a8d; margin-bottom: 10px;">
-PARTE 5 — 20 DE FEBRERO
-</h2>
+  @keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
-<p style="margin-bottom: 15px;">
-Nueva sesión científica. Nuevas ideas. Nuevos datos.  
-</p>
+  @keyframes orbPing {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(2.5);
+      opacity: 0;
+    }
+  }
 
-<p style="margin-bottom: 15px; display: flex; align-items: center; justify-content: center; gap: 8px;">
-  <img 
-  src="https://preview.redd.it/a-little-pixel-art-of-senku-v0-5icbx6jm4emd1.jpeg?auto=webp&s=67010f8e408bd175b29e2f45ad188b744cfb76fe" 
-  alt="Senku"
-  style="width: 28px; height: 28px; border-radius: 50%;"
+  @keyframes scandown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+
+  @keyframes data-stream {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+  }
+
+   
+  .hero-section {
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 900px;
+    border: 2px solid var(--cyan);
+    border-radius: 12px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(0, 191, 255, 0.05) 0%, rgba(255, 77, 141, 0.03) 100%);
+    box-shadow: 
+      0 0 20px rgba(0, 191, 255, 0.15),
+      0 0 40px rgba(255, 77, 141, 0.05),
+      inset 0 0 60px rgba(126, 232, 255, 0.02);
+    animation: fadeSlideIn 0.6s ease-out;
+    border-left: 4px solid var(--magenta);
+  }
+
+  .hero-section h1 {
+    color: var(--magenta);
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    animation: glow-pulse 3.5s ease-in-out infinite;
+    font-family: var(--mono);
+  }
+
+  .hero-section h2 {
+    color: var(--cyan);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: var(--mono);
+  }
+
+  .hero-section p {
+    color: var(--text);
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .hero-section .emoji-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    color: var(--bright);
+  }
+
+  .hero-section .emoji-text img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--magenta);
+  }
+
+   
+  .btn-hero {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 8px;
+    border: 2px solid var(--cyan);
+    text-decoration: none;
+    color: var(--cyan);
+    font-weight: 700;
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--cyan);
+    transition: left 0.25s ease;
+    z-index: -1;
+  }
+
+  .btn-hero:hover {
+    color: #000;
+    border-color: var(--cyan-bright);
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
+  }
+
+  .btn-hero:hover::before {
+    left: 0;
+  }
+
+   
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+
+  .calendar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: fadeSlideIn 0.8s ease-out 0.2s backwards;
+  }
+
+  .profile-section header {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  .profile-section img {
+    margin-bottom: 15px;
+    border-radius: 50%;
+    height: 144px;
+    width: 144px;
+    border: 3px solid var(--magenta);
+    box-shadow: 0 0 20px rgba(255, 77, 141, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .profile-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 77, 141, 0.5);
+  }
+
+  .profile-section h1 {
+    color: var(--magenta);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: -0.02em;
+    font-family: var(--mono);
+  }
+
+  .profile-section h2 {
+    color: var(--cyan);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: var(--mono);
+  }
+
+  .profile-section .text-2xl {
+    margin-top: 15px;
+  }
+
+  .profile-section .prose {
+    color: var(--text);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-top: 20px;
+  }
+
+   
+  .discord-section {
+    margin: 60px auto;
+    padding: 40px;
+    max-width: 1100px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(0, 191, 255, 0.03) 0%, rgba(57, 255, 114, 0.02) 100%);
+    border: 1px solid var(--border2);
+    border-radius: 12px;
+    border-left: 4px solid var(--cyan);
+  }
+
+  .discord-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: var(--bright);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-family: var(--mono);
+  }
+
+  .discord-section iframe {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+
+  .discord-btn-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn-discord {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: 2px solid var(--green);
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 700;
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-discord::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--green);
+    transition: left 0.25s ease;
+    z-index: -1;
+  }
+
+  .btn-discord:hover {
+    color: #000;
+    border-color: var(--green);
+    box-shadow: 0 0 20px rgba(57, 255, 114, 0.4);
+  }
+
+  .btn-discord:hover::before {
+    left: 0;
+  }
+
+   
+  .organizers-section {
+    margin: 60px auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+  }
+
+  .organizers-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--bright);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-family: var(--mono);
+  }
+
+  .organizers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .organizer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border: 2px solid var(--cyan);
+    border-radius: 12px;
+    width: 260px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, rgba(0, 191, 255, 0.05) 0%, rgba(255, 77, 141, 0.02) 100%);
+    box-shadow: 
+      0 0 20px rgba(0, 191, 255, 0.1),
+      inset 0 0 30px rgba(126, 232, 255, 0.02);
+    transition: all 0.3s ease;
+    animation: fadeSlideIn 0.6s ease-out;
+  }
+
+  .organizer-card:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+
+  .organizer-card:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+
+  .organizer-card:hover {
+    border-color: var(--magenta);
+    transform: translateY(-8px);
+    box-shadow: 
+      0 8px 32px rgba(255, 77, 141, 0.2),
+      0 0 20px rgba(0, 191, 255, 0.1),
+      inset 0 0 30px rgba(255, 77, 141, 0.03);
+  }
+
+  .organizer-card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid var(--magenta);
+    object-fit: cover;
+    transition: all 0.3s ease;
+  }
+
+  .organizer-card:hover img {
+    box-shadow: 0 0 20px rgba(255, 77, 141, 0.4);
+    transform: scale(1.05);
+  }
+
+  .organizer-card p {
+    text-align: center;
+    margin: 15px 0;
+    color: var(--bright);
+    font-weight: 700;
+    font-size: 1.05rem;
+    font-family: var(--mono);
+  }
+
+  .btn-organizer {
+    text-align: center;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: 2px solid var(--cyan);
+    text-decoration: none;
+    color: var(--cyan);
+    font-weight: 600;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .btn-organizer:hover {
+    background: var(--cyan);
+    color: #000;
+    box-shadow: 0 0 12px rgba(0, 191, 255, 0.3);
+  }
+
+   
+  .recent-section {
+    margin: 60px auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+  }
+
+  .recent-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--bright);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-family: var(--mono);
+  }
+
+   
+  @media (max-width: 968px) {
+    .main-content {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+
+    .organizers-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .organizer-card {
+      width: 100%;
+      max-width: 260px;
+    }
+
+    .discord-section h1 {
+      font-size: 2rem;
+    }
+
+    .recent-section h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hero-section {
+      padding: 25px;
+      margin: 20px auto;
+    }
+
+    .hero-section h1 {
+      font-size: 1.8rem;
+    }
+
+    .hero-section h2 {
+      font-size: 1.1rem;
+    }
+
+    .profile-section h1 {
+      font-size: 2rem;
+    }
+
+    .organizer-card {
+      padding: 18px;
+      width: 100%;
+      max-width: 260px;
+    }
+
+    .discord-section {
+      padding: 25px;
+      margin: 40px auto;
+    }
+
+    .discord-section h1 {
+      font-size: 1.5rem;
+    }
+
+    .organizers-section h1 {
+      font-size: 1.8rem;
+    }
+
+    .btn-hero, .btn-discord {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+</style>
+
+
+
+
+<div class="hero-section">
+  <h1>¡Estamos Iterando!</h1>
+  <h2>Para mejorar hay que cambiar</h2>
+
+  <p>Pueden ver nuestra antigua version aqui.</p>
+
+  <a 
+    href="https://docs.google.com/forms/d/e/1FAIpQLSf6PS_AzYWOzWsFJQn72JPhHJatvL66OGal_mCcTdsEDVwG_Q/viewform"
+    target="_blank"
+    class="btn-hero"
   >
-  Esto sí que es emocionante
-</p>
-
-<a 
-href="https://docs.google.com/forms/d/e/1FAIpQLSf6PS_AzYWOzWsFJQn72JPhHJatvL66OGal_mCcTdsEDVwG_Q/viewform"
-target="_blank"
-style="
-display: inline-block;
-padding: 12px 25px;
-border-radius: 8px;
-border: 2px solid #f26a8d;
-text-decoration: none;
-color: #f26a8d;
-font-weight: bold;
-"
-onmouseover="this.style.backgroundColor='#f26a8d'; this.style.color='white';"
-onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d';"
->
-INSCRIBIRSE
-</a>
-
+    Viaje al pasado...
+  </a>
 </div>
 
 
 
-<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap">
-<div style="flex: 1; text-align: center;">
-  
-<div style="text-align: center;"><a style= "@media screen and (max-width: 1200px) display: none; right: 3px; height: 167px; width: 100px; position: fixed; bottom: -15px;"><img src="https://i.pinimg.com/originals/d0/15/36/d0153696d75d7dcdd851588e9fe62817.gif" _fcksavedurl="" alt="" /></a></div>
 
-<style type="text/css">
-.luces {
-background-image: url(https://lh6.googleusercontent.com/-0-h4Co-Y-nI/TuuwZct5hrI/AAAAAAAAB-g/RKjXYFZwlHY/s500/luces%25252012.gif);
-background-repeat:repeat-x;
-height:47px;
-width:100%;
-position:absolute;
-top:0;
-left:0;
-}
-</style>
-
-
-<br></br>
-
-<section>
-  <!DOCTYPE html>
+<div class="main-content">
+  <div class="calendar-section">
+    <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -954,7 +1438,7 @@ left:0;
       }
 
       .calendar li{
-        color: rgba(160,90,150);
+        color: #48cae4;
         width: calc(100% / 7);
         font-size: 1.07rem;
       }
@@ -997,7 +1481,7 @@ left:0;
       }
 
       .days li.active::before{
-        background: #F04583;
+        background: #00a896;
       }
 
       .days li.special-date::before{
@@ -1237,8 +1721,112 @@ left:0;
          { year: 2026,
           month: 1, 
           day: 14, 
-          description: "<b style='color: #dd2d4a; text-align: center;'>¡Feliz Dia del Amor y la amistad!</b><br><img src='https://i.pinimg.com/originals/36/3a/6c/363a6c0cb7254b5eb682fc5f7e28a75b.gif' alt='Besitos'>", circleColor: '#dd2d4a'}
-        
+          description: "<b style='color: #dd2d4a; text-align: center;'>¡Feliz Dia del Amor y la amistad!</b><br><img src='https://i.pinimg.com/originals/36/3a/6c/363a6c0cb7254b5eb682fc5f7e28a75b.gif' alt='Besitos'>", circleColor: '#dd2d4a'},
+        { 
+            year: 2026, 
+            month: 1,  
+            day: 20, 
+            description: "Viernes 1. Información general del curso (20/feb/2026) - Evelia Coss e Israel Aguilar",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 1,  
+            day: 27, 
+            description: "Viernes 2. Ciencia abierta (27/feb/2026) - Evelia Coss",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 2,  
+            day: 6, 
+            description: "Viernes 3. Introducción a R, parte 1 (6/marzo/2026) - Santiago Rosas",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 2,  
+            day: 13, 
+            description: "Viernes 4. Introducción a R, parte 2 (13/marzo/2026) - Santiago Rosas",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 2,  
+            day: 20, 
+            description: "Viernes 5. Manipulación de datos usando R (vector) (20/marzo/2026) - Emilio Ortiz-Avila",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 2,  
+            day: 27, 
+            description: "Viernes 6. Manipulación de datos usando R (dataframe) (27/marzo/2026) - Emilio Ortiz-Avila",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 3,  
+            day: 10, 
+            description: "Viernes 7. Buenas prácticas en Bioinformática (10/abril/2026) - Pavel Salazar",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 3,  
+            day: 17, 
+            description: "Viernes 8. El ABC de las funciones (17/abril/2026) - Haydeé Peruyero y Sofia Zorrilla",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 4,  
+            day: 8, 
+            description: "Viernes 9. Documentación de funciones con roxygen (8/mayo/2026) - Haydeé Peruyero y Sofia Zorrilla",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 4,  
+            day: 15, 
+            description: "Viernes 10. Manipulando cadenas de texto en R (15/mayo/2026) - Laura Gómez",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 4,  
+            day: 22, 
+            description: "Viernes 11. Introducción a Quarto (reportes) (22/mayo/2026) - Sofia Zorrilla",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 4,  
+            day: 29, 
+            description: "Viernes 12. Generar presentaciones con Rmarkdown (29/mayo/2026) - Evelia Coss",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 5,  
+            day: 5, 
+            description: "Viernes 13. Introducción a la visualización de datos con ggplot2 (5/junio/2026) - Israel Aguilar",
+            circleColor: "rgba(40,30,150)" 
+          },
+        { 
+            year: 2026, 
+            month: 5,  
+            day: 12, 
+            description: "Viernes 14. Visualizaciones gráficas y figuras interactivas, parte 1 (12/junio/2026) - Israel Aguilar",
+            circleColor: "rgba(40,30,150)" 
+          },
+               { 
+            year: 2026, 
+            month: 5,  
+            day: 19, 
+            description: "Viernes 15. Visualizaciones gráficas y figuras interactivas, parte 2 (12/junio/2026) - Israel Aguilar",
+            circleColor: "rgba(40,30,150)" 
+          }
         ];
 
         const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
@@ -1337,34 +1925,33 @@ left:0;
     </script>
   </body>
 </html>
-</section>
-</div>
-  <div style="flex: 1; text-align: center;">
-<article class=" flex flex-col items-center justify-center text-center">
-  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
-    
-      
-      
-        
-      
-      
+  </div>
+
+  <div class="profile-section">
+    <article>
+      <header>
         
           
+          
+            
+          
+          
+            
+              
+            
+            <img width="144" height="144" alt="Viernes de Bioinformatica"
+              src="/VRNDBIC_hu4102983814293802185.png" />
+          
         
-        <img class="mb-2 rounded-full h-36 w-36" width="144" height="144" alt="Viernes de Bioinformatica"
-          src="/VRNDBIC_hua41fd2815f9c44f29363f649ea3fba39_102422_288x288_fill_box_center_3.png" />
-      
-    
-    <h1 class="text-4xl font-extrabold">
-      Viernes de Bioinformatica
-    </h1>
-    
-    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
-      En el LIIGH :)
-    </h2>
-    
-    <div class="mt-1 text-2xl">
-      
+
+        <h1>
+          Viernes de Bioinformatica
+        </h1>
+
+        
+
+        <div class="text-2xl">
+          
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
     
       
@@ -1385,79 +1972,100 @@ left:0;
         >
       
     
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="mailto:viernesbioinfo@gmail.com"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
   </div>
 
 
+        </div>
+      </header>
+
+      <section class="prose dark:prose-invert">
+        
+      </section>
+    </article>
+  </div>
+</div>
+
+
+
+
+<div class="discord-section">
+  <h1>¡Platica con otros Bioinformaticos!</h1>
+
+  <iframe 
+    src="https://discord.com/widget?id=1155238100059045959&theme=dark" 
+    width="100%" 
+    height="500" 
+    allowtransparency="true" 
+    frameborder="0" 
+    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+  </iframe>
+
+  <div class="discord-btn-container">
+    <a 
+      href="https://discord.com/invite/kheZzq6pKs"
+      target="_blank"
+      class="btn-discord"
+    >
+      🧬 Únete al Discord 🧬
+    </a>
+  </div>
+</div>
+
+
+
+
+<div class="organizers-section">
+  <h1>Organizadores</h1>
+
+  <div class="organizers-grid">
+    
+    <div class="organizer-card">
+      <img src="Autores/EveliaCoss.jpeg" alt="Dra. Evelia Coss">
+      <p>Dra. Evelia Coss</p>
+      <a href="authors/evelia/" class="btn-organizer">Más información</a>
     </div>
-  </header>
-  <section class="prose dark:prose-invert"></section>
-</article>
-</div>
-</div>
 
+    
+    <div class="organizer-card">
+      <img src="Autores/Aguilar.jpeg" alt="Dr. Israel Aguilar Ordoñez">
+      <p>Dr. Israel Aguilar Ordoñez</p>
+      <a href="authors/israel/" class="btn-organizer">Más información</a>
+    </div>
 
-<div style=" align-items: center; margin: 50px;" >
-  <h1 style="font-size: 40px; text-align: center; line-height:1;"><b>¡Platica con otros Bioinformaticos!</b></h1>
-  <br></br>
-  <iframe src="https://discord.com/widget?id=1155238100059045959&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-  <div style="text-align:center; margin-top: 10px;">
-  <a 
-href="https://discord.com/invite/kheZzq6pKs"
-target="_blank"
-style="
-text-align: center; 
-display: inline-block; 
-margin: 10px 0; 
-padding: 12px 20px; 
-border-radius: 5px; 
-border: 2px solid #f26a8d; 
-text-decoration: none;
-color:  #f26a8d;
-font-weight: bold;
-"
-onmouseover="this.style.backgroundColor='#f26a8d'; this.style.color='white';"
-onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d';"
->
-🧬ÚNETE AL DISCORD🧬
-</a>
-
-</div>
-</div>
-
-
-  
-
-  <h1 style="font-size: 40px; text-align: center;"><b>Organizadores</b></h1>
-  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;margin-top: 10px;margin-bottom: 10px;">
-  
-  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #f26a8d; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
-    <img src="Autores/EveliaCoss.jpeg" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
-    <p style="text-align: center; margin: 10px 0;">Dra. Evelia Coss</p>
-    <a href="authors/evelia/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #f26a8d; text-decoration: none;" onmouseover="this.style.backgroundColor='#f26a8d'" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
-  </div>
-  
-  
-  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #f26a8d; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
-    <img src="Autores/Aguilar.jpeg" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
-    <p style="text-align: center; margin: 10px 0;">Dr. Israel Aguilar Ordoñez</p>
-    <a href="authors/israel/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #f26a8d; text-decoration: none;" onmouseover="this.style.backgroundColor='#f26a8d';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
-  </div>
-  
-  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #f26a8d; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
-    <img src="Autores/JS.png" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
-    <p style="text-align: center; margin: 10px 0;">Jorge A. Suazo Victoria </p> <a href="authors/jorge/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #f26a8d; text-decoration: none;" onmouseover="this.style.backgroundColor='#f26a8d';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+    
+    <div class="organizer-card">
+      <img src="Autores/JS.png" alt="Jorge A. Suazo Victoria">
+      <p>Jorge A. Suazo Victoria</p>
+      <a href="authors/jorge/" class="btn-organizer">Más información</a>
+    </div>
   </div>
 </div>
 
 
-  
-  </div>
-</div>
 
-  <h1 style="font-size: 40px; text-align: center; line-height: 1"><b>Entradas Recientes</b></h1>
-<div style = "margin-top: 30px">
-<section>
-  
+
+<div class="recent-section">
+  <h1>Entradas Recientes</h1>
+  <section>
+    
 
 
 
@@ -1497,7 +2105,7 @@ onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d'
 <a class="flex flex-wrap article " href="https://3lconejo.shinyapps.io/Manipulacion-de-datos-con-R/" target="_blank" rel="external">
   
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2025/viernes-4/featured_hu101b48c8d64caf7e0011e72dce5db448_1170251_600x0_resize_box_3.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2025/viernes-4/featured_hu8783776187703416034.png);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
@@ -1961,7 +2569,7 @@ onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d'
       </div>
       
       <div class="py-1 max-w-fit prose dark:prose-invert">
-        Primeros pasos: Creación del paquete # 1.
+        
       </div>
       
     </div>
@@ -1994,7 +2602,7 @@ onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d'
   <a class="flex flex-wrap article " href="/posts/cursos/filogenetica/bloque1/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/cursos/filogenetica/bloque1/featured_hu164d8dcc7cda1dd6dff998547c9ad346_142164_600x0_resize_box_3.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/cursos/filogenetica/bloque1/featured_hu17539863153061524710.png);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
@@ -2162,7 +2770,7 @@ onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d'
       </div>
       
       <div class="py-1 max-w-fit prose dark:prose-invert">
-        Objetivo: Que quienes lo cursen adquieran la capcidad de comprender, interpretar construir hipotesis filogeneticas (arboles filogeneticos) con marcadores moleculares.
+        
       </div>
       
     </div>
@@ -2195,7 +2803,7 @@ onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d'
   <a class="flex flex-wrap article " href="/posts/viernes-de-bioinformatica-2024/viernes-24/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-24/featured_hue5ee625db4918005749dbc322d699297_377520_600x0_resize_box_3.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/viernes-de-bioinformatica-2024/viernes-24/featured_hu16514098574130812189.png);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
@@ -2369,7 +2977,7 @@ onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d'
       </div>
       
       <div class="py-1 max-w-fit prose dark:prose-invert">
-         
+        
       </div>
       
     </div>
@@ -2394,130 +3002,20 @@ onmouseout="this.style.backgroundColor='transparent'; this.style.color='#f26a8d'
 
 
 
-</section>
+  </section>
 </div>
+
+
+
+
 
 
 <script type="text/javascript">
 
 
 
-  function openwindow(){
-window.open("autumn_effect.htm","","width=7,height=10")
-}
+</script> 
 
-  
-  var snowsrc="https://cdn.pixabay.com/animation/2023/09/15/18/02/18-02-52-470_512.gif"
-  
-  var no = 10;
-  
-  var hidesnowtime = 1;
-  
-  var snowdistance = "windowheight";
-
-
-
-  var ie4up = (document.all) ? 1 : 0;
-  var ns6up = (document.getElementById&&!document.all) ? 1 : 0;
-
-  function iecompattest(){
-  return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
-  }
-
-  var dx, xp, yp;    
-  var am, stx, sty;  
-  var i, doc_width = 80, doc_height = 60; 
-  
-  if (ns6up) {
-    doc_width = self.innerWidth;
-    doc_height = self.innerHeight;
-  } else if (ie4up) {
-    doc_width = iecompattest().clientWidth;
-    doc_height = iecompattest().clientHeight;
-  }
-
-  dx = new Array();
-  xp = new Array();
-  yp = new Array();
-  am = new Array();
-  stx = new Array();
-  sty = new Array();
-  snowsrc=(snowsrc.indexOf("dynamicdrive.com")!=-1)? "http://www.dynamicdrive.com/dynamicindex3/snow3.gif" : snowsrc
-  for (i = 0; i < no; ++ i) {  
-    dx[i] = 0;                        
-    xp[i] = Math.random()*(doc_width-50);  
-    yp[i] = Math.random()*doc_height;
-    am[i] = Math.random()*20;         
-    stx[i] = 0.02 + Math.random()/10; 
-    sty[i] = 0.7 + Math.random();     
-    if (ie4up||ns6up) {
-      if (i == 0) {
-        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://dynamicdrive.com\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
-      } else {
-        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/div>");
-      }
-    }
-  }
-
-  function snowIE_NS6() {  
-    doc_width = ns6up?window.innerWidth-10 : iecompattest().clientWidth-10;
-    doc_height=(window.innerHeight && snowdistance=="windowheight")? window.innerHeight : (ie4up && snowdistance=="windowheight")?  iecompattest().clientHeight : (ie4up && !window.opera && snowdistance=="pageheight")? iecompattest().scrollHeight : iecompattest().offsetHeight;
-  if (snowdistance=="windowheight"){
-    doc_height = window.innerHeight || iecompattest().clientHeight
-  }
-  else{
-    doc_height = iecompattest().scrollHeight
-  }
-    for (i = 0; i < no; ++ i) {  
-      yp[i] += sty[i];
-      if (yp[i] > doc_height-50) {
-        xp[i] = Math.random()*(doc_width-am[i]-30);
-        yp[i] = 0;
-        stx[i] = 0.02 + Math.random()/10;
-        sty[i] = 0.7 + Math.random();
-      }
-      dx[i] += stx[i];
-      document.getElementById("dot"+i).style.top=yp[i]+"px";
-      document.getElementById("dot"+i).style.left=xp[i] + am[i]*Math.sin(dx[i])+"px";  
-    }
-    snowtimer=setTimeout("snowIE_NS6()", 10);
-  }
-
-function hidesnow(){
-  if (window.snowtimer) clearTimeout(snowtimer);
-
-  var shrinkInterval = setInterval(function(){
-    var stillVisible = false;
-
-    for (i=0; i<no; i++){
-      var dot = document.getElementById("dot"+i);
-      var currentScale = dot.dataset.scale || 1;
-
-      currentScale -= 0.01;   
-
-      if (currentScale > 0){
-        dot.style.transform = "scale(" + currentScale + ")";
-        dot.dataset.scale = currentScale;
-        stillVisible = true;
-      } else {
-        dot.style.visibility = "hidden";
-      }
-    }
-
-    if (!stillVisible) clearInterval(shrinkInterval);
-
-  }, 30); 
-}
-
-    
-
-if (ie4up||ns6up){
-    snowIE_NS6();
-    if (hidesnowtime>0)
-    setTimeout("hidesnow()", hidesnowtime*1000)
-    }
-
-</script>
   
 
       

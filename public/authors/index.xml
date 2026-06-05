@@ -15,7 +15,7 @@
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/jorge/</guid>
-      <description> </description>
+      <description></description>
       
     </item>
     
@@ -25,7 +25,7 @@
       <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/israel/</guid>
-      <description> </description>
+      <description></description>
       
     </item>
     
@@ -35,7 +35,7 @@
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/joselyn/</guid>
-      <description>Postdoctoral fellow, Bioinformatics, R programming, Spatial transcriptomics.</description>
+      <description></description>
       
     </item>
     
@@ -45,7 +45,7 @@
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/mguadalupe/</guid>
-      <description>Maria G.</description>
+      <description></description>
       
     </item>
     
@@ -55,12 +55,12 @@
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/shaday/</guid>
-      <description>Postdoctoral Research Associate, Mathematician, Bioinformatician, Mathematical Modeling, Metagenomes, Genome Mining</description>
+      <description></description>
       
     </item>
     
     <item>
-      <title>Luis Domingo Martínez Vázquez</title>
+      <title>Luis Domingo Martinez Vazquez</title>
       <link>http://example.org/authors/domingo/</link>
       <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
       
@@ -75,7 +75,7 @@
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/obed/</guid>
-      <description> </description>
+      <description></description>
       
     </item>
     
@@ -85,7 +85,7 @@
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/sofia/</guid>
-      <description>Genomic Scientist.</description>
+      <description></description>
       
     </item>
     
@@ -95,7 +95,7 @@
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/evelia/</guid>
-      <description>Posdoctoral Research Associate | Bioinformation | lncRNAs | autoimmune diseases | Evolution | gene regulation | Member R-Ladies, LupusRGMX, Project JAGUAR</description>
+      <description></description>
       
     </item>
     
@@ -110,12 +110,22 @@
     </item>
     
     <item>
+      <title>Adriana Haydee Contreras Peruyero</title>
+      <link>http://example.org/authors/haydee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/authors/haydee/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Adriana Haydeé Contreras Peruyero</title>
       <link>http://example.org/authors/adriana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/adriana/</guid>
-      <description>Postdoctoral Research at Center of Sciences Mathematics - UNAM | Topological and Geometric Data Analysis | Bioinformatics | Geometric Group Theory | Global Riemannian Geometry | Quantum Geometry and Topology | Member of R-Ladies</description>
+      <description></description>
       
     </item>
     
@@ -125,7 +135,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/hayde%C3%A9/</guid>
-      <description>Postdoctoral Research at Center of Sciences Mathematics - UNAM | Topological and Geometric Data Analysis | Bioinformatics | Geometric Group Theory | Global Riemannian Geometry | Quantum Geometry and Topology | Member of R-Ladies</description>
+      <description></description>
       
     </item>
     
@@ -140,12 +150,12 @@
     </item>
     
     <item>
-      <title>David Valle García</title>
+      <title>David Valle Garcia</title>
       <link>http://example.org/authors/valle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/valle/</guid>
-      <description>Análisis de RNA-seq</description>
+      <description></description>
       
     </item>
     
@@ -155,7 +165,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/aline/</guid>
-      <description>Crea tu CV en R</description>
+      <description></description>
       
     </item>
     
@@ -165,17 +175,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/ortiz/</guid>
-      <description>Transcriptomics | Bioinformatics | Gene Expression | Data Analysis</description>
+      <description></description>
       
     </item>
     
     <item>
-      <title>Israel Aguilar Ordoñez</title>
+      <title>Israel Aguilar Ordonez</title>
       <link>http://example.org/authors/aguilar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/aguilar/</guid>
-      <description>Scientist | Bioinformatician | Data Analyst | Code &amp;amp; Product Developer | Team leader | Story Teller | Posdoc at TECMTY</description>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jazmin Lopez Chacon</title>
+      <link>http://example.org/authors/lopez/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/authors/lopez/</guid>
+      <description></description>
       
     </item>
     
@@ -185,7 +205,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/jazmin/</guid>
-      <description>Especialista de Datos Jr, GF Banorte | Tesista en la UNAM | Feminista Datera |</description>
+      <description></description>
       
     </item>
     
@@ -195,7 +215,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/l%C3%B3pez/</guid>
-      <description>Especialista de Datos Jr, GF Banorte | Tesista en la UNAM | Feminista Datera |</description>
+      <description></description>
       
     </item>
     
@@ -205,22 +225,22 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/itzel/</guid>
-      <description>Undergraduate in Genomics Science| Bioinformatics | Cancer Genomics |</description>
+      <description></description>
       
     </item>
     
     <item>
-      <title>Joselyn Cristina Chávez Fuentes</title>
+      <title>Joselyn Cristina Chavez Fuentes</title>
       <link>http://example.org/authors/cristina/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/cristina/</guid>
-      <description>Postdoctoral fellow, Bioinformatics, R programming, Spatial transcriptomics</description>
+      <description></description>
       
     </item>
     
     <item>
-      <title>L. Quetzally Medina Velázquez</title>
+      <title>L. Quetzally Medina Velazquez</title>
       <link>http://example.org/authors/quetzally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -230,22 +250,42 @@
     </item>
     
     <item>
-      <title>M.C. Edgar Pavel Salazar Fernández</title>
+      <title>M.C. Edgar Pavel Salazar Fernandez</title>
       <link>http://example.org/authors/edgar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/edgar/</guid>
-      <description>PhD Student in Biomedical Sciences | Bioinformatician | Human Population Genomics | Paleogenomics &amp;amp; Evolution | LIIGH - UNAM</description>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Maria Guadalupe Segovia Ramirez, PhD</title>
+      <link>http://example.org/authors/mariasegovia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/authors/mariasegovia/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title>María Guadalupe Segovia Ramírez, PhD</title>
-      <link>http://example.org/authors/guadalupe/</link>
+      <link>http://example.org/authors/mar%C3%ADasegovia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/authors/guadalupe/</guid>
-      <description>Maria G.</description>
+      <guid>http://example.org/authors/mar%C3%ADasegovia/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Maria Jose Palma Martinez (Maestria)</title>
+      <link>http://example.org/authors/jose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/authors/jose/</guid>
+      <description></description>
       
     </item>
     
@@ -255,7 +295,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/jos%C3%A9/</guid>
-      <description>PhD student | Human genetics | Member R-ladies</description>
+      <description></description>
       
     </item>
     
@@ -265,7 +305,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/mjose/</guid>
-      <description>PhD student | Human genetics | Member R-ladies</description>
+      <description></description>
       
     </item>
     
@@ -275,7 +315,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/maria/</guid>
-      <description>PhD Student | Bioinformatics | Population Genomics | Clinical Genomics | Mexican Indigenous Populations</description>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Obed Ramirez Sanchez</title>
+      <link>http://example.org/authors/ramirez/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/authors/ramirez/</guid>
+      <description></description>
       
     </item>
     
@@ -285,7 +335,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/ram%C3%ADrez/</guid>
-      <description>Artificial Intelligence | Metagenomics | Genomics | Transcriptomics | Evolution | Soil Health | Custom Agriculture</description>
+      <description></description>
       
     </item>
     
@@ -295,7 +345,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/santiago/</guid>
-      <description>Postdoctoral Researcher Associate | Bioinformatics | Ancient DNA | Microbiome</description>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sofia Guadalupe Salazar Magana</title>
+      <link>http://example.org/authors/guadalupe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/authors/guadalupe/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sofia Zorrilla Azcue</title>
+      <link>http://example.org/authors/zorrilla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/authors/zorrilla/</guid>
+      <description></description>
       
     </item>
     
@@ -305,17 +375,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/authors/szorrilla/</guid>
-      <description>Estudiante de Maestría | Asistente de investigación | Genómica de poblaciones | Filogeografía | Evolución | Ecología | R-ladies |</description>
-      
-    </item>
-    
-    <item>
-      <title>Sofía Zorrilla Azcué</title>
-      <link>http://example.org/authors/zorrilla/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/authors/zorrilla/</guid>
-      <description>Estudiante de Maestría | Asistente de investigación | Genómica de poblaciones | Filogeografía | Evolución | Ecología | R-ladies |</description>
+      <description></description>
       
     </item>
     

@@ -1,0 +1,21 @@
+<div class="timeline-item">
+
+  <div class="timeline-dot"></div>
+
+  <div class="timeline-content">
+
+    <h1>{{ .Get "title" }}</h1>
+
+    {{ .Inner | markdownify }}
+
+    {{ with .Get "link" }}
+      <div class="mt-4">
+        <a class="timeline-button" href="{{ . }}">
+          Ver episodio
+        </a>
+      </div>
+    {{ end }}
+
+  </div>
+
+</div>

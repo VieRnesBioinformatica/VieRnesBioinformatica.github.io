@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Luis Domingo Martínez Vázquez on </title>
+    <title>Luis Domingo Martinez Vazquez on </title>
     <link>http://example.org/authors/domingo/</link>
-    <description>Recent content in Luis Domingo Martínez Vázquez on </description>
+    <description>Recent content in Luis Domingo Martinez Vazquez on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
@@ -15,7 +15,7 @@
       <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-15/</guid>
-      <description> </description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-15/featured.png" />
     </item>
     
@@ -25,8 +25,18 @@
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/viernes-de-bioinformatica-2024/viernes-14/</guid>
-      <description>Exploración de datos y elección de pruebas # o modelos</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/posts/viernes-de-bioinformatica-2024/viernes-14/featured.png" />
+    </item>
+    
+    <item>
+      <title>Lista de Reproducción Parte 0</title>
+      <link>http://example.org/playlist/0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/playlist/0/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/0/featured.png" />
     </item>
     
     <item>
@@ -35,7 +45,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/playlist/1/</guid>
-      <description>PARTE 1 # Viernes 1.</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/playlist/1/featured.png" />
     </item>
     

@@ -7,9 +7,9 @@ contentDir = "content/es"
 [params.author]
 name = "Viernes de Bioinformatica"
 image = "VRNDBIC.png"
-headline = "En el LIIGH :)"
+headline = ""
 bio = "Fomentar la formación y crecimiento en bioinformática a través de cursos gratuitos para toda la comunidad interesada."
-links = [ { github = "https://github.com/EveliaCoss/ViernesBioinfo2024" } ]
+links = [ { github = "https://github.com/EveliaCoss/ViernesBioinfo2024" }, {email = "mailto:viernesbioinfo@gmail.com"}]
 
 
 [params]

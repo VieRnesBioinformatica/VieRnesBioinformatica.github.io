@@ -1,186 +1,682 @@
-
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
-<!-- ===== NUEVA PARTE 5 ===== -->
-<div style="
-margin: 30px auto;
-padding: 20px;
-max-width: 900px;
-border: 2px solid #64dfdf;
-border-radius: 15px;
-text-align: center;
-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75);
-">
-
-<h1 style="color:#64dfdf; margin-bottom: 10px;">
-¡Felices Pascuas!
-</h1>
-
-<h2 style="color:#64dfdf; margin-bottom: 10px;">
-PARTE 5 — 20 DE FEBRERO
-</h2>
-
-<p style="margin-bottom: 15px;">
-Nueva sesión científica. Nuevas ideas. Nuevos datos.  
-</p>
-
-<p style="margin-bottom: 15px; display: flex; align-items: center; justify-content: center; gap: 8px;">
-  <img 
-  src="https://preview.redd.it/a-little-pixel-art-of-senku-v0-5icbx6jm4emd1.jpeg?auto=webp&s=67010f8e408bd175b29e2f45ad188b744cfb76fe" 
-  alt="Senku"
-  style="width: 28px; height: 28px; border-radius: 50%;"
-  >
-  Esto sí que es emocionante
-</p>
-
-<a 
-href="https://docs.google.com/forms/d/e/1FAIpQLSf6PS_AzYWOzWsFJQn72JPhHJatvL66OGal_mCcTdsEDVwG_Q/viewform"
-target="_blank"
-style="
-display: inline-block;
-padding: 12px 25px;
-border-radius: 8px;
-border: 2px solid #64dfdf;
-text-decoration: none;
-color: #64dfdf;
-font-weight: bold;
-"
-onmouseover="this.style.backgroundColor='#64dfdf'; this.style.color='white';"
-onmouseout="this.style.backgroundColor='transparent'; this.style.color='#64dfdf';"
->
-INSCRIBIRSE
-</a>
-
-</div>
-<!-- ======================== -->
 
 
-<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap">
-<div style="flex: 1; text-align: center;">
-  <!-- Deciracuib de esquina -->
-<!-- <div style="text-align: center;"><a style= "@media screen and (max-width: 1200px) display: none; right: 3px; height: 167px; width: 100px; position: fixed; bottom: -15px;"><img src="https://i.pinimg.com/originals/d0/15/36/d0153696d75d7dcdd851588e9fe62817.gif" _fcksavedurl="" alt="" /></a></div> -->
-
-<style type="text/css">
-.luces {
-background-image: url(https://lh6.googleusercontent.com/-0-h4Co-Y-nI/TuuwZct5hrI/AAAAAAAAB-g/RKjXYFZwlHY/s500/luces%25252012.gif);
-background-repeat:repeat-x;
-height:47px;
-width:100%;
-position:absolute;
-top:0;
-left:0;
+<style>
+body {
+    min-height: 100%;
 }
+
+body {
+    background-image: url("/img/fondo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  /* ─── VARIABLES DE COLOR DEL PIPELINE ─── */
+  :root {
+    --bg: #080810;
+    --bg2: #0b0b16;
+    --panel: #0e0e1a;
+    --panel2: #090913;
+    --border: #1e1a30;
+    --border2: #2a2448;
+    --cyan: #00bfff;
+    --cyan-bright: #7ee8ff;
+    --magenta: #ff4d8d;
+    --magenta2: #e83f7a;
+    --green: #39ff72;
+    --amber: #ffd166;
+    --text: #c4b8e0;
+    --bright: #ede8ff;
+    --muted: #6a5f8a;
+    --mono: 'JetBrains Mono', 'Share Tech Mono', monospace;
+  }
+
+  /* ─── ANIMACIONES ─── */
+  @keyframes glow-pulse {
+    0%, 100% {
+      text-shadow: 0 0 6px var(--magenta);
+    }
+    50% {
+      text-shadow: 0 0 20px var(--magenta), 0 0 40px rgba(168, 85, 247, 0.5);
+    }
+  }
+
+  @keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes orbPing {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(2.5);
+      opacity: 0;
+    }
+  }
+
+  @keyframes scandown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+
+  @keyframes data-stream {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+  }
+
+  /* ─── SECCIÓN HERO (FELICES PASCUAS) ─── */
+  .hero-section {
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 900px;
+    border: 2px solid var(--cyan);
+    border-radius: 12px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(0, 191, 255, 0.05) 0%, rgba(255, 77, 141, 0.03) 100%);
+    box-shadow: 
+      0 0 20px rgba(0, 191, 255, 0.15),
+      0 0 40px rgba(255, 77, 141, 0.05),
+      inset 0 0 60px rgba(126, 232, 255, 0.02);
+    animation: fadeSlideIn 0.6s ease-out;
+    border-left: 4px solid var(--magenta);
+  }
+
+  .hero-section h1 {
+    color: var(--magenta);
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    animation: glow-pulse 3.5s ease-in-out infinite;
+    font-family: var(--mono);
+  }
+
+  .hero-section h2 {
+    color: var(--cyan);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: var(--mono);
+  }
+
+  .hero-section p {
+    color: var(--text);
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .hero-section .emoji-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    color: var(--bright);
+  }
+
+  .hero-section .emoji-text img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--magenta);
+  }
+
+  /* ─── BOTONES ─── */
+  .btn-hero {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 8px;
+    border: 2px solid var(--cyan);
+    text-decoration: none;
+    color: var(--cyan);
+    font-weight: 700;
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--cyan);
+    transition: left 0.25s ease;
+    z-index: -1;
+  }
+
+  .btn-hero:hover {
+    color: #000;
+    border-color: var(--cyan-bright);
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
+  }
+
+  .btn-hero:hover::before {
+    left: 0;
+  }
+
+  /* ─── SECCIÓN PRINCIPAL CON CALENDARIO Y PERFIL ─── */
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+
+  .calendar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: fadeSlideIn 0.8s ease-out 0.2s backwards;
+  }
+
+  .profile-section header {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  .profile-section img {
+    margin-bottom: 15px;
+    border-radius: 50%;
+    height: 144px;
+    width: 144px;
+    border: 3px solid var(--magenta);
+    box-shadow: 0 0 20px rgba(255, 77, 141, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .profile-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 77, 141, 0.5);
+  }
+
+  .profile-section h1 {
+    color: var(--magenta);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: -0.02em;
+    font-family: var(--mono);
+  }
+
+  .profile-section h2 {
+    color: var(--cyan);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: var(--mono);
+  }
+
+  .profile-section .text-2xl {
+    margin-top: 15px;
+  }
+
+  .profile-section .prose {
+    color: var(--text);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-top: 20px;
+  }
+
+  /* ─── SECCIÓN DISCORD ─── */
+  .discord-section {
+    margin: 60px auto;
+    padding: 40px;
+    max-width: 1100px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(0, 191, 255, 0.03) 0%, rgba(57, 255, 114, 0.02) 100%);
+    border: 1px solid var(--border2);
+    border-radius: 12px;
+    border-left: 4px solid var(--cyan);
+  }
+
+  .discord-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: var(--bright);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-family: var(--mono);
+  }
+
+  .discord-section iframe {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+
+  .discord-btn-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn-discord {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: 2px solid var(--green);
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 700;
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-discord::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--green);
+    transition: left 0.25s ease;
+    z-index: -1;
+  }
+
+  .btn-discord:hover {
+    color: #000;
+    border-color: var(--green);
+    box-shadow: 0 0 20px rgba(57, 255, 114, 0.4);
+  }
+
+  .btn-discord:hover::before {
+    left: 0;
+  }
+
+  /* ─── SECCIÓN ORGANIZADORES ─── */
+  .organizers-section {
+    margin: 60px auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+  }
+
+  .organizers-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--bright);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-family: var(--mono);
+  }
+
+  .organizers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .organizer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border: 2px solid var(--cyan);
+    border-radius: 12px;
+    width: 260px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, rgba(0, 191, 255, 0.05) 0%, rgba(255, 77, 141, 0.02) 100%);
+    box-shadow: 
+      0 0 20px rgba(0, 191, 255, 0.1),
+      inset 0 0 30px rgba(126, 232, 255, 0.02);
+    transition: all 0.3s ease;
+    animation: fadeSlideIn 0.6s ease-out;
+  }
+
+  .organizer-card:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+
+  .organizer-card:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+
+  .organizer-card:hover {
+    border-color: var(--magenta);
+    transform: translateY(-8px);
+    box-shadow: 
+      0 8px 32px rgba(255, 77, 141, 0.2),
+      0 0 20px rgba(0, 191, 255, 0.1),
+      inset 0 0 30px rgba(255, 77, 141, 0.03);
+  }
+
+  .organizer-card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid var(--magenta);
+    object-fit: cover;
+    transition: all 0.3s ease;
+  }
+
+  .organizer-card:hover img {
+    box-shadow: 0 0 20px rgba(255, 77, 141, 0.4);
+    transform: scale(1.05);
+  }
+
+  .organizer-card p {
+    text-align: center;
+    margin: 15px 0;
+    color: var(--bright);
+    font-weight: 700;
+    font-size: 1.05rem;
+    font-family: var(--mono);
+  }
+
+  .btn-organizer {
+    text-align: center;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: 2px solid var(--cyan);
+    text-decoration: none;
+    color: var(--cyan);
+    font-weight: 600;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .btn-organizer:hover {
+    background: var(--cyan);
+    color: #000;
+    box-shadow: 0 0 12px rgba(0, 191, 255, 0.3);
+  }
+
+  /* ─── SECCIÓN RECIENTES ─── */
+  .recent-section {
+    margin: 60px auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+  }
+
+  .recent-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--bright);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-family: var(--mono);
+  }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 968px) {
+    .main-content {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+
+    .organizers-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .organizer-card {
+      width: 100%;
+      max-width: 260px;
+    }
+
+    .discord-section h1 {
+      font-size: 2rem;
+    }
+
+    .recent-section h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hero-section {
+      padding: 25px;
+      margin: 20px auto;
+    }
+
+    .hero-section h1 {
+      font-size: 1.8rem;
+    }
+
+    .hero-section h2 {
+      font-size: 1.1rem;
+    }
+
+    .profile-section h1 {
+      font-size: 2rem;
+    }
+
+    .organizer-card {
+      padding: 18px;
+      width: 100%;
+      max-width: 260px;
+    }
+
+    .discord-section {
+      padding: 25px;
+      margin: 40px auto;
+    }
+
+    .discord-section h1 {
+      font-size: 1.5rem;
+    }
+
+    .organizers-section h1 {
+      font-size: 1.8rem;
+    }
+
+    .btn-hero, .btn-discord {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
 </style>
-<!--<div class='luces'></div>-->
 
-<br></br>
+<!-- ═══════════════════════════════════════════ -->
+<!-- SECCIÓN HERO - CAMBIOS                      -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="hero-section">
+  <h1>¡Estamos Iterando!</h1>
+  <h2>Para mejorar hay que cambiar</h2>
 
-<section>
-  {{ partial "calendar.html" . }}
-</section>
-</div>
-  <div style="flex: 1; text-align: center;">
-<article class="{{ if not .Site.Params.homepage.showRecent }}
-    h-full
-  {{ end }} flex flex-col items-center justify-center text-center">
-  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
-    {{ with .Site.Params.Author.image }}
-      {{ $authorImage := "" }}
-      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-        {{ $authorImage = resources.GetRemote . }}
-      {{ else }}
-        {{ $authorImage = resources.Get . }}
-      {{ end }}
-      {{ if $authorImage }}
-        {{ if not $disableImageOptimization }}
-          {{ $authorImage = $authorImage.Fill "288x288" }}
-        {{ end }}
-        <img class="mb-2 rounded-full h-36 w-36" width="144" height="144" alt="{{ $.Site.Params.Author.name | default " Author" }}"
-          src="{{ $authorImage.RelPermalink }}" />
-      {{ end }}
-    {{ end }}
-    <h1 class="text-4xl font-extrabold">
-      {{ .Site.Params.Author.name | default .Site.Title }}
-    </h1>
-    {{ with .Site.Params.Author.headline }}
-    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
-      {{ . | markdownify }}
-    </h2>
-    {{ end }}
-    <div class="mt-1 text-2xl">
-      {{ partialCached "author-links.html" . }}
-    </div>
-  </header>
-  <section class="prose dark:prose-invert">{{ .Content }}</section>
-</article>
-</div>
-</div>
+  <p>Pueden ver nuestra antigua version aqui.</p>
 
-
-<div style=" align-items: center; margin: 50px;" >
-  <h1 style="font-size: 40px; text-align: center; line-height:1;"><b>¡Platica con otros Bioinformaticos!</b></h1>
-  <br></br>
-  <iframe src="https://discord.com/widget?id=1155238100059045959&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-  <div style="text-align:center; margin-top: 10px;">
   <a 
-href="https://discord.com/invite/kheZzq6pKs"
-target="_blank"
-style="
-text-align: center; 
-display: inline-block; 
-margin: 10px 0; 
-padding: 12px 20px; 
-border-radius: 5px; 
-border: 2px solid #64dfdf; 
-text-decoration: none;
-color:  #64dfdf;
-font-weight: bold;
-"
-onmouseover="this.style.backgroundColor='#64dfdf'; this.style.color='white';"
-onmouseout="this.style.backgroundColor='transparent'; this.style.color='#64dfdf';"
->
-🧬ÚNETE AL DISCORD🧬
-</a>
-
-</div>
+    href="/playlist/"
+    class="btn-hero"
+  >
+    Viaje al pasado...
+  </a>
 </div>
 
-
-  <!-- #3C54B7 Color Estandar-->
-
-  <h1 style="font-size: 40px; text-align: center;"><b>Organizadores</b></h1>
-  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;margin-top: 10px;margin-bottom: 10px;">
-  <!-- Primer autor -->
-  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #64dfdf; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
-    <img src="Autores/EveliaCoss.jpeg" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
-    <p style="text-align: center; margin: 10px 0;">Dra. Evelia Coss</p>
-    <a href="authors/evelia/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #64dfdf; text-decoration: none;" onmouseover="this.style.backgroundColor='#64dfdf'" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+<!-- ═══════════════════════════════════════════ -->
+<!-- SECCIÓN PRINCIPAL - CALENDARIO Y PERFIL     -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="main-content">
+  <div class="calendar-section">
+    {{ partial "calendar.html" . }}
   </div>
-  
-  <!-- Segundo autor -->
-  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #64dfdf; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
-    <img src="Autores/Aguilar.jpeg" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
-    <p style="text-align: center; margin: 10px 0;">Dr. Israel Aguilar Ordoñez</p>
-    <a href="authors/israel/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #64dfdf; text-decoration: none;" onmouseover="this.style.backgroundColor='#64dfdf';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
-  </div>
-  <!-- Tercer autor -->
-  <div style="display: flex; flex-direction: column; align-items: center; padding: 10px; margin: 20px; border: 2px solid #64dfdf; border-radius: 15px; -webkit-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); box-shadow: 0px 0px 40px -16px rgba(0,0,0,0.75); width: 250px; box-sizing: border-box;">
-    <img src="Autores/JS.png" alt="organizadores" style="width: 200px; height: auto; border-radius: 50%;">
-    <p style="text-align: center; margin: 10px 0;">Jorge A. Suazo Victoria </p> <a href="authors/jorge/" target="_self" style="text-align: center; display: block; margin: 10px 0; padding: 10px; border-radius: 5px; border: 2px solid #64dfdf; text-decoration: none;" onmouseover="this.style.backgroundColor='#64dfdf';" onmouseout="this.style.backgroundColor='transparent';">Más información</a> 
+
+  <div class="profile-section">
+    <article>
+      <header>
+        {{ with .Site.Params.Author.image }}
+          {{ $authorImage := "" }}
+          {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+            {{ $authorImage = resources.GetRemote . }}
+          {{ else }}
+            {{ $authorImage = resources.Get . }}
+          {{ end }}
+          {{ if $authorImage }}
+            {{ if not $disableImageOptimization }}
+              {{ $authorImage = $authorImage.Fill "288x288" }}
+            {{ end }}
+            <img width="144" height="144" alt="{{ $.Site.Params.Author.name | default "Author" }}"
+              src="{{ $authorImage.RelPermalink }}" />
+          {{ end }}
+        {{ end }}
+
+        <h1>
+          {{ .Site.Params.Author.name | default .Site.Title }}
+        </h1>
+
+        {{ with .Site.Params.Author.headline }}
+        <h2>
+          {{ . | markdownify }}
+        </h2>
+        {{ end }}
+
+        <div class="text-2xl">
+          {{ partialCached "author-links.html" . }}
+        </div>
+      </header>
+
+      <section class="prose dark:prose-invert">
+        {{ .Content }}
+      </section>
+    </article>
   </div>
 </div>
 
+<!-- ═══════════════════════════════════════════ -->
+<!-- SECCIÓN DISCORD - COMUNIDAD               -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="discord-section">
+  <h1>¡Platica con otros Bioinformaticos!</h1>
 
-  
+  <iframe 
+    src="https://discord.com/widget?id=1155238100059045959&theme=dark" 
+    width="100%" 
+    height="500" 
+    allowtransparency="true" 
+    frameborder="0" 
+    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+  </iframe>
+
+  <div class="discord-btn-container">
+    <a 
+      href="https://discord.com/invite/kheZzq6pKs"
+      target="_blank"
+      class="btn-discord"
+    >
+      🧬 Únete al Discord 🧬
+    </a>
   </div>
 </div>
 
-  <h1 style="font-size: 40px; text-align: center; line-height: 1"><b>Entradas Recientes</b></h1>
-<div style = "margin-top: 30px">
-<section>
-  {{ partial "recent-articles/main.html" . }}
-</section>
+<!-- ═══════════════════════════════════════════ -->
+<!-- SECCIÓN ORGANIZADORES                       -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="organizers-section">
+  <h1>Organizadores</h1>
+
+  <div class="organizers-grid">
+    <!-- Evelia Coss -->
+    <div class="organizer-card">
+      <img src="Autores/EveliaCoss.jpeg" alt="Dra. Evelia Coss">
+      <p>Dra. Evelia Coss</p>
+      <a href="authors/evelia/" class="btn-organizer">Más información</a>
+    </div>
+
+    <!-- Israel Aguilar -->
+    <div class="organizer-card">
+      <img src="Autores/Aguilar.jpeg" alt="Dr. Israel Aguilar Ordoñez">
+      <p>Dr. Israel Aguilar Ordoñez</p>
+      <a href="authors/israel/" class="btn-organizer">Más información</a>
+    </div>
+
+    <!-- Jorge Suazo -->
+    <div class="organizer-card">
+      <img src="Autores/JS.png" alt="Jorge A. Suazo Victoria">
+      <p>Jorge A. Suazo Victoria</p>
+      <a href="authors/jorge/" class="btn-organizer">Más información</a>
+    </div>
+  </div>
 </div>
 
+<!-- ═══════════════════════════════════════════ -->
+<!-- SECCIÓN ENTRADAS RECIENTES                  -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="recent-section">
+  <h1>Entradas Recientes</h1>
+  <section>
+    {{ partial "recent-articles/main.html" . }}
+  </section>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- EFECTOS VISUALES (Opcional - Nieve)         -->
+<!-- ═══════════════════════════════════════════ -->
+<!-- 
+  Script de nieve deshabilitado.
+  Si deseas reactivarlo, descomenta el código original
+  y personaliza según sea necesario con los nuevos colores.
+-->
 
 <script type="text/javascript">
 
