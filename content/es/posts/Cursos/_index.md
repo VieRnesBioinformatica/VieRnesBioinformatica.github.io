@@ -1,5 +1,6 @@
 ---
 title: Cursos
+weight: 1
 date: 2024-08-27
 ---
 
