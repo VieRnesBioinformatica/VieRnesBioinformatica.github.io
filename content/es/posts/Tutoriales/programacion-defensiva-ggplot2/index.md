@@ -9,7 +9,7 @@ showAuthor: false
 authors:
   - "evelia"
 series: ["R"]
-series_order: 3
+series_order: 11
 ---
 
 En esta guía rápida aprenderás a escribir funciones para repetir varias operaciones con un solo comando, a protegerlas de entradas inesperadas (**programación defensiva**) y a usarlas para crear gráficas con **ggplot2**.

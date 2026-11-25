@@ -9,7 +9,7 @@ showAuthor: false
 authors:
   - "evelia"
 series: ["R"]
-series_order: 4
+series_order: 13
 ---
 
 En este tutorial vas a crear tu **curriculum vitae en HTML y PDF directamente desde R**. Tu información vive en una hoja de Google y el paquete [datadrivencv](https://nickstrayer.me/datadrivencv/) la convierte en un CV con buen diseño. Así, para actualizarlo solo editas la hoja y vuelves a generar el documento.

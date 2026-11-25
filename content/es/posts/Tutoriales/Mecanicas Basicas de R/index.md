@@ -7,6 +7,8 @@ tags: ["principiante", "R"]
 showAuthor: false
 authors:
  - "jorge"
+series: ["R"]
+series_order: 2
 ---
 
 ## ¿Qué es R?
@@ -38,7 +40,7 @@ Aqui hay una guia para la instalacion de R
 Es recomendable utilizar Rstudio para empezar a programar en R, puedes utilizar la siguiente guia para instalar y empezar un proyecto en Rstudio:
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-1/" >}}
+{{< article link="/posts/tutoriales/introduccion-a-rstudio/" >}}
 
 
 ## Comandos Basicos

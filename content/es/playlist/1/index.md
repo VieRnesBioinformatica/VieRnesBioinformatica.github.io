@@ -19,6 +19,7 @@ authors:
  - "obed"
  - "shaday"
  - "schafer"
+aliases: ["/posts/viernes-de-bioinformatica-2024/viernes-5/", "/posts/viernes-de-bioinformatica-2024/viernes-9/", "/posts/viernes-de-bioinformatica-2024/viernes-13/", "/posts/viernes-de-bioinformatica-2024/", "/posts/viernes-de-bioinformatica2-2024/", "/posts/viernes-de-bioinformatica-2025/"]
 ---
 
 ## Parte 1
@@ -29,7 +30,7 @@ authors:
 
 ### Viernes 1 · Información general del curso e Introducción a R
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-1/" >}}
+{{< article link="/posts/tutoriales/introduccion-a-rstudio/" >}}
 
 -   Fecha: Viernes 2 de febrero 2024
 
@@ -54,7 +55,7 @@ authors:
 
 ### Viernes 2 · Manipulación de datos con R base (vector y dataframe)
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-2/" >}}
+{{< article link="/posts/tutoriales/manipulacion-r-base-vector-dataframe/" >}}
 
 -   Fecha: Viernes 9 de febrero 2024
 
@@ -78,7 +79,7 @@ authors:
 
 ### Viernes 3 · Manipulación de datos con R base (matrix y lista)
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-3/" >}}
+{{< article link="/posts/tutoriales/manipulacion-r-base-matrix-lista/" >}}
 
 -   Fecha: Viernes 16 de febrero 2024
 
@@ -97,7 +98,7 @@ authors:
 
 ### Viernes 4 · Introducción a Rmarkdown
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-4/" >}}
+{{< article link="/posts/tutoriales/introduccion-a-rmarkdown/" >}}
 
 -   Fecha: Viernes 23 de febrero 2024
 
@@ -116,7 +117,7 @@ authors:
 
 ### Viernes 5 · Terapia de Bioinfo grupal (opcional)
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-5/" >}}
+{{< presentacion url="https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/view" titulo="Grabación: Terapia de Bioinfo grupal" embed="https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/preview" >}}
 
 -   Fecha: Viernes 1 de marzo 2024
 
@@ -131,7 +132,7 @@ authors:
 
 ### Viernes 6 · Manipulación de datos con funciones de R base
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-6/" >}}
+{{< article link="/posts/tutoriales/manipulacion-funciones-r-base/" >}}
 
 -   Fecha: Viernes 8 de marzo 2024
 
@@ -154,7 +155,7 @@ authors:
 
 ### Viernes 7 · Manipulación de datos usando dplyr
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-7/" >}}
+{{< article link="/posts/tutoriales/manipulacion-dplyr/" >}}
 
 -   Fecha: Viernes 15 de marzo 2024
 
@@ -177,7 +178,7 @@ authors:
 
 ### Viernes 8 · Generación de diversos gráficos usando ggplot2
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-8/" >}}
+{{< article link="/posts/tutoriales/graficos-ggplot2/" >}}
 
 -   Fecha: Viernes 22 de marzo 2024
 
@@ -199,7 +200,7 @@ authors:
 ### Viernes 9 · Terapia de Bioinfo grupal (opcional)
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-9/" >}}
+{{< presentacion url="https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/view" titulo="Grabación: Terapia de Bioinfo grupal" embed="https://drive.google.com/file/d/1S4esWqRRAwYtUixunCoTMipx8CK1ycMt/preview" >}}
 
 -   Fecha: Viernes 5 de abril 2024
 
@@ -216,7 +217,7 @@ authors:
 ### Viernes 10 · Manipulación de datos para crear un heatmap (ComplexHeatmap)
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-10/" >}}
+{{< article link="/posts/tutoriales/heatmaps-complexheatmap/" >}}
 
 -   Fecha: Viernes 12 de abril 2024
 
@@ -239,10 +240,10 @@ authors:
 ### Viernes 11 y 12 · Bioestadística parte 1
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-11/" >}}
+{{< article link="/posts/cursos/bioestadistica/sesion-1/" >}}
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-12/" >}}
+{{< article link="/posts/cursos/bioestadistica/sesion-2/" >}}
 
 -   Fecha: Viernes 19 de abril 2024
 
@@ -257,7 +258,9 @@ authors:
 ### Viernes 13 · Terapia de Bioinfo grupal (opcional)
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-13/" >}}
+{{< presentacion url="https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/view" titulo="Grabación: Terapia de Bioinfo grupal" embed="https://drive.google.com/file/d/1OIvuhlg1gBJIh2E1d0lD6GJallbY6Rlu/preview" >}}
+
+- Script: [Material](https://raw.githubusercontent.com/EveliaCoss/ViernesBioinfo2024/main/Clase13/escalera.R)
 
 -   Fecha: Viernes 3 de mayo 2024
 
@@ -274,10 +277,10 @@ authors:
 ### Viernes 14 y 15 · Exploración de datos y elección de pruebas o modelos
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-14/" >}}
+{{< article link="/posts/cursos/exploracion-de-datos/sesion-1/" >}}
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-15/" >}}
+{{< article link="/posts/cursos/exploracion-de-datos/sesion-2/" >}}
 
 -   Fecha: Viernes 17 de mayo y 24 de mayo 2024
 
@@ -311,16 +314,16 @@ authors:
 ### Viernes 16, 17, 18 y 19 · Introducción a Python
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-16/" >}}
+{{< article link="/posts/cursos/python/sesion-1/" >}}
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-17/" >}}
+{{< article link="/posts/cursos/python/sesion-2/" >}}
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-18/" >}}
+{{< article link="/posts/cursos/python/sesion-3/" >}}
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-19/" >}}
+{{< article link="/posts/cursos/python/sesion-4/" >}}
 
 -   Fecha: Viernes 31 de mayo, 7, 14 y 21 de junio 2024
 
@@ -367,10 +370,10 @@ authors:
   - Fecha: 28 de junio y 5 de julio de 2024
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-20/" >}}
+{{< article link="/posts/cursos/bash/sesion-1/" >}}
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-21/" >}}
+{{< article link="/posts/cursos/bash/sesion-2/" >}}
 
 -   Fecha: Viernes 28 de junio y 5 de julio 2024
 
@@ -416,11 +419,11 @@ authors:
 ### Viernes 22, 23 y 24 · Nextflow
 
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-22/" >}}
+{{< article link="/posts/cursos/nextflow/sesion-1/" >}}
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-23/" >}}
+{{< article link="/posts/cursos/nextflow/sesion-2/" >}}
 
-{{< article link="/posts/viernes-de-bioinformatica-2024/viernes-24/" >}}
+{{< article link="/posts/cursos/nextflow/sesion-3/" >}}
 
 -   Fecha: Viernes 19 y 26 de julio, viernes 2 de agosto 2024
 
