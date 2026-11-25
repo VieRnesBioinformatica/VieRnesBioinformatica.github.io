@@ -1,0 +1,39 @@
+{{/* palabras: (opcional) temas separados por comas; se muestran como nube a la derecha */}}
+<div class="timeline-item">
+
+  <div class="timeline-dot"></div>
+
+  <div class="timeline-content{{ with .Get "palabras" }} has-cloud{{ end }}">
+
+    <div class="timeline-main">
+      <h1>{{ .Get "title" }}</h1>
+
+      {{ with .Get "fecha" }}
+        <p class="timeline-date">{{ . }}</p>
+      {{ end }}
+
+      {{ .Inner | markdownify }}
+
+      {{ if or (.Get "link") (.Get "github") }}
+        <div class="timeline-actions">
+          {{ with .Get "link" }}
+            <a class="timeline-button" href="{{ . }}">Ver el material</a>
+          {{ end }}
+          {{ with .Get "github" }}
+            <a class="timeline-github" href="{{ . }}" target="_blank" rel="noopener">
+              {{ partial "icon.html" "github" }} {{ path.Base . }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+
+    {{ with .Get "palabras" }}
+      <div class="timeline-cloud" aria-label="Temas de esta parte">
+        {{ range $i, $w := split . "," }}<span class="cloud-w{{ mod $i 6 }}">{{ trim $w " " }}</span>{{ end }}
+      </div>
+    {{ end }}
+
+  </div>
+
+</div>

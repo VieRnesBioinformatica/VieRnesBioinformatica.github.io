@@ -5,7 +5,7 @@ draft: false
 tags: ["Rstudio", "viernes","R"]
 showAuthor: false
 authors:
- - "alejandra"
+ - "schafer"
 series: ["Viernes2024"]
 series_order: 4
 seriesOpened: true

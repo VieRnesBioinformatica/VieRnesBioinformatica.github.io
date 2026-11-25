@@ -1,7 +1,7 @@
 {
-  "name": "L. Quetzally Medina Velazquez",
+  "name": "Laura Quetzally Medina Velázquez",
   "image": "Autores/quetzally.jpeg",
-  "bio": "Profesora de Asignatura, UACM",
+  "bio": "Profesora de Asignatura, UACM · Estudiante de doctorado, UNAM (INCMNSZ)",
   "curso": [
     {
       "parte1": ""
@@ -21,7 +21,7 @@
       "email": "mailto:quetzally.medina.velazquez@gmail.com"
     },
     {
-      "githib": "https://github.com/ZELTZ1N"
+      "github": "https://github.com/ZELTZ1N"
     }
   ],
   "vermas": "/authors/quetzally/"

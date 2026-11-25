@@ -1,0 +1,46 @@
+{{/* Ficha de autor al pie de publicaciones y Videos (sobrescribe la del tema).
+     Usa data/authors/<id>.json si existe; si no, la página del autor (.page):
+     nombre = title, foto = avatar.* (o inicial), texto = primer párrafo o sus palabras clave. */}}
+{{ $data := .data | default dict }}
+{{ $page := .page }}
+{{ $name := $data.name | default (cond (ne $page nil) $page.Title "") }}
+
+{{ $img := false }}
+{{ with $data.image }}{{ $img = resources.Get . }}{{ end }}
+{{ if and (not $img) $page }}{{ $img = $page.Resources.GetMatch "avatar*" }}{{ end }}
+
+{{ $bio := $data.bio }}
+{{ if and (not $bio) $page }}
+  {{ $first := index (split (trim $page.RawContent "\n ") "\n\n") 0 | plainify }}
+  {{ $bio = cond (hasPrefix $first "Clases en") (delimit ($page.Keywords | default slice) " · ") $first }}
+{{ end }}
+
+<div class="flex author author-extra mt-4">
+  {{ with $img }}
+    <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      src="{{ (.Fill "192x192").RelPermalink }}" alt="{{ $name }}" />
+  {{ else }}
+    <div class="author-extra-initial ltr:mr-4 rtl:ml-4">{{ substr (replaceRE `^(Dra?|MSc|Mtro|LBt|M\.C)\.?\s+` "" $name) 0 1 }}</div>
+  {{ end }}
+  <div class="place-self-center">
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      {{ i18n "author.byline_title" | markdownify }}
+    </div>
+    <a {{ with .link }}href="{{ . }}"{{ end }} class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      {{ $name | markdownify | emojify }}
+    </a>
+    {{ with $bio }}
+      <div class="text-sm text-neutral-700 dark:text-neutral-400">{{ . | markdownify }}</div>
+    {{ end }}
+    <div class="text-2xl sm:text-lg">
+      <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+        {{ range $data.social }}
+          {{ range $net, $link := . }}
+            <a class="px-1 hover:text-primary-700 dark:hover:text-primary-400" href="{{ $link }}" target="_blank"
+              aria-label="{{ $net | title }}" rel="me noopener noreferrer"><span class="inline-block align-text-bottom">{{ partial "icon.html" (index (dict "x" "x-twitter" "scholar" "google") $net | default $net) }}</span></a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>

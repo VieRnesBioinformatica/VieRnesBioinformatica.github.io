@@ -1,4 +1,5 @@
 ---
+color: "#4cb050"  # color de los bloques de sesión (tomado del logo)
 title: "Lista de Reproducción Parte 2"
 draft: false
 description: "Lista de reproduccion de Viernes de Bioinformatica 2024"
@@ -16,15 +17,18 @@ authors:
  - "evelia"
  - "israel"
  - "haydee"
- - "jazmin"
  - "jose"
- - "cristina"
+ - "joselyn"
  - "zorrilla"
 ---
 
-## PARTE 2
+## Parte 2
 
-### Viernes 1. Creación de paquetes en R
+
+- **Fechas:** 7 sep – 6 dic, 2024
+- **Repositorio:** {{< icon "github" >}} [ViernesBioinfo2024_parte2](https://github.com/EveliaCoss/ViernesBioinfo2024_parte2)
+
+### Viernes 1 · Creación de paquetes en R
 
 - Fecha: Viernes 6 de septiembre 2024
 
@@ -36,7 +40,7 @@ authors:
 
     <iframe src="https://drive.google.com/file/d/1HtuubU3XlypKqdaM4vYaeB3koB61MQ7R/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-### Viernes 2 y 3. Introducción al paquete data.table en R
+### Viernes 2 y 3 · Introducción al paquete data.table en R
 
 -   Fecha: Viernes 13 y 20 de septiembre 2024
 
@@ -52,7 +56,7 @@ authors:
 - 3 
     <iframe src="https://drive.google.com/file/d/10EeeTUGIVwHXj1x8GffFKjmI4UXr0H-V/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-### Viernes 4 y 5. Analisis de variantes genetica con data.table en R
+### Viernes 4 y 5 · Análisis de variantes genéticas con data.table en R
 
 - Fechas: Viernes 27 de septiembre Y 4 de octubre 2024
 
@@ -80,7 +84,7 @@ Material extra:
 
          
 
-### Viernes 6 y 7. Git + Github
+### Viernes 6 y 7 · Git + GitHub
 
 - Fechas: Viernes 11 y 18 de octubre 2024
 
@@ -88,7 +92,10 @@ Material extra:
     
 - Horario: 11:30-13:30 pm
 
-- Manual: [Mini guia uso de Git y Github](https://drive.google.com/file/d/1PyjbZ30Z3FCgZsDV-3jEyySS2tpCFD9G/view?usp=sharing)
+- Manual:
+
+  {{< presentacion url="https://drive.google.com/file/d/1PyjbZ30Z3FCgZsDV-3jEyySS2tpCFD9G/view?usp=sharing" titulo="Mini guia uso de Git y Github" embed="https://drive.google.com/file/d/1PyjbZ30Z3FCgZsDV-3jEyySS2tpCFD9G/preview" ratio="4/3" >}}
+
 
 - Grabación:
  - 6
@@ -96,7 +103,7 @@ Material extra:
  - 7
     <iframe src="https://drive.google.com/file/d/1JrN2EbJH8OlQncdEMpKkjOdIXP_-HNW4/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-### Viernes 8. Circus plot en R
+### Viernes 8 · Circos plot en R
 
 - Fechas: Viernes 25 octubre 2024
 
@@ -111,7 +118,7 @@ Material extra:
 <iframe src="https://drive.google.com/file/d/1hm_KRnKanoKXrKAJZ0H8qx2p-TVK9OT6/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
-### Viernes 9. Programacion defensiva con ggplot2
+### Viernes 9 · Programación defensiva con ggplot2
 
 - Fechas: Viernes 1 noviembre 2024
 
@@ -126,7 +133,7 @@ Material extra:
     
 - Proyecto final: [Instrucciones](https://eveliacoss.github.io/Defensiva_ggplot2024/Parte5.html), Entrega de reporte 5 de diciembre y presentacion de 15 min por equipo el 6 de diciembre.
 
-### Viernes 10. Programar en R con chatGPT
+### Viernes 10 · Programar en R con ChatGPT
 
 - Fechas: Viernes 15 noviembre 2024
     
@@ -134,7 +141,7 @@ Material extra:
 
 - Horario: 11:30-13:30 pm
 
-### Viernes 11 y 12. Creación de paginas web en R, parte 1
+### Viernes 11 y 12 · Creación de páginas web en R, parte 1
 
 - Fechas: Viernes 22 y 29 noviembre 2024
     
@@ -154,7 +161,7 @@ Material extra:
 
 <iframe src="https://drive.google.com/file/d/1KS3b1eK1SgeoC44hmq5O05QdPPY5hjVY/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-### Clase extra. Crea tu CV en R
+### Clase extra · Crea tu CV en R
 
 - Fecha: Jueves 5 diciembre (11:30-1:30)
 
@@ -167,7 +174,7 @@ Material extra:
 <iframe src="https://drive.google.com/file/d/1luF35CoKTyvpJyxAlebA8QW7tvGqHmvR/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
-### Viernes 13. Programacion defensiva con ggplot2, parte 2
+### Viernes 13 · Programación defensiva con ggplot2, parte 2
 
 - Fechas: Viernes 6 diciembre 2024 (final)
 - Instructora: Dra. Evelia Coss

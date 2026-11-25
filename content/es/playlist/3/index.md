@@ -1,4 +1,5 @@
 ---
+color: "#ff2a2a"  # color de los bloques de sesión (tomado del logo)
 title: "Lista de Reproducción Parte 3"
 draft: false
 description: "Lista de reproduccion de Viernes de Bioinformatica 2025"
@@ -21,8 +22,13 @@ authors:
  - "valle"
  - "maria"
 ---
+## Parte 3
 
-## **Viernes 2 y 3. Introducción a R**
+- **Fechas:** 7 feb – 6 jun, 2025
+- **Repositorio:** {{< icon "github" >}} [ViernesBioinfo2025_parte3](https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte3)
+
+
+### Viernes 2 y 3 · Introducción a R
 
 -   Fecha: 14 y 21 de febrero 2025
 
@@ -30,7 +36,10 @@ authors:
 
 -   Manual: [Instalacion de R y Rstudio](https://youtube.com/playlist?list=PL3Oob5r2FcIqfJ_OsMhs40MQN8dNOJ_Oc&si=yIu7CkJQ6eSNELzN)
 
--   Presentación: [Clase2y3](https://drive.google.com/file/d/1kGUXotmME5_jCd7QzlUAzLsP3RHmvwpS/view?usp=sharing)
+-   Presentación:
+
+    {{< presentacion url="https://drive.google.com/file/d/1kGUXotmME5_jCd7QzlUAzLsP3RHmvwpS/view?usp=sharing" titulo="Introducción a R (clases 2 y 3)" embed="https://drive.google.com/file/d/1kGUXotmME5_jCd7QzlUAzLsP3RHmvwpS/preview" >}}
+
 
 -   Grabación:
 
@@ -43,7 +52,7 @@ authors:
       <iframe src="https://drive.google.com/file/d/1_k_0g5t8Tf4rUJPQYXdKwvpgPIyM0eqX/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
     </iframe>
 
-#### **Viernes 4. Manipulación de datos usando R**
+### Viernes 4 · Manipulación de datos usando R
 
 -   Fecha: 28 de febrero 2025
 
@@ -59,7 +68,7 @@ authors:
 
 </iframe>
 
-#### **Viernes 5 y 6. Git + Github**
+### Viernes 5 y 6 · Git + GitHub
 
 -   Fecha: 7 y 14 de marzo 2025
 
@@ -81,7 +90,7 @@ authors:
       <iframe src="https://drive.google.com/file/d/1Q_UV5OfXH87l8PxW_gpYrAKil_65ckg1/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true">
     </iframe>
 
-#### **Viernes 7. Mini curso de Alphafold2**
+### Viernes 7 · Mini curso de AlphaFold2
 
 -   Fecha: 21 de marzo 2025
 
@@ -89,13 +98,16 @@ authors:
 
 -   Horario: 11:30 a 13:30 pm
 
--   Material: [Presentacion AlphaFold2 - Clase7](https://www.canva.com/design/DAGh1IMSryY/feEq4YBE_EpYuFbXuYqekQ/view?utm_content=DAGh1IMSryY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha716ef21ed)
+-   Material:
+
+    {{< presentacion url="https://www.canva.com/design/DAGh1IMSryY/feEq4YBE_EpYuFbXuYqekQ/view?utm_content=DAGh1IMSryY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha716ef21ed" titulo="Presentacion AlphaFold2 - Clase7" embed="https://www.canva.com/design/DAGh1IMSryY/feEq4YBE_EpYuFbXuYqekQ/view?embed" >}}
+
 
 -   Grabación: [Clase7-AlphaFold2](https://drive.google.com/file/d/1tG0UFDgPvI1xIpsDdOufI4npNZ0BUhXQ/view?usp=sharing)
 
 <iframe src="https://drive.google.com/file/d/1tG0UFDgPvI1xIpsDdOufI4npNZ0BUhXQ/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-#### **Viernes 8. Introducción a Quarto**
+### Viernes 8 · Introducción a Quarto
 
 -   Fecha: 28 de marzo 2025
 
@@ -109,7 +121,7 @@ authors:
 
 <iframe src="https://drive.google.com/file/d/12_IbLy6rFcNv-JxyZY2FyIMpthFSH198/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-#### **Viernes 9. Buenas practicas en bioinformática**
+### Viernes 9 · Buenas prácticas en bioinformática
 
 -   Fecha: 4 de abril 2025
 
@@ -121,7 +133,7 @@ authors:
 
 <iframe src="https://drive.google.com/file/d/1Y-Jrw7Cb2y3jXkXj0ehmyUP_NhHCVU8S/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-### **Viernes 11. Análisis de datos de RNA-seq**
+### Viernes 11 · Análisis de datos de RNA-seq
 
 -   Fecha: 25 de abril 2025
 
@@ -134,7 +146,7 @@ authors:
 <iframe src="https://drive.google.com/file/d/1h30-Ngn0-yHgH-eOKXRBmmaTdVI1rhEa/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
-### **Viernes 12. Introducción a Rmarkdown**
+### Viernes 12 · Introducción a Rmarkdown
 
 -   Fecha: 2 de mayo 2025
 
@@ -147,7 +159,7 @@ authors:
 <iframe src="https://drive.google.com/file/d/1MW-J-gOa2J08CIvZujR1DpFHQTucQ2Mw/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
-### **Viernes 13. Introducción a la visualización de datos con ggplot2**
+### Viernes 13 · Introducción a la visualización de datos con ggplot2
 
 -   Fecha: 16 de mayo 2025
 
@@ -159,14 +171,17 @@ authors:
 
 -   Material:
 
-    -   [Presentacion](https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte3/blob/main/Clase13/ggplot2.pdf)
+    -   Presentación:
+
+        {{< presentacion url="https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte3/blob/main/Clase13/ggplot2.pdf" titulo="Visualización de datos con ggplot2 (PDF)" embed="https://cdn.jsdelivr.net/gh/VieRnesBioinformatica/ViernesBioinfo2025_parte3@main/Clase13/ggplot2.pdf" >}}
+
 
     -   [ggplot2_script.R](https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte3/blob/main/Clase13/ggplot2_script.R)
 
 <iframe src="https://drive.google.com/file/d/1QR_YGlJF7DFpSyx7y6_TGM8tuBk5cDqs/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
-### **Viernes 14 y 15. Mini curso de metagenomica**
+### Viernes 14 y 15 · Mini curso de metagenómica
 
 -   Fecha: 23 y 30 de mayo 2025
 
@@ -185,7 +200,7 @@ authors:
     <iframe src="https://drive.google.com/file/d/1x-HF7olihJ47S0kFp4qZaRR4-9QEBKXp/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
-### **Viernes 16. Aprendiendo a hacer figuras interactivas y figuras de articulo con R**
+### Viernes 16 · Aprendiendo a hacer figuras interactivas y figuras de artículo con R
 
 -   Fecha: 6 de junio 2025
 

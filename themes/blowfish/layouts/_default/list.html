@@ -130,7 +130,7 @@
 
     {{end}}
 
-  {{ else }}
+  {{ else if not .Params.ocultarSinArticulos }}
   <section class="mt-10 prose dark:prose-invert">
     <p class="py-8 border-t">
       <em>{{ i18n "list.no_articles" | emojify }}</em>

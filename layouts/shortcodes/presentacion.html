@@ -1,0 +1,16 @@
+{{/* Visor de presentaciones/PDF.
+     url:    enlace al material (se abre en otra pestaña)
+     titulo: nombre del material, se muestra como enlace debajo del visor
+     embed:  (opcional) dirección para el visor si es distinta de url (Drive /preview, Canva ?embed, PDF por CDN)
+     ratio:  (opcional) proporción del visor, por defecto 16/9 */}}
+{{ $url := .Get "url" }}
+{{ $titulo := .Get "titulo" | default "Presentación" }}
+<div class="presentacion">
+  <iframe src="{{ .Get "embed" | default $url }}" title="{{ $titulo }}" loading="lazy" allowfullscreen
+    {{ with .Get "ratio" }}style="aspect-ratio: {{ . | safeCSS }}"{{ end }}></iframe>
+  <p class="presentacion-link">
+    <button type="button" class="presentacion-full"
+      onclick="const f=this.closest('.presentacion').querySelector('iframe');(f.requestFullscreen||f.webkitRequestFullscreen).call(f)">⛶ Pantalla completa</button>
+    <a class="presentacion-material" href="{{ $url }}" target="_blank" rel="noopener" title="Abrir el material original en otra pestaña">↗ {{ $titulo }}</a>
+  </p>
+</div>

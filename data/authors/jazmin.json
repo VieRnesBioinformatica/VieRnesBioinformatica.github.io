@@ -1,15 +1,22 @@
 {
-    "name": "Jazmín López Chacón",
-    "image": "Autores/jaz.jpg",
-    "bio": "Especialista de Datos Jr, GF Banorte",
-    "social": [
-        {"x-twitter": "https://www.x.com/tipica_nerd"}
-    ],
-
-    "curso": [
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ], 
-    "vermas": "/authors/jazmin/" 
+  "name": "Jazmín López Chacón",
+  "image": "Autores/jaz.jpg",
+  "bio": "Especialista de Datos Jr, GF Banorte",
+  "social": [
+    {
+      "x-twitter": "https://www.x.com/tipica_nerd"
+    },
+    {
+      "email": "mailto:jlc1839@gmail.com"
+    },
+    {
+      "instagram": "https://www.instagram.com/tipica_nerd/?hl=en"
+    }
+  ],
+  "curso": [
+    {
+      "parte2": "https://viernesbioinformatica.github.io/playlist/"
+    }
+  ],
+  "vermas": "/authors/jazmin/"
 }
- 
-

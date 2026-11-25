@@ -32,9 +32,15 @@ none = "none"
  
 [[main]]
 pre = "email"
-url = "mailto:jasvpj@gmail.com"
+url = "mailto:viernesbioinfo@gmail.com"
 identifier = "o2qDWq7SRB"
 weight = 9999
+
+[[main]]
+pre = "github"
+url = "https://github.com/VieRnesBioinformatica"
+identifier = "github"
+weight = 10000
 
 [[main]]
 name = "Autores"
@@ -43,38 +49,56 @@ weight = 9
 
 [[main]]
 name = "Videos"
+url = "/playlist/"
 weight = 8
 
 [[main]]
-name = "Parte 0"
+name = "Todas las partes"
 parent = "Videos"
-weight = 8
+weight = 1
+url = "/playlist/"
+
+[[main]]
+name = "Parte 0 (2023)"
+parent = "Videos"
+weight = 10
 url = "/playlist/0"
 
 [[main]]
-name = "Parte 1"
+name = "Parte 1 (2024)"
 parent = "Videos"
-weight = 9
+weight = 11
 url = "/playlist/1"
 
-
 [[main]]
-name = "Parte 2"
+name = "Parte 2 (2024)"
 parent = "Videos"
-weight = 10
+weight = 12
 url = "/playlist/2"
 
 [[main]]
-name = "Parte 3"
+name = "Parte 3 (2025)"
 parent = "Videos"
-weight = 10
+weight = 13
 url = "/playlist/3"
 
 [[main]]
-name = "Parte 4"
+name = "Parte 4 (2025)"
 parent = "Videos"
-weight = 10
+weight = 14
 url = "/playlist/4"
+
+[[main]]
+name = "Parte 5 (2026)"
+parent = "Videos"
+weight = 15
+url = "/playlist/5"
+
+[[main]]
+name = "Parte 6 (2026)"
+parent = "Videos"
+weight = 16
+url = "/playlist/6"
 
 [[main]]
 name = "Codigo de Conducta"

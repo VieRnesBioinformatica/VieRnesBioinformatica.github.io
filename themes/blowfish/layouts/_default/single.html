@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ .Scratch.Set "scope" "single" }}
 
-<article>
+<article class="section-{{ .Section }}"{{ with .Params.color }} style="--parte-color: {{ . | safeCSS }}"{{ end }}>
   {{ if .Params.showHero | default (.Site.Params.article.showHero | default false) }}
   {{ $heroStyle := .Params.heroStyle }}
   {{ if not $heroStyle }}{{ $heroStyle = .Site.Params.article.heroStyle }}{{ end }}
@@ -44,13 +44,14 @@
 
       {{ range $author := .Page.Params.authors }}
         {{ $authorData := index $authorsData $author }}
-        {{- if $authorData -}}
+            {{ $authorPage := site.GetPage (printf "/authors/%s" $author) }}
+        {{- if or $authorData $authorPage -}}
           {{ range $taxonomyname, $taxonomy := $taxonomies }}
             {{ if (eq $taxonomyname $author) }}
               {{ $taxonomyLink = delimit (slice $baseURL "authors/" $author "/") "" }}
             {{ end }}
           {{ end }}
-          {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}
+          {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink "page" $authorPage) }}
         {{- end -}}
       {{ end }}
 
@@ -104,13 +105,14 @@
 
           {{ range $author := .Page.Params.authors }}
             {{ $authorData := index $authorsData $author }}
-            {{- if $authorData -}}
+            {{ $authorPage := site.GetPage (printf "/authors/%s" $author) }}
+            {{- if or $authorData $authorPage -}}
               {{ range $taxonomyname, $taxonomy := $taxonomies }}
                 {{ if (eq $taxonomyname $author) }}
                   {{ $taxonomyLink = delimit (slice $baseURL "authors/" $author "/") "" }}
                 {{ end }}
               {{ end }}
-              {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}
+              {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink "page" $authorPage) }}
             {{- end -}}
           {{ end }}
 

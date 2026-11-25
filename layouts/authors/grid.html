@@ -1,0 +1,163 @@
+{{ define "main" }}
+<style>
+  .authors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  @media (max-width: 900px) { .authors-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 560px) { .authors-grid { grid-template-columns: 1fr; } }
+
+  .author-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    border: 2px solid rgba(var(--color-primary-500), 0.6);
+    border-radius: 12px;
+    text-decoration: none !important;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  .author-tile:hover {
+    transform: translateY(-4px);
+    border-color: rgb(var(--color-primary-400));
+  }
+  .author-tile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  .author-tile .author-initial {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+    background: rgba(var(--color-primary-500), 0.2);
+  }
+  .author-tile h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem;
+  }
+  .author-tile .author-partes {
+    font-size: 0.9rem;
+    opacity: 0.75;
+    margin-bottom: 0.75rem;
+  }
+  .authors-otros {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(var(--color-primary-500), 0.3);
+  }
+  .authors-otros-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0 0 .4rem;
+  }
+  .authors-otros-sub {
+    margin: 0;
+    opacity: .7;
+  }
+  .author-tile .author-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+  }
+  .author-tile .author-keywords span {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    background: rgba(var(--color-primary-500), 0.15);
+  }
+</style>
+
+<header>
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+</header>
+
+{{/* Separa a quienes participaron en los VieRnes (tienen "partes") del resto */}}
+{{ $vierneros := slice }}
+{{ $otros := slice }}
+{{ range .Pages }}
+  {{ $partes := sort (.Params.partes | default slice) }}
+  {{ $item := dict "page" . "partes" $partes "n" (len $partes) "last" (cond (gt (len $partes) 0) (index (last 1 $partes) 0) -1) "title" .Title }}
+  {{ if $partes }}{{ $vierneros = $vierneros | append $item }}{{ else }}{{ $otros = $otros | append $item }}{{ end }}
+{{ end }}
+
+{{/* Orden: participación más reciente primero, luego más partes, luego nombre */}}
+<section class="authors-grid">
+  {{ range sort (sort (sort $vierneros "title") "n" "desc") "last" "desc" }}
+    {{ partial "inline/author-tile.html" . }}
+  {{ end }}
+</section>
+
+{{ with $otros }}
+<section class="authors-otros">
+  <h2 class="authors-otros-title">Conoce a otras personas que están revolucionando la bioinformática</h2>
+  <p class="authors-otros-sub">Instructoras e instructores de nuestros cursos y talleres, más allá de los VieRnes.</p>
+  <div class="authors-grid">
+    {{ range sort . "title" }}
+      {{ partial "inline/author-tile.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ define "partials/inline/author-tile.html" }}
+  {{ $term := .page }}
+
+  {{/* Partes agrupadas por año (años en data/partes.toml) */}}
+  {{ $byYear := dict }}
+  {{ range .partes }}
+    {{ $y := string (index site.Data.partes (string .) | default "¿?") }}
+    {{ $byYear = merge $byYear (dict $y ((index $byYear $y | default slice) | append (printf "Parte %v" .))) }}
+  {{ end }}
+
+  {{/* Sin partes: los cursos en los que participó (la sección padre de sus publicaciones) */}}
+  {{ $cursos := slice }}
+  {{ if not .partes }}
+    {{ range $term.Pages }}{{ with .Parent }}{{ if ne .Section "playlist" }}{{ $cursos = $cursos | append . }}{{ end }}{{ end }}{{ end }}
+    {{ $cursos = uniq $cursos }}
+  {{ end }}
+
+  {{/* Imagen: avatar de la página del autor, si no, la del JSON en data/authors */}}
+  {{ $img := $term.Resources.GetMatch "avatar*" }}
+  {{ if not $img }}
+    {{ with index site.Data.authors $term.Data.Term }}{{ with .image }}{{ $img = resources.Get . }}{{ end }}{{ end }}
+  {{ end }}
+
+  <a class="author-tile" href="{{ $term.RelPermalink }}">
+    {{ with $img }}
+      <img src="{{ (.Fill "300x300").RelPermalink }}" alt="{{ $term.Title }}" loading="lazy">
+    {{ else }}
+      <div class="author-initial">{{ substr (replaceRE `^(Dra?|MSc|Mtro|LBt|M\.C)\.?\s+` "" $term.Title) 0 1 }}</div>
+    {{ end }}
+    <h2 class="text-neutral-900 dark:text-neutral">{{ $term.Title }}</h2>
+    {{ with $byYear }}
+      <div class="author-partes text-neutral-700 dark:text-neutral-300">
+        {{ range $y, $ps := . }}<div><strong>{{ $y }}</strong> · {{ delimit $ps ", " }}</div>{{ end }}
+      </div>
+    {{ end }}
+    {{ with $cursos }}
+      <div class="author-partes text-neutral-700 dark:text-neutral-300">
+        {{ range . }}<div><strong>{{ .Date.Format "2006" }}</strong> · {{ .Title }}</div>{{ end }}
+      </div>
+    {{ end }}
+    {{ with $term.Keywords }}
+      <div class="author-keywords text-neutral-800 dark:text-neutral-200">
+        {{ range . }}<span>{{ . }}</span>{{ end }}
+      </div>
+    {{ end }}
+  </a>
+{{ end }}

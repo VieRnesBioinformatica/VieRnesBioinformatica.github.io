@@ -1,7 +1,7 @@
 {
-  "name": "Johana Itzel Ramos Galguera ",
+  "name": "Johana Itzel Ramos Galguera",
   "image": "Autores/itzel.jpeg",
-  "bio": "Undergraduate Genomics Science, intern at LIIGH-UNAM and University of Oxford ",
+  "bio": "Research Assistant, Ludwig Institute for Cancer Research, University of Oxford",
   "curso": [
     {
       "parte1": ""
@@ -19,6 +19,9 @@
   "social": [
     {
       "email": "mailto:johanacbta371g@gmail.com"
+    },
+    {
+      "scholar": "https://scholar.google.com/citations?user=WqN-h9gAAAAJ"
     },
     {
       "x": "https://x.com/itzel_galguera"

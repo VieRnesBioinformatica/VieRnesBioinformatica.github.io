@@ -1,6 +1,6 @@
 colorScheme = "custom"
 defaultAppearance = "dark"
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = true
 disableImageOptimization = false
@@ -20,7 +20,7 @@ layout = "fixed"
 showMenu = true
 showCopyright = false
 showThemeAttribution = false
-showAppearanceSwitcher = true
+showAppearanceSwitcher = false
 showScrollToTop = true
 
 [homepage]

@@ -1,0 +1,33 @@
+# Comités organizadores que aparecen en la portada (más reciente primero).
+# img: ruta dentro de static/ (opcional; sin img se muestra la inicial)
+# url: página del autor (opcional)
+- titulo: Comité organizador 2026
+  miembros:
+    - nombre: Dra. Evelia Coss
+      img: /Autores/EveliaCoss.jpeg
+      url: /authors/evelia/
+    - nombre: Dr. Israel Aguilar Ordoñez
+      img: /Autores/Aguilar.jpeg
+      url: /authors/israel/
+    - nombre: Jorge A. Suazo Victoria
+      img: /Autores/JS.png
+      url: /authors/jorge/
+    - nombre: Dr. Ram González Buenfil
+      img: /Autores/ram.jpeg
+      url: /authors/ram/
+    - nombre: Alejandra Paulina Pérez González
+      img: /Autores/paulina.jpeg
+      url: /authors/paulina/
+    - nombre: Fernando
+
+- titulo: Comité organizador 2023 - 2025
+  miembros:
+    - nombre: Dra. Evelia Coss
+      img: /Autores/EveliaCoss.jpeg
+      url: /authors/evelia/
+    - nombre: Dr. Israel Aguilar Ordoñez
+      img: /Autores/Aguilar.jpeg
+      url: /authors/israel/
+    - nombre: Jorge A. Suazo Victoria
+      img: /Autores/JS.png
+      url: /authors/jorge/

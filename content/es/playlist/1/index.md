@@ -1,4 +1,5 @@
 ---
+color: "#00aeef"  # color de los bloques de sesión (tomado del logo)
 title: "Lista de Reproducción Parte 1"
 draft: false
 description: "Lista de reproduccion de Viernes de Bioinformatica 2024"
@@ -15,14 +16,18 @@ authors:
  - "sofia"
  - "domingo"
  - "israel"
- - "ramirez"
+ - "obed"
  - "shaday"
  - "schafer"
 ---
 
-## PARTE 1
+## Parte 1
 
-### Viernes 1. Información general del curso e Introducción a R
+
+- **Fechas:** 2 feb – 2 ago, 2024
+- **Repositorio:** {{< icon "github" >}} [ViernesBioinfo2024](https://github.com/EveliaCoss/ViernesBioinfo2024)
+
+### Viernes 1 · Información general del curso e Introducción a R
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-1/" >}}
 
@@ -30,7 +35,10 @@ authors:
 
 -   Instructora: Dra. Evelia Coss
 
--   Presentación: [Introducción a R](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D1_IntroduccionR_slides_P2.html#1" titulo="Introducción a R" >}}
+
 
 -   Lecturas y cursos recomendados:
 
@@ -44,7 +52,7 @@ authors:
 
 </iframe>
 
-### Viernes 2. Manipulación de datos con R base (vector y dataframe)
+### Viernes 2 · Manipulación de datos con R base (vector y dataframe)
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-2/" >}}
 
@@ -52,7 +60,10 @@ authors:
 
 -   Instructora: Dra. Evelia Coss
 
--   Presentación: [Manipulación de datos con R base (vector y dataframe)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D2_IntroduccionR_segunda.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D2_IntroduccionR_segunda.html#1" titulo="Manipulación de datos con R base (vector y dataframe)" >}}
+
 
 -   Lecturas y cursos recomendados:
 
@@ -65,7 +76,7 @@ authors:
 -   Grabación: <iframe src="https://drive.google.com/file/d/16vskGRS0QAS7f3acI886BVWgLI7j3dkf/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
-### Viernes 3. Manipulación de datos con R base (matrix y lista)
+### Viernes 3 · Manipulación de datos con R base (matrix y lista)
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-3/" >}}
 
@@ -73,7 +84,10 @@ authors:
 
 -   Instructora: Dra. Evelia Coss
 
--   Presentación: [Manipulación de datos con R base (matrix y lista)](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D3_ManipulacionDatos_P2.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D3_ManipulacionDatos_P2.html#1" titulo="Manipulación de datos con R base (matrix y lista)" >}}
+
 
 -   Grabación:
 
@@ -81,7 +95,7 @@ authors:
 
 </iframe>
 
-### Viernes 4. Introducción a Rmarkdown
+### Viernes 4 · Introducción a Rmarkdown
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-4/" >}}
 
@@ -89,7 +103,10 @@ authors:
 
 -   Instructora: LCG Alejandra Schafer
 
--   Presentación: [Introducción a Rmarkdown](https://eveliacoss.github.io/ViernesBioinfo2024/Clase4/Rmakrdown.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2024/Clase4/Rmakrdown.html#1" titulo="Introducción a Rmarkdown" >}}
+
 
 -   Grabación:
 
@@ -97,7 +114,7 @@ authors:
 
 </iframe>
 
-### Viernes 5. Terapia de Bioinfo grupal (opcional)
+### Viernes 5 · Terapia de Bioinfo grupal (opcional)
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-5/" >}}
 
@@ -105,11 +122,14 @@ authors:
 
 -   Instructora: Dr. Israel Aguilar
 
--   Presentación: [Resolucion de problemas](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase5_%20Viernes%20de%20Bioinfo.pdf)
+-   Presentación:
+
+    {{< presentacion url="https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase5_%20Viernes%20de%20Bioinfo.pdf" titulo="Resolucion de problemas" embed="https://eveliacoss.github.io/ViernesBioinfo2024/Clase5_%20Viernes%20de%20Bioinfo.pdf" >}}
+
 
 -   Grabación: <iframe src="https://drive.google.com/file/d/1aZ9niNhjRrE9tCs0ANqP_NAwUPW6JGd6/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-### Viernes 6. Manipulación de datos con funciones de R base
+### Viernes 6 · Manipulación de datos con funciones de R base
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-6/" >}}
 
@@ -117,7 +137,10 @@ authors:
 
 -   Instructora: Dr. Evelia Coss
 
--   Presentación: [Manipulación de datos con funciones de R base](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D6_ManipulacionDatos_FuncionesRbase.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D6_ManipulacionDatos_FuncionesRbase.html#1" titulo="Manipulación de datos con funciones de R base" >}}
+
 
 -   Script: [MarvelvsDCComics_limpieza_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_limpieza_script.R)
 
@@ -129,7 +152,7 @@ authors:
 
 </iframe>
 
-### Viernes 7. Manipulación de datos usando dplyr
+### Viernes 7 · Manipulación de datos usando dplyr
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-7/" >}}
 
@@ -137,7 +160,10 @@ authors:
 
 -   Instructora: Dr. Evelia Coss
 
--   Presentación: [Manipulación de datos usando dplyr](https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D7_Manipulacion_dplyr.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2024/Clase1/D7_Manipulacion_dplyr.html#1" titulo="Manipulación de datos usando dplyr" >}}
+
 
 -   Script: [MarvelvsDCComics_Join_script.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Practica_Clase6y7/MarvelvsDCComics_Join_script.R)
 
@@ -149,7 +175,7 @@ authors:
 
 </iframe>
 
-### Viernes 8. Generación de diversos gráficos usando ggplot2
+### Viernes 8 · Generación de diversos gráficos usando ggplot2
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-8/" >}}
 
@@ -157,7 +183,10 @@ authors:
 
 -   Instructora: Sofia Salazar
 
--   Presentación: [Generación de diversos gráficos usando ggplot2](https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/slides.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2024/Clase_ggplot/slides.html#1" titulo="Generación de diversos gráficos usando ggplot2" >}}
+
 
 -   Script: [script_ggplot_clase.R](https://github.com/EveliaCoss/ViernesBioinfo2024/blob/main/Clase_ggplot/script_ggplot_clase.R)
 
@@ -167,7 +196,7 @@ authors:
 
 </iframe>
 
-### Viernes 9. Terapia de Bioinfo grupal (opcional)
+### Viernes 9 · Terapia de Bioinfo grupal (opcional)
 
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-9/" >}}
@@ -184,7 +213,7 @@ authors:
 
 </iframe>
 
-### Viernes 10. Manipulación de datos para crear un heatmap (ComplexHeatmap)
+### Viernes 10 · Manipulación de datos para crear un heatmap (ComplexHeatmap)
 
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-10/" >}}
@@ -207,7 +236,7 @@ authors:
 
 
 
-### Viernes 11 y 12. Bioestadistica parte 1
+### Viernes 11 y 12 · Bioestadística parte 1
 
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-11/" >}}
@@ -225,7 +254,7 @@ authors:
 
     -   Parte 2. <iframe src="https://drive.google.com/file/d/1fj56Kgb-wYbT04wxf58uIKl_jRqu0-tA/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
-### Viernes 13. Terapia de Bioinfo grupal (opcional)
+### Viernes 13 · Terapia de Bioinfo grupal (opcional)
 
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-13/" >}}
@@ -242,7 +271,7 @@ authors:
 
 </iframe>
 
-### Viernes 14 y 15. Exploración de datos y elección de pruebas o modelos
+### Viernes 14 y 15 · Exploración de datos y elección de pruebas o modelos
 
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-14/" >}}
@@ -258,7 +287,10 @@ authors:
 
     -   [Clase 14](https://github.com/EveliaCoss/ViernesBioinfo2024/tree/main/Clase14)
 
-    -   [Clase 14 - Presentacion](https://eveliacoss.github.io/ViernesBioinfo2024/Clase14/Exploracion_de_datos_y_eleccion_de_pruebas_o_modelos_1.2.html)
+    -   Presentación:
+
+        {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2024/Clase14/Exploracion_de_datos_y_eleccion_de_pruebas_o_modelos_1.2.html" titulo="Exploración de datos y elección de pruebas o modelos" >}}
+
 
     -   [Clase 15](https://drive.google.com/drive/folders/1a6SfQ--zAcuiq4zUB9x4qSFfBPleE_uU?usp=drive_link)
 
@@ -276,7 +308,7 @@ authors:
 
     </iframe>
 
-### Viernes 16, 17, 18 y 19. Introducción a Python
+### Viernes 16, 17, 18 y 19 · Introducción a Python
 
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-16/" >}}
@@ -330,7 +362,9 @@ authors:
 
     </iframe>
 
-### Viernes 20 y 21. Introducción a Bash (28 de junio y 5 de julio)
+### Viernes 20 y 21 · Introducción a Bash
+
+  - Fecha: 28 de junio y 5 de julio de 2024
 
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-20/" >}}
@@ -379,7 +413,7 @@ authors:
     </iframe>
     
     
-### Viernes 22, 23 y 24. Nextflow
+### Viernes 22, 23 y 24 · Nextflow
 
 
 {{< article link="/posts/viernes-de-bioinformatica-2024/viernes-22/" >}}

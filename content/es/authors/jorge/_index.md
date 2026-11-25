@@ -1,5 +1,7 @@
 ---
 title: Jorge Alfredo Suazo Victoria
+partes: [3, 4, 5, 6]
+keywords: ["Manipulación de datos en R", "Desarrollo web"]
 ---
 
 {{< typeit 

@@ -1,7 +1,7 @@
 {
-  "name": "M.C. Edgar Pavel Salazar Fernandez",
+  "name": "Edgar Pavel Salazar Fernández",
   "image": "Autores/edgar.jpeg",
-  "bio": "PhD Student | LIIGH - UNAM",
+  "bio": "Estudiante de doctorado en Ciencias Biomédicas, LIIGH-UNAM",
   "curso": [
     {
       "parte1": ""
@@ -19,9 +19,11 @@
   "social": [
     {
       "email": "mailto:epsalazarf@gmail.com"
-    },{
+    },
+    {
       "linkedin": "https://www.linkedin.com/in/epsalazarf/"
-    },{
+    },
+    {
       "github": "https://github.com/epsalazarf"
     }
   ],

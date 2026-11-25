@@ -1,0 +1,16 @@
+{
+  "name": "Aarón Espinosa-Jaime",
+  "image": "Autores/aaron.jpeg",
+  "bio": "Estudiante de doctorado, Moreno Lab, Cinvestav · Metilación del DNA y envejecimiento",
+  "social": [
+    {
+      "email": "mailto:aaron.espinosa@cinvestav.mx"
+    },
+    {
+      "github": "https://github.com/aaronejaime"
+    },
+    {
+      "link": "https://morenolab.org/team/"
+    }
+  ]
+}

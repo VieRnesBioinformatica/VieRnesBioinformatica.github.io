@@ -1,0 +1,70 @@
+{{/* Perfil de autor: foto a la izquierda; texto y botones de redes a la derecha.
+     Foto: avatar.* de la página del autor o "image" de data/authors/<id>.json. Redes: "social" del mismo JSON. */}}
+{{ $data := index site.Data.authors .Data.Term }}
+{{ $img := .Resources.GetMatch "avatar*" }}
+{{ if not $img }}{{ with $data }}{{ with .image }}{{ $img = resources.Get . }}{{ end }}{{ end }}{{ end }}
+
+{{ $labels := dict
+  "email" "Correo" "link" "Página web" "github" "GitHub" "linkedin" "LinkedIn"
+  "x" "X" "x-twitter" "X" "twitter" "Twitter" "bluesky" "Bluesky"
+  "orcid" "ORCID" "instagram" "Instagram" "facebook" "Facebook"
+  "scholar" "Google Scholar" "researchgate" "ResearchGate" }}
+{{ $icons := dict "x" "x-twitter" "scholar" "google" }}
+
+<div class="author-profile">
+  <div class="author-profile-photo">
+    {{ with $img }}
+      <img class="author-avatar" src="{{ (.Fill "360x360").RelPermalink }}" alt="{{ $.Title }}">
+    {{ else }}
+      <div class="author-avatar author-avatar-initial">{{ substr (replaceRE `^(Dra?|MSc|Mtro|LBt|M\.C)\.?\s+` "" .Title) 0 1 }}</div>
+    {{ end }}
+  </div>
+
+  <div class="author-profile-body">
+    {{/* Grado académico: solo aquí, no en el nombre (front matter "grado") */}}
+    {{ with .Params.grado }}
+      <span class="author-grado">🎓 {{ cond (eq . "Dra.") "Doctora" "Doctor" }}</span>
+    {{ end }}
+    <div class="prose dark:prose-invert">{{ .Content }}</div>
+
+    {{ with $data }}{{ with .social }}
+      <div class="author-social">
+        {{ range . }}{{ range $name, $link := . }}{{ with index $labels $name }}
+          <a class="author-social-btn" href="{{ $link }}" {{ if strings.HasPrefix $link "http" }}target="_blank" rel="me noopener"{{ end }}>
+            {{ partial "icon.html" (index $icons $name | default $name) }}
+            <span>{{ . }}</span>
+          </a>
+        {{ end }}{{ end }}{{ end }}
+      </div>
+    {{ end }}{{ end }}
+
+    {{/* Partes en las que participó (las páginas de Videos no salen en el listado de abajo) */}}
+    {{ with .Params.partes }}
+      <div class="author-partes-links">
+        <span>Participó en:</span>
+        {{ range sort . }}
+          <a class="author-parte-btn" href="{{ printf "/playlist/%v/" . | relURL }}">{{ index site.Data.partes (string .) }} · Parte {{ . }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+{{/* Redes y comunidades: ids en "comunidades" del front matter; datos y logos en data/comunidades.yaml */}}
+{{ with .Params.comunidades }}
+<section class="author-comunidades">
+  <h2>Redes y comunidades</h2>
+  <div class="comunidades-grid">
+    {{ range . }}
+      {{ $rol := .rol }}
+      {{ with index site.Data.comunidades .id }}
+        <a class="comunidad-card" href="{{ .url }}" target="_blank" rel="noopener">
+          <img src="{{ .logo | relURL }}" alt="{{ .nombre }}" loading="lazy">
+          <span class="comunidad-nombre">{{ .nombre }}</span>
+          {{ with $rol }}<span class="comunidad-rol">{{ . }}</span>{{ end }}
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

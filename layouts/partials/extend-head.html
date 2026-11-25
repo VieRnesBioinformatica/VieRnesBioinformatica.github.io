@@ -1,0 +1,5 @@
+{{/* El sitio solo tiene modo oscuro: borra la preferencia "light" que alguien haya guardado antes */}}
+<script>
+  localStorage.removeItem("appearance");
+  document.documentElement.classList.add("dark");
+</script>

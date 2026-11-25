@@ -1,0 +1,30 @@
+{{/* Índice lateral. En Videos: tarjeta "En esta parte" con "Viernes N" como etiqueta y el tema debajo.
+     Los títulos de sesión siguen el formato "### Viernes N · Tema". En el resto del sitio, el índice normal del tema.
+     id="TableOfContents" y los enlaces #id mantienen el resaltado de la sesión actual (smartTOC). */}}
+{{ if eq .Section "playlist" }}
+  {{ $items := slice }}
+  {{ range .Fragments.Headings }}{{ range .Headings }}
+    {{ if not (findRE `^Parte \d+$` .Title) }}{{ $items = $items | append . }}{{ end }}
+    {{ range .Headings }}{{ $items = $items | append . }}{{ end }}
+  {{ end }}{{ end }}
+  <nav id="TableOfContents" class="toc-playlist">
+    <p class="toc-playlist-title">En esta parte</p>
+    <ul>
+      {{ range $items }}
+        {{ $parts := split (.Title | plainify | htmlUnescape) " · " }}
+        <li>
+          <a href="#{{ .ID }}">
+            {{ if gt (len $parts) 1 }}
+              <span class="toc-label">{{ index $parts 0 }}</span>
+              <span class="toc-topic">{{ delimit (after 1 $parts) " · " }}</span>
+            {{ else }}
+              <span class="toc-topic">{{ index $parts 0 }}</span>
+            {{ end }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+{{ else }}
+  {{ .TableOfContents | emojify }}
+{{ end }}

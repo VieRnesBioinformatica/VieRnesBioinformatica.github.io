@@ -1,0 +1,32 @@
+# Redes y comunidades que aparecen en el perfil de cada autor.
+# En el front matter del autor:  comunidades: [{id: rladies-morelia, rol: Fundadora}, {id: rladies-queretaro}]
+# logo: ruta dentro de static/
+rladies-morelia:
+  nombre: R-Ladies Morelia
+  logo: /comunidades/rladies.svg
+  url: https://www.meetup.com/rladies-morelia/
+
+rladies-queretaro:
+  nombre: R-Ladies Querétaro
+  logo: /comunidades/rladies.svg
+  url: https://www.meetup.com/rladies-queretaro/
+
+rladies-cuernavaca:
+  nombre: R-Ladies Cuernavaca
+  logo: /comunidades/rladies.svg
+  url: https://www.meetup.com/rladies-cuernavaca/
+
+rsg-mexico:
+  nombre: ISCB RSG-México
+  logo: /comunidades/rsg-mexico.jpg
+  url: https://rsg-mexico.iscbsc.org/
+
+cdsb:
+  nombre: CDSB · Comunidad de Desarrolladores de Software en Bioinformática
+  logo: /comunidades/cdsb.png
+  url: https://comunidadbioinfo.github.io/
+
+riabia:
+  nombre: RIABIA · Red Iberoamericana de Prospectiva en IA para Biociencias y Biotecnología
+  logo: /comunidades/riabia.png
+  url: https://eveliacoss.github.io/RIABIA_RLadies_2026_Capacitacion_Docente/

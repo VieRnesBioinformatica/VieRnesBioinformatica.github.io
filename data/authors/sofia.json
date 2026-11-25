@@ -1,0 +1,28 @@
+{
+  "name": "Sofia Guadalupe Salazar Magaña",
+  "image": "Autores/guadalupe.jpeg",
+  "bio": "Estudiante de doctorado, Baylor College of Medicine",
+  "curso": [
+    {
+      "parte1": ""
+    },
+    {
+      "parte2": ""
+    },
+    {
+      "parte3": ""
+    },
+    {
+      "parte4": ""
+    }
+  ],
+  "social": [
+    {
+      "email": "mailto:sogusama02@gmail.com"
+    },
+    {
+      "x": "https://x.com/ssalazar_02?lang=es"
+    }
+  ],
+  "vermas": "/authors/sofia/"
+}

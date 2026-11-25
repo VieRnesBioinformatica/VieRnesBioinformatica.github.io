@@ -354,13 +354,37 @@ body {
     font-family: var(--mono);
   }
 
+  .organizers-section h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 50px 0 10px;
+    color: var(--cyan);
+    font-weight: 700;
+    font-family: var(--mono);
+  }
+
   .organizers-grid {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
+  }
+
+  .organizer-initial {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid var(--magenta);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: var(--mono);
+    color: var(--cyan-bright);
+    background: rgba(0, 191, 255, 0.08);
   }
 
   .organizer-card {
@@ -475,8 +499,7 @@ body {
     }
 
     .organizers-grid {
-      flex-direction: column;
-      align-items: center;
+      grid-template-columns: minmax(0, 260px);
     }
 
     .organizer-card {
@@ -635,28 +658,24 @@ body {
 <div class="organizers-section">
   <h1>Organizadores</h1>
 
+  <!-- Comités: se editan en data/organizadores.yaml -->
+  {{ range site.Data.organizadores }}
+  <h2>{{ .titulo }}</h2>
   <div class="organizers-grid">
-    <!-- Evelia Coss -->
+    {{ range .miembros }}
+    {{ $m := . }}
     <div class="organizer-card">
-      <img src="Autores/EveliaCoss.jpeg" alt="Dra. Evelia Coss">
-      <p>Dra. Evelia Coss</p>
-      <a href="authors/evelia/" class="btn-organizer">Más información</a>
+      {{ with .img }}
+        <img src="{{ . }}" alt="{{ $m.nombre }}">
+      {{ else }}
+        <div class="organizer-initial">{{ substr (replaceRE `^(Dra?|LBT|MSc|Mtro)\.?\s+` "" .nombre) 0 1 }}</div>
+      {{ end }}
+      <p>{{ .nombre }}</p>
+      {{ with .url }}<a href="{{ . }}" class="btn-organizer">Más información</a>{{ end }}
     </div>
-
-    <!-- Israel Aguilar -->
-    <div class="organizer-card">
-      <img src="Autores/Aguilar.jpeg" alt="Dr. Israel Aguilar Ordoñez">
-      <p>Dr. Israel Aguilar Ordoñez</p>
-      <a href="authors/israel/" class="btn-organizer">Más información</a>
-    </div>
-
-    <!-- Jorge Suazo -->
-    <div class="organizer-card">
-      <img src="Autores/JS.png" alt="Jorge A. Suazo Victoria">
-      <p>Jorge A. Suazo Victoria</p>
-      <a href="authors/jorge/" class="btn-organizer">Más información</a>
-    </div>
+    {{ end }}
   </div>
+  {{ end }}
 </div>
 
 <!-- ═══════════════════════════════════════════ -->

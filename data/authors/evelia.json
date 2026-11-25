@@ -1,15 +1,25 @@
 {
-    "name": "Dra. Evelia Coss",
-    "image" : "Autores/EveliaCoss.jpeg",
-    "bio": "Posdoc, LIIGH - UNAM",
-    "social": [
-        {"email" : "mailto:ecoss@liigh.unam.mx" },
-        {"github": "https://github.com/EveliaCoss"}
-    ],
-    "curso": [
-      {"parte1": "https://viernesbioinformatica.github.io/playlist/"},
-      {"parte2": "https://viernesbioinformatica.github.io/playlist/"}
-      ],
-    "vermas": "/authors/evelia/" 
+  "name": "Evelia Lorena Coss-Navarrete",
+  "image": "Autores/EveliaCoss.jpeg",
+  "bio": "Profesora, ENES-Juriquilla, UNAM · Data & AI Engineer, uDocz",
+  "social": [
+    {
+      "link": "https://eveliacoss.com/"
+    },
+    {
+      "email": "mailto:ecossnav@gmail.com"
+    },
+    {
+      "github": "https://github.com/EveliaCoss"
+    }
+  ],
+  "curso": [
+    {
+      "parte1": "https://viernesbioinformatica.github.io/playlist/"
+    },
+    {
+      "parte2": "https://viernesbioinformatica.github.io/playlist/"
+    }
+  ],
+  "vermas": "/authors/evelia/"
 }
- 

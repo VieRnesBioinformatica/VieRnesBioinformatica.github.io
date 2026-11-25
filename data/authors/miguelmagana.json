@@ -1,0 +1,13 @@
+{
+  "name": "Miguel Ángel Magaña Lemus",
+  "image": "Autores/miguelmagana.jpg",
+  "bio": "Técnico académico, CCM-UNAM · Instructor de The Carpentries",
+  "social": [
+    {
+      "email": "mailto:miguel@matmor.unam.mx"
+    },
+    {
+      "github": "https://github.com/miguel-mx"
+    }
+  ]
+}

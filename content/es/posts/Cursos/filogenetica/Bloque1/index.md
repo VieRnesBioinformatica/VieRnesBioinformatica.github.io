@@ -6,7 +6,7 @@ description: "Que quienes lo cursen adquieran la capcidad de comprender, interpr
 tags: ["filogenetica", "bloque"]
 showAuthor: false
 authors:
-  - "mguadalupe"
+  - "mariasegovia"
 series: ["Filogenetica"]
 series_order: 1
 seriesOpened: true

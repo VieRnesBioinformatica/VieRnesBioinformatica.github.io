@@ -1,4 +1,5 @@
 ---
+color: "#f7a01c"  # color de los bloques de sesión (tomado del logo)
 title: "Lista de Reproducción Parte 4"
 draft: false
 description: "Lista de reproduccion de Viernes de Bioinformatica 2025"
@@ -15,15 +16,31 @@ authors:
  - "evelia"
  - "mariasegovia"
  - "maria"
+ - "emmanuel"
+ - "antonio"
+ - "angelica"
+ - "brenda"
+ - "paulina"
+ - "josue"
+ - "andrea"
+ - "karla"
+ - "alan"
+ - "armando"
 ---
 
-# PARTE 4
+## Parte 4
 
-## Playlist de Youtube
+
+- **Fechas:** 5 sep – 12 dic, 2025
+- **Repositorio:** {{< icon "github" >}} [ViernesBioinfo2025_parte4](https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte4)
+
+## Playlist de YouTube
 ![playlist](img_1.png)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=m565kdBgDtP81P6u&amp;list=PL2lp2OS8ujcXJxny-K3sAn-OmDO7HIcHF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 1. (5/sep/2025) **Leaving Academia 1**\
+### Viernes 1 · Leaving Academia 1
+
+  - Fecha: 5/sep/2025
     
   - 11:30 a 12:30 - Información general del curso - Evelia Coss e Israel Aguilar\
   
@@ -31,14 +48,18 @@ authors:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/oTxPMBZpoVM?si=r_opk3PIvxbySoKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 2. (12/sep/2025) **Leaving Academia 2**\
+### Viernes 2 · Leaving Academia 2
+
+  - Fecha: 12/sep/2025
     
   - 11:30 a 12:30 - Leaving Academia - Mi camino profesional tras dejar la academia - Antonio Martínez Gutiérrez\
   - 12:30 a 13:30 - La IA como herramienta de programación: chatGPT - Israel Aguilar
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QecmDe8UVHE?si=bRhylaLV5tnsj2hH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 3. (19/sep/2025) **PLINK**\
+### Viernes 3 · PLINK
+
+  - Fecha: 19/sep/2025
     
   - 11:30 a 13:30 - Preparación de data para GWAS - Angélica de Luna García
 
@@ -48,7 +69,9 @@ authors:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/58dZVEAN7iE?si=rtb74KUUWuM5mrTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 4. (26/sep/2025) **Leaving Academia 3**\
+### Viernes 4 · Leaving Academia 3
+
+  - Fecha: 26/sep/2025
     
   - 11:30 a 12:30 - Leaving Academia - Mi camino profesional tras dejar la academia - María Guadalupe Segovia Ramírez\
     
@@ -56,7 +79,9 @@ authors:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/k2U24cPQeCk?si=VievUB3dmt4rX0rd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 5. (03/oct/2025) - **Clasificación con abundancia taxonómica**\
+### Viernes 5 · Clasificación con abundancia taxonómica
+
+  - Fecha: 03/oct/2025
     
   - 11:30 a 13:30 - Clasificando microbios: una introducción al microbioma y al aprendizaje supervisado - Brenda Eloisa Sanchez Pichardo
 
@@ -64,7 +89,9 @@ authors:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hNDk899RrME?si=i5KTSExV3OiqfBBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 6. (10/oct/2025) - **PCA en Transcriptómica**\
+### Viernes 6 · PCA en transcriptómica
+
+  - Fecha: 10/oct/2025
     
   - 11:30 a 13:30 - Anáisis de Componentes Principales en datos Transcriptómicos - Alejandra Paulina Pérez González
 
@@ -72,7 +99,9 @@ authors:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Pkiwttdjt4k?si=YThokLMru7KzzyG9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 7. (17/oct/2025) - **Reproducibilidad Bioinformática**\
+### Viernes 7 · Reproducibilidad bioinformática
+
+  - Fecha: 17/oct/2025
     
   - 11:30 a 13:30 - Recreando una figura de un artículo en R - Josué Guzmán Linares
 
@@ -84,7 +113,9 @@ authors:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/G9muqbL8zvM?si=BndkhhJki1wwCK3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 8. (24/oct/2025) - **Predicción miRNAs**\
+### Viernes 8 · Predicción de miRNAs
+
+  - Fecha: 24/oct/2025
     
   - 11:30 a 13:30 - Predicción de genes blanco y vías funcionales en miRNAs - Andrea Maria Torres Iribe
 
@@ -94,13 +125,17 @@ authors:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zRxpl8dvISA?si=HlS2-snX00_TNzfG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 9. (31/oct/2025) - Diferentes caminos para hacer Bioinformática\
+### Viernes 9 · Diferentes caminos para hacer Bioinformática
+
+  - Fecha: 31/oct/2025
     
   - 11:30 a 13:30 - Proyectos de la Comunidad - Israel Aguilar
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/xx0puRaEx18?si=eUeYhOmGRg49Kp-_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 10. (07/nov/2025) - Creación de gráficos con ggplot2\
+### Viernes 10 · Creación de gráficos con ggplot2
+
+  - Fecha: 07/nov/2025
     
   - 11:30 a 13:30 - Creación de gráficos con ggplot2 - Fernanda Mirón Toruño
 
@@ -110,12 +145,16 @@ authors:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Ec8fub7IJE8?si=olfIJx76Y55f9EKl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 13. (28/nov/2025) - **Llamado de Variantes Quick**\
+### Viernes 13 · Llamado de variantes (Quick)
+
+  - Fecha: 28/nov/2025
   - 11:30 a 13:30 - Tutorial nf-core/sarek - Karla Guzmán Barrenechea
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/TKv8roQdltU?si=tKpllYA4w9tEbrEC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Viernes 14. TBA (05/dic/2025) - **¡Cómo preparar tus bases de datos!**\
+### Viernes 14 · ¡Cómo preparar tus bases de datos!
+
+  - Fecha: 05/dic/2025
     
   - 11:30 a 13:30 - Preparing databases for mapping and variant calling in cancer research - Alan Michael Torres Calderon
 
@@ -124,7 +163,15 @@ authors:
     -   <https://github.com/mike-bioinfo/tutorial-databases-cancer>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cTbxCiuJgv4?si=0OqwjFpNjobzpJbZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
--   Viernes 15. TBA (12/dic/2025) - **EcoNiches**\
-    11:30 a 13:30 - Tutorial del paquete R: EcoNiches - Armando Sunny
+
+### Viernes 15 · EcoNicheS
+
+  - Fecha: 12/dic/2025
+
+  - 11:30 a 13:30 - Tutorial del paquete R: EcoNiches - Armando Sunny
+
+  - Repositorio de EcoNiches:
+
+    -   <https://github.com/armandosunny/EcoNicheS>
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/XOnm1B019Q4?si=g69NLgekM_6VXUl9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

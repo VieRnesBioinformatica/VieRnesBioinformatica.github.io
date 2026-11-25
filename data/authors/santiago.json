@@ -1,7 +1,7 @@
 {
-  "name": "Olmo Santiago Rosas Plaza ",
+  "name": "Olmo Santiago Rosas Plaza",
   "image": "Autores/santiago.jpeg",
-  "bio": "Dr. Santiago Rosas Posdoc, LIIGH - UNAM",
+  "bio": "Posdoc, LIIGH-UNAM",
   "curso": [
     {
       "parte1": ""
@@ -19,9 +19,6 @@
   "social": [
     {
       "email": "mailto:santiagorosasplaza@gmail.com"
-    },
-    {
-      "revision": ""
     }
   ],
   "vermas": "/authors/santiago/"

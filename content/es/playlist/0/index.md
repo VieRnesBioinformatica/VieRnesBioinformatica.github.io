@@ -1,4 +1,5 @@
 ---
+color: "#ff4d8d"  # color de los bloques de sesión (tomado del logo)
 title: "Lista de Reproducción Parte 0"
 draft: false
 description: "Lista de reproduccion de Viernes de Bioinformatica 2023"
@@ -14,19 +15,26 @@ authors:
  - "israel"
  - "evelia"
  - "domingo"
- - "guadalupe"
- - "lopez"
+ - "sofia"
+ - "jazmin"
 ---
 
 ## Parte 0
 
-### **Viernes 1: Conceptos básicos de bioinformática y pseudocódigo**
+
+- **Fechas:** 22 sep – 9 dic, 2023
+- **Repositorio:** {{< icon "github" >}} [ViernesBioinfo2023](https://github.com/EveliaCoss/ViernesBioinfo2023)
+
+### Viernes 1 · Conceptos básicos de bioinformática y pseudocódigo
 
 -   Fecha: Viernes 22 de Septiembre 2023
 
 -   Instructora: [Dra. Evelia Coss](https://eveliacoss.github.io/)
 
--   Presentación: [Conceptos básicos de bioinformática y pseudocódigo](https://eveliacoss.github.io/ViernesBioinfo2023/Clase1_22Sep2023/D1_Introduccion_slides.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2023/Clase1_22Sep2023/D1_Introduccion_slides.html#1" titulo="Conceptos básicos de bioinformática y pseudocódigo" >}}
+
 
 -   Grabación: [Viernes 1](https://drive.google.com/file/d/1SO6EJuKUXQzeIgL95unQ4d_TMo1gP1Jf/view?usp=sharing)
 <iframe src="https://drive.google.com/file/d/1SO6EJuKUXQzeIgL95unQ4d_TMo1gP1Jf/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
@@ -37,19 +45,25 @@ authors:
 
     -   [Bioinformatica, NIH, 2023](https://www.genome.gov/es/genetics-glossary/Bioinformatica)
 
-    -   [Bioinformática: “Welcome to the Welcome”, Julio Collado Vides, CCG](https://docs.google.com/presentation/d/1CLc59lN4HQ-WHMV2_aT1CCpbnfdcn0zD/edit?usp=sharing&ouid=115061201453977266962&rtpof=true&sd=true)
+    -   Presentación:
+
+        {{< presentacion url="https://docs.google.com/presentation/d/1CLc59lN4HQ-WHMV2_aT1CCpbnfdcn0zD/edit?usp=sharing&ouid=115061201453977266962&rtpof=true&sd=true" titulo="Bioinformática: “Welcome to the Welcome”, Julio Collado Vides, CCG" embed="https://drive.google.com/file/d/1CLc59lN4HQ-WHMV2_aT1CCpbnfdcn0zD/preview" >}}
+
 
     -   [Pseudocodigo, Diagramas de Flujo y algo de C de Pascual Coronel](https://slideplayer.es/slide/13658656/)
 
     -   [R: Introduction and Data Management](https://bouchat.github.io/IntroDataMgmt20Jan.html)
 
-### **Viernes 2: Introducción a R, parte 1**
+### Viernes 2 · Introducción a R, parte 1
 
 -   Fecha: Viernes 29 de Septiembre 2023
 
 -   Instructora: [LCG. Sofia Salazar](https://github.com/SophSM)
 
--   Presentación: [Introducción a R, parte 1](https://eveliacoss.github.io/ViernesBioinfo2023/Clase2_introR_29sep/diapos.html#1)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2023/Clase2_introR_29sep/diapos.html#1" titulo="Introducción a R, parte 1" >}}
+
 
 -   Grabación:
 
@@ -65,13 +79,16 @@ authors:
 
     -   [R for beginners](https://drive.google.com/file/d/1iCRDCXB5wzSzbpk0LJjPpYutluKTSlTp/view?usp=sharing)
 
-### **Viernes 3: Introducción a R, parte 2**
+### Viernes 3 · Introducción a R, parte 2
 
 -   Fecha: Viernes 6 de Octubre 2023
 
 -   Instructora: [LCG. Sofia Salazar](https://github.com/SophSM)
 
--   Presentación: [Introducción a R, parte 2](https://eveliacoss.github.io/ViernesBioinfo2023/Clase2_introR_29sep/diapos.html#31)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2023/Clase2_introR_29sep/diapos.html#31" titulo="Introducción a R, parte 2" >}}
+
 
 -   Grabación: [Viernes 3](https://drive.google.com/file/d/1GI3hhtlWCGpatmtBdKrMiTwGzcYAcd5U/view?usp=sharing)
     <iframe src="https://drive.google.com/file/d/1GI3hhtlWCGpatmtBdKrMiTwGzcYAcd5U/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
@@ -83,7 +100,7 @@ authors:
 
     -   [R para principiantes](https://bookdown.org/jboscomendoza/r-principiantes4/)
 
-### **Viernes 4. Manipulación de datos con R**
+### Viernes 4 · Manipulación de datos con R
 
 -   Fecha: Viernes 13 de Octubre 2023
 
@@ -91,7 +108,10 @@ authors:
 
 -   Presentación:
 
-    -   [Manipulación de datos con R](https://eveliacoss.github.io/ViernesBioinfo2023/Clase4_13Oct2023/D4_ManipulacionDeDatos.html#1)
+    -   Presentación:
+
+        {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2023/Clase4_13Oct2023/D4_ManipulacionDeDatos.html#1" titulo="Manipulación de datos con R" >}}
+
 
     -   [Rscript](https://eveliacoss.github.io/ViernesBioinfo2023/Clase4_13Oct2023/Clase4_VieRnesBioinfo_EveliaCoss.R)
 
@@ -105,7 +125,7 @@ authors:
 
     -   [Keep or drop columns using their names and types](https://dplyr.tidyverse.org/reference/select.html)
 
-### **Viernes 5. El ABC de las funciones y loops en R**
+### Viernes 5 · El ABC de las funciones y loops en R
 
 -   Fecha: Viernes 20 de Octubre 2023
 
@@ -113,7 +133,10 @@ authors:
 
 -   Presentación:
 
-    -   [El ABC de las funciones y loops en R](https://eveliacoss.github.io/ViernesBioinfo2023/Clase5_20Oct2023/D5_Loop.html#1)
+    -   Presentación:
+
+        {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2023/Clase5_20Oct2023/D5_Loop.html#1" titulo="El ABC de las funciones y loops en R" >}}
+
 
     -   [SquareX_function.R](https://github.com/EveliaCoss/ViernesBioinfo2023/blob/a7c0738f5ee199d818a252d7b5c7384e5c08f917/Clase5_20Oct2023/squareX_function.R)
 
@@ -141,7 +164,7 @@ authors:
 
     -   [How to write Pseudocode: A beginner’s guide](https://medium.com/@ngunyimacharia/how-to-write-pseudocode-a-beginners-guide-29956242698)
 
-### **Viernes 6. Visualización grafica con ggplot2**
+### Viernes 6 · Visualización gráfica con ggplot2
 
 -   Fecha: Viernes 27 de Octubre 2023
 
@@ -155,7 +178,7 @@ authors:
 
 -   Lecturas y cursos recomendados:
 
-### **Sábado. Shiny app**
+### Sábado · Shiny app
 
 -   Fecha: Viernes 11 de Noviembre 2023
 
@@ -168,11 +191,14 @@ authors:
 <iframe src="https://drive.google.com/file/d/12KO_IoW4H0t9qeNaCdfA6CveQIe5mMUt/preview" width="100%" height="354" allow="autoplay" allowfullscreen="true"></iframe>
 
 
-### **Viernes 7 y 8. Exploración de datos y elección de pruebas o modelos**
+### Viernes 7 y 8 · Exploración de datos y elección de pruebas o modelos
 
 -   [Material clase del 7 y 8 de Diciembre](https://github.com/EveliaCoss/ViernesBioinfo2023/tree/main/Clase_7_y_8_Diciembre_1_y_8)
 
--   Presentación: [Clase 7](https://eveliacoss.github.io/ViernesBioinfo2023/Clase_7_y_8_Diciembre_1_y_8/Exploracion_de_datos_y_eleccion_de_pruebas_o_modelos_1.1.html)
+-   Presentación:
+
+    {{< presentacion url="https://eveliacoss.github.io/ViernesBioinfo2023/Clase_7_y_8_Diciembre_1_y_8/Exploracion_de_datos_y_eleccion_de_pruebas_o_modelos_1.1.html" titulo="Exploración de datos y elección de pruebas o modelos" >}}
+
 
 -   Grabación:
 

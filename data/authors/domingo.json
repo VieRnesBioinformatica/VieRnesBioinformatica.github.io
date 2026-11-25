@@ -1,5 +1,5 @@
 {
-  "name": "Luis Domingo Martinez Vazquez",
+  "name": "Luis Domingo Martínez Vázquez",
   "image": "Autores/domingo.jpeg",
   "bio": "Posdoc CONAHCYT en LIIGH-UNAM",
   "curso": [
@@ -21,7 +21,10 @@
       "email": "mailto:Ldmv82@gmail.com"
     },
     {
-      "revision": "@D_o_m_i_n_g_o, https://www.researchgate.net/profile/Domingo-Martinez-5"
+      "x-twitter": "https://x.com/D_o_m_i_n_g_o"
+    },
+    {
+      "link": "https://www.researchgate.net/profile/Domingo-Martinez-5"
     }
   ],
   "vermas": "/authors/domingo/"
